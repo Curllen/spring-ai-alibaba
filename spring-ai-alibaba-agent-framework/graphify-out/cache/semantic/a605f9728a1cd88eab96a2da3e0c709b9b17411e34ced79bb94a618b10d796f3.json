@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "saasttemplaterenderer", "target": "validationmode", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/renderer/SaaStTemplateRendererTest.java", "source_location": "L19", "weight": 1.0}], "hyperedges": []}

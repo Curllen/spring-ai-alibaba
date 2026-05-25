@@ -1,0 +1,1 @@
+{"nodes": [{"id": "skills_disableskilltool", "label": "DisableSkillTool", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/agent/hook/skills/DisableSkillTool.java", "source_location": "L34-L117", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}

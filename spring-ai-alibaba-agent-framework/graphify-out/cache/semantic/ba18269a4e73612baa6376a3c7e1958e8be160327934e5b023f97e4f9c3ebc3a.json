@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "agenttoolnode_agenttoolnode", "target": "agenttoolnode_builder", "relation": "conceptually_related_to", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/node/AgentToolNodeBuilderTest.java", "source_location": null, "weight": 1.0}], "hyperedges": []}

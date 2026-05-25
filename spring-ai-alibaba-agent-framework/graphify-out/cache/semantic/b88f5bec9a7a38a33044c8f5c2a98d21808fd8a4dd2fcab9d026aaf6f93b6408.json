@@ -1,0 +1,1 @@
+{"nodes": [{"id": "shelltool_shelltoolagenthook", "label": "ShellToolAgentHook", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/agent/hook/shelltool/ShellToolAgentHook.java", "source_location": "L46-L257", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}

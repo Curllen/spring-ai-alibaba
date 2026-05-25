@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "globsearchtool", "target": "toolcontext", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/tools/GlobSearchToolTest.java", "source_location": "L21", "weight": 1.0}], "hyperedges": []}
