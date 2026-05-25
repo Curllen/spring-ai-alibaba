@@ -1,0 +1,990 @@
+{
+  "nodes": [
+    {
+      "id": "toolcontexthelperexample_reactagent",
+      "label": "ReactAgent (ToolContextHelperExample)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ToolContextHelperExample.java",
+      "source_location": "L61-L395",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "toolcontexthelperexample_validationresult",
+      "label": "ValidationResult (ToolContext dual-access validation)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ToolContextHelperExample.java",
+      "source_location": "L75-L97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "toolcontexthelperexample_metadatavalidationtool",
+      "label": "MetadataValidationTool (BiFunction tool validating ToolContextHelper)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ToolContextHelperExample.java",
+      "source_location": "L110-L238",
+      "source_url": null,
+      "captured_at": null,
+      "contributor": null
+    },
+    {
+      "id": "paralleltoolcontextlossreproductiontest_parallelagent",
+      "label": "ParallelAgent (ToolContext data loss reproduction)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L62-L258",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "paralleltoolcontextlossreproductiontest_dataverificationhook",
+      "label": "DataVerificationHook (afterAgent hook verifying ToolContext data visibility)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L153-L184",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "paralleltoolcontextlossreproductiontest_queryproduct",
+      "label": "QueryProductTool (writes extra state via ToolContext AGENT_STATE_FOR_UPDATE_CONTEXT_KEY)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L86-L146",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "a2anodeactionwithconfigtests_a2anodeactionwithconfig",
+      "label": "A2aNodeActionWithConfig (toFlux and extractResponseText)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aNodeActionWithConfigTests.java",
+      "source_location": "L43-L276",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "a2aremoteagenttests_a2aremoteagent",
+      "label": "A2aRemoteAgent (shareState, asNode, outputKey/instruction)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aRemoteAgentTests.java",
+      "source_location": "L38-L241",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "issue3608reproductiontest_issue3608",
+      "label": "Issue #3608 (shareState, Agent State: submitted, asNode parameter order)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/Issue3608ReproductionTest.java",
+      "source_location": "L43-L261",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agentcardwrapper_agentcard",
+      "label": "AgentCardWrapper (wraps AgentCard for A2A agent configuration)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aNodeActionWithConfigTests.java",
+      "source_location": "L157-L161",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "parallelagenttest_parallelagent",
+      "label": "ParallelAgent (merge strategies, maxConcurrency, executor, serializers)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/ParallelAgentTest.java",
+      "source_location": "L67-L689",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "parallelagenttest_mergestrategies",
+      "label": "MergeStrategy (DefaultMergeStrategy, ListMergeStrategy, ConcatenationMergeStrategy)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/ParallelAgentTest.java",
+      "source_location": "L210-L240",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "parallelagenttest_parallelagentvalidation",
+      "label": "ParallelAgent Validation (2-10 sub-agents, unique output keys)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/ParallelAgentTest.java",
+      "source_location": "L168-L206",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "flowagentarchitecturetest_flowagent",
+      "label": "FlowAgent Architecture (SequentialAgent, LlmRoutingAgent, ParallelAgent builder pattern)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L53-L246",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "flowagentarchitecturetest_strategyregistry",
+      "label": "FlowGraphBuildingStrategyRegistry (runtime strategy extension)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L163-L182",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "flowagentarchitecturetest_flowgraphconfig",
+      "label": "FlowGraphConfig (custom properties for extensibility)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L185-L197",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "loopagenttest_loopagent",
+      "label": "LoopAgent (count, condition, array loop modes)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L50-L257",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "loopagenttest_loopmode",
+      "label": "LoopMode (count, condition, array strategies)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L121-L188",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "flowagentserializertest_stateserializer",
+      "label": "StateSerializer (SpringAIJacksonStateSerializer, SpringAIStateSerializer, default)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentSerializerTest.java",
+      "source_location": "L43-L361",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enhancedparallelresultaggregatortest_aggregator",
+      "label": "EnhancedParallelResultAggregator (extra state collision, KeyStrategy, system key filtering)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/node/EnhancedParallelResultAggregatorTest.java",
+      "source_location": "L46-L218",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enhancedparallelresultaggregatortest_keystrategy",
+      "label": "KeyStrategy (REPLACE default, MERGE from hooks, system key prefix filtering)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/node/EnhancedParallelResultAggregatorTest.java",
+      "source_location": "L48-L119",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "interruptionhooktest_interruptionhook",
+      "label": "InterruptionHook (interrupt, apply, long-running task interruption)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/InterruptionHookTest.java",
+      "source_location": "L56-L596",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "humaninthelooptest_humanintheloophook",
+      "label": "HumanInTheLoopHook (approve/reject/edit tool feedback, mixed decisions)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/hip/HumanInTheLoopTest.java",
+      "source_location": "L45-L677",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "humaninthelooptest_toolconfig",
+      "label": "ToolConfig (approvalOn map for tool-level human-in-the-loop)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/hip/HumanInTheLoopTest.java",
+      "source_location": "L189-L202",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "humaninthelooptest_toolfeedback",
+      "label": "ToolFeedback (APPROVED, REJECTED, EDITED feedback results)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/hip/HumanInTheLoopTest.java",
+      "source_location": "L300-L351",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "messagesmodelhooktest_messagesmodelhook",
+      "label": "MessagesModelHook (REPLACE, APPEND update policies, JumpTo.end, JumpTo.model)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java",
+      "source_location": "L56-L679",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "messagesmodelhooktest_updatepolicy",
+      "label": "UpdatePolicy (REPLACE and APPEND message policies)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java",
+      "source_location": "L399-L439",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "messagesmodelhooktest_jumptoendwithtools",
+      "label": "JumpTo.end in afterModel with tools (prevents tool execution)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java",
+      "source_location": "L519-L585",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "modelcalllimittest_modelcalllimithook",
+      "label": "ModelCallLimitHook (threadLimit/runLimit with ERROR/END exit behaviors)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/modelcalllimit/ModelCallLimitTest.java",
+      "source_location": "L38-L105",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "piidectionhooktest_piidetectionhook",
+      "label": "PIIDetectionHook (REDACT, MASK, BLOCK strategies for EMAIL, CREDIT_CARD, IP)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/pii/PIIDectionHookTest.java",
+      "source_location": "L43-L230",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "piidectionhooktest_custompiidetector",
+      "label": "Custom PII Detector (regex-based PHONE detector using PIIDetectors)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/pii/PIIDectionHookTest.java",
+      "source_location": "L184-L219",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "returndirectmessagesmodelhooktest_returndirectmodelhook",
+      "label": "ReturnDirectModelHook (finishReason check, returnDirect tools, JSON array for multi-tool)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/returndirect/ReturnDirectMessagesModelHookTest.java",
+      "source_location": "L59-L382",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shelltoolagenttest_shelltoolagenthook",
+      "label": "ShellToolAgentHook (integrates ShellTool with ReactAgent)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/shelltool/ShellToolAgentTest.java",
+      "source_location": "L47-L140",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "summarizationtest_summarizationhook",
+      "label": "SummarizationHook (maxTokensBeforeSummary, messagesToKeep, system message preservation)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/summarization/SummarizationTest.java",
+      "source_location": "L42-L212",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "toolcalllimittest_toolcalllimithook",
+      "label": "ToolCallLimitHook (threadLimit/runLimit with ERROR/END exit behaviors)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/toolcalllimit/ToolCallLimitTest.java",
+      "source_location": "L38-L101",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chatmodelcallcounter_chatmodel",
+      "label": "ChatModelCallCounter (ChatModel decorator counting calls for monitoring)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ChatModelCallCounter.java",
+      "source_location": "L28-L77",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "toolexecutioncontextpropagationtest_toolinterceptor",
+      "label": "ToolInterceptor (threadId and state propagation to tool interceptors)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ToolExecutionContextPropagationTest.java",
+      "source_location": "L39-L87",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "toolexecutioncontextpropagationtest_agenttoolnode",
+      "label": "AgentToolNode (tool execution node with ToolInterceptor support)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ToolExecutionContextPropagationTest.java",
+      "source_location": "L56-L60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "modelfallbacktest_modelfallbackinterceptor",
+      "label": "ModelFallbackInterceptor (primary model fails, fallback to secondary ChatModel)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ModelfallbackTest.java",
+      "source_location": "L43-L111",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "modelfallbacktest_openai_dashscope_fallback",
+      "label": "OpenAI+DashScope model fallback chain (primary OpenAI, fallback DashScope)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ModelfallbackTest.java",
+      "source_location": "L56-L67",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "loopagenttest_executor",
+      "label": "Executor propagation (custom ExecutorService passed to RunnableConfig metadata)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L190-L216",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "paralleltoolcontextlossreproductiontest_toolcontextconstants",
+      "label": "ToolContextConstants (AGENT_STATE_FOR_UPDATE_CONTEXT_KEY for ToolContext state writing)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L42-L44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "flowagentarchitecturetest_chatclienttestutils",
+      "label": "ChatClientTestUtils (stubs ChatClient mutate chain for test mocking)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L67-L68",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enhancedparallelresultaggregatortest_graphresponse",
+      "label": "GraphResponse (wraps sub-graph results for EnhancedParallelResultAggregator accumulation)",
+      "file_type": "code",
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/node/EnhancedParallelResultAggregatorTest.java",
+      "source_location": "L66-L69",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "toolcontexthelperexample_metadatavalidationtool",
+      "target": "toolcontexthelperexample_reactagent",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ToolContextHelperExample.java",
+      "source_location": "L248-L263",
+      "weight": 1.0
+    },
+    {
+      "source": "toolcontexthelperexample_metadatavalidationtool",
+      "target": "toolcontexthelperexample_validationresult",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ToolContextHelperExample.java",
+      "source_location": "L133-L223",
+      "weight": 1.0
+    },
+    {
+      "source": "paralleltoolcontextlossreproductiontest_parallelagent",
+      "target": "paralleltoolcontextlossreproductiontest_dataverificationhook",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L222-L227",
+      "weight": 1.0
+    },
+    {
+      "source": "paralleltoolcontextlossreproductiontest_parallelagent",
+      "target": "paralleltoolcontextlossreproductiontest_queryproduct",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L195-L211",
+      "weight": 1.0
+    },
+    {
+      "source": "paralleltoolcontextlossreproductiontest_queryproduct",
+      "target": "paralleltoolcontextlossreproductiontest_toolcontextconstants",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L42-L44",
+      "weight": 1.0
+    },
+    {
+      "source": "paralleltoolcontextlossreproductiontest_dataverificationhook",
+      "target": "paralleltoolcontextlossreproductiontest_parallelagent",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/ParallelToolContextLossReproductionTest.java",
+      "source_location": "L153-L184",
+      "weight": 1.0
+    },
+    {
+      "source": "a2anodeactionwithconfigtests_a2anodeactionwithconfig",
+      "target": "issue3608reproductiontest_issue3608",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aNodeActionWithConfigTests.java",
+      "source_location": "L163-L275",
+      "weight": 1.0
+    },
+    {
+      "source": "a2aremoteagenttests_a2aremoteagent",
+      "target": "issue3608reproductiontest_issue3608",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aRemoteAgentTests.java",
+      "source_location": "L38-L52",
+      "weight": 1.0
+    },
+    {
+      "source": "a2aremoteagenttests_a2aremoteagent",
+      "target": "agentcardwrapper_agentcard",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aRemoteAgentTests.java",
+      "source_location": "L44-L50",
+      "weight": 1.0
+    },
+    {
+      "source": "issue3608reproductiontest_issue3608",
+      "target": "a2anodeactionwithconfigtests_a2anodeactionwithconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/Issue3608ReproductionTest.java",
+      "source_location": "L127-L148",
+      "weight": 1.0
+    },
+    {
+      "source": "issue3608reproductiontest_issue3608",
+      "target": "a2aremoteagenttests_a2aremoteagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/Issue3608ReproductionTest.java",
+      "source_location": "L68-L95",
+      "weight": 1.0
+    },
+    {
+      "source": "agentcardwrapper_agentcard",
+      "target": "a2anodeactionwithconfigtests_a2anodeactionwithconfig",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/A2aNodeActionWithConfigTests.java",
+      "source_location": "L47-L48",
+      "weight": 1.0
+    },
+    {
+      "source": "parallelagenttest_parallelagent",
+      "target": "parallelagenttest_mergestrategies",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/ParallelAgentTest.java",
+      "source_location": "L210-L240",
+      "weight": 1.0
+    },
+    {
+      "source": "parallelagenttest_parallelagent",
+      "target": "parallelagenttest_parallelagentvalidation",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/ParallelAgentTest.java",
+      "source_location": "L168-L206",
+      "weight": 1.0
+    },
+    {
+      "source": "parallelagenttest_parallelagent",
+      "target": "flowagentserializertest_stateserializer",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/ParallelAgentTest.java",
+      "source_location": "L243-L288",
+      "weight": 1.0
+    },
+    {
+      "source": "enhancedparallelresultaggregatortest_aggregator",
+      "target": "enhancedparallelresultaggregatortest_keystrategy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/node/EnhancedParallelResultAggregatorTest.java",
+      "source_location": "L85-L119",
+      "weight": 1.0
+    },
+    {
+      "source": "enhancedparallelresultaggregatortest_aggregator",
+      "target": "enhancedparallelresultaggregatortest_graphresponse",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/node/EnhancedParallelResultAggregatorTest.java",
+      "source_location": "L66-L69",
+      "weight": 1.0
+    },
+    {
+      "source": "enhancedparallelresultaggregatortest_aggregator",
+      "target": "paralleltoolcontextlossreproductiontest_parallelagent",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/node/EnhancedParallelResultAggregatorTest.java",
+      "source_location": "L48-L54",
+      "weight": 1.0
+    },
+    {
+      "source": "flowagentarchitecturetest_flowagent",
+      "target": "flowagentarchitecturetest_strategyregistry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L163-L182",
+      "weight": 1.0
+    },
+    {
+      "source": "flowagentarchitecturetest_flowagent",
+      "target": "flowagentarchitecturetest_flowgraphconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L185-L197",
+      "weight": 1.0
+    },
+    {
+      "source": "flowagentarchitecturetest_flowagent",
+      "target": "parallelagenttest_mergestrategies",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L200-L214",
+      "weight": 1.0
+    },
+    {
+      "source": "flowagentarchitecturetest_flowagent",
+      "target": "flowagentarchitecturetest_chatclienttestutils",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java",
+      "source_location": "L67-L68",
+      "weight": 1.0
+    },
+    {
+      "source": "loopagenttest_loopagent",
+      "target": "loopagenttest_loopmode",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L121-L188",
+      "weight": 1.0
+    },
+    {
+      "source": "loopagenttest_loopagent",
+      "target": "loopagenttest_executor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L190-L216",
+      "weight": 1.0
+    },
+    {
+      "source": "loopagenttest_loopmode",
+      "target": "flowagentarchitecturetest_flowagent",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L120-L188",
+      "weight": 1.0
+    },
+    {
+      "source": "flowagentserializertest_stateserializer",
+      "target": "parallelagenttest_parallelagent",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentSerializerTest.java",
+      "source_location": "L134-L209",
+      "weight": 1.0
+    },
+    {
+      "source": "flowagentserializertest_stateserializer",
+      "target": "loopagenttest_loopagent",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentSerializerTest.java",
+      "source_location": "L214-L283",
+      "weight": 1.0
+    },
+    {
+      "source": "interruptionhooktest_interruptionhook",
+      "target": "parallelagenttest_parallelagent",
+      "relation": "semantically_similar_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.25,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/InterruptionHookTest.java",
+      "source_location": "L56-L91",
+      "weight": 1.0
+    },
+    {
+      "source": "humaninthelooptest_humanintheloophook",
+      "target": "humaninthelooptest_toolconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/hip/HumanInTheLoopTest.java",
+      "source_location": "L189-L202",
+      "weight": 1.0
+    },
+    {
+      "source": "humaninthelooptest_humanintheloophook",
+      "target": "humaninthelooptest_toolfeedback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/hip/HumanInTheLoopTest.java",
+      "source_location": "L300-L351",
+      "weight": 1.0
+    },
+    {
+      "source": "humaninthelooptest_humanintheloophook",
+      "target": "interruptionhooktest_interruptionhook",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/hip/HumanInTheLoopTest.java",
+      "source_location": "L45-L57",
+      "weight": 1.0
+    },
+    {
+      "source": "messagesmodelhooktest_messagesmodelhook",
+      "target": "messagesmodelhooktest_updatepolicy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java",
+      "source_location": "L399-L439",
+      "weight": 1.0
+    },
+    {
+      "source": "messagesmodelhooktest_messagesmodelhook",
+      "target": "messagesmodelhooktest_jumptoendwithtools",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java",
+      "source_location": "L519-L585",
+      "weight": 1.0
+    },
+    {
+      "source": "messagesmodelhooktest_messagesmodelhook",
+      "target": "returndirectmessagesmodelhooktest_returndirectmodelhook",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java",
+      "source_location": "L519-L585",
+      "weight": 1.0
+    },
+    {
+      "source": "modelcalllimittest_modelcalllimithook",
+      "target": "toolcalllimittest_toolcalllimithook",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/modelcalllimit/ModelCallLimitTest.java",
+      "source_location": "L38-L105",
+      "weight": 1.0
+    },
+    {
+      "source": "piidectionhooktest_piidetectionhook",
+      "target": "piidectionhooktest_custompiidetector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/pii/PIIDectionHookTest.java",
+      "source_location": "L184-L219",
+      "weight": 1.0
+    },
+    {
+      "source": "returndirectmessagesmodelhooktest_returndirectmodelhook",
+      "target": "messagesmodelhooktest_messagesmodelhook",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/returndirect/ReturnDirectMessagesModelHookTest.java",
+      "source_location": "L56-L60",
+      "weight": 1.0
+    },
+    {
+      "source": "shelltoolagenttest_shelltoolagenthook",
+      "target": "toolcontexthelperexample_reactagent",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.25,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/shelltool/ShellToolAgentTest.java",
+      "source_location": "L60-L123",
+      "weight": 1.0
+    },
+    {
+      "source": "summarizationtest_summarizationhook",
+      "target": "messagesmodelhooktest_messagesmodelhook",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/summarization/SummarizationTest.java",
+      "source_location": "L42-L50",
+      "weight": 1.0
+    },
+    {
+      "source": "chatmodelcallcounter_chatmodel",
+      "target": "modelfallbacktest_modelfallbackinterceptor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ModelfallbackTest.java",
+      "source_location": "L60-L66",
+      "weight": 1.0
+    },
+    {
+      "source": "toolexecutioncontextpropagationtest_toolinterceptor",
+      "target": "toolexecutioncontextpropagationtest_agenttoolnode",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ToolExecutionContextPropagationTest.java",
+      "source_location": "L56-L62",
+      "weight": 1.0
+    },
+    {
+      "source": "modelfallbacktest_modelfallbackinterceptor",
+      "target": "modelfallbacktest_openai_dashscope_fallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ModelfallbackTest.java",
+      "source_location": "L58-L67",
+      "weight": 1.0
+    },
+    {
+      "source": "modelfallbacktest_modelfallbackinterceptor",
+      "target": "chatmodelcallcounter_chatmodel",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ModelfallbackTest.java",
+      "source_location": "L93-L104",
+      "weight": 1.0
+    },
+    {
+      "source": "loopagenttest_executor",
+      "target": "parallelagenttest_parallelagent",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/LoopAgentTest.java",
+      "source_location": "L190-L216",
+      "weight": 1.0
+    },
+    {
+      "source": "toolexecutioncontextpropagationtest_agenttoolnode",
+      "target": "toolcontexthelperexample_reactagent",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/interceptors/ToolExecutionContextPropagationTest.java",
+      "source_location": "L56-L60",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hg_3608_fix",
+      "label": "Issue #3608 Fix Cluster",
+      "nodes": [
+        "a2anodeactionwithconfigtests_a2anodeactionwithconfig",
+        "a2aremoteagenttests_a2aremoteagent",
+        "issue3608reproductiontest_issue3608",
+        "agentcardwrapper_agentcard"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/a2a/Issue3608ReproductionTest.java"
+    },
+    {
+      "id": "hg_agent_hook_pipeline",
+      "label": "Agent Hook Pipeline (MessagesModelHook, ReturnDirectModelHook, SummarizationHook, PIIDetectionHook, ModelCallLimitHook, ToolCallLimitHook, InterruptionHook, HumanInTheLoopHook)",
+      "nodes": [
+        "messagesmodelhooktest_messagesmodelhook",
+        "returndirectmessagesmodelhooktest_returndirectmodelhook",
+        "summarizationtest_summarizationhook",
+        "piidectionhooktest_piidetectionhook",
+        "modelcalllimittest_modelcalllimithook",
+        "toolcalllimittest_toolcalllimithook",
+        "interruptionhooktest_interruptionhook",
+        "humaninthelooptest_humanintheloophook"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/hooks/messages/MessagesModelHookTest.java"
+    },
+    {
+      "id": "hg_flow_agent_architecture",
+      "label": "Flow Agent Architecture (SequentialAgent, ParallelAgent, LoopAgent, LlmRoutingAgent with shared StateSerializer, Executor, FlowGraphBuildingStrategy registry)",
+      "nodes": [
+        "flowagentarchitecturetest_flowagent",
+        "parallelagenttest_parallelagent",
+        "loopagenttest_loopagent",
+        "flowagentserializertest_stateserializer",
+        "flowagentarchitecturetest_strategyregistry"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/test/java/com/alibaba/cloud/ai/graph/agent/flow/FlowAgentArchitectureTest.java"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
