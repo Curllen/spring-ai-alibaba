@@ -1,0 +1,1 @@
+{"nodes": [{"id": "Reducer", "label": "Reducer - Interface extending BiFunction<T,T,T> for state reduction operations", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/state/Reducer.java", "source_location": null}], "edges": [], "hyperedges": []}

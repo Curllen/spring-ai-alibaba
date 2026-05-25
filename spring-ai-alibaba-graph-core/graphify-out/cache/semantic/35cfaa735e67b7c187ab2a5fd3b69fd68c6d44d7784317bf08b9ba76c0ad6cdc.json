@@ -1,0 +1,1 @@
+{"nodes": [{"id": "Checkpoint_Checkpoint", "label": "Checkpoint - immutable snapshot of graph state with id, nodeId, nextNodeId, and state map", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/checkpoint/Checkpoint.java", "source_location": null}], "edges": [], "hyperedges": []}

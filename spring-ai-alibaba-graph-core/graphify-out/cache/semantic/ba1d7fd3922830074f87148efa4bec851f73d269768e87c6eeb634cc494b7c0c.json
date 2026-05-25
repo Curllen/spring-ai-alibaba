@@ -1,0 +1,1 @@
+{"nodes": [{"id": "TryConsumer_wrapper", "label": "TryConsumer functional interface wrapping Consumer with try-catch", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/utils/TryConsumer.java", "source_location": "L20-L41"}], "edges": [], "hyperedges": []}

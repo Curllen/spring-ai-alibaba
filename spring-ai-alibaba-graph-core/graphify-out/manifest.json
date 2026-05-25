@@ -1,0 +1,1332 @@
+{
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/TimeTravelTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "14e019488060eebedf7f7bba74d335e2",
+    "semantic_hash": "14e019488060eebedf7f7bba74d335e2"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StreamingTokenUsageTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "37ca1c2311829909ce953369682de90e",
+    "semantic_hash": "37ca1c2311829909ce953369682de90e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/GenericType.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "58dd0298a444258fad204392b87f6d7b",
+    "semantic_hash": "58dd0298a444258fad204392b87f6d7b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphRepresentationTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "09f8808a54795dfc46df2ef004cbe684",
+    "semantic_hash": "09f8808a54795dfc46df2ef004cbe684"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/DefaultKeyStrategyTest.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "f847b39a0fa5fe330aff9037a6048e03",
+    "semantic_hash": "f847b39a0fa5fe330aff9037a6048e03"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphSerializerTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "894501b95c602d0dee63c7259d8b7710",
+    "semantic_hash": "894501b95c602d0dee63c7259d8b7710"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/CompiledGraphStreamOrderTest.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "5502064ea4e70bc35e356f222721a15a",
+    "semantic_hash": "5502064ea4e70bc35e356f222721a15a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/KeyStrategyFactoryBuilderTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "9be242ae7ef6a82d7bc98394700b8649",
+    "semantic_hash": "9be242ae7ef6a82d7bc98394700b8649"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/EdgeCaseSerializationTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "c25e370c1a03fda49ef13481557a543c",
+    "semantic_hash": "c25e370c1a03fda49ef13481557a543c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/FluxErrorHandlingTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "89578e804f6f235fdbee4d4546b29864",
+    "semantic_hash": "89578e804f6f235fdbee4d4546b29864"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphMemorySaverTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "2de9c836152a6ab76aa0c072adda5b02",
+    "semantic_hash": "2de9c836152a6ab76aa0c072adda5b02"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/InterruptionTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "edaadd9fef58ddeb95f19f6300abbd98",
+    "semantic_hash": "edaadd9fef58ddeb95f19f6300abbd98"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/GraphResponseSerializationRoundTripTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "02800a3f2d1cfdddbb392d1ea0ed39d7",
+    "semantic_hash": "02800a3f2d1cfdddbb392d1ea0ed39d7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/NodeFactoryPatternTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "0ab568c8040b0a1aa094e3a79bb2006b",
+    "semantic_hash": "0ab568c8040b0a1aa094e3a79bb2006b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphParallelTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "128702d6467d307210917d20dd49d7b8",
+    "semantic_hash": "128702d6467d307210917d20dd49d7b8"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/OverAllStateBuilderTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "c49d7e55346e83e2018d6d1663cc1813",
+    "semantic_hash": "c49d7e55346e83e2018d6d1663cc1813"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/Issue2702ReproductionTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "359908618a8f225b4a9862d8011221f5",
+    "semantic_hash": "359908618a8f225b4a9862d8011221f5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/InnerClassSerializationTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "77de2bbb1b2c2e73fe630a7eb5f459f8",
+    "semantic_hash": "77de2bbb1b2c2e73fe630a7eb5f459f8"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/DurationAndChatResponseSerializationTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "7441747229d88af41dd560f51cf74829",
+    "semantic_hash": "7441747229d88af41dd560f51cf74829"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "ff2b268db559ee8a47fd6bbf00c6cf9e",
+    "semantic_hash": "ff2b268db559ee8a47fd6bbf00c6cf9e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/CompiledSubGraphTest.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "c5fc055225e990d82a1aa4cbce103eaa",
+    "semantic_hash": "c5fc055225e990d82a1aa4cbce103eaa"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphStreamTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "191388778bbeb60736d7469061652fd6",
+    "semantic_hash": "191388778bbeb60736d7469061652fd6"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/StateGraphFileSystemSaverTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "4cbc521d87287642d2646736bf81bbb1",
+    "semantic_hash": "4cbc521d87287642d2646736bf81bbb1"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/SubGraphTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "6b2a5c61981af5841900bab4876afec8",
+    "semantic_hash": "6b2a5c61981af5841900bab4876afec8"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/NodeAfterListenerTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "17f5bba5714095113446b9ca34a3ee26",
+    "semantic_hash": "17f5bba5714095113446b9ca34a3ee26"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/SerializationUtilsCustomMapTypeTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "d30ab7cf8a8e9a72e88f8be7363a6a56",
+    "semantic_hash": "d30ab7cf8a8e9a72e88f8be7363a6a56"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/NormalizationSideEffectsTest.java": {
+    "mtime": 1779689401.8983772,
+    "ast_hash": "e985148d53845fd76e6f518e7f19a540",
+    "semantic_hash": "e985148d53845fd76e6f518e7f19a540"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/plain_text/JacksonContainerTypeRecognitionTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "2d8175df9d747ed3efe6b478015596d9",
+    "semantic_hash": "2d8175df9d747ed3efe6b478015596d9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/plain_text/SpringAIJacksonStateSerializerTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "ce90b4b1744a7ad6bb8a9ce69ff429c6",
+    "semantic_hash": "ce90b4b1744a7ad6bb8a9ce69ff429c6"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/plain_text/DeepSeekAssistantMessageSerializationTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "08354773ef80abcde49861a19a4f789d",
+    "semantic_hash": "08354773ef80abcde49861a19a4f789d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/plain_text/JacksonSerializerTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "ded813391409803f50bcd5d53aca71d4",
+    "semantic_hash": "ded813391409803f50bcd5d53aca71d4"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/plain_text/SerializeTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "34c4f91fb33b168086ed58d297ba54a0",
+    "semantic_hash": "34c4f91fb33b168086ed58d297ba54a0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/internal/ParallelEdgeProcessorTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "91c2dd7b137cacd06cfec27ea972ca63",
+    "semantic_hash": "91c2dd7b137cacd06cfec27ea972ca63"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/executor/ParallelGraphFluxStateMergeTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "4e122407b8e9d32856a04715dfb7fb13",
+    "semantic_hash": "4e122407b8e9d32856a04715dfb7fb13"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/executor/StreamFunctionCallTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "946aa542de6658a54cd1248f5a236a13",
+    "semantic_hash": "946aa542de6658a54cd1248f5a236a13"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/executor/GraphNodeStreamFinishedTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "200f5734f47c2c20f22f45faa1b105f5",
+    "semantic_hash": "200f5734f47c2c20f22f45faa1b105f5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/StoreIntegrationTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "1a4f0d18288a5086e6d5d38f60671866",
+    "semantic_hash": "1a4f0d18288a5086e6d5d38f60671866"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/GraphStoreIntegrationTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "f472963139974396d645638459954fea",
+    "semantic_hash": "f472963139974396d645638459954fea"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/DatabaseStoreAllDialectTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "817d8c64022781c40ea22dc650c0c487",
+    "semantic_hash": "817d8c64022781c40ea22dc650c0c487"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/FileSystemStoreTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "10947463b286d750e22dd066e65097ca",
+    "semantic_hash": "10947463b286d750e22dd066e65097ca"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/DatabaseStorePostgreSqlIntegrationTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "f4e92c05b452c7ad5f0cfcb18de9eb44",
+    "semantic_hash": "f4e92c05b452c7ad5f0cfcb18de9eb44"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/DatabaseStorePostgreSqlLocalIntegrationTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "09cf3b68b12e28470346d3ce958adba0",
+    "semantic_hash": "09cf3b68b12e28470346d3ce958adba0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/DatabaseStoreTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "c28c275eb83752b1021059fbc8705cda",
+    "semantic_hash": "c28c275eb83752b1021059fbc8705cda"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/RedisStoreTest.java": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "5db9298712a64e2c75c14abc4c386de5",
+    "semantic_hash": "5db9298712a64e2c75c14abc4c386de5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/MongoStoreTest.java": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "c404e338538afd25ff54d51214affeff",
+    "semantic_hash": "c404e338538afd25ff54d51214affeff"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/store/stores/MemoryStoreTest.java": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "c06b8e2e9e65f4614a2e3f4aeff8f01d",
+    "semantic_hash": "c06b8e2e9e65f4614a2e3f4aeff8f01d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/skills/registry/classpath/ClasspathSkillRegistryEnhancementsTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "dc2302519974e0d67d10849cde1cebff",
+    "semantic_hash": "dc2302519974e0d67d10849cde1cebff"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/skills/registry/classpath/ClasspathSkillRegistryTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "0980c94b11c67fc388bef66fa68f47fa",
+    "semantic_hash": "0980c94b11c67fc388bef66fa68f47fa"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/skills/registry/customized/CustomizedSkillRegistryExample.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "9567f70098138a792d466a2ea46c57fd",
+    "semantic_hash": "9567f70098138a792d466a2ea46c57fd"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/skills/registry/filesystem/FileSystemSkillRegistryEnhancementsTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "28702299ee322ea7c3220a8eb5c7bdcb",
+    "semantic_hash": "28702299ee322ea7c3220a8eb5c7bdcb"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/FileSystemSaverDeleteFileTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "1ba1a9472728fac3c9c1d3359e6566a9",
+    "semantic_hash": "1ba1a9472728fac3c9c1d3359e6566a9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/RedisSaverTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "384f6011a400557dcacddddfd76fa181",
+    "semantic_hash": "384f6011a400557dcacddddfd76fa181"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/PostgresSaverTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "7a9ee6a2e7824e4e496cd97ac610ee0c",
+    "semantic_hash": "7a9ee6a2e7824e4e496cd97ac610ee0c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/OracleSaverTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "33ccec1182b30a569764dd9d8ad239b0",
+    "semantic_hash": "33ccec1182b30a569764dd9d8ad239b0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/MysqlSaverTest.java": {
+    "mtime": 1779689401.9023771,
+    "ast_hash": "e0efbb0fcbfc1a7e8e2f8d7c4d08b93e",
+    "semantic_hash": "e0efbb0fcbfc1a7e8e2f8d7c4d08b93e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/mongo/MongoSaverDriverInfoTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "7d82f7e1aed14c853a6c416eccb05f52",
+    "semantic_hash": "7d82f7e1aed14c853a6c416eccb05f52"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/file/FileSystemSaverCacheTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "734ab0c35b97cb8e9400fcad64b59797",
+    "semantic_hash": "734ab0c35b97cb8e9400fcad64b59797"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/postgresql/PostgresSaverIndexCreationTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "ccff06232e4617fd6e96e480f34768be",
+    "semantic_hash": "ccff06232e4617fd6e96e480f34768be"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/jdbc/AbstractJdbcCheckpointSaverTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "84f06408814bab503867de6a096234ee",
+    "semantic_hash": "84f06408814bab503867de6a096234ee"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/checkpoint/savers/common/LatestCheckpointCacheTest.java": {
+    "mtime": 1779689401.9063773,
+    "ast_hash": "1dea9196d5bc644d8f7c580589bbdefe",
+    "semantic_hash": "1dea9196d5bc644d8f7c580589bbdefe"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/stream/LLmNodeAction.java": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "0028adbcce9fa4bfc36c5dea8f8c3dbf",
+    "semantic_hash": "0028adbcce9fa4bfc36c5dea8f8c3dbf"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/state/strategy/MergeStrategyTest.java": {
+    "mtime": 1779689401.9103773,
+    "ast_hash": "d6868c31e9c1d54f7e6abc6bc85d3f39",
+    "semantic_hash": "d6868c31e9c1d54f7e6abc6bc85d3f39"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/java/com/alibaba/cloud/ai/graph/streaming/OutputTypeTest.java": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "f144d07d017e60ab0770e52f45b4051c",
+    "semantic_hash": "f144d07d017e60ab0770e52f45b4051c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/NodeOutput.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "c455a5152e756eb3759932c0b6c10886",
+    "semantic_hash": "c455a5152e756eb3759932c0b6c10886"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/GraphLifecycleListener.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "1998ed804c451630c5e5859d1519b608",
+    "semantic_hash": "1998ed804c451630c5e5859d1519b608"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/NodeAggregationStrategy.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "6f719fbedda6455579155bbab19ae170",
+    "semantic_hash": "6f719fbedda6455579155bbab19ae170"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/OverAllStateBuilder.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "48f4d15f6ff626491487a9c2003be768",
+    "semantic_hash": "48f4d15f6ff626491487a9c2003be768"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/OverAllState.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "d71fc52b95aaec1cf437bf513fe4cc20",
+    "semantic_hash": "d71fc52b95aaec1cf437bf513fe4cc20"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/GraphRepresentation.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "8446ea2a24e61b4b6770e15964cbb5f5",
+    "semantic_hash": "8446ea2a24e61b4b6770e15964cbb5f5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/StateGraph.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "0b8d8bad069110b8fc537e86e380768c",
+    "semantic_hash": "0b8d8bad069110b8fc537e86e380768c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/GraphRunner.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "c786dedcd067a5485c264f20b2d1e65c",
+    "semantic_hash": "c786dedcd067a5485c264f20b2d1e65c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/SubGraphNode.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "823f3fe4d0ec997d3cd2a892ef3c5e74",
+    "semantic_hash": "823f3fe4d0ec997d3cd2a892ef3c5e74"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/CompiledGraph.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "2c9064ec07b2e46cee81e33825769727",
+    "semantic_hash": "2c9064ec07b2e46cee81e33825769727"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/ProcessedNodesEdgesAndConfig.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "51f8192f0d7d7c51c0ac6ffca5d72ab8",
+    "semantic_hash": "51f8192f0d7d7c51c0ac6ffca5d72ab8"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/HasMetadata.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "67c70584e2bfa034f14c585b8f019d1b",
+    "semantic_hash": "67c70584e2bfa034f14c585b8f019d1b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/GraphRunnerContext.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "d996c0601183cc0ce4b2a8d6a2dccd2d",
+    "semantic_hash": "d996c0601183cc0ce4b2a8d6a2dccd2d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/KeyStrategy.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "233c5d54bfa99ddb8c4d6f41db56f1fa",
+    "semantic_hash": "233c5d54bfa99ddb8c4d6f41db56f1fa"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/GraphResponse.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "4f4738d400096c8e36517bbf4304e30c",
+    "semantic_hash": "4f4738d400096c8e36517bbf4304e30c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/DiagramGenerator.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "c5a0ba436dfbf76a89da530d4c006b94",
+    "semantic_hash": "c5a0ba436dfbf76a89da530d4c006b94"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/package-info.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "1ced4ea3530ced174443960075759497",
+    "semantic_hash": "1ced4ea3530ced174443960075759497"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/CompileConfig.java": {
+    "mtime": 1779689401.8463771,
+    "ast_hash": "4a6d6311cb040221ddacd76d1300b5f9",
+    "semantic_hash": "4a6d6311cb040221ddacd76d1300b5f9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/RunnableConfig.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "640f5dbfec1e25243770289a3ad761b2",
+    "semantic_hash": "640f5dbfec1e25243770289a3ad761b2"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/KeyStrategyFactory.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "a86d76c8908f2fccdb296eddc17f5843",
+    "semantic_hash": "a86d76c8908f2fccdb296eddc17f5843"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/KeyStrategyFactoryBuilder.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "bd83867ce15aa787fe987fd0913da83c",
+    "semantic_hash": "bd83867ce15aa787fe987fd0913da83c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/EdgeAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "af35ec438c98491e1080b174aaa9965a",
+    "semantic_hash": "af35ec438c98491e1080b174aaa9965a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/AsyncCommandAction.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "6c104176b144c1847b649375772b7041",
+    "semantic_hash": "6c104176b144c1847b649375772b7041"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/InterruptableActionWithConfig.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "9565b7ad39ed181383ac0b69d281487a",
+    "semantic_hash": "9565b7ad39ed181383ac0b69d281487a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/Command.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "f6f94fad8a438ba4ae21b506f4335284",
+    "semantic_hash": "f6f94fad8a438ba4ae21b506f4335284"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/MultiCommandAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "4e61be17655d91b62b96f7935502a720",
+    "semantic_hash": "4e61be17655d91b62b96f7935502a720"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/InterruptionMetadata.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "fa028212df5834b754a33c3aaf84d3b7",
+    "semantic_hash": "fa028212df5834b754a33c3aaf84d3b7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/NodeAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "7a3ed6cf1e8107ee03d5d59b6eaa5ecf",
+    "semantic_hash": "7a3ed6cf1e8107ee03d5d59b6eaa5ecf"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/NodeActionWithConfig.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "256615d2abafa45e5f166f3e9c90bded",
+    "semantic_hash": "256615d2abafa45e5f166f3e9c90bded"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/AsyncNodeAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "9f485ea12243577e69d6da6eccb3b8e3",
+    "semantic_hash": "9f485ea12243577e69d6da6eccb3b8e3"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/AsyncEdgeActionWithConfig.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "2b5eb0cefde47b55baacd799de05ca99",
+    "semantic_hash": "2b5eb0cefde47b55baacd799de05ca99"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/AsyncNodeActionWithConfig.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "a8e37cd4d00d7c3524331f9b3f0e9863",
+    "semantic_hash": "a8e37cd4d00d7c3524331f9b3f0e9863"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/InterruptableAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "8dce628bfd28a3b4b5e202e3b5c5db57",
+    "semantic_hash": "8dce628bfd28a3b4b5e202e3b5c5db57"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/AsyncEdgeAction.java": {
+    "mtime": 1779689401.850377,
+    "ast_hash": "4804c8e1d9daa22b54feb014ffebce63",
+    "semantic_hash": "4804c8e1d9daa22b54feb014ffebce63"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/CommandAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "18fd8c1f9ad2708425020ebceef709ae",
+    "semantic_hash": "18fd8c1f9ad2708425020ebceef709ae"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/AsyncMultiCommandAction.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "6d4c8545029387453d2707628f3a5e00",
+    "semantic_hash": "6d4c8545029387453d2707628f3a5e00"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/package-info.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "6cd6d6e859f869582e0a5cc78a0eb163",
+    "semantic_hash": "6cd6d6e859f869582e0a5cc78a0eb163"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/EdgeActionWithConfig.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "95d4551d1873152af5aa493ea240f24b",
+    "semantic_hash": "95d4551d1873152af5aa493ea240f24b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/action/MultiCommand.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "52e6f40569a9afeda610bc352fccc62f",
+    "semantic_hash": "52e6f40569a9afeda610bc352fccc62f"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/diagram/MermaidGenerator.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "b2c3d25a666346b70cd03206836621e0",
+    "semantic_hash": "b2c3d25a666346b70cd03206836621e0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/diagram/PlantUMLGenerator.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "d4332b1404d72c81428187849e6d9ad7",
+    "semantic_hash": "d4332b1404d72c81428187849e6d9ad7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/exception/RunnableErrors.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "36067f0837f23358b6eaff53c99d5581",
+    "semantic_hash": "36067f0837f23358b6eaff53c99d5581"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/exception/SubGraphInterruptionException.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "187d179f320fcbdffe7554501c3e15b4",
+    "semantic_hash": "187d179f320fcbdffe7554501c3e15b4"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/exception/GraphRunnerException.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "a5c3e896b7d33b3c56bad51a991599e7",
+    "semantic_hash": "a5c3e896b7d33b3c56bad51a991599e7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/exception/Errors.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "d2292a37b6efe91722598efd012c875e",
+    "semantic_hash": "d2292a37b6efe91722598efd012c875e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/exception/GraphStateException.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "48a537bee29eb283371c2154e892cd55",
+    "semantic_hash": "48a537bee29eb283371c2154e892cd55"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/AsyncGeneratorQueue.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "fb04bbb05e9fd4cd4dd6d49c2cee7307",
+    "semantic_hash": "fb04bbb05e9fd4cd4dd6d49c2cee7307"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/FlowGenerator.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "9197e79604d4dea88d56aaf66953b3f3",
+    "semantic_hash": "9197e79604d4dea88d56aaf66953b3f3"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/AsyncGeneratorOperators.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "e297da55152665d99210d49cebb8429b",
+    "semantic_hash": "e297da55152665d99210d49cebb8429b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/AsyncGenerator.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "911316e6ff7da712130e978ff3b22416",
+    "semantic_hash": "911316e6ff7da712130e978ff3b22416"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/internal/UnmodifiableDeque.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "c12aa9d77636f9dda7e66fe7361b7211",
+    "semantic_hash": "c12aa9d77636f9dda7e66fe7361b7211"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/internal/reactive/GeneratorPublisher.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "c3b59315c455027e7d597c2776092a3e",
+    "semantic_hash": "c3b59315c455027e7d597c2776092a3e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/async/internal/reactive/GeneratorSubscriber.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "61eb2ee529ec08ab2419f447e087310e",
+    "semantic_hash": "61eb2ee529ec08ab2419f447e087310e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/LifeListenerUtil.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "3814aa77cb8962e8a4f2b5b18db74f8b",
+    "semantic_hash": "3814aa77cb8962e8a4f2b5b18db74f8b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/SystemClock.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "254d54bfbbfd77af0aa9a06e222876dc",
+    "semantic_hash": "254d54bfbbfd77af0aa9a06e222876dc"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/EdgeMappings.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "9c50ab47ea5d9657f0131be1386a22ec",
+    "semantic_hash": "9c50ab47ea5d9657f0131be1386a22ec"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/FileUtils.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "8095ad8c9cb11928da10746c725e9e68",
+    "semantic_hash": "8095ad8c9cb11928da10746c725e9e68"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/SerializationUtils.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "cd672e5d12c76adbf3a21584365eb7f9",
+    "semantic_hash": "cd672e5d12c76adbf3a21584365eb7f9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/CollectionsUtils.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "808f5d3223b72623db6a61a60bb3580b",
+    "semantic_hash": "808f5d3223b72623db6a61a60bb3580b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/TypeRef.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "0e78c1965bff3201a405b7278ea08fcf",
+    "semantic_hash": "0e78c1965bff3201a405b7278ea08fcf"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/CodeUtils.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "ad6370ffb87e6ce230982247e441e996",
+    "semantic_hash": "ad6370ffb87e6ce230982247e441e996"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/TryFunction.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "5f5f7837b17c1e35b4b2125269e1b3c2",
+    "semantic_hash": "5f5f7837b17c1e35b4b2125269e1b3c2"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/TryConsumer.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "d0eb81c2ac85a680c019e9b964615a49",
+    "semantic_hash": "d0eb81c2ac85a680c019e9b964615a49"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/Messageutils.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "743a26f6f859753b8cfd4aa7bc4cad9d",
+    "semantic_hash": "743a26f6f859753b8cfd4aa7bc4cad9d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/utils/InMemoryFileStorage.java": {
+    "mtime": 1779689401.8943772,
+    "ast_hash": "479fbd5fc882a0a61b3f00c1022da151",
+    "semantic_hash": "479fbd5fc882a0a61b3f00c1022da151"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/ParallelEdgeProcessor.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "6f399a610269c58dc7a3b38f3b81db5a",
+    "semantic_hash": "6f399a610269c58dc7a3b38f3b81db5a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/SubStateGraphNode.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "b717f4b499069883d2a27a2b75504306",
+    "semantic_hash": "b717f4b499069883d2a27a2b75504306"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/ConditionalParallelNode.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "83a55c424dd5ac3846c9b84c37797ffc",
+    "semantic_hash": "83a55c424dd5ac3846c9b84c37797ffc"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/Node.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "ed29ce809930300eb5d4418309f7cbb0",
+    "semantic_hash": "ed29ce809930300eb5d4418309f7cbb0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/SubCompiledGraphNodeAction.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "4f6fcd721a4cf68e97f1f32778f3d4df",
+    "semantic_hash": "4f6fcd721a4cf68e97f1f32778f3d4df"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/ParallelNode.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "b148401d8562cff24ea2945ee77e59c7",
+    "semantic_hash": "b148401d8562cff24ea2945ee77e59c7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/SubCompiledGraphNode.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "cb388a369648c1dc1031d80f3876e95e",
+    "semantic_hash": "cb388a369648c1dc1031d80f3876e95e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/node/ResumableSubGraphAction.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "259c17b3122a3bbc3f128f5080716dc4",
+    "semantic_hash": "259c17b3122a3bbc3f128f5080716dc4"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/edge/EdgeValue.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "54eab80f21861cd8342209f50298fce2",
+    "semantic_hash": "54eab80f21861cd8342209f50298fce2"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/edge/EdgeCondition.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "4fd192325256d53339a63f722a632f21",
+    "semantic_hash": "4fd192325256d53339a63f722a632f21"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/internal/edge/Edge.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "9aad9508c8612631b99571dc378a5c34",
+    "semantic_hash": "9aad9508c8612631b99571dc378a5c34"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/executor/NodeExecutor.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "e37cea7dbe661d1d402c4b6dd7c42fe7",
+    "semantic_hash": "e37cea7dbe661d1d402c4b6dd7c42fe7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/executor/MainGraphExecutor.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "933c70e0e65b00d35b237274db411af5",
+    "semantic_hash": "933c70e0e65b00d35b237274db411af5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/executor/BaseGraphExecutor.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "fa8dcf015f8efd9876573310634f2fee",
+    "semantic_hash": "fa8dcf015f8efd9876573310634f2fee"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/scheduling/ScheduledAgentManagerFactory.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "1a61090245c4c135ab55b4c02c9f3751",
+    "semantic_hash": "1a61090245c4c135ab55b4c02c9f3751"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/scheduling/ScheduleConfig.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "cb9a96f4b65ee149b1788ff15e1304e2",
+    "semantic_hash": "cb9a96f4b65ee149b1788ff15e1304e2"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/scheduling/ScheduledAgentTask.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "d6ecf15653e94ffaccc1972b37e0fd8e",
+    "semantic_hash": "d6ecf15653e94ffaccc1972b37e0fd8e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/scheduling/DefaultScheduledAgentManager.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "a453f7dd33ef932b73a12dab79f9b830",
+    "semantic_hash": "a453f7dd33ef932b73a12dab79f9b830"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/scheduling/ScheduledAgentManager.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "69c17977d5378b5aa567e553ae4b2797",
+    "semantic_hash": "69c17977d5378b5aa567e553ae4b2797"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/scheduling/ScheduleLifecycleListener.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "2d867352b7cc1d78de09f38be29d8c6d",
+    "semantic_hash": "2d867352b7cc1d78de09f38be29d8c6d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/NamespaceListRequest.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "d45ecf01562fe1962048bfe08498bc67",
+    "semantic_hash": "d45ecf01562fe1962048bfe08498bc67"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/StoreItem.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "669e6f1a8e0b93ab9eb9d5906dec51ca",
+    "semantic_hash": "669e6f1a8e0b93ab9eb9d5906dec51ca"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/StoreSearchRequest.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "eb9a2b81e815857c99a7d8d19e48dd11",
+    "semantic_hash": "eb9a2b81e815857c99a7d8d19e48dd11"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/Store.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "ee550b136e89cdb6e44693f6d2a6996a",
+    "semantic_hash": "ee550b136e89cdb6e44693f6d2a6996a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/StoreSearchResult.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "23476e104504e2473084274f6db405b3",
+    "semantic_hash": "23476e104504e2473084274f6db405b3"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/stores/BaseStore.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "14392b5acf00f432383c5ca36a620116",
+    "semantic_hash": "14392b5acf00f432383c5ca36a620116"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/stores/RedisStore.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "dd7fafac027539b6e4a3ed7537747d3f",
+    "semantic_hash": "dd7fafac027539b6e4a3ed7537747d3f"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/stores/DatabaseStore.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "c592cfc8e25704d05158df8cd3f2c0f7",
+    "semantic_hash": "c592cfc8e25704d05158df8cd3f2c0f7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/stores/MongoStore.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "262eb033bfcad76bc004a7f3c0793fed",
+    "semantic_hash": "262eb033bfcad76bc004a7f3c0793fed"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/stores/MemoryStore.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "d1b6baf17bce1675a146129255fc16a1",
+    "semantic_hash": "d1b6baf17bce1675a146129255fc16a1"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/stores/FileSystemStore.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "ef08c1e9559745e813e3de81f2b11b1d",
+    "semantic_hash": "ef08c1e9559745e813e3de81f2b11b1d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/store/constant/StoreConstant.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "245096f36a5fce83cc8db0bc68ff14a0",
+    "semantic_hash": "245096f36a5fce83cc8db0bc68ff14a0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/SpringAiSkillAdvisor.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "d1a23367bda34a5be1c583788c4f8155",
+    "semantic_hash": "d1a23367bda34a5be1c583788c4f8155"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/SkillMetadata.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "7aa9ee1940e9e2c7613a4d85a803717c",
+    "semantic_hash": "7aa9ee1940e9e2c7613a4d85a803717c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/SkillPromptConstants.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "2ed18dbb4482f047154dd15ab0537006",
+    "semantic_hash": "2ed18dbb4482f047154dd15ab0537006"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/registry/SkillRegistry.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "305f0e740bbc3e97b4a85f4af006de7a",
+    "semantic_hash": "305f0e740bbc3e97b4a85f4af006de7a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/registry/AbstractSkillRegistry.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "dafa2cb10d6d0f1d89f5c8e119fe8a08",
+    "semantic_hash": "dafa2cb10d6d0f1d89f5c8e119fe8a08"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/registry/classpath/ClasspathSkillRegistry.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "a1b64b963a23a56bcd1b07629491d3ec",
+    "semantic_hash": "a1b64b963a23a56bcd1b07629491d3ec"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/registry/filesystem/SkillScanner.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "0726d8f19e3b068a6766c88b9f0a64a1",
+    "semantic_hash": "0726d8f19e3b068a6766c88b9f0a64a1"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/skills/registry/filesystem/FileSystemSkillRegistry.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "acc854306f3e9924be62bf71631d51ac",
+    "semantic_hash": "acc854306f3e9924be62bf71631d51ac"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/HasVersions.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "9ba065f25b7587419c0dec8bfe0ffdd1",
+    "semantic_hash": "9ba065f25b7587419c0dec8bfe0ffdd1"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/Checkpoint.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "7da4c2571a042fadfb192a636e329634",
+    "semantic_hash": "7da4c2571a042fadfb192a636e329634"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/BaseCheckpointSaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "8f82d2b368d4adb30866585bdfc0c76f",
+    "semantic_hash": "8f82d2b368d4adb30866585bdfc0c76f"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/config/SaverConfig.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "1613769fe75d109acd8ea2cfc3167df1",
+    "semantic_hash": "1613769fe75d109acd8ea2cfc3167df1"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/constant/SaverEnum.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "cd85ffb86bd80c7f5664e298bb4a123d",
+    "semantic_hash": "cd85ffb86bd80c7f5664e298bb4a123d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/MemorySaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "44958572d0105e811f546ac9906807da",
+    "semantic_hash": "44958572d0105e811f546ac9906807da"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/VersionedMemorySaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "df972794c26faf8a5d92e4097d13d11d",
+    "semantic_hash": "df972794c26faf8a5d92e4097d13d11d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/redis/RedisSaver.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "8d075ed7499957a2ad053d23973fd472",
+    "semantic_hash": "8d075ed7499957a2ad053d23973fd472"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/mysql/CreateOption.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "684a4e706cf0c88fb39996bf2486881e",
+    "semantic_hash": "684a4e706cf0c88fb39996bf2486881e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/mysql/MysqlSaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "acf4ccf4fd1a44f28eedf5c1d48b16a0",
+    "semantic_hash": "acf4ccf4fd1a44f28eedf5c1d48b16a0"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/mongo/MongoSaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "aad86a54b765fd7b9768d217a7b373dc",
+    "semantic_hash": "aad86a54b765fd7b9768d217a7b373dc"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/file/FileSystemSaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "ae0b20fbdc81284a28d36d47e785d593",
+    "semantic_hash": "ae0b20fbdc81284a28d36d47e785d593"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/postgresql/CreateOption.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "eb2d6401417a0bf03c75a6be101ba3a3",
+    "semantic_hash": "eb2d6401417a0bf03c75a6be101ba3a3"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/postgresql/PostgresSaver.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "8ac63160ff7a234c2c063cfa2b0db57e",
+    "semantic_hash": "8ac63160ff7a234c2c063cfa2b0db57e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/oracle/CreateOption.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "641df2e8c195aafa09726711eff044f1",
+    "semantic_hash": "641df2e8c195aafa09726711eff044f1"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/oracle/OracleSaver.java": {
+    "mtime": 1779689401.8623772,
+    "ast_hash": "e655c151f68a0b21971210e02819ee13",
+    "semantic_hash": "e655c151f68a0b21971210e02819ee13"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/jdbc/AbstractJdbcCheckpointSaver.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "8eb335a52a61bfb8eb3c8a33a96b150d",
+    "semantic_hash": "8eb335a52a61bfb8eb3c8a33a96b150d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/checkpoint/savers/common/LatestCheckpointCache.java": {
+    "mtime": 1779689401.8583772,
+    "ast_hash": "7663a5b6f66d38c75ac878f68ee37af7",
+    "semantic_hash": "7663a5b6f66d38c75ac878f68ee37af7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/AgentInstructionMessage.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "0c94e36866023ca3b69bc34a206ce7e7",
+    "semantic_hash": "0c94e36866023ca3b69bc34a206ce7e7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/Serializer.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "54468f77925d7be12832a7e8a007569a",
+    "semantic_hash": "54468f77925d7be12832a7e8a007569a"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/StateSerializer.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "13eedb7fc285446ab499728c4bf94660",
+    "semantic_hash": "13eedb7fc285446ab499728c4bf94660"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/PlainTextStateSerializer.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "e8a7ee2f19bcf5b0f6085c14188d995b",
+    "semantic_hash": "e8a7ee2f19bcf5b0f6085c14188d995b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/TypeMapper.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "8fe6e69778987df9363ff4556be73eaa",
+    "semantic_hash": "8fe6e69778987df9363ff4556be73eaa"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/JacksonNodeOutputSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "3294133b419f74d86884e655d17b46b9",
+    "semantic_hash": "3294133b419f74d86884e655d17b46b9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/UserMessageHandler.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "39dddf65c51f1c99a32739ff39d0b4f5",
+    "semantic_hash": "39dddf65c51f1c99a32739ff39d0b4f5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/SerializationHelper.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "99cc55fe7f849d4d858c880774b84c85",
+    "semantic_hash": "99cc55fe7f849d4d858c880774b84c85"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/AgentInstructionMessageHandler.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "e7f9277f96bff077c606580dc0b508fe",
+    "semantic_hash": "e7f9277f96bff077c606580dc0b508fe"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/DeepSeekAssistantMessageHandler.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "dba48f8dbbb638728ed6c93943930e87",
+    "semantic_hash": "dba48f8dbbb638728ed6c93943930e87"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/SystemMessageHandler.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "31a86a93c43f332a8abd825e88d69926",
+    "semantic_hash": "31a86a93c43f332a8abd825e88d69926"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/GenericListDeserializer.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "36dab64ce3b0055b01349d1c553d8c68",
+    "semantic_hash": "36dab64ce3b0055b01349d1c553d8c68"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/JacksonDeserializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "2ddfd10f8d1be48149296ff00d1b211d",
+    "semantic_hash": "2ddfd10f8d1be48149296ff00d1b211d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/ToolResponseMessageHandler.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "b18e0ac7b67d95c2ff9109a356c131f4",
+    "semantic_hash": "b18e0ac7b67d95c2ff9109a356c131f4"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/JacksonNodeOutputDeserializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "6fc9d51fdad379b22eeeaec60a91d68c",
+    "semantic_hash": "6fc9d51fdad379b22eeeaec60a91d68c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/StreamingOutputDeserializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "ba0ce4cecb4bbc5e1bd8d1cdcaf1efaa",
+    "semantic_hash": "ba0ce4cecb4bbc5e1bd8d1cdcaf1efaa"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/ZhiPuAIAssistantMessageHandler.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "e6e323d1ca59d4c8900be825496b8a29",
+    "semantic_hash": "e6e323d1ca59d4c8900be825496b8a29"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/SpringAIJacksonStateSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "d7d8ccd26d2da0150c348d42a74e14d3",
+    "semantic_hash": "d7d8ccd26d2da0150c348d42a74e14d3"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/AssistantMessageHandler.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "7d48e24014726cbc78c88b103c238529",
+    "semantic_hash": "7d48e24014726cbc78c88b103c238529"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/StreamingOutputSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "3c74c3285e3eb84075f9ecee83d292b4",
+    "semantic_hash": "3c74c3285e3eb84075f9ecee83d292b4"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/GenericMapDeserializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "7074ddde4834b10be01482e83ccd0277",
+    "semantic_hash": "7074ddde4834b10be01482e83ccd0277"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/DocumentHandler.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "c077eef51f62f5dd6df3175853320c58",
+    "semantic_hash": "c077eef51f62f5dd6df3175853320c58"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/plain_text/jackson/JacksonStateSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "aaf726d3aa3760db83c704ea9c5ae8b9",
+    "semantic_hash": "aaf726d3aa3760db83c704ea9c5ae8b9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/SerializerMapper.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "a5e7745047ae6e96437b1a3c9cfd8d94",
+    "semantic_hash": "a5e7745047ae6e96437b1a3c9cfd8d94"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/DeepSeekAssistantMessageSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "b57efe541a6b9b6494bd1c97666f079e",
+    "semantic_hash": "b57efe541a6b9b6494bd1c97666f079e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/SystemMessageSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "7380faa7c439074143da2cc60495f2ef",
+    "semantic_hash": "7380faa7c439074143da2cc60495f2ef"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/UserMessageSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "186dd000ec73e6680b6eec073165b86c",
+    "semantic_hash": "186dd000ec73e6680b6eec073165b86c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ObjectInputWithMapper.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "6e6a37157a8228d20cab3b3e0ade1f97",
+    "semantic_hash": "6e6a37157a8228d20cab3b3e0ade1f97"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ToolResponseMessageSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "1a6fee0743c3b452336065a6305aa650",
+    "semantic_hash": "1a6fee0743c3b452336065a6305aa650"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/AssistantMessageSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "0e70b5a7b752210a044f6536fafc0f88",
+    "semantic_hash": "0e70b5a7b752210a044f6536fafc0f88"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ZhiPuAIAssistantMessageSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "77613d051e634e685b201b2d6c9ca88d",
+    "semantic_hash": "77613d051e634e685b201b2d6c9ca88d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ToolCallSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "86967204f28b56daa814794d119eb7c6",
+    "semantic_hash": "86967204f28b56daa814794d119eb7c6"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/StreamingOutputSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "8afaac9bee00f5218e97d9aec004b108",
+    "semantic_hash": "8afaac9bee00f5218e97d9aec004b108"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ObjectOutputWithMapper.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "06844e12690ac65c55f9d7af66524558",
+    "semantic_hash": "06844e12690ac65c55f9d7af66524558"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/package-info.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "80d426cdc442c69c83773cf5f16b2a30",
+    "semantic_hash": "80d426cdc442c69c83773cf5f16b2a30"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/NullableObjectSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "f323ff8810c67611ceffa81889386fed",
+    "semantic_hash": "f323ff8810c67611ceffa81889386fed"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/SpringAIStateSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "c802f64d2a11a7130f4e74ba19573046",
+    "semantic_hash": "c802f64d2a11a7130f4e74ba19573046"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ObjectStreamStateSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "f0f52248adfdc90ba4fd86d0d0b18e73",
+    "semantic_hash": "f0f52248adfdc90ba4fd86d0d0b18e73"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/MessageSerializer.java": {
+    "mtime": 1779689401.8783772,
+    "ast_hash": "ef66a9dc0111f26c7a66917979ccc2ac",
+    "semantic_hash": "ef66a9dc0111f26c7a66917979ccc2ac"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/std/ToolResponseSerializer.java": {
+    "mtime": 1779689401.8823771,
+    "ast_hash": "4d89481ab981b59f1f4e1be2df53ea9c",
+    "semantic_hash": "4d89481ab981b59f1f4e1be2df53ea9c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/serializer/check_point/CheckPointSerializer.java": {
+    "mtime": 1779689401.8743773,
+    "ast_hash": "c07be84984e3d7bf9deaba59d2b922e2",
+    "semantic_hash": "c07be84984e3d7bf9deaba59d2b922e2"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/AgentStateFactory.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "93d4f176d3d81fe5011523f42be43747",
+    "semantic_hash": "93d4f176d3d81fe5011523f42be43747"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/Reducer.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "627cf7a364de16a5c86de6b3540c4898",
+    "semantic_hash": "627cf7a364de16a5c86de6b3540c4898"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/ReplaceAllWith.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "b61237cc16384f86cb626545dde5b031",
+    "semantic_hash": "b61237cc16384f86cb626545dde5b031"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/Channel.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "65148ef761c68c7050476bbb49efd9b6",
+    "semantic_hash": "65148ef761c68c7050476bbb49efd9b6"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/StateSnapshot.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "1605619470090ac465801ffff8fff61b",
+    "semantic_hash": "1605619470090ac465801ffff8fff61b"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/AppenderChannel.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "53d983a71582e6634681b733a09b6eb5",
+    "semantic_hash": "53d983a71582e6634681b733a09b6eb5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/RemoveByHash.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "f37cc889b30d1014e36d773df8befffd",
+    "semantic_hash": "f37cc889b30d1014e36d773df8befffd"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/package-info.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "90e97c407b7c99b7b2286f9b609b1f09",
+    "semantic_hash": "90e97c407b7c99b7b2286f9b609b1f09"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/strategy/AppendStrategy.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "971d6c9864b878709ada6c52bedc3fcc",
+    "semantic_hash": "971d6c9864b878709ada6c52bedc3fcc"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/strategy/MergeStrategy.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "251d46bedab2e5303610e25173cf5c5d",
+    "semantic_hash": "251d46bedab2e5303610e25173cf5c5d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/state/strategy/ReplaceStrategy.java": {
+    "mtime": 1779689401.886377,
+    "ast_hash": "ccfb6c8005ea9e498dd75b5ed4ad7d06",
+    "semantic_hash": "ccfb6c8005ea9e498dd75b5ed4ad7d06"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/advisors/SkillPromptAugmentAdvisor.java": {
+    "mtime": 1779689401.8543773,
+    "ast_hash": "5bf167b15bbc64e9e057cef152e94320",
+    "semantic_hash": "5bf167b15bbc64e9e057cef152e94320"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/streaming/StreamingOutput.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "e3937fc835043fef020bbf9c4c066962",
+    "semantic_hash": "e3937fc835043fef020bbf9c4c066962"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/streaming/ParallelGraphFlux.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "bb55ba6daa4332091c2deef49a011405",
+    "semantic_hash": "bb55ba6daa4332091c2deef49a011405"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/streaming/OutputType.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "f0e8474edfbad4bbcafe8c1bc77ee0a3",
+    "semantic_hash": "f0e8474edfbad4bbcafe8c1bc77ee0a3"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/streaming/GraphFlux.java": {
+    "mtime": 1779689401.8903773,
+    "ast_hash": "55141d742adb4f3328e075a563eecc60",
+    "semantic_hash": "55141d742adb4f3328e075a563eecc60"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/GraphObservationLifecycleListener.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "bd53e161099674a96e39ab29759b1e29",
+    "semantic_hash": "bd53e161099674a96e39ab29759b1e29"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/GraphMetricsGenerator.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "442c880d1c05794a0f508c8bf5768526",
+    "semantic_hash": "442c880d1c05794a0f508c8bf5768526"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaKind.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "09f751f65bce0f72024aba92f960f4cb",
+    "semantic_hash": "09f751f65bce0f72024aba92f960f4cb"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/node/DefaultGraphNodeObservationConvention.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "a21f17cc00aa4894653610c830af0530",
+    "semantic_hash": "a21f17cc00aa4894653610c830af0530"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/node/GraphNodeObservationHandler.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "c083d0c09217a14bf7272a34bf653131",
+    "semantic_hash": "c083d0c09217a14bf7272a34bf653131"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/node/GraphNodeObservationContext.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "026bd0ad0856bf99cea5e4252c2808b7",
+    "semantic_hash": "026bd0ad0856bf99cea5e4252c2808b7"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/node/GraphNodeObservationDocumentation.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "5e5d2212f708ccab678e93225a0f6340",
+    "semantic_hash": "5e5d2212f708ccab678e93225a0f6340"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/node/GraphNodeObservationConvention.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "a1087b338571dac744f209b0c753807e",
+    "semantic_hash": "a1087b338571dac744f209b0c753807e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/metric/SpringAiAlibabaObservationMetricNames.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "c9880688b506d7cb97059a7029a74e01",
+    "semantic_hash": "c9880688b506d7cb97059a7029a74e01"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/metric/SpringAiAlibabaObservationMetricAttributes.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "96f69390150d85a2ed8460e886994baa",
+    "semantic_hash": "96f69390150d85a2ed8460e886994baa"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/graph/DefaultGraphObservationConvention.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "3863b6352451133313816b53d0409554",
+    "semantic_hash": "3863b6352451133313816b53d0409554"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/graph/GraphObservationDocumentation.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "2063e293987b61ad23fdd665cc9c334d",
+    "semantic_hash": "2063e293987b61ad23fdd665cc9c334d"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/graph/GraphObservationConvention.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "7ddc06d3d14feaaa48c343c187f7367f",
+    "semantic_hash": "7ddc06d3d14feaaa48c343c187f7367f"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/graph/GraphObservationContext.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "844d6a975d65f229f85826b59a18fe5c",
+    "semantic_hash": "844d6a975d65f229f85826b59a18fe5c"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/graph/GraphObservationHandler.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "aa0e688909b2b96fd56e9f8c256d7412",
+    "semantic_hash": "aa0e688909b2b96fd56e9f8c256d7412"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/edge/GraphEdgeObservationDocumentation.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "b990ada40cb02c79188cd995f3e4447e",
+    "semantic_hash": "b990ada40cb02c79188cd995f3e4447e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/edge/DefaultGraphEdgeObservationConvention.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "ea06696b69458786b7d14c6aeee7006e",
+    "semantic_hash": "ea06696b69458786b7d14c6aeee7006e"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/edge/GraphEdgeObservationContext.java": {
+    "mtime": 1779689401.866377,
+    "ast_hash": "fa5bc4175f78ab2606bed0bc89855ac9",
+    "semantic_hash": "fa5bc4175f78ab2606bed0bc89855ac9"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/edge/GraphEdgeObservationConvention.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "39a04de58fb13224a800ece039ca5b45",
+    "semantic_hash": "39a04de58fb13224a800ece039ca5b45"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/main/java/com/alibaba/cloud/ai/graph/observation/edge/GraphEdgeObservationHandler.java": {
+    "mtime": 1779689401.8703773,
+    "ast_hash": "ec999690a1ebd0a1a0e4251ca5acd725",
+    "semantic_hash": "ec999690a1ebd0a1a0e4251ca5acd725"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/README.md": {
+    "mtime": 1779689401.8463771,
+    "ast_hash": "ca4c58c6fc93cd1b6495197622031bd5",
+    "semantic_hash": "ca4c58c6fc93cd1b6495197622031bd5"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/resources/skills/sample-skill/SKILL.md": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "7fdf7cdf8aa350a52caf96cd2ce29a13",
+    "semantic_hash": "7fdf7cdf8aa350a52caf96cd2ce29a13"
+  },
+  "/workspace/spring-ai-alibaba-graph-core/src/test/resources/test.png": {
+    "mtime": 1779689401.9143772,
+    "ast_hash": "74407966a3a4afe3204f739bc13f2a19",
+    "semantic_hash": "74407966a3a4afe3204f739bc13f2a19"
+  }
+}

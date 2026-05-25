@@ -1,0 +1,1 @@
+{"nodes": [{"id": "InnerClassSerializationTest_inner_class", "label": "InnerClassSerializationTest verifies non-static inner classes degrade to Map while static nested classes preserve type", "file_type": "code", "source_file": "src/test/java/com/alibaba/cloud/ai/graph/InnerClassSerializationTest.java", "source_location": "L33-L232"}], "edges": [], "hyperedges": []}

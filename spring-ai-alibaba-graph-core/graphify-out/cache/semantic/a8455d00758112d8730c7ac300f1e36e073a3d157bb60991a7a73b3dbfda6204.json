@@ -1,0 +1,1 @@
+{"nodes": [{"id": "HasMetadata_HasMetadata", "label": "HasMetadata - generic interface for key-value metadata with TypeRef support", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/HasMetadata.java", "source_location": null}], "edges": [], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "SkillMetadata", "label": "SkillMetadata - Data model for Claude-style Skill with name, description, path, source, content, and allowed tools", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/skills/SkillMetadata.java", "source_location": null}], "edges": [], "hyperedges": []}

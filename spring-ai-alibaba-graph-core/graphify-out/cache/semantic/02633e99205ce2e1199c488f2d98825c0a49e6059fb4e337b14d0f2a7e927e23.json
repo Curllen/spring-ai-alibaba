@@ -1,0 +1,1 @@
+{"nodes": [{"id": "ResumableSubGraphAction", "label": "ResumableSubGraphAction - interface for resumable subgraph actions with id generation utilities", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/internal/node/ResumableSubGraphAction.java", "source_location": null}], "edges": [], "hyperedges": []}

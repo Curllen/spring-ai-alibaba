@@ -1,0 +1,1 @@
+{"nodes": [{"id": "HasVersions_HasVersions", "label": "HasVersions interface - provides versioned access to checkpoints by thread ID (experimental)", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/checkpoint/HasVersions.java", "source_location": null}], "edges": [], "hyperedges": []}

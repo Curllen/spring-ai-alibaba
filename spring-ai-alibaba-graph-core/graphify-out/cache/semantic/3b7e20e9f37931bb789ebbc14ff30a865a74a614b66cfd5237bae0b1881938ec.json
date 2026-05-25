@@ -1,0 +1,1 @@
+{"nodes": [{"id": "SkillRegistry", "label": "SkillRegistry - Interface for read-only skills management (get, list, search, disable, reload, readContent)", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/skills/registry/SkillRegistry.java", "source_location": null}], "edges": [], "hyperedges": []}

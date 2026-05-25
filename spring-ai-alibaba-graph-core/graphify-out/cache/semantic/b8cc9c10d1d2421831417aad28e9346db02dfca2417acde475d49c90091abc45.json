@@ -1,0 +1,1 @@
+{"nodes": [{"id": "Serializer_interface", "label": "Serializer<T>", "file_type": "code", "source_file": "src/main/java/com/alibaba/cloud/ai/graph/serializer/Serializer.java", "source_location": "L28-L97"}], "edges": [], "hyperedges": []}

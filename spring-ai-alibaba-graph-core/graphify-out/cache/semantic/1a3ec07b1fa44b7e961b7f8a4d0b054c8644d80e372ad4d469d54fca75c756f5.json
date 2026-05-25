@@ -1,0 +1,1 @@
+{"nodes": [{"id": "Issue2702ReproductionTest_npe_fix", "label": "Issue2702ReproductionTest reproduces and validates fix for NPE in streaming with null ChatResponse results", "file_type": "code", "source_file": "src/test/java/com/alibaba/cloud/ai/graph/Issue2702ReproductionTest.java", "source_location": "L65-L186"}], "edges": [], "hyperedges": []}

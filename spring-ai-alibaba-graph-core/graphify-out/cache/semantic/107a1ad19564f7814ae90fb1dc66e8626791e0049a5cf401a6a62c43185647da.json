@@ -1,0 +1,1 @@
+{"nodes": [{"id": "InterruptionTest_interrupt", "label": "InterruptionTest validates interruptBefore/interruptAfter hooks, InterruptableAction, and streaming interruption", "file_type": "code", "source_file": "src/test/java/com/alibaba/cloud/ai/graph/InterruptionTest.java", "source_location": "L47-L716"}], "edges": [], "hyperedges": []}
