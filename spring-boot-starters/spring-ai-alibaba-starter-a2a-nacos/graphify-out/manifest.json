@@ -1,0 +1,202 @@
+{
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/test/java/com/alibaba/cloud/ai/a2a/registry/nacos/utils/AgentCardConverterUtilTest.java": {
+    "mtime": 1779756456.7197032,
+    "ast_hash": "a433c5cd7ce9d13af44ebc961d0194dd",
+    "semantic_hash": "a433c5cd7ce9d13af44ebc961d0194dd"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/test/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/A2aServerMultiAgentAutoConfigurationTest.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "e95cb85ee36680cf8eb3e4b68bde43af",
+    "semantic_hash": "e95cb85ee36680cf8eb3e4b68bde43af"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/register/NacosA2aRegistryProperties.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "ddcc64b13c29e6232c37781da7134f24",
+    "semantic_hash": "ddcc64b13c29e6232c37781da7134f24"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/register/NacosAgentRegistry.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "3cdae6ca66a5cbceb2ba041db40ed18c",
+    "semantic_hash": "3cdae6ca66a5cbceb2ba041db40ed18c"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/service/NacosA2aOperationService.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "e09f8dea76993bc0f032a581c935d989",
+    "semantic_hash": "e09f8dea76993bc0f032a581c935d989"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/utils/AgentCardConverterUtil.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "3f842e0f4d92825aa794e2f15324bba9",
+    "semantic_hash": "3f842e0f4d92825aa794e2f15324bba9"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/properties/NacosA2aProperties.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "068338e4bd6f76601d42d51fdb2d62f5",
+    "semantic_hash": "068338e4bd6f76601d42d51fdb2d62f5"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/discovery/NacosAgentCardWrapper.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "8b75cb9f881684735a9e1f198528cd49",
+    "semantic_hash": "8b75cb9f881684735a9e1f198528cd49"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/registry/nacos/discovery/NacosAgentCardProvider.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "5476907592ea4653d313b13e16ce6ec8",
+    "semantic_hash": "5476907592ea4653d313b13e16ce6ec8"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/A2aAgentCardProperties.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "82fa65e0446a96a5a2d51d6402aaae83",
+    "semantic_hash": "82fa65e0446a96a5a2d51d6402aaae83"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/A2aMultiAgentProperties.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "255f1f7fe1f93d43ecea9d3219a31af1",
+    "semantic_hash": "255f1f7fe1f93d43ecea9d3219a31af1"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/A2aServerProperties.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "a7ddcd1754034776381df50fb91904eb",
+    "semantic_hash": "a7ddcd1754034776381df50fb91904eb"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/A2aServerAgentCardProperties.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "299dc129950738b943235e0f0a37d8e8",
+    "semantic_hash": "299dc129950738b943235e0f0a37d8e8"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/A2aClientAgentCardProperties.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "43ae576e6bc5557ed1a8a8206a2b7045",
+    "semantic_hash": "43ae576e6bc5557ed1a8a8206a2b7045"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/nacos/NacosA2aDiscoveryAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "20491285882e8a8cc7c6e2f89b7642a2",
+    "semantic_hash": "20491285882e8a8cc7c6e2f89b7642a2"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/nacos/NacosA2aRegistryAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "9f50b266cad73ef40a01fd5c65951eb5",
+    "semantic_hash": "9f50b266cad73ef40a01fd5c65951eb5"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/client/A2aClientAgentCardProviderAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "537d516b28f428981b315e7e0177d839",
+    "semantic_hash": "537d516b28f428981b315e7e0177d839"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/client/condition/A2aClientAgentCardWellKnownCondition.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "b7f71c723796da851c0436364e223b41",
+    "semantic_hash": "b7f71c723796da851c0436364e223b41"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/A2aServerMultiAgentAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "099d864c2d45e9c4f7e9b732bc834f8f",
+    "semantic_hash": "099d864c2d45e9c4f7e9b732bc834f8f"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/A2aServerAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "e367437aee13de1437f3443838dd8c7d",
+    "semantic_hash": "e367437aee13de1437f3443838dd8c7d"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/A2aServerRegistryAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "e810bcbece5d72b585fecbfccf925494",
+    "semantic_hash": "e810bcbece5d72b585fecbfccf925494"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/A2aServerAgentCardAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "20f0b52f0236f404ab365864dad60db4",
+    "semantic_hash": "20f0b52f0236f404ab365864dad60db4"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/A2aServerHandlerAutoConfiguration.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "90ff6f336f22c3a594cecdb532e96988",
+    "semantic_hash": "90ff6f336f22c3a594cecdb532e96988"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/autoconfigure/server/condition/OnMultiAgentModeCondition.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "409b532bec87fd3f653b5a2789706ef1",
+    "semantic_hash": "409b532bec87fd3f653b5a2789706ef1"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/constants/A2aConstants.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "f096c2db62c247092746ab8d3201d4ee",
+    "semantic_hash": "f096c2db62c247092746ab8d3201d4ee"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/registry/AgentRegistry.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "db663629c95d4e725c28cc1782cbf0c6",
+    "semantic_hash": "db663629c95d4e725c28cc1782cbf0c6"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/registry/AgentRegistryService.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "0fb313268e8be04e808714d6975aa53e",
+    "semantic_hash": "0fb313268e8be04e808714d6975aa53e"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/route/JsonRpcA2aRouterProvider.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "1c16d9871e1b680e36cc1b014f1ebfe3",
+    "semantic_hash": "1c16d9871e1b680e36cc1b014f1ebfe3"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/route/MultiAgentJsonRpcRouterProvider.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "097ffa0ad089ef3c9813d0c26b0deb51",
+    "semantic_hash": "097ffa0ad089ef3c9813d0c26b0deb51"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/route/A2aRouterProvider.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "c9b3f8c87c0bd3db7e58939204be19b2",
+    "semantic_hash": "c9b3f8c87c0bd3db7e58939204be19b2"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/route/MultiAgentRequestRouter.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "3ea0bf5bd0f68bc38541f337b2c75904",
+    "semantic_hash": "3ea0bf5bd0f68bc38541f337b2c75904"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/server/A2aServerExecutorProvider.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "92b522bb06f84951795729586527c03c",
+    "semantic_hash": "92b522bb06f84951795729586527c03c"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/server/JsonRpcA2aRequestHandler.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "23dd875dcccd1719aa81780270673217",
+    "semantic_hash": "23dd875dcccd1719aa81780270673217"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/server/ServerTypeEnum.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "7b091cf5b27c2aaf837d7a38dcaf5316",
+    "semantic_hash": "7b091cf5b27c2aaf837d7a38dcaf5316"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/server/GraphAgentExecutor.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "369cbcba935d80b2fa0d46663d16b8e1",
+    "semantic_hash": "369cbcba935d80b2fa0d46663d16b8e1"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/server/DefaultA2aServerExecutorProvider.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "2fe98b64e12a97653cae860b7c8003c8",
+    "semantic_hash": "2fe98b64e12a97653cae860b7c8003c8"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/server/A2aRequestHandler.java": {
+    "mtime": 1779756456.717703,
+    "ast_hash": "173a1828b51ad22a701874a6a5adbdd2",
+    "semantic_hash": "173a1828b51ad22a701874a6a5adbdd2"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/java/com/alibaba/cloud/ai/a2a/core/utils/InetUtils.java": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "24d2202f4052918068100c15425325bd",
+    "semantic_hash": "24d2202f4052918068100c15425325bd"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/src/main/resources/META-INF/additional-spring-configuration-metadata.json": {
+    "mtime": 1779756456.7187033,
+    "ast_hash": "1f8cb7c055f3d1c54ce24514f2279aea",
+    "semantic_hash": "1f8cb7c055f3d1c54ce24514f2279aea"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-a2a-nacos/README.md": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "5c15dba9b8d1384df8125bb123105342",
+    "semantic_hash": "5c15dba9b8d1384df8125bb123105342"
+  }
+}
