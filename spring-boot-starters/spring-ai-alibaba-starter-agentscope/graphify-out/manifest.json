@@ -1,0 +1,57 @@
+{
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/test/java/com/alibaba/cloud/ai/agent/agentscope/AgentScopeAgentTest.java": {
+    "mtime": 1779785550.259626,
+    "ast_hash": "ddde741afe5d8c491633c7d6133a3100",
+    "semantic_hash": "ddde741afe5d8c491633c7d6133a3100"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/test/java/com/alibaba/cloud/ai/agent/agentscope/UpdateExtraStateTool.java": {
+    "mtime": 1779785550.259626,
+    "ast_hash": "d2ed5861685080382f8496a9e7bc9232",
+    "semantic_hash": "d2ed5861685080382f8496a9e7bc9232"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/test/java/com/alibaba/cloud/ai/agent/agentscope/flow/AgentScopeRoutingAgentTest.java": {
+    "mtime": 1779785550.259626,
+    "ast_hash": "c7395b7fe7dc531dca5493ea1113ec57",
+    "semantic_hash": "c7395b7fe7dc531dca5493ea1113ec57"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/AgentScopeMessageUtils.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "0c48c015192df50d557d4d21613b7d1a",
+    "semantic_hash": "0c48c015192df50d557d4d21613b7d1a"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/AgentScopeAgent.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "267d90c7f8aca2223fb0ed2ddb7455ea",
+    "semantic_hash": "267d90c7f8aca2223fb0ed2ddb7455ea"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/flow/AgentScopeRoutingNode.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "64257bee51aedc39da07afd790b8fc8c",
+    "semantic_hash": "64257bee51aedc39da07afd790b8fc8c"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/flow/AgentScopeRoutingMergeNode.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "c3461d790cd13dfbdfde81f7e1398a7b",
+    "semantic_hash": "c3461d790cd13dfbdfde81f7e1398a7b"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/flow/AgentScopeRoutingAgent.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "2b096a41f1406fcb3dd2976cb5292ae5",
+    "semantic_hash": "2b096a41f1406fcb3dd2976cb5292ae5"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/flow/AgentScopeFlowAutoConfiguration.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "b1cc4cb03d0a2ecc40ecc3715a3adbc6",
+    "semantic_hash": "b1cc4cb03d0a2ecc40ecc3715a3adbc6"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/flow/AgentScopeRoutingGraphBuildingStrategy.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "65a91ec8b7bb1351a97f26768d52fff2",
+    "semantic_hash": "65a91ec8b7bb1351a97f26768d52fff2"
+  },
+  "/workspace/spring-boot-starters/spring-ai-alibaba-starter-agentscope/src/main/java/com/alibaba/cloud/ai/agent/agentscope/flow/RoutingDecisionSchema.java": {
+    "mtime": 1779785550.2586257,
+    "ast_hash": "3db5953d6b571971cfaf0914130cd48e",
+    "semantic_hash": "3db5953d6b571971cfaf0914130cd48e"
+  }
+}
