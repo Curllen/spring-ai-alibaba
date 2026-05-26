@@ -1,0 +1,1772 @@
+{
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/StudioApplication.java": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "9f70d79dad5928af2ba7513a80300809",
+    "semantic_hash": "9f70d79dad5928af2ba7513a80300809"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/graph/GraphTestConfig.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "b649f1599dd775d01c15ac48e50f4b94",
+    "semantic_hash": "b649f1599dd775d01c15ac48e50f4b94"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/graph/SimpleGraphConfig.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "eafde8bfe21ebf7f5aeb6aeb6865a049",
+    "semantic_hash": "eafde8bfe21ebf7f5aeb6aeb6865a049"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/agent/studio/config/WebConfigConditionalTest.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "9fc67aa2f86e993cab9694a808f88477",
+    "semantic_hash": "9fc67aa2f86e993cab9694a808f88477"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/agent/studio/dto/messages/AgentInstructionMessageDTOTest.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "15fb169c12e47d4ac57942bfac0c1d8a",
+    "semantic_hash": "15fb169c12e47d4ac57942bfac0c1d8a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/agentic/PoetTool.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "ebf9a6e46e402895f3a73bfedc4351f6",
+    "semantic_hash": "ebf9a6e46e402895f3a73bfedc4351f6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/agentic/Prompts.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "6a04f762e9504d126d207cce59e284b3",
+    "semantic_hash": "6a04f762e9504d126d207cce59e284b3"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/agentic/DeepResearchAgent.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "493be4a760bab3ba341eeafd5cbe8cdb",
+    "semantic_hash": "493be4a760bab3ba341eeafd5cbe8cdb"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/java/com/alibaba/cloud/ai/agentic/AgentStaticLoader.java": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "e0e3c39ccd7c507c0d224a5609251df2",
+    "semantic_hash": "e0e3c39ccd7c507c0d224a5609251df2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/SaaStudioWebModuleAutoConfiguration.java": {
+    "mtime": 1779756456.694703,
+    "ast_hash": "1640a5c4050dbbbe0729ba05476936f0",
+    "semantic_hash": "1640a5c4050dbbbe0729ba05476936f0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/GraphThreadController.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "f83117e243fe4789a12a075dc2e294b8",
+    "semantic_hash": "f83117e243fe4789a12a075dc2e294b8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/ChatUiRedirectController.java": {
+    "mtime": 1779756456.694703,
+    "ast_hash": "046ce4befac2a2c62aebdf34c3ebd375",
+    "semantic_hash": "046ce4befac2a2c62aebdf34c3ebd375"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/ThreadController.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "8c975ece546e3df47acbfcd6ec7c83e3",
+    "semantic_hash": "8c975ece546e3df47acbfcd6ec7c83e3"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/GraphExecutionController.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "8ac7143b69da02985e13eeb8111662ca",
+    "semantic_hash": "8ac7143b69da02985e13eeb8111662ca"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/AgentController.java": {
+    "mtime": 1779756456.694703,
+    "ast_hash": "d7ae0aeef4855cd6b9300aaefa81ef0e",
+    "semantic_hash": "d7ae0aeef4855cd6b9300aaefa81ef0e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/GraphController.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "4e2e4382b19320b3d0d33827da787df7",
+    "semantic_hash": "4e2e4382b19320b3d0d33827da787df7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/controller/ExecutionController.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "f2e359acce0e576c74b1bc9524d3343d",
+    "semantic_hash": "f2e359acce0e576c74b1bc9524d3343d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/service/ThreadServiceImpl.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "74c34a8a057d27106fc1b40b45583852",
+    "semantic_hash": "74c34a8a057d27106fc1b40b45583852"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/service/RunnerService.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "02c1530e683b7bd60a0537539ed3dc0d",
+    "semantic_hash": "02c1530e683b7bd60a0537539ed3dc0d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/service/ThreadService.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "f7478289b6e369e3d9162da147b7f856",
+    "semantic_hash": "f7478289b6e369e3d9162da147b7f856"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/tracing/ReturnCode.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "e9a4a7fec787da9b7c0971afa8be276c",
+    "semantic_hash": "e9a4a7fec787da9b7c0971afa8be276c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/tracing/R.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "7fd2e50999829aaa55ec8a43c5a5f63f",
+    "semantic_hash": "7fd2e50999829aaa55ec8a43c5a5f63f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/utils/JsonUtil.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "24849277cad703125752d215142cf700",
+    "semantic_hash": "24849277cad703125752d215142cf700"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/utils/FileUtils.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "8c08df25655417f1ce54899e7df29bd0",
+    "semantic_hash": "8c08df25655417f1ce54899e7df29bd0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/config/WebConfig.java": {
+    "mtime": 1779756456.694703,
+    "ast_hash": "cf93c1cd74168e6663dd801a0cde664e",
+    "semantic_hash": "cf93c1cd74168e6663dd801a0cde664e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/ContextScanningGraphLoader.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "34ff151e013d66f301442e2420c2e5f2",
+    "semantic_hash": "34ff151e013d66f301442e2420c2e5f2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/AbstractGraphLoader.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "e2b0135e9b1763df82fc831736c8fec2",
+    "semantic_hash": "e2b0135e9b1763df82fc831736c8fec2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/ContextScanningAgentLoader.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "99f9aa32d108660916809d63760e578c",
+    "semantic_hash": "99f9aa32d108660916809d63760e578c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/GraphLoader.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "801dcced17f929954299f0d871b30b6f",
+    "semantic_hash": "801dcced17f929954299f0d871b30b6f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/ConfigAgentWatcher.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "b61e41b4fc14f7136b40bbe5c2f6a1e7",
+    "semantic_hash": "b61e41b4fc14f7136b40bbe5c2f6a1e7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/AbstractAgentLoader.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "fec57e35a3280efa55786bd926719915",
+    "semantic_hash": "fec57e35a3280efa55786bd926719915"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/StudioLoaderAutoConfiguration.java": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "f4bae9ce391054d53117c45fd0e61e00",
+    "semantic_hash": "f4bae9ce391054d53117c45fd0e61e00"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/loader/AgentLoader.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "faa62e67db3e3a231bcd7b2ad974337a",
+    "semantic_hash": "faa62e67db3e3a231bcd7b2ad974337a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/GraphRunResponse.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "33534eb4b9e14030662d4f1d0d0bdb3e",
+    "semantic_hash": "33534eb4b9e14030662d4f1d0d0bdb3e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/AgentResumeRequest.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "d0cb81a2c707cd5c530e7f944258d0f9",
+    "semantic_hash": "d0cb81a2c707cd5c530e7f944258d0f9"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/Thread.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "1692fe57982808745fd9b86ca381a432",
+    "semantic_hash": "1692fe57982808745fd9b86ca381a432"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/ListThreadsResponse.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "564e406d02b72a8cb6075c1f39ae2bbd",
+    "semantic_hash": "564e406d02b72a8cb6075c1f39ae2bbd"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/GraphRunRequest.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "4a60ac2dd03d4e82cb2b2dae5486add7",
+    "semantic_hash": "4a60ac2dd03d4e82cb2b2dae5486add7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/GraphResponse.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "e9cc3c65779635c8c70ce429312981ed",
+    "semantic_hash": "e9cc3c65779635c8c70ce429312981ed"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/AgentRunRequest.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "7630586e5b57f7e412c5adf14044f6db",
+    "semantic_hash": "7630586e5b57f7e412c5adf14044f6db"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/ToolResponseMessageDTO.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "5721d518859e8f1f81329c5845069ff0",
+    "semantic_hash": "5721d518859e8f1f81329c5845069ff0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/UserMessageDTO.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "59b1104700ba074f0e6fd8cd70ca2b12",
+    "semantic_hash": "59b1104700ba074f0e6fd8cd70ca2b12"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/ToolRequestConfirmMessageDTO.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "a291f5cc5a55dc6e7de0c90eb59d3963",
+    "semantic_hash": "a291f5cc5a55dc6e7de0c90eb59d3963"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/MessageDTO.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "0c5253973b4a1a3d7e92ba224e140a9b",
+    "semantic_hash": "0c5253973b4a1a3d7e92ba224e140a9b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/ToolRequestMessageDTO.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "c12e2bf06bdf7b5ce5dec20ff397bb74",
+    "semantic_hash": "c12e2bf06bdf7b5ce5dec20ff397bb74"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/AssistantMessageDTO.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "f0106d8400427c5992ff358e78d73545",
+    "semantic_hash": "f0106d8400427c5992ff358e78d73545"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/java/com/alibaba/cloud/ai/agent/studio/dto/messages/AgentRunResponse.java": {
+    "mtime": 1779756456.695703,
+    "ast_hash": "2410e149ccd47da9814730967a6e57ea",
+    "semantic_hash": "2410e149ccd47da9814730967a6e57ea"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_clike.d980dcbe8aacf825.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "3beca66c546df489939fbcd5ce88e173",
+    "semantic_hash": "3beca66c546df489939fbcd5ce88e173"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_swift.e26a5e1b32750851.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "d25eccd2a17e8f3141a29bd0d640fefb",
+    "semantic_hash": "d25eccd2a17e8f3141a29bd0d640fefb"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_textile.c8185faa167fcb87.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "83c146ddd9a5f964079e02210d7d7813",
+    "semantic_hash": "83c146ddd9a5f964079e02210d7d7813"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_abnf.2759657a2fbcf2c0.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "e96aca2640474c22df9b7103f800466a",
+    "semantic_hash": "e96aca2640474c22df9b7103f800466a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_vbnet.cfd9dbd4fcc78bba.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "7fc12781ff4fee042cc73bac8224e9e6",
+    "semantic_hash": "7fc12781ff4fee042cc73bac8224e9e6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_markupTemplating.22263a45bb950a9e.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "5beccb5c0f4fbc7691bae4e683eb9e35",
+    "semantic_hash": "5beccb5c0f4fbc7691bae4e683eb9e35"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/webpack-7cf523ba53693043.js": {
+    "mtime": 1779756456.7127032,
+    "ast_hash": "158af4328276fc37763c42eaf649e04f",
+    "semantic_hash": "158af4328276fc37763c42eaf649e04f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gap.784710638461b7d8.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "40cec5b7cf2ae41db8f8123cb272bf9b",
+    "semantic_hash": "40cec5b7cf2ae41db8f8123cb272bf9b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_toml.9f747c3344afc673.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "c78a998e16032cf6252700314bd89312",
+    "semantic_hash": "c78a998e16032cf6252700314bd89312"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_scss.fbf4fcda722183ef.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "d4f46d2465b8599d3381cd634b2a296d",
+    "semantic_hash": "d4f46d2465b8599d3381cd634b2a296d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_goModule.bfb45e857dca7565.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "e9ea2fd1d49c7363d460391c91259ee8",
+    "semantic_hash": "e9ea2fd1d49c7363d460391c91259ee8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jsstacktrace.f0add39232487bdd.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "aaa772459fabd60a59441883b589971f",
+    "semantic_hash": "aaa772459fabd60a59441883b589971f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_rust.9cfdfa78b6dcbfc5.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "ae805d6047fcabf1a482e8f29cb17cec",
+    "semantic_hash": "ae805d6047fcabf1a482e8f29cb17cec"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_docker.42c852a15b71b712.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "7921f53279973c91869e96e6e4fa7bce",
+    "semantic_hash": "7921f53279973c91869e96e6e4fa7bce"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_robotframework.61d0efbc3252ac8e.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "abd1b1c367c0491159b334447d1f8151",
+    "semantic_hash": "abd1b1c367c0491159b334447d1f8151"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_t4Cs.e4967dcdf1be5848.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "adb704a48f1a7616273a29010be3e8b6",
+    "semantic_hash": "adb704a48f1a7616273a29010be3e8b6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_vala.b472a6e24a53837d.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "778468b683baa2361ce7aae652d5e8ad",
+    "semantic_hash": "778468b683baa2361ce7aae652d5e8ad"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ruby.b1883b501c16c416.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "0bbae3cfcea51f41ff41167607347ea5",
+    "semantic_hash": "0bbae3cfcea51f41ff41167607347ea5"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_aspnet.88d8581570dd3e66.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "7c4e8084fabc56144b5595bf8b79bdd3",
+    "semantic_hash": "7c4e8084fabc56144b5595bf8b79bdd3"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_javascript.1e497c5216cb1ae2.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "bb43b67085a1263f58a459071fa1a474",
+    "semantic_hash": "bb43b67085a1263f58a459071fa1a474"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/e610e9eb-8deba821626819b0.js": {
+    "mtime": 1779756456.702703,
+    "ast_hash": "5a4a4421cbca3996565652d49b07611f",
+    "semantic_hash": "5a4a4421cbca3996565652d49b07611f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_diff.d237bc1df8d04a3b.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "5613f184cf1f1a8f0e25cca7ec88088c",
+    "semantic_hash": "5613f184cf1f1a8f0e25cca7ec88088c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_fortran.ce1066722b1d17ac.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "d6e5ab5f484001e047cff3dd8f3a18d6",
+    "semantic_hash": "d6e5ab5f484001e047cff3dd8f3a18d6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_lua.76325714bb7e1eae.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "dd0ba71bb6a65d8f4f89f45aa3d65e7c",
+    "semantic_hash": "dd0ba71bb6a65d8f4f89f45aa3d65e7c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_purebasic.c79408ee2bfd7b6d.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "2efde2fa5ec2186cd56d3639ba26da9e",
+    "semantic_hash": "2efde2fa5ec2186cd56d3639ba26da9e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_dax.3c6639b483f38b8a.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "c18e4affea383da3b14a6bf3a25ca21c",
+    "semantic_hash": "c18e4affea383da3b14a6bf3a25ca21c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_t4Vb.3cfcc203658a9c3b.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "2610d8f4e7396cf8bc8f56f34dd92cd9",
+    "semantic_hash": "2610d8f4e7396cf8bc8f56f34dd92cd9"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_promql.c3883b4d686bd158.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "7d8bcb9e422e4c0d26e6ac92b239a99c",
+    "semantic_hash": "7d8bcb9e422e4c0d26e6ac92b239a99c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_powerquery.1f357081ae07e4e4.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "fd0a79f9b5f052d014fd767a836c4094",
+    "semantic_hash": "fd0a79f9b5f052d014fd767a836c4094"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/framework-92fe0709eb3fe4d5.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "c56267cdd5655b1c7fb63c9b6af5a502",
+    "semantic_hash": "c56267cdd5655b1c7fb63c9b6af5a502"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_mermaid.405332297a695a2a.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "35a7ea1c2503d19756797c242e11b615",
+    "semantic_hash": "35a7ea1c2503d19756797c242e11b615"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_phpdoc.26b632782813025b.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "abc4d944480c5bd6095a12b8fd7b81fd",
+    "semantic_hash": "abc4d944480c5bd6095a12b8fd7b81fd"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_http.95dfe161bb5e99b1.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "32d940795ab1a209d6395e95772d0103",
+    "semantic_hash": "32d940795ab1a209d6395e95772d0103"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gdscript.ca20d26c0d9de4fc.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "572320c882eb452520b9c4fad49c8711",
+    "semantic_hash": "572320c882eb452520b9c4fad49c8711"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_dnsZoneFile.92e427c6e277e29f.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "b1bc544d3731f76c07ce5f447ca3b8d9",
+    "semantic_hash": "b1bc544d3731f76c07ce5f447ca3b8d9"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cssExtras.4a583571a3e12c51.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "d84d10c66169f3ec35f7e7cb9c0b5456",
+    "semantic_hash": "d84d10c66169f3ec35f7e7cb9c0b5456"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_reason.e0f1208c63016123.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "898b8d1a92db618fda9f62e72baefef0",
+    "semantic_hash": "898b8d1a92db618fda9f62e72baefef0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gml.372ab448c1f1d51f.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "5a0d8390f34295a54fcb23ceb603b44b",
+    "semantic_hash": "5a0d8390f34295a54fcb23ceb603b44b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_vhdl.798243ec7ce64c98.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "fcb113940fc6b6b9cd683fe82ead21cc",
+    "semantic_hash": "fcb113940fc6b6b9cd683fe82ead21cc"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_smarty.1536ca18ff76ca95.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "918745e4f682616cf15bdb1e6608167b",
+    "semantic_hash": "918745e4f682616cf15bdb1e6608167b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/3040-81316e5a0acb5849.js": {
+    "mtime": 1779756456.699703,
+    "ast_hash": "d97ceb8dd0dc85a2de7b74bc35c08f4b",
+    "semantic_hash": "d97ceb8dd0dc85a2de7b74bc35c08f4b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_clojure.65e7d7f59e2b7804.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "66b61f01ef88456f11b0cf3d2b6bd613",
+    "semantic_hash": "66b61f01ef88456f11b0cf3d2b6bd613"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_sass.5ce18c74a404354c.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "47ca0a1a3b0322716e6aa2c2e74cf6d7",
+    "semantic_hash": "47ca0a1a3b0322716e6aa2c2e74cf6d7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_plsql.23e80c3e3e58b4a3.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "0bbbbae6f0a915b700fe88c9673de5ec",
+    "semantic_hash": "0bbbbae6f0a915b700fe88c9673de5ec"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_haxe.2c898b9f80eed215.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "58d7dd84834be068346e4e5cefd74897",
+    "semantic_hash": "58d7dd84834be068346e4e5cefd74897"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_editorconfig.903b6075644dbe29.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "f0685a64dd7cd4970c9f69cc8a9bb841",
+    "semantic_hash": "f0685a64dd7cd4970c9f69cc8a9bb841"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_asciidoc.5250ed48743a32df.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "24f3261db8fc6cc35dc339887255f889",
+    "semantic_hash": "24f3261db8fc6cc35dc339887255f889"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cpp.23b6391abc5354cd.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "9626c47550bb0f05c5ae66cc24c2b770",
+    "semantic_hash": "9626c47550bb0f05c5ae66cc24c2b770"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_apacheconf.d618c4380ec2f50d.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "d73159706d383466b238d0946abd6a1f",
+    "semantic_hash": "d73159706d383466b238d0946abd6a1f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_prolog.82ce0c0b599ebd19.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "b2ddcc2e14be050b7d8559af3d612fa8",
+    "semantic_hash": "b2ddcc2e14be050b7d8559af3d612fa8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_magma.00fa2269b662fc9e.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "7012fba02e8f7ba160ace0129b94c10a",
+    "semantic_hash": "7012fba02e8f7ba160ace0129b94c10a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_flow.3438fd8a0c848795.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "78edde59f2a85b33ac21d44ffd7d6068",
+    "semantic_hash": "78edde59f2a85b33ac21d44ffd7d6068"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_eiffel.9a92e5a1e37914a6.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "ee7d8025fb98c0eab2090eb0aa205b86",
+    "semantic_hash": "ee7d8025fb98c0eab2090eb0aa205b86"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_avisynth.42aa2757975fbb26.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "30e0bda6268c8fa57e5654884bbb95a6",
+    "semantic_hash": "30e0bda6268c8fa57e5654884bbb95a6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_warpscript.3af735a63a8e93d9.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "5d518fa0c1c7e463b9c23a7a74c03b3f",
+    "semantic_hash": "5d518fa0c1c7e463b9c23a7a74c03b3f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_avroIdl.d63cb419e89955d1.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "7c863a8383b2527be2de6696ad31704c",
+    "semantic_hash": "7c863a8383b2527be2de6696ad31704c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_elixir.9353965aab18caa7.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "34c21aac687b5ea282f9f3ee339153e4",
+    "semantic_hash": "34c21aac687b5ea282f9f3ee339153e4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gn.0c4ea7d293a10ee7.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "b884e9209e218a490a8259046392b3be",
+    "semantic_hash": "b884e9209e218a490a8259046392b3be"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_pascal.c9a26a6a8cfbee73.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "2dcf4ed4739c3ff5c550794f2845684b",
+    "semantic_hash": "2dcf4ed4739c3ff5c550794f2845684b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jsonp.9da33b875fe0d6c2.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "072f1ee294c513032b7f93369251314a",
+    "semantic_hash": "072f1ee294c513032b7f93369251314a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_roboconf.4cfaebd502c3bb80.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "65b67d0c1b286667597402308c02b0c5",
+    "semantic_hash": "65b67d0c1b286667597402308c02b0c5"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_actionscript.e40780afd3cac6de.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "21f65a3c68fdbcbcb1af84cf8f15ccea",
+    "semantic_hash": "21f65a3c68fdbcbcb1af84cf8f15ccea"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_concurnas.165ee4bde34c6d04.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "667638a469d3dcd6a5527ece010c9ef1",
+    "semantic_hash": "667638a469d3dcd6a5527ece010c9ef1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_hlsl.f7cacd2cfc4e1077.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "7d7b1e7d288c22678adb72c2de0e85bb",
+    "semantic_hash": "7d7b1e7d288c22678adb72c2de0e85bb"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cmake.c6a203a975d6b806.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "fbdcc9f457a73e90b0a50a9faded6d56",
+    "semantic_hash": "fbdcc9f457a73e90b0a50a9faded6d56"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cfscript.81240de32885b5fc.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "ec8463aa2ee4846c75224a49abc2b02a",
+    "semantic_hash": "ec8463aa2ee4846c75224a49abc2b02a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_q.28f9d2df4d9dfdd0.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "1d985f8750afa8328956739caccd8b6c",
+    "semantic_hash": "1d985f8750afa8328956739caccd8b6c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_basic.7c2ef421d5920c65.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "38a20eb47a24b858807ccd0d190e639f",
+    "semantic_hash": "38a20eb47a24b858807ccd0d190e639f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bnf.633e9f70d088bacd.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "40284b8e296b3a2835ca5951aef02e5e",
+    "semantic_hash": "40284b8e296b3a2835ca5951aef02e5e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_stan.4dc1d862a7f3bbb1.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "e4c5cf42d7640eaac0b665e30728cb83",
+    "semantic_hash": "e4c5cf42d7640eaac0b665e30728cb83"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bbcode.8060729d424874a1.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "4f897a4225e4862cbf0bc7f1472341a9",
+    "semantic_hash": "4f897a4225e4862cbf0bc7f1472341a9"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ftl.034147365bb69ddf.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "8e89e2ff0c7fa6196856ee8117fca4bf",
+    "semantic_hash": "8e89e2ff0c7fa6196856ee8117fca4bf"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_rest.23b5cfc6d9d2b634.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "e9e7feefecf945daa9681c6775363f99",
+    "semantic_hash": "e9e7feefecf945daa9681c6775363f99"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_idris.1e680c2bae1d7ca1.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "a9d95171de0f0d22671ea36d4c9c6d5c",
+    "semantic_hash": "a9d95171de0f0d22671ea36d4c9c6d5c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_scala.db7ada2f3975fc47.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "dae3f85d7df3f24d8e7509e0df60415a",
+    "semantic_hash": "dae3f85d7df3f24d8e7509e0df60415a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_markup.7af453055beab7e6.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "9c2741c33b0e6281fa3e2af2d01fac2a",
+    "semantic_hash": "9c2741c33b0e6281fa3e2af2d01fac2a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_stylus.b329e9942f943b45.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "67c2c8a24bfe221eefa8d697605774cf",
+    "semantic_hash": "67c2c8a24bfe221eefa8d697605774cf"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nasm.42690290b0974d36.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "4b84b32ddc9d0ec07fa66c37e69e6115",
+    "semantic_hash": "4b84b32ddc9d0ec07fa66c37e69e6115"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_etlua.8c9933d593b34300.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "8d6dbe7fef8a29e44cc2bdd4778e505f",
+    "semantic_hash": "8d6dbe7fef8a29e44cc2bdd4778e505f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_sql.cff04da544b392a7.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "887ae0308e72fb1e2eac6b8e81a7b6c4",
+    "semantic_hash": "887ae0308e72fb1e2eac6b8e81a7b6c4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_csv.4aca2bb283d69cac.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "da42bf70668a9d2e38e5171a948788d0",
+    "semantic_hash": "da42bf70668a9d2e38e5171a948788d0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_firestoreSecurityRules.f6d4ce5b13ddbc02.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "cfc6ed2fab2feaf878f256c515e361ce",
+    "semantic_hash": "cfc6ed2fab2feaf878f256c515e361ce"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ocaml.8835786b89795b37.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "b0b3a806e9d6eba5b08b37a266dc4fbc",
+    "semantic_hash": "b0b3a806e9d6eba5b08b37a266dc4fbc"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_parser.b404a98e989f9950.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "d54db2d2ff4bf212a2b01fa27007bcc8",
+    "semantic_hash": "d54db2d2ff4bf212a2b01fa27007bcc8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_javastacktrace.bf38d56dbb052cab.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "60904e3e54981754d68da38c38b23bda",
+    "semantic_hash": "60904e3e54981754d68da38c38b23bda"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_v.ef6780df31056133.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "d48311060f1750c8868825cdd05a9cfb",
+    "semantic_hash": "d48311060f1750c8868825cdd05a9cfb"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_soy.e63379ec75934e88.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "5ff1ff66f473ddc71d7a8613e05d5be4",
+    "semantic_hash": "5ff1ff66f473ddc71d7a8613e05d5be4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_turtle.52998dbf11574a96.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "f354a3fd5f410b901a594e46bbf45be5",
+    "semantic_hash": "f354a3fd5f410b901a594e46bbf45be5"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_al.0871f9a83ae09137.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "5f4f68208b1c6788cc6c3c7c1553758a",
+    "semantic_hash": "5f4f68208b1c6788cc6c3c7c1553758a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_neon.588d451e2464753a.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "91060cc170f8564f04751b93956df35e",
+    "semantic_hash": "91060cc170f8564f04751b93956df35e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_javadoclike.7783074b3621c7bb.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "fb76195bfb67be3792e82eb32e3050c7",
+    "semantic_hash": "fb76195bfb67be3792e82eb32e3050c7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_markdown.2de750fce785f3ed.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "2be5cb7635241f3084428eed8212b3dd",
+    "semantic_hash": "2be5cb7635241f3084428eed8212b3dd"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_dhall.dd55ab5c66ab87e5.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "21ac9823073d25384ba893c639e0ceca",
+    "semantic_hash": "21ac9823073d25384ba893c639e0ceca"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_uorazor.e439d8fd24dda17f.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "3ffb080262b09db21e5e7d107b1ead3d",
+    "semantic_hash": "3ffb080262b09db21e5e7d107b1ead3d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_livescript.8b06a432566404a0.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "63b126655279f15f73203a628f6ba677",
+    "semantic_hash": "63b126655279f15f73203a628f6ba677"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_csharp.e352f46f4c153b1c.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "83fa4beee81ebc1b4978acbaa05c7bd6",
+    "semantic_hash": "83fa4beee81ebc1b4978acbaa05c7bd6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_crystal.0a01441ae9b81dcb.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "8a857f26eb07343909b1a116265bec30",
+    "semantic_hash": "8a857f26eb07343909b1a116265bec30"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_applescript.87cd4261ee857fb5.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "9126a7dde356a81c468d8b04a3921d6e",
+    "semantic_hash": "9126a7dde356a81c468d8b04a3921d6e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_handlebars.53cb0d9f967fc3a3.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "e7d19441c9e2aa8584b89478a5137ca8",
+    "semantic_hash": "e7d19441c9e2aa8584b89478a5137ca8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_psl.c0e6a7d0b5606ecb.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "828b0c9e947b285fe2a4161ec0f0c235",
+    "semantic_hash": "828b0c9e947b285fe2a4161ec0f0c235"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_agda.8bb299e5679b3b64.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "d7ed3b4af74256449cfc1bcaa073e63d",
+    "semantic_hash": "d7ed3b4af74256449cfc1bcaa073e63d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_makefile.b3bfd00767f8f034.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "572bc451a8c1c2707bf41c28f2bfdf4c",
+    "semantic_hash": "572bc451a8c1c2707bf41c28f2bfdf4c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_racket.a1d9da6046d1ac59.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "e600fc36f0dca23e000ddf3a9ad57fb0",
+    "semantic_hash": "e600fc36f0dca23e000ddf3a9ad57fb0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_pascaligo.336c7a4f2fb4b4c4.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "8ff451a8970429bd541ad204fdb22ae6",
+    "semantic_hash": "8ff451a8970429bd541ad204fdb22ae6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_lisp.df2e03b1c8489149.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "c9b8e631952a88c0ae374218589cb182",
+    "semantic_hash": "c9b8e631952a88c0ae374218589cb182"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_scheme.48cbba16f3a7b599.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "1fe915ae9d765d5aaff1f6ac8193995f",
+    "semantic_hash": "1fe915ae9d765d5aaff1f6ac8193995f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/9670-abdaec9aa9c93e16.js": {
+    "mtime": 1779756456.7007031,
+    "ast_hash": "69d0a61fdc20836f6d32cfaa1058497d",
+    "semantic_hash": "69d0a61fdc20836f6d32cfaa1058497d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_javadoc.d1bdf059f287df71.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "4e5aff865b31e30095ca3941274d6bfa",
+    "semantic_hash": "4e5aff865b31e30095ca3941274d6bfa"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bsl.e390af34dda8882f.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "080a54911a5a87d7350abe61daaa1422",
+    "semantic_hash": "080a54911a5a87d7350abe61daaa1422"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_antlr4.90bf3023384b298a.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "72e6f17ae4d8fc0329e2e0e9e6d1f4c0",
+    "semantic_hash": "72e6f17ae4d8fc0329e2e0e9e6d1f4c0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_go.86e21356f212ba63.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "0b9536130f069fb3c3c6c6280e7c33dd",
+    "semantic_hash": "0b9536130f069fb3c3c6c6280e7c33dd"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_keepalived.7625fb7afc6d65bf.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "b975deb09f3bbd6681133eb62ff65ac1",
+    "semantic_hash": "b975deb09f3bbd6681133eb62ff65ac1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_smalltalk.5c8f2c6f4be78acc.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "34dd8397bcc3043ccfdd934b4385c58e",
+    "semantic_hash": "34dd8397bcc3043ccfdd934b4385c58e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ini.4b25e5851382acef.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "d8ae3389cae333a1f26553b8799e1396",
+    "semantic_hash": "d8ae3389cae333a1f26553b8799e1396"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_solidity.bff513f1026e530f.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "6b2d2ff22784f942676daac7475340e1",
+    "semantic_hash": "6b2d2ff22784f942676daac7475340e1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_json.de514420535d1d8f.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "91fea98d678566c9a83a6de917eeb224",
+    "semantic_hash": "91fea98d678566c9a83a6de917eeb224"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_splunkSpl.9fd3efc0cea12b65.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "9fba14a61948ff21f6dc21f90bdb2bed",
+    "semantic_hash": "9fba14a61948ff21f6dc21f90bdb2bed"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_pure.ac1ddd1bd5eb72e1.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "dd014cf1ecc426d772bf71084d299805",
+    "semantic_hash": "dd014cf1ecc426d772bf71084d299805"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ignore.face6d7fccc24792.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "db13f1a18e36a26da180e4fba37a5426",
+    "semantic_hash": "db13f1a18e36a26da180e4fba37a5426"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_dot.30a976e83e4457eb.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "ba726f9a4605dce8faf14f29412f667e",
+    "semantic_hash": "ba726f9a4605dce8faf14f29412f667e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jsExtras.77e0312145353606.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "49c7ce967fc19b264484a5660efb0851",
+    "semantic_hash": "49c7ce967fc19b264484a5660efb0851"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_verilog.7e29635035a27253.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "92969ed4876d261b5619d129c03c09d2",
+    "semantic_hash": "92969ed4876d261b5619d129c03c09d2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_kotlin.8782adccb73142fc.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "354e5b421d25fd943275edef2e6c383b",
+    "semantic_hash": "354e5b421d25fd943275edef2e6c383b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_llvm.085ed3e138001d71.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "cc907377e589753e40837b0af4abe703",
+    "semantic_hash": "cc907377e589753e40837b0af4abe703"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_iecst.badf9ddfe9c9bb50.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "d381944c0767ff344fb39c29b09e99ba",
+    "semantic_hash": "d381944c0767ff344fb39c29b09e99ba"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_uri.322c2240780c02bb.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "cfc69edd1fe4ad2f8e45263f69a357b4",
+    "semantic_hash": "cfc69edd1fe4ad2f8e45263f69a357b4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_shellSession.61536728b6d7db31.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "98be5473b574c105fe3e58c6593b3bbd",
+    "semantic_hash": "98be5473b574c105fe3e58c6593b3bbd"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bison.7a533dce2a16d65a.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "756fc59eba6e82e34b36b3bc0e56dc92",
+    "semantic_hash": "756fc59eba6e82e34b36b3bc0e56dc92"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_n4js.9801de95cac3abbc.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "4420fdf64a52dcde6d0373c60b2f1f52",
+    "semantic_hash": "4420fdf64a52dcde6d0373c60b2f1f52"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_typoscript.268af63f60fa44ec.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "616141c235e4bd6bc211e8444b28aae0",
+    "semantic_hash": "616141c235e4bd6bc211e8444b28aae0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_sas.2c92ea8b201faf59.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "6b07862d1b6e1d24c249f46058e87ad7",
+    "semantic_hash": "6b07862d1b6e1d24c249f46058e87ad7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/717-cc15e189c732e2b5.js": {
+    "mtime": 1779756456.7007031,
+    "ast_hash": "fc099db76685fb1d07a9ded68c8bee64",
+    "semantic_hash": "fc099db76685fb1d07a9ded68c8bee64"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gcode.6d66b86cdc3a9f1f.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "3c439b1ef5c1ebb3627f16b1878c8d9d",
+    "semantic_hash": "3c439b1ef5c1ebb3627f16b1878c8d9d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_purescript.7cbdef2add198467.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "1cfa0ffce5874a5abb3a6dc6a4251b73",
+    "semantic_hash": "1cfa0ffce5874a5abb3a6dc6a4251b73"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_icon.8b904abc36601d0e.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "b4d935b38cd331c1a62f97f865d100ff",
+    "semantic_hash": "b4d935b38cd331c1a62f97f865d100ff"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_rip.96a02e42b5106c4a.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "7d1d223d339ebb2b28a89af98cfc6c25",
+    "semantic_hash": "7d1d223d339ebb2b28a89af98cfc6c25"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bicep.eb2bd5d9ced8ede9.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "18a60075d18151b687df4cf7566511c7",
+    "semantic_hash": "18a60075d18151b687df4cf7566511c7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_opencl.87146dedff06c154.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "47b796e7a80cc6cbb695e89d57b19ad7",
+    "semantic_hash": "47b796e7a80cc6cbb695e89d57b19ad7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_julia.cff1e1364ca8154f.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "1dcaada5775029b803ebe96c0562f373",
+    "semantic_hash": "1dcaada5775029b803ebe96c0562f373"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_openqasm.baf8b4a9cffec6e3.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "15284e3d2f2211a105f20afb1ba77598",
+    "semantic_hash": "15284e3d2f2211a105f20afb1ba77598"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cypher.a9e504837c7ec4de.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "3be04bc9f736cdd7f3d75260cb1ee519",
+    "semantic_hash": "3be04bc9f736cdd7f3d75260cb1ee519"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_xojo.08b6ea59c46fa002.js": {
+    "mtime": 1779756456.7127032,
+    "ast_hash": "fb74134e9ccdee0f81d0e3bf20224926",
+    "semantic_hash": "fb74134e9ccdee0f81d0e3bf20224926"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/main-677a513809f18e96.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "50b0d918d3c6f80e79779e662192f69b",
+    "semantic_hash": "50b0d918d3c6f80e79779e662192f69b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_xquery.4fa4cd519390f9db.js": {
+    "mtime": 1779756456.7127032,
+    "ast_hash": "5fc366108a475e6645c5f206809771bc",
+    "semantic_hash": "5fc366108a475e6645c5f206809771bc"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_haskell.febe9ac9c50c0cdc.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "633ecc286b699c03db00f6845f1c426c",
+    "semantic_hash": "633ecc286b699c03db00f6845f1c426c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_wolfram.405e84327483c9a7.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "85096d12eef37bbf4dcb5b908e7540a0",
+    "semantic_hash": "85096d12eef37bbf4dcb5b908e7540a0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_excelFormula.aa865139339b439d.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "6d2eb78c99eafd3a3de40fb4d4b71526",
+    "semantic_hash": "6d2eb78c99eafd3a3de40fb4d4b71526"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_birb.ffd41073e85678d9.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "17bc202970bcea15feb0fd94a418f4b8",
+    "semantic_hash": "17bc202970bcea15feb0fd94a418f4b8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_less.b29527d904621826.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "b9f3128fe59d6c6069e9ce1653014850",
+    "semantic_hash": "b9f3128fe59d6c6069e9ce1653014850"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_mongodb.6bc6ee54041f0206.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "a61b08468ca2363ab5206a09f60b14a1",
+    "semantic_hash": "a61b08468ca2363ab5206a09f60b14a1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_qsharp.45c313e6146342ea.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "7aab728e9c750f65e9dd9042b72d3d65",
+    "semantic_hash": "7aab728e9c750f65e9dd9042b72d3d65"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_renpy.ea96251e9436828d.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "4b285aa264c5472bc1d9228591a75593",
+    "semantic_hash": "4b285aa264c5472bc1d9228591a75593"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_latte.d752d831d9a98061.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "23407483af17d88e126a17aab246bfa2",
+    "semantic_hash": "23407483af17d88e126a17aab246bfa2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_hsts.e2559d60a652a2f1.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "1fe76b7bfef0b0421530fb550d8f65b0",
+    "semantic_hash": "1fe76b7bfef0b0421530fb550d8f65b0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_hcl.81fc4fe01ca8d237.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "8916b2a948dc1886243497e4df5e0f4a",
+    "semantic_hash": "8916b2a948dc1886243497e4df5e0f4a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_parigp.8d6332271da6af57.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "dcba0786953f07e9bdb42e9a3972d93d",
+    "semantic_hash": "dcba0786953f07e9bdb42e9a3972d93d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_solutionFile.8273025d2a796015.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "c11ffef5c39a31f9da4d42c82e73b1ba",
+    "semantic_hash": "c11ffef5c39a31f9da4d42c82e73b1ba"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_asmatmel.df01b56f7023d052.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "2cf8d873c8a164650043a7dc64069e8a",
+    "semantic_hash": "2cf8d873c8a164650043a7dc64069e8a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_autohotkey.89b0878bf18baebe.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "6f82c4e11eb5eedcfc80a0d7cf6f6d4b",
+    "semantic_hash": "6f82c4e11eb5eedcfc80a0d7cf6f6d4b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ichigojam.1a51d2f7f10f34cb.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "334003f7652f61bd9e342d13d4e7ca8f",
+    "semantic_hash": "334003f7652f61bd9e342d13d4e7ca8f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/1392-ac34e5281b74d5e2.js": {
+    "mtime": 1779756456.699703,
+    "ast_hash": "662e1e2fb71d23c6a297c29737b2f540",
+    "semantic_hash": "662e1e2fb71d23c6a297c29737b2f540"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ada.6581ae45e73b26ed.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "a8e82131ef18e4401540c120f3850944",
+    "semantic_hash": "a8e82131ef18e4401540c120f3850944"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jexl.4e96daa4e2582ce2.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "4fb733a8b85e2f78e0a75377c67db079",
+    "semantic_hash": "4fb733a8b85e2f78e0a75377c67db079"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_apex.4e7cfd1d6e81ffaf.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "0f63e07f6cc80477e5cfdd8b68d67f23",
+    "semantic_hash": "0f63e07f6cc80477e5cfdd8b68d67f23"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_j.620937865c70badb.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "f2da9e90e9cec52a3c9ddf68692bf15e",
+    "semantic_hash": "f2da9e90e9cec52a3c9ddf68692bf15e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_java.718709afa25ca79f.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "9af704fd5c7650bf52ddd447fad63d49",
+    "semantic_hash": "9af704fd5c7650bf52ddd447fad63d49"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_squirrel.ac33215bd35e4a1c.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "41f54351ae5b6ed63859c543a2ff229d",
+    "semantic_hash": "41f54351ae5b6ed63859c543a2ff229d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_haml.641727521d6cdbbe.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "0d164f4ef998e5305a9586b1286999ce",
+    "semantic_hash": "0d164f4ef998e5305a9586b1286999ce"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_latex.adf2ae9d3935df95.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "161e8317c49d3d68a8a87bead7f92265",
+    "semantic_hash": "161e8317c49d3d68a8a87bead7f92265"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_mel.a2d92efc5ec5a194.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "b23534602467028a020c56d16f1c3fff",
+    "semantic_hash": "b23534602467028a020c56d16f1c3fff"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_c.423c4c24a47c218b.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "eca32ebcea111e9a9261869b096a4776",
+    "semantic_hash": "eca32ebcea111e9a9261869b096a4776"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_monkey.04726e69280c4043.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "cd20f0d63bcbb7cf2f87147097dfd713",
+    "semantic_hash": "cd20f0d63bcbb7cf2f87147097dfd713"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_lolcode.02a7ae67ce319457.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "5773fc99b19b14ebb58890ccaf900b5f",
+    "semantic_hash": "5773fc99b19b14ebb58890ccaf900b5f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_maxscript.1a948eb7d4b3d1a1.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "a99405335afbd3219113e47e105fa505",
+    "semantic_hash": "a99405335afbd3219113e47e105fa505"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ebnf.1a066164019d2d7c.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "8dc16680629de40c5f7a8b8566542adc",
+    "semantic_hash": "8dc16680629de40c5f7a8b8566542adc"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_systemd.ebcf1395515c1269.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "b3ad5da2f7c591d545ddcfb0a37442a7",
+    "semantic_hash": "b3ad5da2f7c591d545ddcfb0a37442a7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bash.a0e406d4be60d43e.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "e32472347fceedc713d41ec262d71ca2",
+    "semantic_hash": "e32472347fceedc713d41ec262d71ca2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_dataweave.70864597e9b19db0.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "39df67a850de52ab9b85ac0cea205d6c",
+    "semantic_hash": "39df67a850de52ab9b85ac0cea205d6c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_yang.153a6059fb016be2.js": {
+    "mtime": 1779756456.7127032,
+    "ast_hash": "721266279b8690739de647f2f6b18263",
+    "semantic_hash": "721266279b8690739de647f2f6b18263"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_kusto.2c6839846708f7b3.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "448f605d6193de6dd908e713d2c13226",
+    "semantic_hash": "448f605d6193de6dd908e713d2c13226"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_apl.f8886e0dc49ae13d.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "df54193eeada55a2f68e0eb6e3f7ed74",
+    "semantic_hash": "df54193eeada55a2f68e0eb6e3f7ed74"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_php.f8cf0e242619008f.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "aa7c2520adab276f884fb507b9861b1a",
+    "semantic_hash": "aa7c2520adab276f884fb507b9861b1a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_elm.3ff1fbdda3794085.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "77c8e0708504762f6d5d22fb11c8445a",
+    "semantic_hash": "77c8e0708504762f6d5d22fb11c8445a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_rego.49110da0e165f5d7.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "edb691351f15361217d9400190be2840",
+    "semantic_hash": "edb691351f15361217d9400190be2840"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_d.3cdd4d256ffbe367.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "dadf8579f45b073c853da7f562550046",
+    "semantic_hash": "dadf8579f45b073c853da7f562550046"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nand2tetrisHdl.e3f09a6987fdc49e.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "d089443b29f17c8febf0dc9b2e93b2f7",
+    "semantic_hash": "d089443b29f17c8febf0dc9b2e93b2f7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/75146d7d-7a23bbf06fbcf463.js": {
+    "mtime": 1779756456.7007031,
+    "ast_hash": "b5991b75c3776eee510f18a0fa1fba49",
+    "semantic_hash": "b5991b75c3776eee510f18a0fa1fba49"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_git.38c8bd63b70c9ba7.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "2ddb5db838855b42dedb8409370e779c",
+    "semantic_hash": "2ddb5db838855b42dedb8409370e779c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_powershell.4e1e8b34d17e498c.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "833a5418147e6649e117c11f3fed180f",
+    "semantic_hash": "833a5418147e6649e117c11f3fed180f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_erlang.1b732161739e1b14.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "4e8c48d42262550cb5b1d90435d10e5f",
+    "semantic_hash": "4e8c48d42262550cb5b1d90435d10e5f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_properties.fdd468ce23933653.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "7a90df110df3baa4ca92f6c537e88554",
+    "semantic_hash": "7a90df110df3baa4ca92f6c537e88554"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_sml.2d342d84ccebefd5.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "359e45763076618ca825b49695a9327b",
+    "semantic_hash": "359e45763076618ca825b49695a9327b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_sparql.e731e5a9063c98b7.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "f390d2167e34fa7959247355f6fd9ca3",
+    "semantic_hash": "f390d2167e34fa7959247355f6fd9ca3"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_dart.0151b25659772ac2.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "b1a6c3a4c18c01e5423e8cff5d4543c4",
+    "semantic_hash": "b1a6c3a4c18c01e5423e8cff5d4543c4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_peoplecode.05af0e939628e376.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "c7ba900655173e9cbd97f02271f6a1c0",
+    "semantic_hash": "c7ba900655173e9cbd97f02271f6a1c0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_webIdl.3977e366953b5039.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "ac8433879552a708bc7a80a7d8c086aa",
+    "semantic_hash": "ac8433879552a708bc7a80a7d8c086aa"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_wren.d066525813eaa20b.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "8bac644ded37acb9d3d3a62bd3b9eb7e",
+    "semantic_hash": "8bac644ded37acb9d3d3a62bd3b9eb7e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_perl.2426d474ab053cc4.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "eef4d5408a8b14ee882228a0449ca07e",
+    "semantic_hash": "eef4d5408a8b14ee882228a0449ca07e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_log.b9f0a7afcb3bbc52.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "182644e2f545be6a161bb4ca2bd33538",
+    "semantic_hash": "182644e2f545be6a161bb4ca2bd33538"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_abap.94330df093be0967.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "1a9721b77962c4b195bfff379036443c",
+    "semantic_hash": "1a9721b77962c4b195bfff379036443c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_brainfuck.17cd55a14b90a141.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "838b3d0d85661cb6dfccbc039ff3beae",
+    "semantic_hash": "838b3d0d85661cb6dfccbc039ff3beae"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/main-app-62fdb722c08b0e24.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "0ef50e607ed1ea3bd617725007f3c3d8",
+    "semantic_hash": "0ef50e607ed1ea3bd617725007f3c3d8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_asm6502.632bd1989ad5e921.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "9ca1ec1322fb85038a1a0dfb3104d005",
+    "semantic_hash": "9ca1ec1322fb85038a1a0dfb3104d005"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_autoit.76f1383ce5ee168c.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "f979a8455ce9345d59d79d76f4680274",
+    "semantic_hash": "f979a8455ce9345d59d79d76f4680274"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_tremor.8678d69a6b1ec550.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "47964723832476eb2c64a5472fcffb6d",
+    "semantic_hash": "47964723832476eb2c64a5472fcffb6d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_regex.80c0ee0a3b115254.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "14fd2f867207c9c293a712375c7ec255",
+    "semantic_hash": "14fd2f867207c9c293a712375c7ec255"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_batch.8dbe9faf2050c58f.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "09aca6b46ba2d593873e2c339f68ca68",
+    "semantic_hash": "09aca6b46ba2d593873e2c339f68ca68"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_factor.0f1938e678254a3c.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "071c448f8c8a0ba57aab0ae08a669926",
+    "semantic_hash": "071c448f8c8a0ba57aab0ae08a669926"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_bro.f956b8639280b890.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "53f973baecfbeb61d3aa2fcc330e4672",
+    "semantic_hash": "53f973baecfbeb61d3aa2fcc330e4672"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_csp.c85f728b52df4e81.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "0972f971b22405607dcdf7bc8caa1a92",
+    "semantic_hash": "0972f971b22405607dcdf7bc8caa1a92"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_css.cc0675ec77f72ad0.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "7138760c95817aa5e7f98ccb7e945ec7",
+    "semantic_hash": "7138760c95817aa5e7f98ccb7e945ec7"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_arduino.891372ece23554f6.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "67283a9f6eeb4e565a85ce40061808c0",
+    "semantic_hash": "67283a9f6eeb4e565a85ce40061808c0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_pcaxis.e2f04970eebeceab.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "b41f8df8e09c2687e9edd08c0370d425",
+    "semantic_hash": "b41f8df8e09c2687e9edd08c0370d425"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_mizar.7bb7481596b1dfd1.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "d2d7708eda70ce7441bbe3c813522de2",
+    "semantic_hash": "d2d7708eda70ce7441bbe3c813522de2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_json5.86340b1e14f70623.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "c030aed5e34a86a8844493bff7c77e15",
+    "semantic_hash": "c030aed5e34a86a8844493bff7c77e15"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jolie.7652e868f04b7736.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "8b7252a537de00b971b8f5b6a51c2ea5",
+    "semantic_hash": "8b7252a537de00b971b8f5b6a51c2ea5"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nevod.cc39fb0a2665184e.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "2ff2bb0b731c7f2c82745e6d025f3dbe",
+    "semantic_hash": "2ff2bb0b731c7f2c82745e6d025f3dbe"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_aql.605e9701293c933b.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "da351505b60ca5c407bf5a9f71ca1ae1",
+    "semantic_hash": "da351505b60ca5c407bf5a9f71ca1ae1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_arff.868d9b2e4d94924b.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "46b3511cd2ef295fd302254f344fe80a",
+    "semantic_hash": "46b3511cd2ef295fd302254f344fe80a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_qml.6fc3d6eab0b38657.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "bd3305239eb26128e003760e191a4b86",
+    "semantic_hash": "bd3305239eb26128e003760e191a4b86"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jsTemplates.220afd15c39fed19.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "f87c9f00294d25a4c1c6076afb43eb29",
+    "semantic_hash": "f87c9f00294d25a4c1c6076afb43eb29"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_oz.5b323df980d31517.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "79911fe3f63016187e9d1cda5be3619c",
+    "semantic_hash": "79911fe3f63016187e9d1cda5be3619c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_unrealscript.1d1fce700ea93d88.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "01567807c1af50c45f18dd6f510a1e1d",
+    "semantic_hash": "01567807c1af50c45f18dd6f510a1e1d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_vim.8126b9fbda9d2299.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "9cadfde031cacdb0590c5db91a532114",
+    "semantic_hash": "9cadfde031cacdb0590c5db91a532114"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_pug.673a06de73369e14.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "d88da8a31df710232ecf8a6a5b30910a",
+    "semantic_hash": "d88da8a31df710232ecf8a6a5b30910a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_hpkp.6144b208c52b6554.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "40bbf8cad1d98ea77c8c2b324a343891",
+    "semantic_hash": "40bbf8cad1d98ea77c8c2b324a343891"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_n1ql.277e8c68ce68cb40.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "08fce3d48011d450106bae9e7cf56d88",
+    "semantic_hash": "08fce3d48011d450106bae9e7cf56d88"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cshtml.387370c17be51fc7.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "ec3e0fc723edb1f5cb8d3faba8cb7b9b",
+    "semantic_hash": "ec3e0fc723edb1f5cb8d3faba8cb7b9b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_coq.1a7ad4234a617c47.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "cc545e038ad9196d6d70f854e1664f9b",
+    "semantic_hash": "cc545e038ad9196d6d70f854e1664f9b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nim.30d7826bfff0b830.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "6e26b90670c1985a5ee9cd4104cd7f32",
+    "semantic_hash": "6e26b90670c1985a5ee9cd4104cd7f32"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_smali.c8f511eb9a354753.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "7ee2b06ebe46d34c29dbfcde83c8abc8",
+    "semantic_hash": "7ee2b06ebe46d34c29dbfcde83c8abc8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/polyfills-42372ed130431b0a.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "846118c33b2c0e922d7b3a7676f81f6f",
+    "semantic_hash": "846118c33b2c0e922d7b3a7676f81f6f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_fsharp.09fe567e36691f1a.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "5ee954aa47c4a78b3589b1292cc04b11",
+    "semantic_hash": "5ee954aa47c4a78b3589b1292cc04b11"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_processing.b9ea53c0fe128ec6.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "1222cb870cc54239ebd0eb2894eaf11c",
+    "semantic_hash": "1222cb870cc54239ebd0eb2894eaf11c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_wiki.76398b393f6ff285.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "3845326b4fa36a08dc2c9431c7e212b3",
+    "semantic_hash": "3845326b4fa36a08dc2c9431c7e212b3"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cil.02f8300cb187984e.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "a93b3250f73688f6f0826b9e9f044d60",
+    "semantic_hash": "a93b3250f73688f6f0826b9e9f044d60"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_qore.b3a9f00c64b8c9ee.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "20721e8381021c3facde4d3743a0200e",
+    "semantic_hash": "20721e8381021c3facde4d3743a0200e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_hoon.4c54ae260a542824.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "ba1894633fa6facb33d86c524148237e",
+    "semantic_hash": "ba1894633fa6facb33d86c524148237e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_inform7.d3fbaf57cdaf66f7.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "160a36aef75b62fde1b6a8e30c163cf6",
+    "semantic_hash": "160a36aef75b62fde1b6a8e30c163cf6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_tcl.59d461da36e31598.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "5086730440728b60cfbc2f9f48e03a52",
+    "semantic_hash": "5086730440728b60cfbc2f9f48e03a52"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_graphql.b4b30d6bc82ffbdc.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "75f84a6440b48cc75aeeb4d8db9e039b",
+    "semantic_hash": "75f84a6440b48cc75aeeb4d8db9e039b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_tap.a0a836a838f1bb2a.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "664320a170e316fe7d6fa0a4b99e9f1c",
+    "semantic_hash": "664320a170e316fe7d6fa0a4b99e9f1c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_zig.45fbb747456c7a4c.js": {
+    "mtime": 1779756456.7127032,
+    "ast_hash": "e6b6a7492f017390cbb842ab78803b7c",
+    "semantic_hash": "e6b6a7492f017390cbb842ab78803b7c"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_icuMessageFormat.57fed4c6a2cee7b9.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "5156859f7b31447de8c51f5798aba396",
+    "semantic_hash": "5156859f7b31447de8c51f5798aba396"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nginx.7501f503cecc0dd9.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "42da3ca056796e69a7c170472709e37d",
+    "semantic_hash": "42da3ca056796e69a7c170472709e37d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nix.5025dc8894acf676.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "6f4a994197f0b44fef0018e484c434e9",
+    "semantic_hash": "6f4a994197f0b44fef0018e484c434e9"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_ejs.29e8a643a5b3ce7c.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "8d0941791b57bba421567511224f5ed5",
+    "semantic_hash": "8d0941791b57bba421567511224f5ed5"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_puppet.2528cc6759a49139.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "d76ebc04f56f0096d6e917fc6466a3b4",
+    "semantic_hash": "d76ebc04f56f0096d6e917fc6466a3b4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_visualBasic.7e2c6f5c89b155db.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "8bb01d560a0ed3f76f405a280772def8",
+    "semantic_hash": "8bb01d560a0ed3f76f405a280772def8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_liquid.58fb21d6a8d7f098.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "e9793149cbcf77a4ccaab2205bfa87d0",
+    "semantic_hash": "e9793149cbcf77a4ccaab2205bfa87d0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_brightscript.ffe3095de90596fd.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "afb348fbe07d1f986a54d3371acc6f70",
+    "semantic_hash": "afb348fbe07d1f986a54d3371acc6f70"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_velocity.91ce749dbcfc7e2e.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "c10f7be14ea0d68b352235b3066128eb",
+    "semantic_hash": "c10f7be14ea0d68b352235b3066128eb"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gherkin.dbc62ac9c35ee2b9.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "5cd712a957e4806c0b189f4c8e6878ea",
+    "semantic_hash": "5cd712a957e4806c0b189f4c8e6878ea"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_t4Templating.0e38d7ef705ea9ce.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "20684b1d85d2b05ecd09d152cd9be5bf",
+    "semantic_hash": "20684b1d85d2b05ecd09d152cd9be5bf"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_erb.465bb822e1f4d42b.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "484de12b084f3bebdc0a0f3939fb45c1",
+    "semantic_hash": "484de12b084f3bebdc0a0f3939fb45c1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_io.e266990fc03a9c5c.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "04cd642db589c29467430e367a6e31a8",
+    "semantic_hash": "04cd642db589c29467430e367a6e31a8"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jq.6bc967a594c9c69c.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "2325dbfa4dc39760978f3bb3455471c4",
+    "semantic_hash": "2325dbfa4dc39760978f3bb3455471c4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_r.9dc0d9829b754450.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "63ee929e58d47c5aa1861c2da5d24eb2",
+    "semantic_hash": "63ee929e58d47c5aa1861c2da5d24eb2"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_yaml.c23c1a29ae0e0d29.js": {
+    "mtime": 1779756456.7127032,
+    "ast_hash": "3538919dc018ce4d130029eea2a6c812",
+    "semantic_hash": "3538919dc018ce4d130029eea2a6c812"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_naniscript.f87aefe2d536c386.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "1f86981063e3ae43a7c835e58b95eaee",
+    "semantic_hash": "1f86981063e3ae43a7c835e58b95eaee"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_groovy.44a405dd92c63017.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "fdd9e52881f143c4369faef49f699d7f",
+    "semantic_hash": "fdd9e52881f143c4369faef49f699d7f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_falselang.1c5c2ef93e2983dd.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "f6d378666b77b49550e5eea263f9fd52",
+    "semantic_hash": "f6d378666b77b49550e5eea263f9fd52"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_protobuf.0af42cb34d4e99c7.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "0f19d091f58b3953a1e462804564eefc",
+    "semantic_hash": "0f19d091f58b3953a1e462804564eefc"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_moonscript.03013d8933a3171f.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "c8c3cbed8982cc79a0f1f3bab2014939",
+    "semantic_hash": "c8c3cbed8982cc79a0f1f3bab2014939"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_kumir.429d7f591c8b7d93.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "7d7837e9d87f13762affc34d82c117b0",
+    "semantic_hash": "7d7837e9d87f13762affc34d82c117b0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_coffeescript.d354215f7b8340e1.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "ab47b2ca6aa78a0ce25979bbd1a11b05",
+    "semantic_hash": "ab47b2ca6aa78a0ce25979bbd1a11b05"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_nsis.3d7d30f2f6b830d8.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "6c5a379f23b7db16b22c5d5180d73438",
+    "semantic_hash": "6c5a379f23b7db16b22c5d5180d73438"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_twig.a8a9702b1d890664.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "e76b367d9accec073ff2685d25b29a16",
+    "semantic_hash": "e76b367d9accec073ff2685d25b29a16"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_tt2.681de2ca476c9821.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "44937f155d405280150a2c65a6797129",
+    "semantic_hash": "44937f155d405280150a2c65a6797129"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_django.5704063931bbf5c4.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "61503904c5acc6b38eb04b5a84d71d13",
+    "semantic_hash": "61503904c5acc6b38eb04b5a84d71d13"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_objectivec.8100f0132ad8f5fe.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "9d0701d980ce1888dc1f41c8d357559f",
+    "semantic_hash": "9d0701d980ce1888dc1f41c8d357559f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_xmlDoc.6264e901c5e15448.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "3147ac706492ec53b907677a7c058e2f",
+    "semantic_hash": "3147ac706492ec53b907677a7c058e2f"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_sqf.e7e5cd3b1bf1814f.js": {
+    "mtime": 1779756456.7107031,
+    "ast_hash": "1e5edb3f38503dd5818328d3d45f59e6",
+    "semantic_hash": "1e5edb3f38503dd5818328d3d45f59e6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_phpExtras.3bd27576d1bb0f9b.js": {
+    "mtime": 1779756456.7097032,
+    "ast_hash": "d453b2ecf1184d2fa60192e8ab49cfef",
+    "semantic_hash": "d453b2ecf1184d2fa60192e8ab49cfef"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_chaiscript.327b5388193defe1.js": {
+    "mtime": 1779756456.704703,
+    "ast_hash": "8ad716eba4e202d0b0afbe95d8b47403",
+    "semantic_hash": "8ad716eba4e202d0b0afbe95d8b47403"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_xeora.da8387cb7a123c93.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "32388626b386e75b6b677bff29bbe586",
+    "semantic_hash": "32388626b386e75b6b677bff29bbe586"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/7181-6e9f04b77b5021b9.js": {
+    "mtime": 1779756456.7007031,
+    "ast_hash": "54d29edf186d0ad1510ab1e0041f889e",
+    "semantic_hash": "54d29edf186d0ad1510ab1e0041f889e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_matlab.66ed6d10a3cbed7e.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "e37ce74b40f4402ad1323af8a0ba886e",
+    "semantic_hash": "e37ce74b40f4402ad1323af8a0ba886e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_lilypond.984c289b334a781b.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "e57bd043a35ebfa041eb3a6ab907ce45",
+    "semantic_hash": "e57bd043a35ebfa041eb3a6ab907ce45"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_cobol.2cde45939df2f598.js": {
+    "mtime": 1779756456.705703,
+    "ast_hash": "880180d6469c2f213b40943468b25fbc",
+    "semantic_hash": "880180d6469c2f213b40943468b25fbc"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_gedcom.c1307b003266832b.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "d4d5dd1e641d1a2dddc2e8cda09dfa1d",
+    "semantic_hash": "d4d5dd1e641d1a2dddc2e8cda09dfa1d"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_glsl.4c97ddabd112b714.js": {
+    "mtime": 1779756456.7067032,
+    "ast_hash": "33e4668a62576bd26def66191b9487c6",
+    "semantic_hash": "33e4668a62576bd26def66191b9487c6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_keyman.c0107089b0d93deb.js": {
+    "mtime": 1779756456.708703,
+    "ast_hash": "d5e8b73541433773624c5003abf06cf6",
+    "semantic_hash": "d5e8b73541433773624c5003abf06cf6"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_jsdoc.20b5d074814a41ce.js": {
+    "mtime": 1779756456.707703,
+    "ast_hash": "d844e7b2d9d1ad625cf713c52603fb1e",
+    "semantic_hash": "d844e7b2d9d1ad625cf713c52603fb1e"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter_languages_refractor_wasm.891640840a59814d.js": {
+    "mtime": 1779756456.711703,
+    "ast_hash": "ab3fae61b5a0bd1def689e170160c534",
+    "semantic_hash": "ab3fae61b5a0bd1def689e170160c534"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/app/layout-669f88bd9d33a0bf.js": {
+    "mtime": 1779756456.701703,
+    "ast_hash": "a80de93c139728f5371721b3edefa251",
+    "semantic_hash": "a80de93c139728f5371721b3edefa251"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/app/page-fe11e7790120886e.js": {
+    "mtime": 1779756456.701703,
+    "ast_hash": "3b8671f7612d04434c8164cec99e07d0",
+    "semantic_hash": "3b8671f7612d04434c8164cec99e07d0"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/app/graph/[graphName]/page-8ce18183f268ea6a.js": {
+    "mtime": 1779756456.701703,
+    "ast_hash": "c398e60020728fa42905ac144fe290ce",
+    "semantic_hash": "c398e60020728fa42905ac144fe290ce"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/app/_not-found/page-9e3798ed94524826.js": {
+    "mtime": 1779756456.7007031,
+    "ast_hash": "e33d7983148c5ea4b152c0e1851ff360",
+    "semantic_hash": "e33d7983148c5ea4b152c0e1851ff360"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/app/agent/[agentName]/page-48d6d2abc8958fde.js": {
+    "mtime": 1779756456.701703,
+    "ast_hash": "73e32e5ad7991d81dcb37839dcef902b",
+    "semantic_hash": "73e32e5ad7991d81dcb37839dcef902b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/pages/_error-f2b687f71b2d22d3.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "9434abf41d5322dfa93cf760978cdaf9",
+    "semantic_hash": "9434abf41d5322dfa93cf760978cdaf9"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/pages/_app-240beba0aad5c76d.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "34a19518dc64bac2dbd54772f239df15",
+    "semantic_hash": "34a19518dc64bac2dbd54772f239df15"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/chunks/react-syntax-highlighter/refractor-core-import.208f5adebe7aa3a4.js": {
+    "mtime": 1779756456.7037032,
+    "ast_hash": "28442f46626c0756edb3075f0ce1c47a",
+    "semantic_hash": "28442f46626c0756edb3075f0ce1c47a"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/JCEVEMwB2e6u_RCwCB5Ys/_buildManifest.js": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "07ffda845bef1bac8d7bebe71106951b",
+    "semantic_hash": "07ffda845bef1bac8d7bebe71106951b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/_next/static/JCEVEMwB2e6u_RCwCB5Ys/_ssgManifest.js": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "bc44903e35d881e1c799ad73d8eb4fb3",
+    "semantic_hash": "bc44903e35d881e1c799ad73d8eb4fb3"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/resources/application-graph.yml": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "25eee6c1ea9dd8cf3d004216572f9baf",
+    "semantic_hash": "25eee6c1ea9dd8cf3d004216572f9baf"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/test/resources/application.yml": {
+    "mtime": 1779756456.7167032,
+    "ast_hash": "3bd25dd8b90a869e45bd1dc7fe404181",
+    "semantic_hash": "3bd25dd8b90a869e45bd1dc7fe404181"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/index.html": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "f6ca840ccc2e634d2f21a2fabdad9fca",
+    "semantic_hash": "f6ca840ccc2e634d2f21a2fabdad9fca"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/index.txt": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "ebd7429e83cd8f5add73b0de1b0d6ba5",
+    "semantic_hash": "ebd7429e83cd8f5add73b0de1b0d6ba5"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/404.html": {
+    "mtime": 1779756456.696703,
+    "ast_hash": "bde8c4e0af50df26f52f98dcb6ab8312",
+    "semantic_hash": "bde8c4e0af50df26f52f98dcb6ab8312"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/graph/__.html": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "0b53b8f3e6104849bc88acbfd8fb8042",
+    "semantic_hash": "0b53b8f3e6104849bc88acbfd8fb8042"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/graph/__.txt": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "7ef8dafa6511b18bb1c76bd9028f8df1",
+    "semantic_hash": "7ef8dafa6511b18bb1c76bd9028f8df1"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/agent/__.html": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "36cbc2089c35e306adc52d4acfc2ba7b",
+    "semantic_hash": "36cbc2089c35e306adc52d4acfc2ba7b"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/agent/__.txt": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "d45f6366515df4ee277a57acdd7ef31f",
+    "semantic_hash": "d45f6366515df4ee277a57acdd7ef31f"
+  },
+  "pom.xml": {
+    "mtime": 1779756456.694703,
+    "ast_hash": "035a419fc9ec8dcac786ad993b954ead",
+    "semantic_hash": "035a419fc9ec8dcac786ad993b954ead"
+  },
+  "README.md": {
+    "mtime": 1779756456.691703,
+    "ast_hash": "02862aad5330e1ed209db0eb1286bae4",
+    "semantic_hash": "02862aad5330e1ed209db0eb1286bae4"
+  },
+  "/workspace/spring-ai-alibaba-studio/src/main/resources/META-INF/resources/chatui/logo.svg": {
+    "mtime": 1779756456.7157032,
+    "ast_hash": "75961c9a489c246ca99e25a8589ca05d",
+    "semantic_hash": "75961c9a489c246ca99e25a8589ca05d"
+  }
+}
