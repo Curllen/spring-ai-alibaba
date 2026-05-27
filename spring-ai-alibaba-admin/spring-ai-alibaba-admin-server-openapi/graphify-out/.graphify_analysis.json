@@ -1,0 +1,146 @@
+{
+  "communities": {
+    "0": [
+      "errorcode",
+      "handlerinterceptor",
+      "httpservletrequest",
+      "interceptor_apikeyauthinterceptor_apikeyauthinterceptor",
+      "interceptor_apikeyauthinterceptor_apikeyauthinterceptor_prehandle",
+      "interceptor_apikeyauthinterceptor_apikeyauthinterceptor_returnautherror",
+      "interceptor_apikeyauthinterceptor_java",
+      "interceptor_apikeyauthinterceptor_java_httpservletresponse",
+      "interceptor_apikeyauthinterceptor_java_object",
+      "override"
+    ],
+    "1": [
+      "agentservice",
+      "controller_chatcontroller_chatcontroller",
+      "controller_chatcontroller_chatcontroller_chatcontroller",
+      "controller_chatcontroller_java",
+      "redismanager",
+      "workflowservice"
+    ],
+    "2": [
+      "agentrequest",
+      "controller_chatcontroller_chatcontroller_completion",
+      "controller_chatcontroller_chatcontroller_sendstreamingresponse",
+      "controller_chatcontroller_java_httpservletresponse",
+      "controller_chatcontroller_java_object",
+      "workflowresponse"
+    ],
+    "3": [
+      "controller_chatcontroller_chatcontroller_asynccompletion",
+      "postmapping",
+      "taskrunresponse",
+      "workflowrequest"
+    ],
+    "4": [
+      "boolean",
+      "controller_chatcontroller_chatcontroller_stopcompletion",
+      "result",
+      "taskstoprequest"
+    ],
+    "5": [
+      "controller_chatcontroller_chatcontroller_handlecomplete",
+      "requestcontext",
+      "signaltype",
+      "sseemitter"
+    ],
+    "6": [
+      "agentresponse",
+      "controller_chatcontroller_chatcontroller_handleerror",
+      "mono",
+      "throwable"
+    ],
+    "7": [
+      "asyncresultrequest",
+      "asyncresultresponse",
+      "controller_chatcontroller_chatcontroller_getasyncresults"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3333333333333333,
+    "1": 0.5333333333333333,
+    "2": 0.4666666666666667,
+    "3": 0.5,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 0.5,
+    "7": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "controller_chatcontroller_chatcontroller",
+      "label": "ChatController",
+      "degree": 9
+    },
+    {
+      "id": "postmapping",
+      "label": "PostMapping",
+      "degree": 5
+    },
+    {
+      "id": "workflowrequest",
+      "label": "WorkflowRequest",
+      "degree": 5
+    },
+    {
+      "id": "requestcontext",
+      "label": "RequestContext",
+      "degree": 5
+    },
+    {
+      "id": "result",
+      "label": "Result",
+      "degree": 5
+    },
+    {
+      "id": "interceptor_apikeyauthinterceptor_apikeyauthinterceptor",
+      "label": "ApiKeyAuthInterceptor",
+      "degree": 4
+    },
+    {
+      "id": "agentrequest",
+      "label": "AgentRequest",
+      "degree": 4
+    },
+    {
+      "id": "interceptor_apikeyauthinterceptor_java_httpservletresponse",
+      "label": "HttpServletResponse",
+      "degree": 3
+    },
+    {
+      "id": "errorcode",
+      "label": "ErrorCode",
+      "degree": 3
+    },
+    {
+      "id": "controller_chatcontroller_java_httpservletresponse",
+      "label": "HttpServletResponse",
+      "degree": 3
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ErrorCode` connect `Community 0` to `Community 1`?",
+      "why": "High betweenness centrality (0.148) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RequestContext` connect `Community 5` to `Community 0`, `Community 1`, `Community 2`, `Community 6`?",
+      "why": "High betweenness centrality (0.119) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ChatController` connect `Community 1` to `Community 2`, `Community 3`, `Community 4`, `Community 5`, `Community 6`, `Community 7`?",
+      "why": "High betweenness centrality (0.110) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Object`, `Override`, `Object` to the rest of the system?",
+      "why": "5 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
