@@ -1,0 +1,910 @@
+{
+  "communities": {
+    "0": [
+      "accountinfoinput",
+      "calculatorinput",
+      "domain_plugin_toolexample_java",
+      "domain_plugin_toolexample_java_list",
+      "domain_plugin_toolexample_java_override",
+      "domain_plugin_toolexample_java_string",
+      "domain_tool_apiparameter_java",
+      "plugin_toolexample_accountinfotool",
+      "plugin_toolexample_accountinfotool_apply",
+      "plugin_toolexample_calculatorfunction",
+      "plugin_toolexample_calculatorfunction_apply",
+      "plugin_toolexample_calculatorfunctionwithcontext",
+      "plugin_toolexample_calculatorfunctionwithcontext_apply",
+      "plugin_toolexample_calculatorfunctionwithrequest",
+      "plugin_toolexample_calculatorfunctionwithrequest_apply",
+      "plugin_toolexample_calculatorrequest",
+      "plugin_toolexample_calculatorrequest_calculatorrequest",
+      "plugin_toolexample_calculatortools",
+      "plugin_toolexample_calculatortools_add",
+      "plugin_toolexample_calculatortools_multiply",
+      "plugin_toolexample_calculatortools_subtract",
+      "plugin_toolexample_conversationsummarytool",
+      "plugin_toolexample_conversationsummarytool_apply",
+      "plugin_toolexample_customtoolcallbackprovider",
+      "plugin_toolexample_customtoolcallbackprovider_customtoolcallbackprovider",
+      "plugin_toolexample_customtoolcallbackprovider_gettoolcallbacks",
+      "plugin_toolexample_searchfunction",
+      "plugin_toolexample_searchfunction_apply",
+      "plugin_toolexample_searchfunctionwithrequest",
+      "plugin_toolexample_searchfunctionwithrequest_apply",
+      "plugin_toolexample_searchrequest",
+      "plugin_toolexample_searchrequest_searchrequest",
+      "plugin_toolexample_searchtoolwithcontext",
+      "plugin_toolexample_searchtoolwithcontext_apply",
+      "plugin_toolexample_weatherfunction",
+      "plugin_toolexample_weatherfunction_apply",
+      "plugin_toolexample_weatherservice",
+      "plugin_toolexample_weatherservice_apply",
+      "plugin_toolexample_weathertools",
+      "plugin_toolexample_weathertools_getforecast",
+      "plugin_toolexample_weathertools_getweather",
+      "searchinput",
+      "summaryinput",
+      "tool",
+      "tool_apiparameter_apiparameter",
+      "tool_apiparameter_apiparameter_addsubparam",
+      "toolcallbackprovider",
+      "toolcontext",
+      "weatherinput",
+      "weatherrequest",
+      "weatherresponse"
+    ],
+    "1": [
+      "account_workspace_workspace",
+      "agent_agentrequest_agentrequest",
+      "class",
+      "debug_apitaskmsg_apitaskmsg",
+      "domain_account_workspace_java",
+      "domain_agent_agentrequest_java",
+      "domain_mcp_mcpservercalltoolrequest_java",
+      "domain_mcp_mcpserverdeployconfig_java",
+      "domain_model_addproviderrequest_java",
+      "domain_model_updateproviderrequest_java",
+      "domain_plugin_toolexecutionrequest_java",
+      "domain_tool_inputschema_java",
+      "domain_workflow_debug_apitaskmsg_java",
+      "inputstream",
+      "k",
+      "map",
+      "mcp_mcpservercalltoolrequest_mcpservercalltoolrequest",
+      "mcp_mcpserverdeployconfig_mcpserverdeployconfig",
+      "model_addproviderrequest_addproviderrequest",
+      "model_updateproviderrequest_updateproviderrequest",
+      "plugin_toolexecutionrequest_toolexecutionrequest",
+      "tool_inputschema_inputschema",
+      "utils_jsonutils_java",
+      "utils_jsonutils_java_list",
+      "utils_jsonutils_java_object",
+      "utils_jsonutils_java_string",
+      "utils_jsonutils_java_t",
+      "utils_jsonutils_jsonutils",
+      "utils_jsonutils_jsonutils_fromjson",
+      "utils_jsonutils_jsonutils_fromjsonfile",
+      "utils_jsonutils_jsonutils_fromjsontolist",
+      "utils_jsonutils_jsonutils_fromjsontomap",
+      "utils_jsonutils_jsonutils_frommap",
+      "utils_jsonutils_jsonutils_fromobjecttomap",
+      "utils_jsonutils_jsonutils_isjsonarray",
+      "utils_jsonutils_jsonutils_isvalidjson",
+      "utils_jsonutils_jsonutils_tojson",
+      "v"
+    ],
+    "2": [
+      "account_changepasswordrequest_changepasswordrequest",
+      "account_oauth2user_oauth2user",
+      "account_tokenresponse_tokenresponse",
+      "chat_toolcall_function",
+      "chat_toolcall_toolcall",
+      "component_appcomponent_appcomponent",
+      "debug_asyncresultrequest_asyncresultrequest",
+      "debug_processgetrequest_processgetrequest",
+      "debug_taskresumeresponse_taskresumeresponse",
+      "debug_taskrunrequest_taskrunrequest",
+      "debug_taskstoprequest_taskstoprequest",
+      "domain_account_changepasswordrequest_java",
+      "domain_account_oauth2user_java",
+      "domain_account_tokenresponse_java",
+      "domain_chat_toolcall_java",
+      "domain_component_appcomponent_java",
+      "domain_error_error",
+      "domain_error_java",
+      "domain_knowledgebase_deletedocumentrequest_java",
+      "domain_knowledgebase_documentchunk_java",
+      "domain_mcp_mcpservercalltoolresponse_java",
+      "domain_mcp_mcpservergettoolsrequest_java",
+      "domain_plugin_plugin_java",
+      "domain_workflow_debug_asyncresultrequest_java",
+      "domain_workflow_debug_processgetrequest_java",
+      "domain_workflow_debug_taskresumeresponse_java",
+      "domain_workflow_debug_taskrunrequest_java",
+      "domain_workflow_debug_taskstoprequest_java",
+      "knowledgebase_deletedocumentrequest_deletedocumentrequest",
+      "knowledgebase_documentchunk_documentchunk",
+      "mcp_mcpservercalltoolresponse_mcpservercalltoolresponse",
+      "mcp_mcpservergettoolsrequest_mcpservergettoolsrequest",
+      "plugin_plugin_apiauth",
+      "plugin_plugin_plugin",
+      "plugin_plugin_pluginconfig",
+      "serializable"
+    ],
+    "3": [
+      "account_apikey_apikey",
+      "domain_model_model_java",
+      "model_model_config",
+      "model_model_model",
+      "plugin_toolexample_toolsexample",
+      "plugin_toolexample_toolsexample_accessingcontext",
+      "plugin_toolexample_toolsexample_accessingmemorystore",
+      "plugin_toolexample_toolsexample_accessingstate",
+      "plugin_toolexample_toolsexample_addtooltochatclient",
+      "plugin_toolexample_toolsexample_advancedschemadefinition",
+      "plugin_toolexample_toolsexample_combinedtoolprovisionexample",
+      "plugin_toolexample_toolsexample_comprehensivetoolexample",
+      "plugin_toolexample_toolsexample_creategetuserinfotool",
+      "plugin_toolexample_toolsexample_createsaveuserinfotool",
+      "plugin_toolexample_toolsexample_customtooldescription",
+      "plugin_toolexample_toolsexample_customtoolname",
+      "plugin_toolexample_toolsexample_main",
+      "plugin_toolexample_toolsexample_methodtoolsexample",
+      "plugin_toolexample_toolsexample_multiplemethodtoolsexample",
+      "plugin_toolexample_toolsexample_programmatictoolspecification",
+      "plugin_toolexample_toolsexample_resolverexample",
+      "plugin_toolexample_toolsexample_toolcallbackproviderexample",
+      "plugin_toolexample_toolsexample_toolnameswithresolverexample",
+      "plugin_toolexample_toolsexample_toolsinreactagent",
+      "toolcallback"
+    ],
+    "4": [
+      "app_application_application",
+      "app_applicationversion_applicationversion",
+      "app_appquery_appquery",
+      "app_knowledgebasequery_knowledgebasequery",
+      "appstatus",
+      "component_appcomponentquery_appcomponentquery",
+      "component_appcomponentrequest_appcomponentrequest",
+      "domain_app_application_java",
+      "domain_app_applicationversion_java",
+      "domain_app_appquery_java",
+      "domain_app_knowledgebasequery_java",
+      "domain_basequery_basequery",
+      "domain_basequery_java",
+      "domain_component_appcomponentquery_java",
+      "domain_component_appcomponentrequest_java",
+      "domain_knowledgebase_documentquery_java",
+      "domain_plugin_toolquery_java",
+      "enums_appstatus_java",
+      "enums_appstatus_java_integer",
+      "enums_appstatus_of",
+      "knowledgebase_documentquery_documentquery",
+      "plugin_toolquery_toolquery"
+    ],
+    "5": [
+      "domain_result_java",
+      "domain_result_java_error",
+      "domain_result_java_integer",
+      "domain_result_java_string",
+      "domain_result_java_t",
+      "domain_result_result",
+      "domain_result_result_error",
+      "domain_result_result_success",
+      "enums_errorcode_errorcode",
+      "enums_errorcode_getmessage",
+      "enums_errorcode_java",
+      "enums_errorcode_java_error",
+      "enums_errorcode_java_string",
+      "enums_errorcode_of",
+      "enums_errorcode_toerror",
+      "errorcode",
+      "utils_exceptionutils_exceptionutils",
+      "utils_exceptionutils_exceptionutils_converterror",
+      "utils_exceptionutils_java",
+      "utils_exceptionutils_java_error",
+      "utils_exceptionutils_java_throwable"
+    ],
+    "6": [
+      "debug_taskresumerequest_taskresumerequest",
+      "debug_taskrunparam_taskrunparam",
+      "domain_workflow_commonparam_java",
+      "domain_workflow_debug_taskresumerequest_java",
+      "domain_workflow_debug_taskrunparam_java",
+      "domain_workflow_inner_trycatchconfig_java",
+      "domain_workflow_node_java",
+      "inner_trycatchconfig_trycatchconfig",
+      "workflow_commonparam_commonparam",
+      "workflow_node_inputparam",
+      "workflow_node_node",
+      "workflow_node_nodecustomconfig",
+      "workflow_node_outputparam"
+    ],
+    "7": [
+      "app_agentconfig_agentconfig",
+      "app_agentconfig_mcpserver",
+      "app_agentconfig_memory",
+      "app_agentconfig_parameter",
+      "app_agentconfig_prologue",
+      "app_agentconfig_promptvariable",
+      "app_agentconfig_tool",
+      "app_appconfig_appconfig",
+      "domain_app_agentconfig_java",
+      "domain_app_appconfig_java"
+    ],
+    "8": [
+      "commonstatus",
+      "domain_account_apikey_java",
+      "domain_knowledgebase_document_java",
+      "domain_knowledgebase_knowledgebase_java",
+      "enums_commonstatus_java",
+      "enums_commonstatus_java_integer",
+      "enums_commonstatus_of",
+      "knowledgebase_document_document",
+      "knowledgebase_document_metadata",
+      "knowledgebase_knowledgebase_knowledgebase"
+    ],
+    "9": [
+      "domain_file_uploadpolicy_java",
+      "domain_file_webuploadpolicy_java",
+      "domain_knowledgebase_createdocumentrequest_java",
+      "enums_uploadtype_fromvalue",
+      "enums_uploadtype_java",
+      "enums_uploadtype_java_string",
+      "file_uploadpolicy_uploadpolicy",
+      "file_webuploadpolicy_webuploadpolicy",
+      "knowledgebase_createdocumentrequest_createdocumentrequest",
+      "uploadtype"
+    ],
+    "10": [
+      "debug_taskpartgraphrequest_taskpartgraphrequest",
+      "domain_workflow_debug_taskpartgraphrequest_java",
+      "domain_workflow_inner_modelconfig_java",
+      "domain_workflow_inner_shorttermmemory_java",
+      "inner_modelconfig_modelconfig",
+      "inner_modelconfig_modelparam",
+      "inner_modelconfig_skillconfig",
+      "inner_shorttermmemory_shorttermmemory",
+      "node"
+    ],
+    "11": [
+      "domain_workflow_noderesult_java",
+      "domain_workflow_noderesult_java_error",
+      "domain_workflow_noderesult_java_string",
+      "workflow_noderesult_multibranchreference",
+      "workflow_noderesult_noderesult",
+      "workflow_noderesult_noderesult_error",
+      "workflow_noderesult_retry",
+      "workflow_noderesult_shortmemory",
+      "workflow_noderesult_trycatch"
+    ],
+    "12": [
+      "chat_chatmessagecontentdeserializer_chatmessagecontentdeserializer",
+      "chat_chatmessagecontentdeserializer_chatmessagecontentdeserializer_deserialize",
+      "deserializationcontext",
+      "domain_chat_chatmessagecontentdeserializer_java",
+      "domain_chat_chatmessagecontentdeserializer_java_object",
+      "domain_chat_chatmessagecontentdeserializer_java_override",
+      "jsonnode",
+      "jsonparser"
+    ],
+    "13": [
+      "enums_parametertype_isnumber",
+      "enums_parametertype_isvalidtype",
+      "enums_parametertype_java",
+      "enums_parametertype_java_object",
+      "enums_parametertype_java_override",
+      "enums_parametertype_java_string",
+      "enums_parametertype_of",
+      "enums_parametertype_parametertype"
+    ],
+    "14": [
+      "exception_bizexception_bizexception",
+      "exception_bizexception_bizexception_bizexception",
+      "exception_bizexception_java",
+      "exception_bizexception_java_error",
+      "exception_bizexception_java_string",
+      "exception_bizexception_java_throwable",
+      "runtimeexception"
+    ],
+    "15": [
+      "account_account_account",
+      "accountstatus",
+      "domain_account_account_java",
+      "enums_accountstatus_java",
+      "enums_accountstatus_java_integer",
+      "enums_accountstatus_of"
+    ],
+    "16": [
+      "cloneable",
+      "domain_workflow_edge_java",
+      "domain_workflow_edge_java_object",
+      "domain_workflow_edge_java_override",
+      "workflow_edge_edge",
+      "workflow_edge_edge_clone"
+    ],
+    "17": [
+      "domain_mcp_mcpserverdetail_java",
+      "enums_mcpinstalltypeenum_java",
+      "enums_mcpinstalltypeenum_java_string",
+      "enums_mcpinstalltypeenum_of",
+      "mcp_mcpserverdetail_mcpserverdetail",
+      "mcpinstalltypeenum"
+    ],
+    "18": [
+      "chat_chatmessage_chatmessage",
+      "chat_chatmessage_chatmessage_chatmessage",
+      "domain_chat_chatmessage_java",
+      "domain_chat_chatmessage_java_object",
+      "messagerole"
+    ],
+    "19": [
+      "component_appcomponentconfig_appcomponentconfig",
+      "component_appcomponentconfig_input",
+      "component_appcomponentconfig_params",
+      "component_appcomponentconfig_userparams",
+      "domain_component_appcomponentconfig_java"
+    ],
+    "20": [
+      "enums_mcpserverstatusenum_getmessage",
+      "enums_mcpserverstatusenum_java",
+      "enums_mcpserverstatusenum_java_integer",
+      "enums_mcpserverstatusenum_java_string",
+      "enums_mcpserverstatusenum_mcpserverstatusenum"
+    ],
+    "21": [
+      "enums_parametertypeenum_getallcodes",
+      "enums_parametertypeenum_java",
+      "enums_parametertypeenum_java_string",
+      "enums_parametertypeenum_parametertypeenum",
+      "set"
+    ],
+    "22": [
+      "agent_agentstatus_toagentstatus",
+      "agentstatus",
+      "domain_agent_agentstatus_java",
+      "domain_agent_agentstatus_java_string"
+    ],
+    "23": [
+      "domain_mcp_content_java",
+      "domain_mcp_textcontent_java",
+      "mcp_content_content",
+      "mcp_textcontent_textcontent"
+    ],
+    "24": [
+      "chat_messagerole_messagerole",
+      "chat_messagerole_of",
+      "domain_chat_messagerole_java",
+      "domain_chat_messagerole_java_string"
+    ],
+    "25": [
+      "debug_workflowresponse_workflowresponse",
+      "debug_workflowresponse_workflowresponse_issuccess",
+      "domain_workflow_debug_workflowresponse_java",
+      "domain_workflow_debug_workflowresponse_java_jsonignore"
+    ],
+    "26": [
+      "agent_agentresponse_agentresponse",
+      "agent_agentresponse_agentresponse_issuccess",
+      "domain_agent_agentresponse_java",
+      "domain_agent_agentresponse_java_jsonignore"
+    ],
+    "27": [
+      "enums_apiparameterlocation_apiparameterlocation",
+      "enums_apiparameterlocation_java",
+      "enums_apiparameterlocation_java_string",
+      "enums_apiparameterlocation_of"
+    ],
+    "28": [
+      "enums_apipluginvaluesourceenum_apipluginvaluesourceenum",
+      "enums_apipluginvaluesourceenum_java",
+      "enums_apipluginvaluesourceenum_java_string",
+      "enums_apipluginvaluesourceenum_valueofbycode"
+    ],
+    "29": [
+      "enums_appcomponentstatusenum_appcomponentstatusenum",
+      "enums_appcomponentstatusenum_java",
+      "enums_appcomponentstatusenum_java_integer",
+      "enums_appcomponentstatusenum_java_string"
+    ],
+    "30": [
+      "enums_appcomponenttypeenum_appcomponenttypeenum",
+      "enums_appcomponenttypeenum_java",
+      "enums_appcomponenttypeenum_java_integer",
+      "enums_appcomponenttypeenum_java_string"
+    ],
+    "31": [
+      "enums_appcomponentupdateenum_appcomponentupdateenum",
+      "enums_appcomponentupdateenum_java",
+      "enums_appcomponentupdateenum_java_integer",
+      "enums_appcomponentupdateenum_java_string"
+    ],
+    "32": [
+      "enums_iteratortype_getmessage",
+      "enums_iteratortype_iteratortype",
+      "enums_iteratortype_java",
+      "enums_iteratortype_java_string"
+    ],
+    "33": [
+      "enums_mcpservertypeenum_java",
+      "enums_mcpservertypeenum_java_string",
+      "enums_mcpservertypeenum_of",
+      "mcpservertypeenum"
+    ],
+    "34": [
+      "domain_mcp_mcptool_java",
+      "domain_tool_toolcallschema_java",
+      "mcp_mcptool_mcptool",
+      "tool_toolcallschema_toolcallschema"
+    ],
+    "35": [
+      "domain_workflow_invokesourceenum_java",
+      "domain_workflow_invokesourceenum_java_integer",
+      "domain_workflow_invokesourceenum_java_string",
+      "workflow_invokesourceenum_invokesourceenum"
+    ],
+    "36": [
+      "debug_asyncresultresponse_asyncresultresponse",
+      "debug_asyncresultresponse_output",
+      "domain_workflow_debug_asyncresultresponse_java"
+    ],
+    "37": [
+      "debug_processgetresponse_processgetresponse",
+      "debug_processgetresponse_processoutput",
+      "domain_workflow_debug_processgetresponse_java"
+    ],
+    "38": [
+      "component_customparam_customparam",
+      "component_customparam_param",
+      "domain_component_customparam_java"
+    ],
+    "39": [
+      "domain_file_webuploadrequest_java",
+      "file_webuploadrequest_filemeta",
+      "file_webuploadrequest_webuploadrequest"
+    ],
+    "40": [
+      "domain_workflow_inner_timeoutconfig_java",
+      "inner_timeoutconfig_timeoutconfig",
+      "inner_timeoutconfig_timeoutconfig_createdefault"
+    ],
+    "41": [
+      "domain_plugin_tool_java",
+      "plugin_tool_tool",
+      "plugin_tool_toolconfig"
+    ],
+    "42": [
+      "enums_refertypeenum_java",
+      "enums_refertypeenum_java_integer",
+      "enums_refertypeenum_refertypeenum"
+    ],
+    "43": [
+      "domain_workflow_nodestatusenum_java",
+      "domain_workflow_nodestatusenum_java_string",
+      "workflow_nodestatusenum_nodestatusenum"
+    ],
+    "44": [
+      "domain_workflow_nodetypeenum_java",
+      "domain_workflow_nodetypeenum_java_string",
+      "workflow_nodetypeenum_nodetypeenum"
+    ],
+    "45": [
+      "account_refreshtokenrequest_refreshtokenrequest",
+      "domain_account_refreshtokenrequest_java"
+    ],
+    "46": [
+      "app_filesearchoptions_filesearchoptions",
+      "domain_app_filesearchoptions_java"
+    ],
+    "47": [
+      "audio_audiooutput_audiooutput",
+      "domain_audio_audiooutput_java"
+    ],
+    "48": [
+      "chat_usage_usage",
+      "domain_chat_usage_java"
+    ],
+    "49": [
+      "debug_taskpartgraphresponse_taskpartgraphresponse",
+      "domain_workflow_debug_taskpartgraphresponse_java"
+    ],
+    "50": [
+      "account_loginrequest_loginrequest",
+      "domain_account_loginrequest_java"
+    ],
+    "51": [
+      "chat_multimodalcontent_multimodalcontent",
+      "domain_chat_multimodalcontent_java"
+    ],
+    "52": [
+      "domain_knowledgebase_deletechunkrequest_java",
+      "knowledgebase_deletechunkrequest_deletechunkrequest"
+    ],
+    "53": [
+      "domain_knowledgebase_indexconfig_java",
+      "knowledgebase_indexconfig_indexconfig"
+    ],
+    "54": [
+      "domain_paginglist_java",
+      "domain_paginglist_paginglist"
+    ],
+    "55": [
+      "domain_requestcontext_java",
+      "domain_requestcontext_requestcontext"
+    ],
+    "56": [
+      "debug_taskrunresponse_taskrunresponse",
+      "domain_workflow_debug_taskrunresponse_java"
+    ],
+    "57": [
+      "debug_workflowrequest_workflowrequest",
+      "domain_workflow_debug_workflowrequest_java"
+    ],
+    "58": [
+      "domain_file_file_java",
+      "file_file_file"
+    ],
+    "59": [
+      "domain_workflow_inner_retryconfig_java",
+      "inner_retryconfig_retryconfig"
+    ],
+    "60": [
+      "domain_knowledgebase_documentretrieverquery_java",
+      "knowledgebase_documentretrieverquery_documentretrieverquery"
+    ],
+    "61": [
+      "domain_knowledgebase_indexdocumentrequest_java",
+      "knowledgebase_indexdocumentrequest_indexdocumentrequest"
+    ],
+    "62": [
+      "domain_knowledgebase_processconfig_java",
+      "knowledgebase_processconfig_processconfig"
+    ],
+    "63": [
+      "domain_knowledgebase_updatechunkrequest_java",
+      "knowledgebase_updatechunkrequest_updatechunkrequest"
+    ],
+    "64": [
+      "domain_model_credentialspec_java",
+      "model_credentialspec_credentialspec"
+    ],
+    "65": [
+      "domain_plugin_toolexecutionresult_java",
+      "plugin_toolexecutionresult_toolexecutionresult"
+    ],
+    "66": [
+      "constants_apiconstants_apiconstants",
+      "constants_apiconstants_java"
+    ],
+    "67": [
+      "debug_apitaskrunrequest_apitaskrunrequest",
+      "domain_workflow_debug_apitaskrunrequest_java"
+    ],
+    "68": [
+      "debug_initrequest_initrequest",
+      "domain_workflow_debug_initrequest_java"
+    ],
+    "69": [
+      "domain_mcp_mcpquery_java",
+      "mcp_mcpquery_mcpquery"
+    ],
+    "70": [
+      "domain_model_addmodelrequest_java",
+      "model_addmodelrequest_addmodelrequest"
+    ],
+    "71": [
+      "domain_model_updatemodelrequest_java",
+      "model_updatemodelrequest_updatemodelrequest"
+    ],
+    "72": [
+      "domain_refer_refer_java",
+      "refer_refer_refer"
+    ],
+    "73": [
+      "domain_model_queryproviderrequest_java",
+      "model_queryproviderrequest_queryproviderrequest"
+    ],
+    "74": [
+      "enums_plugintype_java"
+    ],
+    "75": [
+      "enums_knowledgebasetype_java"
+    ],
+    "76": [
+      "enums_documenttype_java"
+    ],
+    "77": [
+      "enums_documentindexstatus_java"
+    ],
+    "78": [
+      "enums_chunktype_java"
+    ],
+    "79": [
+      "enums_datasourceenum_java"
+    ],
+    "80": [
+      "enums_accounttype_java"
+    ],
+    "81": [
+      "enums_apptype_java"
+    ],
+    "82": [
+      "enums_pluginstatus_java"
+    ],
+    "83": [
+      "enums_toolteststatus_java"
+    ],
+    "84": [
+      "enums_toolstatus_java"
+    ],
+    "85": [
+      "domain_chat_contenttype_java"
+    ],
+    "86": [
+      "domain_chat_toolcalltype_java"
+    ],
+    "87": [
+      "domain_chat_multimodalcontenttype_java"
+    ],
+    "88": [
+      "domain_workflow_valuefromenum_java"
+    ],
+    "89": [
+      "domain_workflow_workflowstatus_java"
+    ],
+    "90": [
+      "domain_workflow_paramsourceenum_java"
+    ],
+    "91": [
+      "domain_account_oauth2type_java"
+    ],
+    "92": [
+      "domain_audio_voice_java"
+    ],
+    "93": [
+      "domain_audio_audioresponseformat_java"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07137254901960784,
+    "1": 0.08250355618776671,
+    "2": 0.08571428571428572,
+    "3": 0.20666666666666667,
+    "4": 0.11688311688311688,
+    "5": 0.14761904761904762,
+    "6": 0.1794871794871795,
+    "7": 0.2,
+    "8": 0.2,
+    "9": 0.2222222222222222,
+    "10": 0.2222222222222222,
+    "11": 0.25,
+    "12": 0.32142857142857145,
+    "13": 0.39285714285714285,
+    "14": 0.3333333333333333,
+    "15": 0.3333333333333333,
+    "16": 0.3333333333333333,
+    "17": 0.3333333333333333,
+    "18": 0.4,
+    "19": 0.4,
+    "20": 0.5,
+    "21": 0.6,
+    "22": 0.5,
+    "23": 0.5,
+    "24": 0.8333333333333334,
+    "25": 0.6666666666666666,
+    "26": 0.6666666666666666,
+    "27": 0.8333333333333334,
+    "28": 0.8333333333333334,
+    "29": 0.5,
+    "30": 0.5,
+    "31": 0.5,
+    "32": 0.6666666666666666,
+    "33": 0.5,
+    "34": 0.6666666666666666,
+    "35": 0.5,
+    "36": 0.6666666666666666,
+    "37": 0.6666666666666666,
+    "38": 0.6666666666666666,
+    "39": 0.6666666666666666,
+    "40": 0.6666666666666666,
+    "41": 0.6666666666666666,
+    "42": 0.6666666666666666,
+    "43": 0.6666666666666666,
+    "44": 0.6666666666666666,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0
+  },
+  "gods": [
+    {
+      "id": "plugin_toolexample_toolsexample",
+      "label": "ToolsExample",
+      "degree": 20
+    },
+    {
+      "id": "map",
+      "label": "Map",
+      "degree": 19
+    },
+    {
+      "id": "domain_plugin_toolexample_java_string",
+      "label": "String",
+      "degree": 16
+    },
+    {
+      "id": "domain_basequery_basequery",
+      "label": "BaseQuery",
+      "degree": 14
+    },
+    {
+      "id": "account_apikey_apikey",
+      "label": "ApiKey",
+      "degree": 13
+    },
+    {
+      "id": "model_model_model",
+      "label": "Model",
+      "degree": 12
+    },
+    {
+      "id": "domain_plugin_toolexample_java_override",
+      "label": "Override",
+      "degree": 11
+    },
+    {
+      "id": "utils_jsonutils_jsonutils",
+      "label": "JsonUtils",
+      "degree": 10
+    },
+    {
+      "id": "utils_jsonutils_java_string",
+      "label": "String",
+      "degree": 9
+    },
+    {
+      "id": "workflow_commonparam_commonparam",
+      "label": "CommonParam",
+      "degree": 9
+    }
+  ],
+  "surprises": [
+    {
+      "source": "getAllCodes()",
+      "target": "Map",
+      "source_files": [
+        "enums/ParameterTypeEnum.java",
+        "utils/JsonUtils.java"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "AppQuery",
+      "target": "BaseQuery",
+      "source_files": [
+        "domain/app/AppQuery.java",
+        "domain/BaseQuery.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "peripheral node `AppQuery` unexpectedly reaches hub `BaseQuery`"
+    },
+    {
+      "source": "KnowledgeBaseQuery",
+      "target": "BaseQuery",
+      "source_files": [
+        "domain/app/KnowledgeBaseQuery.java",
+        "domain/BaseQuery.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "peripheral node `KnowledgeBaseQuery` unexpectedly reaches hub `BaseQuery`"
+    },
+    {
+      "source": "AppComponentQuery",
+      "target": "BaseQuery",
+      "source_files": [
+        "domain/component/AppComponentQuery.java",
+        "domain/BaseQuery.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "peripheral node `AppComponentQuery` unexpectedly reaches hub `BaseQuery`"
+    },
+    {
+      "source": "ToolQuery",
+      "target": "BaseQuery",
+      "source_files": [
+        "domain/plugin/ToolQuery.java",
+        "domain/BaseQuery.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "peripheral node `ToolQuery` unexpectedly reaches hub `BaseQuery`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Map` connect `Community 1` to `Community 0`, `Community 2`, `Community 4`, `Community 6`, `Community 21`?",
+      "why": "High betweenness centrality (0.172) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Metadata` connect `Community 8` to `Community 0`, `Community 2`?",
+      "why": "High betweenness centrality (0.058) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Result` connect `Community 5` to `Community 2`?",
+      "why": "High betweenness centrality (0.048) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Throwable`, `K`, `V` to the rest of the system?",
+      "why": "57 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07137254901960784 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08250355618776671 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08571428571428572 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

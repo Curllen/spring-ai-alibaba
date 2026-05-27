@@ -1,0 +1,8 @@
+{
+  "module": "spring-ai-alibaba-admin-server-runtime",
+  "date": "2026-05-27",
+  "tokens_input": 0,
+  "tokens_output": 0,
+  "total_tokens": 0,
+  "method": "AST extraction only (pure domain models/enums, no semantic extraction needed)"
+}
