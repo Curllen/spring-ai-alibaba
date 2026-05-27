@@ -1,0 +1,169 @@
+{
+  "communities": {
+    "0": [
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldaccessobservationinstreamingscenario",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewhenenabled",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewithdefaultproperties",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldconfigureobservationhandlerswhenmeterregistrypresent",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shoulddemonstratecontextlosswithoutaccessor",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotautoconfigurewhendisabled",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotconfigureobservationhandlerswhenmeterregistryabsent",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatecontextacrossactualthreadboundaries",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatenestedobservationcontexts",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldregisterobservationthreadlocalaccessorforcontextpropagation",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldsuccessfullypropagateobservationcontextacrossthreads",
+      "graph_graphobservationproperties_graphobservationproperties_isenabled",
+      "test"
+    ],
+    "1": [
+      "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "graph_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "graphedgeobservationhandler",
+      "graphnodeobservationhandler",
+      "graphobservationhandler",
+      "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry"
+    ],
+    "2": [
+      "chatmodelobservationcontext",
+      "defaultchatmodelobservationconvention",
+      "keyvalues",
+      "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "message",
+      "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention",
+      "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_extracttext",
+      "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "override",
+      "string"
+    ],
+    "3": [
+      "beforeeach",
+      "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_setupfunctionaltests",
+      "graph_graphobservationautoconfigurationtest_testconfiguration",
+      "graph_graphobservationautoconfigurationtest_testconfiguration_observationregistry",
+      "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry",
+      "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry_meterregistry",
+      "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_bean",
+      "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_meterregistry",
+      "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_observationregistry"
+    ],
+    "4": [
+      "compileconfig",
+      "conditionalonclass",
+      "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "graphobservationlifecyclelistener",
+      "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "objectprovider",
+      "observationthreadlocalaccessorregistrar"
+    ],
+    "5": [
+      "graph_graphobservationproperties_graphobservationproperties",
+      "graph_graphobservationproperties_graphobservationproperties_setenabled",
+      "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationproperties_java"
+    ],
+    "6": [
+      "chatmodelobservationconvention",
+      "conditionalonmissingbean",
+      "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_springaialibabachatmodelobservationconvention"
+    ],
+    "7": [
+      "main_resources_meta_inf_spring_configuration_metadata_json",
+      "meta_inf_spring_configuration_metadata_groups",
+      "meta_inf_spring_configuration_metadata_properties"
+    ]
+  },
+  "cohesion": {
+    "0": 0.25274725274725274,
+    "1": 0.34545454545454546,
+    "2": 0.3111111111111111,
+    "3": 0.3111111111111111,
+    "4": 0.3111111111111111,
+    "5": 0.6666666666666666,
+    "6": 0.6666666666666666,
+    "7": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "label": "GraphObservationAutoConfigurationTest",
+      "degree": 13
+    },
+    {
+      "id": "test",
+      "label": "Test",
+      "degree": 12
+    },
+    {
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "label": "Bean",
+      "degree": 8
+    },
+    {
+      "id": "conditionalonmissingbean",
+      "label": "ConditionalOnMissingBean",
+      "degree": 8
+    },
+    {
+      "id": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "label": "GraphObservationAutoConfiguration",
+      "degree": 5
+    },
+    {
+      "id": "objectprovider",
+      "label": "ObjectProvider",
+      "degree": 4
+    },
+    {
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "label": "ObservationRegistry",
+      "degree": 4
+    },
+    {
+      "id": "graphobservationlifecyclelistener",
+      "label": "GraphObservationLifecycleListener",
+      "degree": 4
+    },
+    {
+      "id": "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "label": "ObservationHandlersConfiguration",
+      "degree": 4
+    },
+    {
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry",
+      "label": "MeterRegistry",
+      "degree": 4
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `GraphObservationLifecycleListener` connect `Community 4` to `Community 1`, `Community 3`?",
+      "why": "High betweenness centrality (0.175) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `GraphObservationAutoConfigurationTest` connect `Community 0` to `Community 3`?",
+      "why": "High betweenness centrality (0.169) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Test` connect `Community 0` to `Community 3`?",
+      "why": "High betweenness centrality (0.150) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `groups`, `properties`, `ObservationThreadLocalAccessorRegistrar` to the rest of the system?",
+      "why": "7 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

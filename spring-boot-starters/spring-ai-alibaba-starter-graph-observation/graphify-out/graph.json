@@ -1,0 +1,1804 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "GraphObservationAutoConfigurationTest.java",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L1",
+      "id": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "community": 3,
+      "norm_label": "graphobservationautoconfigurationtest.java"
+    },
+    {
+      "label": "GraphObservationAutoConfigurationTest",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L62",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "community": 0,
+      "norm_label": "graphobservationautoconfigurationtest"
+    },
+    {
+      "label": ".setUpFunctionalTests()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L71",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_setupfunctionaltests",
+      "community": 3,
+      "norm_label": ".setupfunctionaltests()"
+    },
+    {
+      "label": "BeforeEach",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L71",
+      "id": "beforeeach",
+      "community": 3,
+      "norm_label": "beforeeach"
+    },
+    {
+      "label": ".shouldAutoConfigureWhenEnabled()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L83",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewhenenabled",
+      "community": 0,
+      "norm_label": ".shouldautoconfigurewhenenabled()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L83",
+      "id": "test",
+      "community": 0,
+      "norm_label": "test"
+    },
+    {
+      "label": ".shouldNotAutoConfigureWhenDisabled()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L94",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotautoconfigurewhendisabled",
+      "community": 0,
+      "norm_label": ".shouldnotautoconfigurewhendisabled()"
+    },
+    {
+      "label": ".shouldAutoConfigureWithDefaultProperties()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L102",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewithdefaultproperties",
+      "community": 0,
+      "norm_label": ".shouldautoconfigurewithdefaultproperties()"
+    },
+    {
+      "label": ".shouldConfigureObservationHandlersWhenMeterRegistryPresent()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L113",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldconfigureobservationhandlerswhenmeterregistrypresent",
+      "community": 0,
+      "norm_label": ".shouldconfigureobservationhandlerswhenmeterregistrypresent()"
+    },
+    {
+      "label": ".shouldNotConfigureObservationHandlersWhenMeterRegistryAbsent()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L122",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotconfigureobservationhandlerswhenmeterregistryabsent",
+      "community": 0,
+      "norm_label": ".shouldnotconfigureobservationhandlerswhenmeterregistryabsent()"
+    },
+    {
+      "label": ".shouldRegisterObservationThreadLocalAccessorForContextPropagation()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L131",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldregisterobservationthreadlocalaccessorforcontextpropagation",
+      "community": 0,
+      "norm_label": ".shouldregisterobservationthreadlocalaccessorforcontextpropagation()"
+    },
+    {
+      "label": ".shouldSuccessfullyPropagateObservationContextAcrossThreads()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L150",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldsuccessfullypropagateobservationcontextacrossthreads",
+      "community": 0,
+      "norm_label": ".shouldsuccessfullypropagateobservationcontextacrossthreads()"
+    },
+    {
+      "label": ".shouldAccessObservationInStreamingScenario()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L174",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldaccessobservationinstreamingscenario",
+      "community": 0,
+      "norm_label": ".shouldaccessobservationinstreamingscenario()"
+    },
+    {
+      "label": ".shouldDemonstrateContextLossWithoutAccessor()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L243",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shoulddemonstratecontextlosswithoutaccessor",
+      "community": 0,
+      "norm_label": ".shoulddemonstratecontextlosswithoutaccessor()"
+    },
+    {
+      "label": ".shouldPropagateNestedObservationContexts()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L267",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatenestedobservationcontexts",
+      "community": 0,
+      "norm_label": ".shouldpropagatenestedobservationcontexts()"
+    },
+    {
+      "label": ".shouldPropagateContextAcrossActualThreadBoundaries()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L303",
+      "id": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatecontextacrossactualthreadboundaries",
+      "community": 0,
+      "norm_label": ".shouldpropagatecontextacrossactualthreadboundaries()"
+    },
+    {
+      "label": "TestConfiguration",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L353",
+      "id": "graph_graphobservationautoconfigurationtest_testconfiguration",
+      "community": 3,
+      "norm_label": "testconfiguration"
+    },
+    {
+      "label": ".observationRegistry()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L356",
+      "id": "graph_graphobservationautoconfigurationtest_testconfiguration_observationregistry",
+      "community": 3,
+      "norm_label": ".observationregistry()"
+    },
+    {
+      "label": "ObservationRegistry",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L356",
+      "id": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_observationregistry",
+      "community": 3,
+      "norm_label": "observationregistry"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L356",
+      "id": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_bean",
+      "community": 3,
+      "norm_label": "bean"
+    },
+    {
+      "label": "TestConfigurationWithMeterRegistry",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L363",
+      "id": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry",
+      "community": 3,
+      "norm_label": "testconfigurationwithmeterregistry"
+    },
+    {
+      "label": ".meterRegistry()",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L366",
+      "id": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry_meterregistry",
+      "community": 3,
+      "norm_label": ".meterregistry()"
+    },
+    {
+      "label": "MeterRegistry",
+      "file_type": "code",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L366",
+      "id": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_meterregistry",
+      "community": 3,
+      "norm_label": "meterregistry"
+    },
+    {
+      "label": "spring-configuration-metadata.json",
+      "file_type": "code",
+      "source_file": "main/resources/META-INF/spring-configuration-metadata.json",
+      "source_location": "L1",
+      "id": "main_resources_meta_inf_spring_configuration_metadata_json",
+      "community": 7,
+      "norm_label": "spring-configuration-metadata.json"
+    },
+    {
+      "label": "groups",
+      "file_type": "code",
+      "source_file": "main/resources/META-INF/spring-configuration-metadata.json",
+      "source_location": "L2",
+      "id": "meta_inf_spring_configuration_metadata_groups",
+      "community": 7,
+      "norm_label": "groups"
+    },
+    {
+      "label": "properties",
+      "file_type": "code",
+      "source_file": "main/resources/META-INF/spring-configuration-metadata.json",
+      "source_location": "L10",
+      "id": "meta_inf_spring_configuration_metadata_properties",
+      "community": 7,
+      "norm_label": "properties"
+    },
+    {
+      "label": "GraphObservationAutoConfiguration.java",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L1",
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "community": 1,
+      "norm_label": "graphobservationautoconfiguration.java"
+    },
+    {
+      "label": "GraphObservationAutoConfiguration",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L53",
+      "id": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "community": 4,
+      "norm_label": "graphobservationautoconfiguration"
+    },
+    {
+      "label": ".observationThreadLocalAccessorRegistrar()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "community": 4,
+      "norm_label": ".observationthreadlocalaccessorregistrar()"
+    },
+    {
+      "label": "ObjectProvider",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "objectprovider",
+      "community": 4,
+      "norm_label": "objectprovider"
+    },
+    {
+      "label": "ObservationRegistry",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "community": 4,
+      "norm_label": "observationregistry"
+    },
+    {
+      "label": "ObservationThreadLocalAccessorRegistrar",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "observationthreadlocalaccessorregistrar",
+      "community": 4,
+      "norm_label": "observationthreadlocalaccessorregistrar"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "community": 1,
+      "norm_label": "bean"
+    },
+    {
+      "label": "ConditionalOnClass",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "conditionalonclass",
+      "community": 4,
+      "norm_label": "conditionalonclass"
+    },
+    {
+      "label": "ConditionalOnMissingBean",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "id": "conditionalonmissingbean",
+      "community": 6,
+      "norm_label": "conditionalonmissingbean"
+    },
+    {
+      "label": ".graphObservationLifecycleListener()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "id": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "community": 4,
+      "norm_label": ".graphobservationlifecyclelistener()"
+    },
+    {
+      "label": "GraphObservationLifecycleListener",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "id": "graphobservationlifecyclelistener",
+      "community": 4,
+      "norm_label": "graphobservationlifecyclelistener"
+    },
+    {
+      "label": ".springAiAlibabaChatModelObservationConvention()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L101",
+      "id": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_springaialibabachatmodelobservationconvention",
+      "community": 6,
+      "norm_label": ".springaialibabachatmodelobservationconvention()"
+    },
+    {
+      "label": "ChatModelObservationConvention",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L101",
+      "id": "chatmodelobservationconvention",
+      "community": 6,
+      "norm_label": "chatmodelobservationconvention"
+    },
+    {
+      "label": ".observationGraphCompileConfig()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "id": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "community": 4,
+      "norm_label": ".observationgraphcompileconfig()"
+    },
+    {
+      "label": "CompileConfig",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "id": "compileconfig",
+      "community": 4,
+      "norm_label": "compileconfig"
+    },
+    {
+      "label": "ObservationHandlersConfiguration",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L132",
+      "id": "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "community": 1,
+      "norm_label": "observationhandlersconfiguration"
+    },
+    {
+      "label": ".graphObservationHandler()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "id": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "community": 1,
+      "norm_label": ".graphobservationhandler()"
+    },
+    {
+      "label": "MeterRegistry",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry",
+      "community": 1,
+      "norm_label": "meterregistry"
+    },
+    {
+      "label": "GraphObservationHandler",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "id": "graphobservationhandler",
+      "community": 1,
+      "norm_label": "graphobservationhandler"
+    },
+    {
+      "label": ".graphNodeObservationHandler()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "id": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "community": 1,
+      "norm_label": ".graphnodeobservationhandler()"
+    },
+    {
+      "label": "GraphNodeObservationHandler",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "id": "graphnodeobservationhandler",
+      "community": 1,
+      "norm_label": "graphnodeobservationhandler"
+    },
+    {
+      "label": ".graphEdgeObservationHandler()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "id": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "community": 1,
+      "norm_label": ".graphedgeobservationhandler()"
+    },
+    {
+      "label": "GraphEdgeObservationHandler",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "id": "graphedgeobservationhandler",
+      "community": 1,
+      "norm_label": "graphedgeobservationhandler"
+    },
+    {
+      "label": "ObservationThreadLocalAccessorRegistrar",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L175",
+      "id": "graph_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "community": 1,
+      "norm_label": "observationthreadlocalaccessorregistrar"
+    },
+    {
+      "label": "GraphObservationProperties.java",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L1",
+      "id": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationproperties_java",
+      "community": 5,
+      "norm_label": "graphobservationproperties.java"
+    },
+    {
+      "label": "GraphObservationProperties",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L26",
+      "id": "graph_graphobservationproperties_graphobservationproperties",
+      "community": 5,
+      "norm_label": "graphobservationproperties"
+    },
+    {
+      "label": ".isEnabled()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L36",
+      "id": "graph_graphobservationproperties_graphobservationproperties_isenabled",
+      "community": 0,
+      "norm_label": ".isenabled()"
+    },
+    {
+      "label": ".setEnabled()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L40",
+      "id": "graph_graphobservationproperties_graphobservationproperties_setenabled",
+      "community": 5,
+      "norm_label": ".setenabled()"
+    },
+    {
+      "label": "SpringAiAlibabaChatModelObservationConvention.java",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L1",
+      "id": "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "community": 2,
+      "norm_label": "springaialibabachatmodelobservationconvention.java"
+    },
+    {
+      "label": "SpringAiAlibabaChatModelObservationConvention",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L43",
+      "id": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention",
+      "community": 2,
+      "norm_label": "springaialibabachatmodelobservationconvention"
+    },
+    {
+      "label": "DefaultChatModelObservationConvention",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "defaultchatmodelobservationconvention",
+      "community": 2,
+      "norm_label": "defaultchatmodelobservationconvention"
+    },
+    {
+      "label": ".getHighCardinalityKeyValues()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "id": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "community": 2,
+      "norm_label": ".gethighcardinalitykeyvalues()"
+    },
+    {
+      "label": "ChatModelObservationContext",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "id": "chatmodelobservationcontext",
+      "community": 2,
+      "norm_label": "chatmodelobservationcontext"
+    },
+    {
+      "label": "KeyValues",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "id": "keyvalues",
+      "community": 2,
+      "norm_label": "keyvalues"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "id": "override",
+      "community": 2,
+      "norm_label": "override"
+    },
+    {
+      "label": ".extractText()",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L83",
+      "id": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_extracttext",
+      "community": 2,
+      "norm_label": ".extracttext()"
+    },
+    {
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L83",
+      "id": "message",
+      "community": 2,
+      "norm_label": "message"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L83",
+      "id": "string",
+      "community": 2,
+      "norm_label": "string"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "compileconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "graphobservationlifecyclelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "beforeeach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L353",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "graph_graphobservationautoconfigurationtest_testconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L363",
+      "weight": 1.0,
+      "source": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java",
+      "target": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_setupfunctionaltests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewhenenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotautoconfigurewhendisabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewithdefaultproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldconfigureobservationhandlerswhenmeterregistrypresent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotconfigureobservationhandlerswhenmeterregistryabsent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldregisterobservationthreadlocalaccessorforcontextpropagation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldsuccessfullypropagateobservationcontextacrossthreads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldaccessobservationinstreamingscenario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shoulddemonstratecontextlosswithoutaccessor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatenestedobservationcontexts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest",
+      "target": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatecontextacrossactualthreadboundaries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_setupfunctionaltests",
+      "target": "beforeeach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewhenenabled",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotautoconfigurewhendisabled",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewithdefaultproperties",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldconfigureobservationhandlerswhenmeterregistrypresent",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldnotconfigureobservationhandlerswhenmeterregistryabsent",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L131",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldregisterobservationthreadlocalaccessorforcontextpropagation",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L150",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldsuccessfullypropagateobservationcontextacrossthreads",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldaccessobservationinstreamingscenario",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L243",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shoulddemonstratecontextlosswithoutaccessor",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L267",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatenestedobservationcontexts",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L303",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldpropagatecontextacrossactualthreadboundaries",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_graphobservationautoconfigurationtest_shouldautoconfigurewithdefaultproperties",
+      "target": "graph_graphobservationproperties_graphobservationproperties_isenabled"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L356",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_testconfiguration",
+      "target": "graph_graphobservationautoconfigurationtest_testconfiguration_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L363",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry",
+      "target": "graph_graphobservationautoconfigurationtest_testconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L356",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfigurationtest_testconfiguration_observationregistry",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L356",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_testconfiguration_observationregistry",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L366",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry_meterregistry",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L366",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry",
+      "target": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "test/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfigurationTest.java",
+      "source_location": "L366",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfigurationtest_testconfigurationwithmeterregistry_meterregistry",
+      "target": "test_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfigurationtest_java_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/resources/META-INF/spring-configuration-metadata.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "main_resources_meta_inf_spring_configuration_metadata_json",
+      "target": "meta_inf_spring_configuration_metadata_groups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/resources/META-INF/spring-configuration-metadata.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "main_resources_meta_inf_spring_configuration_metadata_json",
+      "target": "meta_inf_spring_configuration_metadata_properties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "compileconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graphobservationlifecyclelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graphedgeobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graphobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graphnodeobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "objectprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "conditionalonclass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java",
+      "target": "graph_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "target": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "target": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "target": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_springaialibabachatmodelobservationconvention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration",
+      "target": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "target": "objectprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "target": "observationthreadlocalaccessorregistrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "target": "conditionalonclass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationthreadlocalaccessorregistrar",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "target": "objectprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "target": "objectprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_observationregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_springaialibabachatmodelobservationconvention",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_springaialibabachatmodelobservationconvention",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "target": "conditionalonmissingbean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_graphobservationlifecyclelistener",
+      "target": "graphobservationlifecyclelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "target": "graphobservationlifecyclelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_springaialibabachatmodelobservationconvention",
+      "target": "chatmodelobservationconvention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_graphobservationautoconfiguration_observationgraphcompileconfig",
+      "target": "compileconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "target": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "target": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration",
+      "target": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphobservationhandler",
+      "target": "graphobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "target": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationautoconfiguration_java_meterregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphnodeobservationhandler",
+      "target": "graphnodeobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationAutoConfiguration.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "graph_graphobservationautoconfiguration_observationhandlersconfiguration_graphedgeobservationhandler",
+      "target": "graphedgeobservationhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_autoconfigure_graph_graphobservationproperties_java",
+      "target": "graph_graphobservationproperties_graphobservationproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "graph_graphobservationproperties_graphobservationproperties",
+      "target": "graph_graphobservationproperties_graphobservationproperties_isenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/autoconfigure/graph/GraphObservationProperties.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "graph_graphobservationproperties_graphobservationproperties",
+      "target": "graph_graphobservationproperties_graphobservationproperties_setenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "target": "keyvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "target": "chatmodelobservationcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "target": "defaultchatmodelobservationconvention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "target": "message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "main_java_com_alibaba_cloud_ai_graph_observation_springaialibabachatmodelobservationconvention_java",
+      "target": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention",
+      "target": "defaultchatmodelobservationconvention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention",
+      "target": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention",
+      "target": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_extracttext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "target": "chatmodelobservationcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "target": "keyvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "target": "override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_gethighcardinalitykeyvalues",
+      "target": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_extracttext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_extracttext",
+      "target": "message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "main/java/com/alibaba/cloud/ai/graph/observation/SpringAiAlibabaChatModelObservationConvention.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "observation_springaialibabachatmodelobservationconvention_springaialibabachatmodelobservationconvention_extracttext",
+      "target": "string",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "0595ef6d6cfc40e754d35690d1ea6490bc10cf05"
+}
