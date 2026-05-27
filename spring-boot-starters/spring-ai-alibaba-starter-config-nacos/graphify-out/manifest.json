@@ -1,0 +1,23 @@
+{
+  "module": "spring-ai-alibaba-starter-config-nacos",
+  "path": "/workspace/spring-boot-starters/spring-ai-alibaba-starter-config-nacos",
+  "analysis_date": "2026-05-27",
+  "files": {
+    "total": 27,
+    "code": 26,
+    "document": 1
+  },
+  "graph": {
+    "nodes": 535,
+    "edges": 1192,
+    "communities": 22,
+    "extracted_pct": 89,
+    "inferred_pct": 11
+  },
+  "outputs": [
+    "graph.html",
+    "graph.json",
+    "GRAPH_REPORT.md",
+    "ANALYSIS_REPORT.md"
+  ]
+}
