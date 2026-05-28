@@ -1,0 +1,8 @@
+{
+  "module": "agentscope-handoffs",
+  "date": "2026-05-27",
+  "tokens_input": 0,
+  "tokens_output": 0,
+  "total_tokens": 0,
+  "method": "AST extraction (11 Java files) + Semantic extraction (README + application.yml)"
+}

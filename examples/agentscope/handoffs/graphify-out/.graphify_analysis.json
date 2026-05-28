@@ -1,0 +1,247 @@
+{
+  "communities": {
+    "0": [
+      "config_agentscope_runner_enabled",
+      "config_application_yml",
+      "config_dashscope_api_key",
+      "config_server_port_8089",
+      "readme_active_agent",
+      "readme_agent_handoff_pattern",
+      "readme_agent_scope_handoffs_config",
+      "readme_agentscope_handoffs_service",
+      "readme_agentscope_toolkit",
+      "readme_chat_ui",
+      "readme_conditional_routing",
+      "readme_dashscope_api",
+      "readme_handoffs_multiagent_ref",
+      "readme_react_agent",
+      "readme_return_direct",
+      "readme_sales_agent",
+      "readme_spring_ai_agent_framework",
+      "readme_state_graph",
+      "readme_state_update_mechanism",
+      "readme_support_agent",
+      "readme_tool_context",
+      "readme_transfer_to_sales_tool",
+      "readme_transfer_to_support_tool",
+      "readme_transition_actions",
+      "readme_update_extra_state_tool"
+    ],
+    "1": [
+      "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsservice",
+      "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_salesagent",
+      "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_supportagent",
+      "agentscopeagent",
+      "agentscopehandoffsconfig_java",
+      "agentscopehandoffsconfig_java_agentscopehandoffsservice",
+      "agentscopehandoffsconfig_java_bean",
+      "agentscopehandoffsconfig_java_compiledgraph",
+      "agentscopehandoffsconfig_java_string",
+      "chatmodel",
+      "reactagent"
+    ],
+    "2": [
+      "tools_updateextrastatetool_java",
+      "tools_updateextrastatetool_java_overallstate",
+      "tools_updateextrastatetool_java_string",
+      "tools_updateextrastatetool_java_tool",
+      "tools_updateextrastatetool_java_toolcontext",
+      "tools_updateextrastatetool_updateextrastatetool",
+      "tools_updateextrastatetool_updateextrastatetool_create",
+      "tools_updateextrastatetool_updateextrastatetool_summarizestate",
+      "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "tools_updateextrastatetool_updateextrastatetool_updateextrastatetool"
+    ],
+    "3": [
+      "agentscope_agentscopeapplication_agentscopeapplication",
+      "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "agentscope_agentscopeapplication_agentscopeapplication_main",
+      "agentscopeapplication_java",
+      "agentscopeapplication_java_bean",
+      "agentscopeapplication_java_string",
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment"
+    ],
+    "4": [
+      "asynccommandaction",
+      "route_routeaftersalesaction_java",
+      "route_routeaftersalesaction_java_command",
+      "route_routeaftersalesaction_java_completablefuture",
+      "route_routeaftersalesaction_java_overallstate",
+      "route_routeaftersalesaction_java_override",
+      "route_routeaftersalesaction_java_runnableconfig",
+      "route_routeaftersalesaction_routeaftersalesaction",
+      "route_routeaftersalesaction_routeaftersalesaction_apply"
+    ],
+    "5": [
+      "toolcallback",
+      "tools_transfertosupporttool_java",
+      "tools_transfertosupporttool_java_string",
+      "tools_transfertosupporttool_java_tool",
+      "tools_transfertosupporttool_java_toolcontext",
+      "tools_transfertosupporttool_transfertosupporttool",
+      "tools_transfertosupporttool_transfertosupporttool_tool",
+      "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "tools_transfertosupporttool_transfertosupporttool_transfertosupporttool"
+    ],
+    "6": [
+      "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_run",
+      "agentscopehandoffsrunner_java",
+      "agentscopehandoffsrunner_java_agentscopehandoffsservice",
+      "agentscopehandoffsrunner_java_override",
+      "applicationarguments",
+      "applicationrunner"
+    ],
+    "7": [
+      "route_routeaftersupportaction_java",
+      "route_routeaftersupportaction_java_command",
+      "route_routeaftersupportaction_java_completablefuture",
+      "route_routeaftersupportaction_java_overallstate",
+      "route_routeaftersupportaction_java_override",
+      "route_routeaftersupportaction_java_runnableconfig",
+      "route_routeaftersupportaction_routeaftersupportaction",
+      "route_routeaftersupportaction_routeaftersupportaction_apply"
+    ],
+    "8": [
+      "route_routeinitialaction_java",
+      "route_routeinitialaction_java_command",
+      "route_routeinitialaction_java_completablefuture",
+      "route_routeinitialaction_java_overallstate",
+      "route_routeinitialaction_java_override",
+      "route_routeinitialaction_java_runnableconfig",
+      "route_routeinitialaction_routeinitialaction",
+      "route_routeinitialaction_routeinitialaction_apply"
+    ],
+    "9": [
+      "tools_transfertosalestool_java",
+      "tools_transfertosalestool_java_string",
+      "tools_transfertosalestool_java_tool",
+      "tools_transfertosalestool_java_toolcontext",
+      "tools_transfertosalestool_transfertosalestool",
+      "tools_transfertosalestool_transfertosalestool_create",
+      "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "tools_transfertosalestool_transfertosalestool_transfertosalestool"
+    ],
+    "10": [
+      "agentscope_agentscopehandoffsservice_agentscopehandoffsservice",
+      "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_agentscopehandoffsservice",
+      "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_run",
+      "agentscopehandoffsresult",
+      "agentscopehandoffsservice_java",
+      "agentscopehandoffsservice_java_compiledgraph",
+      "agentscopehandoffsservice_java_string"
+    ],
+    "11": [
+      "state_agentscopestateconstants_agentscopestateconstants",
+      "state_agentscopestateconstants_agentscopestateconstants_agentscopestateconstants",
+      "state_agentscopestateconstants_java"
+    ]
+  },
+  "cohesion": {
+    "0": 0.11333333333333333,
+    "1": 0.2948717948717949,
+    "2": 0.3111111111111111,
+    "3": 0.3333333333333333,
+    "4": 0.3611111111111111,
+    "5": 0.3055555555555556,
+    "6": 0.32142857142857145,
+    "7": 0.39285714285714285,
+    "8": 0.39285714285714285,
+    "9": 0.32142857142857145,
+    "10": 0.3333333333333333,
+    "11": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "readme_state_graph",
+      "label": "StateGraph (LangGraph)",
+      "degree": 7
+    },
+    {
+      "id": "readme_support_agent",
+      "label": "Support Agent (AgentScope ReActAgent)",
+      "degree": 6
+    },
+    {
+      "id": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "label": "AgentScopeHandoffsConfig",
+      "degree": 5
+    },
+    {
+      "id": "agentscopehandoffsconfig_java_bean",
+      "label": "Bean",
+      "degree": 5
+    },
+    {
+      "id": "tools_updateextrastatetool_updateextrastatetool",
+      "label": "UpdateExtraStateTool",
+      "degree": 5
+    },
+    {
+      "id": "readme_active_agent",
+      "label": "active_agent State Key",
+      "degree": 5
+    },
+    {
+      "id": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "label": "AgentScopeHandoffsRunner",
+      "degree": 4
+    },
+    {
+      "id": "tools_transfertosupporttool_transfertosupporttool",
+      "label": "TransferToSupportTool",
+      "degree": 4
+    },
+    {
+      "id": "tools_transfertosalestool_transfertosalestool",
+      "label": "TransferToSalesTool",
+      "degree": 4
+    },
+    {
+      "id": "readme_sales_agent",
+      "label": "Sales Agent (Spring AI ReactAgent)",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "agentscope.runner.enabled",
+      "target": "Multiple Agent Subgraphs Handoffs Pattern",
+      "source_files": [
+        "examples/agentscope/handoffs/src/main/resources/application.yml",
+        "examples/agentscope/handoffs/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "spring.ai.dashscope.api-key",
+      "target": "DashScope API",
+      "source_files": [
+        "examples/agentscope/handoffs/src/main/resources/application.yml",
+        "examples/agentscope/handoffs/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `String`, `AgentScopeHandoffsService` to the rest of the system?",
+      "why": "18 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11333333333333333 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

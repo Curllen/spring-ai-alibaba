@@ -1,0 +1,26 @@
+{
+  "module": "agentscope-handoffs",
+  "date": "2026-05-27",
+  "total_nodes": 117,
+  "total_edges": 160,
+  "total_communities": 12,
+  "extraction": "96% EXTRACTED, 4% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 108344,
+      "size_human": "105.8 KB"
+    },
+    "graph.json": {
+      "size": 96727,
+      "size_human": "94.5 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 5999,
+      "size_human": "5.9 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 20161,
+      "size_human": "19.7 KB"
+    }
+  }
+}
