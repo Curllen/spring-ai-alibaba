@@ -1,0 +1,1415 @@
+{
+  "nodes": [
+    {
+      "id": "pythontool_java",
+      "label": "PythonTool.java",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "chatbot_pythontool_pythontool",
+      "label": "PythonTool",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L39"
+    },
+    {
+      "id": "chatbot_pythontool_pythontool_pythontool",
+      "label": ".PythonTool()",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L59"
+    },
+    {
+      "id": "chatbot_pythontool_pythontool_createpythontoolcallback",
+      "label": ".createPythonToolCallback()",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "pythontool_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "pythontool_java_toolcallback",
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "chatbot_pythontool_pythontool_apply",
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L76"
+    },
+    {
+      "id": "pythonrequest",
+      "label": "PythonRequest",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L76"
+    },
+    {
+      "id": "toolcontext",
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L76"
+    },
+    {
+      "id": "pythontool_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L76"
+    },
+    {
+      "id": "chatbot_pythontool_pythonrequest",
+      "label": "PythonRequest",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L143"
+    },
+    {
+      "id": "chatbot_pythontool_pythonrequest_pythonrequest",
+      "label": ".PythonRequest()",
+      "file_type": "code",
+      "source_file": "PythonTool.java",
+      "source_location": "L149"
+    },
+    {
+      "id": "chatbotapplication_java",
+      "label": "ChatbotApplication.java",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "chatbot_chatbotapplication_chatbotapplication",
+      "label": "ChatbotApplication",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L25"
+    },
+    {
+      "id": "chatbot_chatbotapplication_chatbotapplication_main",
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L27"
+    },
+    {
+      "id": "chatbotapplication_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L27"
+    },
+    {
+      "id": "chatbot_chatbotapplication_chatbotapplication_applicationreadyeventlistener",
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "applicationlistener",
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "applicationreadyevent",
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "chatbotapplication_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "agentstaticloader_java",
+      "label": "AgentStaticLoader.java",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "chatbot_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "agentloader",
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "chatbot_agentstaticloader_agentstaticloader_agentstaticloader",
+      "label": ".AgentStaticLoader()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L50"
+    },
+    {
+      "id": "agent",
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L50"
+    },
+    {
+      "id": "chatbot_agentstaticloader_agentstaticloader_listagents",
+      "label": ".listAgents()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58"
+    },
+    {
+      "id": "list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58"
+    },
+    {
+      "id": "agentstaticloader_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58"
+    },
+    {
+      "id": "agentstaticloader_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58"
+    },
+    {
+      "id": "nonnull",
+      "label": "Nonnull",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58"
+    },
+    {
+      "id": "chatbot_agentstaticloader_agentstaticloader_loadagent",
+      "label": ".loadAgent()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L64"
+    },
+    {
+      "id": "chatbotagent_java",
+      "label": "ChatbotAgent.java",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "chatbot_chatbotagent_chatbotagent",
+      "label": "ChatbotAgent",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L35"
+    },
+    {
+      "id": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "label": ".chatbotReactAgent()",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "chatmodel",
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "chatbotagent_java_toolcallback",
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "memorysaver",
+      "label": "MemorySaver",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "chatbotagent_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "chatbot_chatbotagent_chatbotagent_memorysaver",
+      "label": ".memorySaver()",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L66"
+    },
+    {
+      "id": "chatbot_chatbotagent_chatbotagent_executeshellcommand",
+      "label": ".executeShellCommand()",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L72"
+    },
+    {
+      "id": "chatbot_chatbotagent_chatbotagent_executepythoncode",
+      "label": ".executePythonCode()",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L89"
+    },
+    {
+      "id": "chatbot_chatbotagent_chatbotagent_viewtextfile",
+      "label": ".viewTextFile()",
+      "file_type": "code",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pythontool_java",
+      "target": "toolcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "pythontool_java_toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "functiontoolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "bifunction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "jsonproperty",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "jsonpropertydescription",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "context",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "engine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "polyglotexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "value",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "logger",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "loggerfactory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "pythontool_java",
+      "target": "chatbot_pythontool_pythontool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythontool",
+      "target": "chatbot_pythontool_pythontool_pythontool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythontool",
+      "target": "chatbot_pythontool_pythontool_createpythontoolcallback",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythontool_createpythontoolcallback",
+      "target": "pythontool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_pythontool_pythontool_createpythontoolcallback",
+      "target": "pythontool_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_pythontool_pythontool",
+      "target": "chatbot_pythontool_pythontool_apply",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythontool_apply",
+      "target": "pythonrequest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_pythontool_pythontool_apply",
+      "target": "toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_pythontool_pythontool_apply",
+      "target": "pythontool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_pythontool_pythontool_apply",
+      "target": "pythontool_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "pythontool_java",
+      "target": "chatbot_pythontool_pythonrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythonrequest",
+      "target": "chatbot_pythontool_pythonrequest_pythonrequest",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythonrequest",
+      "target": "chatbot_pythontool_pythonrequest_pythonrequest",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_pythontool_pythonrequest_pythonrequest",
+      "target": "pythontool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PythonTool.java",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "springapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "springbootapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "chatbotapplication_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotapplication_java",
+      "target": "chatbot_chatbotapplication_chatbotapplication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication",
+      "target": "chatbot_chatbotapplication_chatbotapplication_main",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication_main",
+      "target": "chatbotapplication_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication",
+      "target": "chatbot_chatbotapplication_chatbotapplication_applicationreadyeventlistener",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "chatbot_chatbotapplication_chatbotapplication_applicationreadyeventlistener",
+      "target": "chatbotapplication_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentloader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "graphrepresentation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nosuchelementexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "concurrenthashmap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "chatbot_agentstaticloader_agentstaticloader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader",
+      "target": "agentloader",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader",
+      "target": "chatbot_agentstaticloader_agentstaticloader_agentstaticloader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader",
+      "target": "chatbot_agentstaticloader_agentstaticloader_listagents",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_listagents",
+      "target": "list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_listagents",
+      "target": "nonnull",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader",
+      "target": "chatbot_agentstaticloader_agentstaticloader_loadagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "shelltoolagenthook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "shelltool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "readfiletool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "functiontoolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "chatbotagent_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "configuration",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "file",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbotagent_java",
+      "target": "chatbot_chatbotagent_chatbotagent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent",
+      "target": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_chatbotreactagent",
+      "target": "chatbotagent_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent",
+      "target": "chatbot_chatbotagent_chatbotagent_memorysaver",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_memorysaver",
+      "target": "memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_memorysaver",
+      "target": "chatbotagent_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent",
+      "target": "chatbot_chatbotagent_chatbotagent_executeshellcommand",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_executeshellcommand",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_executeshellcommand",
+      "target": "chatbotagent_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent",
+      "target": "chatbot_chatbotagent_chatbotagent_executepythoncode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_executepythoncode",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_executepythoncode",
+      "target": "chatbotagent_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent",
+      "target": "chatbot_chatbotagent_chatbotagent_viewtextfile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_viewtextfile",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "chatbot_chatbotagent_chatbotagent_viewtextfile",
+      "target": "chatbotagent_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_pythontool_java",
+      "target": "toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PythonTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_pythontool_java",
+      "target": "pythontool_java_toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PythonTool.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_pythontool_java",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PythonTool.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotapplication_java",
+      "target": "chatbotapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotapplication_java",
+      "target": "chatbotagent_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_agentstaticloader_java",
+      "target": "list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "pythontool_java_toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "chatbotagent_java_toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "chatbotapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_chatbot_src_main_java_com_alibaba_cloud_ai_examples_chatbot_chatbotagent_java",
+      "target": "chatbotagent_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ChatbotAgent.java",
+      "source_location": "L29",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

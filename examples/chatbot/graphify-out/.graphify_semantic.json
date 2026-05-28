@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "readme_react_agent_example",
+      "label": "ReAct Agent Example",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_spring_ai_alibaba",
+      "label": "Spring AI Alibaba",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_react_agent",
+      "label": "ReactAgent",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_jdk17",
+      "label": "JDK 17+",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dashscope",
+      "label": "DashScope LLM Provider",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_ai_dashscope_api_key",
+      "label": "AI_DASHSCOPE_API_KEY",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_chatbot",
+      "label": "ChatBot Application",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_chatui",
+      "label": "Chat UI",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_maven",
+      "label": "Maven Wrapper (mvnw)",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_spring_boot",
+      "label": "Spring Boot",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_github_repo",
+      "label": "spring-ai-alibaba GitHub Repository",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_spring_ai_alibaba_examples",
+      "label": "spring-ai-alibaba-examples Repository",
+      "file_type": "document",
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_spring_ai_alibaba",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_react_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_jdk17",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_dashscope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_chatbot",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_github_repo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_spring_ai_alibaba_examples",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_chatbot",
+      "target": "readme_react_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_chatbot",
+      "target": "readme_chatui",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_chatbot",
+      "target": "readme_maven",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_chatbot",
+      "target": "readme_spring_boot",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_dashscope",
+      "target": "readme_ai_dashscope_api_key",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_alibaba",
+      "target": "readme_github_repo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_alibaba_examples",
+      "target": "readme_spring_ai_alibaba",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_react_agent_example",
+      "target": "readme_spring_boot",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/chatbot/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
