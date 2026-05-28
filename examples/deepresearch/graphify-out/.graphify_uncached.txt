@@ -1,0 +1,2 @@
+/workspace/examples/deepresearch/README.md
+/workspace/examples/deepresearch/src/main/resources/application.yml

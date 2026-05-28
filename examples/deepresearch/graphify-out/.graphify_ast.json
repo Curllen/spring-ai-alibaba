@@ -1,0 +1,1372 @@
+{
+  "nodes": [
+    {
+      "id": "application_java",
+      "label": "Application.java",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "deepresearch_application_application",
+      "label": "Application",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "deepresearch_application_application_main",
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L34"
+    },
+    {
+      "id": "application_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L34"
+    },
+    {
+      "id": "deepresearch_application_application_mcpsynchttpclientrequestcustomizer",
+      "label": ".mcpSyncHttpClientRequestCustomizer()",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "mcpsynchttpclientrequestcustomizer",
+      "label": "McpSyncHttpClientRequestCustomizer",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "deepresearch_application_application_applicationreadyeventlistener",
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "applicationlistener",
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "applicationreadyevent",
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "Application.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "agentstaticloader_java",
+      "label": "AgentStaticLoader.java",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "deepresearch_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L48"
+    },
+    {
+      "id": "agentloader",
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "deepresearch_agentstaticloader_agentstaticloader_agentstaticloader",
+      "label": ".AgentStaticLoader()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55"
+    },
+    {
+      "id": "toolcallbackprovider",
+      "label": "ToolCallbackProvider",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55"
+    },
+    {
+      "id": "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "label": ".listAgents()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "agentstaticloader_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "agentstaticloader_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "nonnull",
+      "label": "Nonnull",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "deepresearch_agentstaticloader_agentstaticloader_loadagent",
+      "label": ".loadAgent()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L75"
+    },
+    {
+      "id": "agent",
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L75"
+    },
+    {
+      "id": "deepresearchagent_java",
+      "label": "DeepResearchAgent.java",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent",
+      "label": "DeepResearchAgent",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent_deepresearchagent",
+      "label": ".DeepResearchAgent()",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L69"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent_createcritiqueagent",
+      "label": ".createCritiqueAgent()",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L122"
+    },
+    {
+      "id": "deepresearchagent_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L122"
+    },
+    {
+      "id": "subagentspec",
+      "label": "SubAgentSpec",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L122"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "label": ".createResearchAgent()",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132"
+    },
+    {
+      "id": "deepresearchagent_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132"
+    },
+    {
+      "id": "toolcallback",
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "label": ".getResearchAgent()",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L144"
+    },
+    {
+      "id": "reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L144"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "label": ".subAgentAsInterceptors()",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L165"
+    },
+    {
+      "id": "interceptor",
+      "label": "Interceptor",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L165"
+    },
+    {
+      "id": "deepresearch_deepresearchagent_prompts",
+      "label": "Prompts",
+      "file_type": "code",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L185"
+    }
+  ],
+  "edges": [
+    {
+      "source": "application_java",
+      "target": "springapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "springbootapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "environment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "uri",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "httprequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "mcpsynchttpclientrequestcustomizer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "mcptransportcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "application_java",
+      "target": "deepresearch_application_application",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_application_application",
+      "target": "deepresearch_application_application_main",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_application_application_main",
+      "target": "application_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_application_application",
+      "target": "deepresearch_application_application_mcpsynchttpclientrequestcustomizer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_application_application_mcpsynchttpclientrequestcustomizer",
+      "target": "mcpsynchttpclientrequestcustomizer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_application_application_mcpsynchttpclientrequestcustomizer",
+      "target": "bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "deepresearch_application_application",
+      "target": "deepresearch_application_application_applicationreadyeventlistener",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_application_application_applicationreadyeventlistener",
+      "target": "environment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_application_application_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_application_application_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "deepresearch_application_application_applicationreadyeventlistener",
+      "target": "bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Application.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentloader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "graphrepresentation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "toolcallbackprovider",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "arrays",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nosuchelementexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "concurrenthashmap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "deepresearch_agentstaticloader_agentstaticloader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader",
+      "target": "agentloader",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader",
+      "target": "deepresearch_agentstaticloader_agentstaticloader_agentstaticloader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "toolcallbackprovider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader",
+      "target": "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "target": "override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "target": "nonnull",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader",
+      "target": "deepresearch_agentstaticloader_agentstaticloader_loadagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_loadagent",
+      "target": "override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "dashscopeapi",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "dashscopechatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "filesysteminterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "largeresultevictioninterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "patchtoolcallsinterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "subagentinterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "subagentspec",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "humanintheloophook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "shelltoolagenthook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "summarizationhook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "toolcalllimithook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "interceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "contexteditinginterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "todolistinterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "toolretryinterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "deepresearchagent_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "researchinstructions",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "subcritiqueprompt",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "subresearchprompt",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "deepresearch_deepresearchagent_deepresearchagent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_deepresearchagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_createcritiqueagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_createcritiqueagent",
+      "target": "deepresearchagent_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_createcritiqueagent",
+      "target": "subagentspec",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "target": "deepresearchagent_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "target": "deepresearchagent_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "target": "subagentspec",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "target": "deepresearchagent_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "target": "reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "target": "deepresearchagent_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L165",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L165",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "target": "interceptor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L165",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "deepresearchagent_java",
+      "target": "deepresearch_deepresearchagent_prompts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_createcritiqueagent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_application_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Application.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_application_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Application.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_application_java",
+      "target": "bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Application.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_application_java",
+      "target": "environment",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Application.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_application_java",
+      "target": "mcpsynchttpclientrequestcustomizer",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Application.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "toolcallbackprovider",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "deepresearchagent_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "subagentspec",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "interceptor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "deepresearchagent_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_deepresearch_src_main_java_com_alibaba_cloud_ai_examples_deepresearch_deepresearchagent_java",
+      "target": "deepresearch_deepresearchagent_prompts",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DeepResearchAgent.java",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "deepresearch_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L61",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
