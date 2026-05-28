@@ -1,0 +1,3327 @@
+{
+  "nodes": [
+    {
+      "id": "agentscopeapplication_java",
+      "label": "AgentScopeApplication.java",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "agentscope_agentscopeapplication_agentscopeapplication",
+      "label": "AgentScopeApplication",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L25"
+    },
+    {
+      "id": "agentscope_agentscopeapplication_agentscopeapplication_main",
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "agentscopeapplication_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "applicationlistener",
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "applicationreadyevent",
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "agentscopeapplication_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "agentscopehandoffsconfig_java",
+      "label": "AgentScopeHandoffsConfig.java",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "label": "AgentScopeHandoffsConfig",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L59"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_salesagent",
+      "label": ".salesAgent()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "chatmodel",
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "agentscopehandoffsconfig_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_supportagent",
+      "label": ".supportAgent()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88"
+    },
+    {
+      "id": "agentscopehandoffsconfig_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88"
+    },
+    {
+      "id": "agentscopeagent",
+      "label": "AgentScopeAgent",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "label": ".agentScopeHandoffsGraph()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116"
+    },
+    {
+      "id": "agentscopehandoffsconfig_java_compiledgraph",
+      "label": "CompiledGraph",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsservice",
+      "label": ".agentScopeHandoffsService()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L152"
+    },
+    {
+      "id": "agentscopehandoffsconfig_java_agentscopehandoffsservice",
+      "label": "AgentScopeHandoffsService",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L152"
+    },
+    {
+      "id": "agentscopehandoffsservice_java",
+      "label": "AgentScopeHandoffsService.java",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice",
+      "label": "AgentScopeHandoffsService",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L31"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_agentscopehandoffsservice",
+      "label": ".AgentScopeHandoffsService()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L35"
+    },
+    {
+      "id": "agentscopehandoffsservice_java_compiledgraph",
+      "label": "CompiledGraph",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L35"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L42"
+    },
+    {
+      "id": "agentscopehandoffsservice_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L42"
+    },
+    {
+      "id": "agentscopehandoffsresult",
+      "label": "AgentScopeHandoffsResult",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L42"
+    },
+    {
+      "id": "agentscopehandoffsrunner_java",
+      "label": "AgentScopeHandoffsRunner.java",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "label": "AgentScopeHandoffsRunner",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "applicationrunner",
+      "label": "ApplicationRunner",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "label": ".AgentScopeHandoffsRunner()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L36"
+    },
+    {
+      "id": "agentscopehandoffsrunner_java_agentscopehandoffsservice",
+      "label": "AgentScopeHandoffsService",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L36"
+    },
+    {
+      "id": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "applicationarguments",
+      "label": "ApplicationArguments",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "agentscopehandoffsrunner_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_updateextrastatetool_java",
+      "label": "UpdateExtraStateTool.java",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_updateextrastatetool_updateextrastatetool",
+      "label": "UpdateExtraStateTool",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L39"
+    },
+    {
+      "id": "tools_updateextrastatetool_updateextrastatetool_updateextrastatetool",
+      "label": ".UpdateExtraStateTool()",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "label": ".updateExtraState()",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46"
+    },
+    {
+      "id": "tools_updateextrastatetool_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46"
+    },
+    {
+      "id": "tools_updateextrastatetool_java_toolcontext",
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46"
+    },
+    {
+      "id": "tools_updateextrastatetool_java_tool",
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46"
+    },
+    {
+      "id": "tools_updateextrastatetool_updateextrastatetool_summarizestate",
+      "label": ".summarizeState()",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L66"
+    },
+    {
+      "id": "tools_updateextrastatetool_java_overallstate",
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L66"
+    },
+    {
+      "id": "tools_updateextrastatetool_updateextrastatetool_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "tools_transfertosupporttool_java",
+      "label": "TransferToSupportTool.java",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_transfertosupporttool_transfertosupporttool",
+      "label": "TransferToSupportTool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L30"
+    },
+    {
+      "id": "tools_transfertosupporttool_transfertosupporttool_transfertosupporttool",
+      "label": ".TransferToSupportTool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L34"
+    },
+    {
+      "id": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "label": ".transferToSupport()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37"
+    },
+    {
+      "id": "tools_transfertosupporttool_java_toolcontext",
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37"
+    },
+    {
+      "id": "tools_transfertosupporttool_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37"
+    },
+    {
+      "id": "tools_transfertosupporttool_java_tool",
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37"
+    },
+    {
+      "id": "tools_transfertosupporttool_transfertosupporttool_tool",
+      "label": ".tool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50"
+    },
+    {
+      "id": "toolcallback",
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50"
+    },
+    {
+      "id": "tools_transfertosalestool_java",
+      "label": "TransferToSalesTool.java",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_transfertosalestool_transfertosalestool",
+      "label": "TransferToSalesTool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L33"
+    },
+    {
+      "id": "tools_transfertosalestool_transfertosalestool_transfertosalestool",
+      "label": ".TransferToSalesTool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37"
+    },
+    {
+      "id": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "label": ".transferToSales()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_transfertosalestool_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_transfertosalestool_java_toolcontext",
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_transfertosalestool_java_tool",
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_transfertosalestool_transfertosalestool_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L51"
+    },
+    {
+      "id": "state_agentscopestateconstants_java",
+      "label": "AgentScopeStateConstants.java",
+      "file_type": "code",
+      "source_file": "state/AgentScopeStateConstants.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "state_agentscopestateconstants_agentscopestateconstants",
+      "label": "AgentScopeStateConstants",
+      "file_type": "code",
+      "source_file": "state/AgentScopeStateConstants.java",
+      "source_location": "L21"
+    },
+    {
+      "id": "state_agentscopestateconstants_agentscopestateconstants_agentscopestateconstants",
+      "label": ".AgentScopeStateConstants()",
+      "file_type": "code",
+      "source_file": "state/AgentScopeStateConstants.java",
+      "source_location": "L23"
+    },
+    {
+      "id": "route_routeaftersupportaction_java",
+      "label": "RouteAfterSupportAction.java",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_routeaftersupportaction_routeaftersupportaction",
+      "label": "RouteAfterSupportAction",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L30"
+    },
+    {
+      "id": "asynccommandaction",
+      "label": "AsyncCommandAction",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersupportaction_java_overallstate",
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersupportaction_java_runnableconfig",
+      "label": "RunnableConfig",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersupportaction_java_completablefuture",
+      "label": "CompletableFuture",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersupportaction_java_command",
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersupportaction_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeinitialaction_java",
+      "label": "RouteInitialAction.java",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_routeinitialaction_routeinitialaction",
+      "label": "RouteInitialAction",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L30"
+    },
+    {
+      "id": "asynccommandaction",
+      "label": "AsyncCommandAction",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "route_routeinitialaction_routeinitialaction_apply",
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeinitialaction_java_overallstate",
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeinitialaction_java_runnableconfig",
+      "label": "RunnableConfig",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeinitialaction_java_completablefuture",
+      "label": "CompletableFuture",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeinitialaction_java_command",
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeinitialaction_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersalesaction_java",
+      "label": "RouteAfterSalesAction.java",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_routeaftersalesaction_routeaftersalesaction",
+      "label": "RouteAfterSalesAction",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L30"
+    },
+    {
+      "id": "asynccommandaction",
+      "label": "AsyncCommandAction",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersalesaction_java_overallstate",
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersalesaction_java_runnableconfig",
+      "label": "RunnableConfig",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersalesaction_java_completablefuture",
+      "label": "CompletableFuture",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersalesaction_java_command",
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "route_routeaftersalesaction_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "agentscopeapplication_java",
+      "target": "springapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopeapplication_java",
+      "target": "springbootapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopeapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopeapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopeapplication_java",
+      "target": "agentscopeapplication_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopeapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopeapplication_java",
+      "target": "agentscope_agentscopeapplication_agentscopeapplication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication",
+      "target": "agentscope_agentscopeapplication_agentscopeapplication_main",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication_main",
+      "target": "agentscopeapplication_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication",
+      "target": "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "agentscope_agentscopeapplication_agentscopeapplication_applicationreadyeventlistener",
+      "target": "agentscopeapplication_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "agentscopeagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "routeaftersalesaction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "routeaftersupportaction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "routeinitialaction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "agentscopestateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "transfertosalestool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "transfertosupporttool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "agentscopehandoffsconfig_java_compiledgraph",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "keystrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "stategraph",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "graphstateexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "appendstrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "replacestrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "inmemorymemory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "dashscopechatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "model",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "toolkit",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "value",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "configuration",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "stringutils",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "hashmap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "end",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "start",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsconfig_java",
+      "target": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "target": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_salesagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_salesagent",
+      "target": "chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_salesagent",
+      "target": "reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_salesagent",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "target": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_supportagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_supportagent",
+      "target": "agentscopehandoffsconfig_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_supportagent",
+      "target": "agentscopeagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_supportagent",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "target": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "target": "reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "target": "agentscopeagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "target": "agentscopehandoffsconfig_java_compiledgraph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsgraph",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig",
+      "target": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsservice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsservice",
+      "target": "agentscopehandoffsconfig_java_compiledgraph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsservice",
+      "target": "agentscopehandoffsconfig_java_agentscopehandoffsservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsconfig_agentscopehandoffsconfig_agentscopehandoffsservice",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "agentscopehandoffsservice_java_compiledgraph",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "overallstate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "graphrunnerexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "message",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "usermessage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "optional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsservice_java",
+      "target": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice",
+      "target": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_agentscopehandoffsservice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_agentscopehandoffsservice",
+      "target": "agentscopehandoffsservice_java_compiledgraph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice",
+      "target": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_run",
+      "target": "agentscopehandoffsservice_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsservice_agentscopehandoffsservice_run",
+      "target": "agentscopehandoffsresult",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "logger",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "loggerfactory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "applicationarguments",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "applicationrunner",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "conditionalonproperty",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscopehandoffsrunner_java",
+      "target": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "target": "applicationrunner",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "target": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "target": "agentscopehandoffsrunner_java_agentscopehandoffsservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner",
+      "target": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_run",
+      "target": "applicationarguments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "agentscope_agentscopehandoffsrunner_agentscopehandoffsrunner_run",
+      "target": "agentscopehandoffsrunner_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "toolcontexthelper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_java_tool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "toolparam",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_java_toolcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_updateextrastatetool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool",
+      "target": "tools_updateextrastatetool_updateextrastatetool_updateextrastatetool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool",
+      "target": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "target": "tools_updateextrastatetool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "target": "tools_updateextrastatetool_java_toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "target": "tools_updateextrastatetool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "target": "tools_updateextrastatetool_java_tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool",
+      "target": "tools_updateextrastatetool_updateextrastatetool_summarizestate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_summarizestate",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_summarizestate",
+      "target": "tools_updateextrastatetool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool",
+      "target": "tools_updateextrastatetool_updateextrastatetool_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_create",
+      "target": "tools_updateextrastatetool_updateextrastatetool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_updateextrastatetool_updateextrastatetool_updateextrastate",
+      "target": "tools_updateextrastatetool_updateextrastatetool_summarizestate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "agentscopestateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "toolcontexthelper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "toolcallbacks",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_tool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_transfertosupporttool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool",
+      "target": "tools_transfertosupporttool_transfertosupporttool_transfertosupporttool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool",
+      "target": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "target": "tools_transfertosupporttool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "target": "tools_transfertosupporttool_java_tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool",
+      "target": "tools_transfertosupporttool_transfertosupporttool_tool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosupporttool_transfertosupporttool_tool",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_transfertosalestool_java",
+      "target": "agentscopestateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_java",
+      "target": "toolcontexthelper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_tool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_java",
+      "target": "toolparam",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_transfertosalestool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool",
+      "target": "tools_transfertosalestool_transfertosalestool_transfertosalestool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool",
+      "target": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool",
+      "target": "tools_transfertosalestool_transfertosalestool_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_transfertosalestool_transfertosalestool_create",
+      "target": "tools_transfertosalestool_transfertosalestool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "state_agentscopestateconstants_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "state/AgentScopeStateConstants.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "state_agentscopestateconstants_agentscopestateconstants",
+      "target": "state_agentscopestateconstants_agentscopestateconstants_agentscopestateconstants",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "state/AgentScopeStateConstants.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "agentscopestateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "asynccommandaction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_command",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_routeaftersupportaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction",
+      "target": "asynccommandaction",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction",
+      "target": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_command",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "agentscopestateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "asynccommandaction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_command",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_routeinitialaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction",
+      "target": "asynccommandaction",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction",
+      "target": "route_routeinitialaction_routeinitialaction_apply",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_command",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "agentscopestateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "asynccommandaction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_command",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_routeaftersalesaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction",
+      "target": "asynccommandaction",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction",
+      "target": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_command",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopeapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopeapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopeapplication_java",
+      "target": "agentscopeapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopeapplication_java",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopeapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "agentscopeagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "route_routeaftersalesaction_routeaftersalesaction",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "route_routeaftersupportaction_routeaftersupportaction",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "route_routeinitialaction_routeinitialaction",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "tools_transfertosalestool_transfertosalestool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "tools_transfertosupporttool_transfertosupporttool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "agentscopehandoffsconfig_java_compiledgraph",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "agentscopehandoffsservice_java_compiledgraph",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "agentscopeapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsconfig_java",
+      "target": "agentscopehandoffsconfig_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsConfig.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsservice_java",
+      "target": "agentscopehandoffsconfig_java_compiledgraph",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsservice_java",
+      "target": "agentscopehandoffsservice_java_compiledgraph",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsservice_java",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsservice_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsservice_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsservice_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsService.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_agentscopehandoffsrunner_java",
+      "target": "applicationarguments",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentScopeHandoffsRunner.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_transfertosupporttool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_transfertosalestool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_updateextrastatetool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_updateextrastatetool_java",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/UpdateExtraStateTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "tools_updateextrastatetool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "tools_updateextrastatetool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosupporttool_java",
+      "target": "tools_transfertosalestool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "tools_updateextrastatetool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "tools_transfertosupporttool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "tools_updateextrastatetool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeinitialaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersalesaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersupportaction_java",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersupportaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersalesaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeinitialaction_java",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "state_agentscopestateconstants_agentscopestateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "tools_updateextrastatetool_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersupportaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeinitialaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_command",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_agentscope_handoffs_src_main_java_com_alibaba_cloud_ai_examples_multiagents_agentscope_route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L24",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

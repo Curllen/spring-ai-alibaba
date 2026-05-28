@@ -1,0 +1,664 @@
+{
+  "nodes": [
+    {
+      "id": "readme_agent_handoff_pattern",
+      "label": "Multiple Agent Subgraphs Handoffs Pattern",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_state_graph",
+      "label": "StateGraph (LangGraph)",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_sales_agent",
+      "label": "Sales Agent (Spring AI ReactAgent)",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_support_agent",
+      "label": "Support Agent (AgentScope ReActAgent)",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_transfer_to_support_tool",
+      "label": "TransferToSupportTool",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_transfer_to_sales_tool",
+      "label": "TransferToSalesTool",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_active_agent",
+      "label": "active_agent State Key",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_conditional_routing",
+      "label": "Conditional Routing (route_initial, route_after_sales, route_after_support)",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_tool_context",
+      "label": "ToolContext / ToolContextHelper",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_return_direct",
+      "label": "returnDirect (Spring AI)",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_agentscope_toolkit",
+      "label": "AgentScope Toolkit",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_react_agent",
+      "label": "ReActAgent",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_chat_ui",
+      "label": "Chat UI",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_agentscope_handoffs_service",
+      "label": "AgentScopeHandoffsService",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dashscope_api",
+      "label": "DashScope API",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_agent_scope_handoffs_config",
+      "label": "AgentScopeHandoffsConfig",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_transition_actions",
+      "label": "Route Actions (RouteInitialAction, RouteAfterSalesAction, RouteAfterSupportAction)",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_update_extra_state_tool",
+      "label": "UpdateExtraStateTool",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_handoffs_multiagent_ref",
+      "label": "handoffs-multiagent Reference Example",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_spring_ai_agent_framework",
+      "label": "Spring AI Alibaba Agent Framework",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_state_update_mechanism",
+      "label": "State Update via getStateForUpdate",
+      "file_type": "document",
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "config_application_yml",
+      "label": "application.yml (AgentScope Handoffs)",
+      "file_type": "code",
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "config_agentscope_runner_enabled",
+      "label": "agentscope.runner.enabled",
+      "file_type": "code",
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": "L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "config_dashscope_api_key",
+      "label": "spring.ai.dashscope.api-key",
+      "file_type": "code",
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": "L7-L8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "config_server_port_8089",
+      "label": "Server Port 8089",
+      "file_type": "code",
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": "L1-L2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_sales_agent",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_support_agent",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_support_tool",
+      "target": "readme_sales_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_sales_tool",
+      "target": "readme_support_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_support_tool",
+      "target": "readme_return_direct",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_sales_tool",
+      "target": "readme_agentscope_toolkit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_support_tool",
+      "target": "readme_active_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_sales_tool",
+      "target": "readme_active_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transfer_to_sales_tool",
+      "target": "readme_tool_context",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_active_agent",
+      "target": "readme_conditional_routing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_conditional_routing",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_support_agent",
+      "target": "readme_react_agent",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_support_agent",
+      "target": "readme_agentscope_toolkit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agentscope_toolkit",
+      "target": "readme_react_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tool_context",
+      "target": "readme_active_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_update_extra_state_tool",
+      "target": "readme_tool_context",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_handoff_pattern",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_chat_ui",
+      "target": "readme_agentscope_handoffs_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_scope_handoffs_config",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transition_actions",
+      "target": "readme_conditional_routing",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sales_agent",
+      "target": "readme_dashscope_api",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_support_agent",
+      "target": "readme_dashscope_api",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_handoffs_multiagent_ref",
+      "target": "readme_agent_handoff_pattern",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_agent_framework",
+      "target": "readme_support_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_agent_framework",
+      "target": "readme_sales_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_application_yml",
+      "target": "config_server_port_8089",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_application_yml",
+      "target": "config_agentscope_runner_enabled",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_application_yml",
+      "target": "config_dashscope_api_key",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_agentscope_runner_enabled",
+      "target": "readme_agent_handoff_pattern",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_dashscope_api_key",
+      "target": "readme_dashscope_api",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agentscope_handoffs_service",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_state_update_mechanism",
+      "target": "readme_tool_context",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_state_update_mechanism",
+      "target": "readme_active_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_transition_actions",
+      "target": "readme_state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "agent_handoff_state_management",
+      "label": "Agent Handoff State Management via active_agent, ToolContext, and Conditional Routing",
+      "nodes": [
+        "readme_active_agent",
+        "readme_tool_context",
+        "readme_conditional_routing"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md"
+    },
+    {
+      "id": "agentscope_integration_architecture",
+      "label": "AgentScope Integration: Support Agent, Toolkit, and ReActAgent",
+      "nodes": [
+        "readme_support_agent",
+        "readme_agentscope_toolkit",
+        "readme_react_agent"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/README.md"
+    },
+    {
+      "id": "spring_config_cross_reference",
+      "label": "Spring Configuration Cross-Reference: application.yml, DashScope API Key, and Runner",
+      "nodes": [
+        "config_application_yml",
+        "config_dashscope_api_key",
+        "config_agentscope_runner_enabled"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/agentscope/handoffs/src/main/resources/application.yml"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

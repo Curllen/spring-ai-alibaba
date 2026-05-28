@@ -1,0 +1,2 @@
+/workspace/examples/agentscope/handoffs/README.md
+/workspace/examples/agentscope/handoffs/src/main/resources/application.yml
