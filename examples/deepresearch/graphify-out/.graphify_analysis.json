@@ -1,0 +1,234 @@
+{
+  "communities": {
+    "0": [
+      "readme_agent_studio_ui",
+      "readme_agentic_architecture",
+      "readme_alibaba_bailian",
+      "readme_application_java",
+      "readme_conversation_history",
+      "readme_dashscope_chat_model",
+      "readme_deepresearch_agent",
+      "readme_hook_mechanism",
+      "readme_humanintheloophook",
+      "readme_jdk17",
+      "readme_maven",
+      "readme_memorysaver",
+      "readme_react_pattern",
+      "readme_reactagent",
+      "readme_spring_ai_alibaba",
+      "readme_summarizationhook",
+      "readme_toolcalllimithook",
+      "readme_toolretryinterceptor",
+      "yml_dashscope_api_key"
+    ],
+    "1": [
+      "deepresearch_deepresearchagent_deepresearchagent",
+      "deepresearch_deepresearchagent_deepresearchagent_createcritiqueagent",
+      "deepresearch_deepresearchagent_deepresearchagent_createresearchagent",
+      "deepresearch_deepresearchagent_deepresearchagent_deepresearchagent",
+      "deepresearch_deepresearchagent_deepresearchagent_getresearchagent",
+      "deepresearch_deepresearchagent_deepresearchagent_subagentasinterceptors",
+      "deepresearch_deepresearchagent_prompts",
+      "deepresearchagent_java",
+      "deepresearchagent_java_list",
+      "deepresearchagent_java_string",
+      "interceptor",
+      "reactagent",
+      "subagentspec",
+      "toolcallback"
+    ],
+    "2": [
+      "readme_context_window_overflow",
+      "readme_contexteditinginterceptor",
+      "readme_critique_agent_sub",
+      "readme_filesystem_context_management",
+      "readme_filesystem_tools",
+      "readme_filesysteminterceptor",
+      "readme_interceptor_mechanism",
+      "readme_largeresultevictioninterceptor",
+      "readme_planning_task_decomposition",
+      "readme_research_agent_sub",
+      "readme_subagent_collaboration",
+      "readme_subagentinterceptor",
+      "readme_todolistinterceptor"
+    ],
+    "3": [
+      "agent",
+      "agentloader",
+      "agentstaticloader_java",
+      "agentstaticloader_java_list",
+      "agentstaticloader_java_string",
+      "deepresearch_agentstaticloader_agentstaticloader",
+      "deepresearch_agentstaticloader_agentstaticloader_agentstaticloader",
+      "deepresearch_agentstaticloader_agentstaticloader_listagents",
+      "deepresearch_agentstaticloader_agentstaticloader_loadagent",
+      "nonnull",
+      "override",
+      "toolcallbackprovider"
+    ],
+    "4": [
+      "application_java",
+      "application_java_string",
+      "applicationlistener",
+      "applicationreadyevent",
+      "bean",
+      "deepresearch_application_application",
+      "deepresearch_application_application_applicationreadyeventlistener",
+      "deepresearch_application_application_main",
+      "deepresearch_application_application_mcpsynchttpclientrequestcustomizer",
+      "environment",
+      "mcpsynchttpclientrequestcustomizer"
+    ],
+    "5": [
+      "readme_chatui",
+      "readme_jina_ai",
+      "readme_mcp_client",
+      "readme_mcp_tool_integration",
+      "yml_application_config",
+      "yml_jina_mcp_connection",
+      "yml_mcp_client_enabled",
+      "yml_mcp_request_timeout",
+      "yml_mcp_toolcallback",
+      "yml_server_port"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15789473684210525,
+    "1": 0.2967032967032967,
+    "2": 0.21794871794871795,
+    "3": 0.2727272727272727,
+    "4": 0.2909090909090909,
+    "5": 0.28888888888888886
+  },
+  "gods": [
+    {
+      "id": "readme_deepresearch_agent",
+      "label": "DeepResearch Agent",
+      "degree": 18
+    },
+    {
+      "id": "readme_spring_ai_alibaba",
+      "label": "Spring AI Alibaba Framework",
+      "degree": 8
+    },
+    {
+      "id": "readme_interceptor_mechanism",
+      "label": "Interceptor Middleware",
+      "degree": 8
+    },
+    {
+      "id": "readme_mcp_client",
+      "label": "Spring AI MCP Client",
+      "degree": 7
+    },
+    {
+      "id": "yml_application_config",
+      "label": "Spring Application Configuration (application.yml)",
+      "degree": 7
+    },
+    {
+      "id": "deepresearch_deepresearchagent_deepresearchagent",
+      "label": "DeepResearchAgent",
+      "degree": 6
+    },
+    {
+      "id": "deepresearch_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "degree": 5
+    },
+    {
+      "id": "toolcallback",
+      "label": "ToolCallback",
+      "degree": 5
+    },
+    {
+      "id": "readme_filesystem_context_management",
+      "label": "File System & Context Management",
+      "degree": 5
+    },
+    {
+      "id": "readme_reactagent",
+      "label": "ReactAgent (ReAct Pattern)",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Spring Application Configuration (application.yml)",
+      "target": "DeepResearch Agent",
+      "source_files": [
+        "examples/deepresearch/src/main/resources/application.yml",
+        "examples/deepresearch/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "MCP Client Enabled Flag",
+      "target": "Spring AI MCP Client",
+      "source_files": [
+        "examples/deepresearch/src/main/resources/application.yml",
+        "examples/deepresearch/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "peripheral node `MCP Client Enabled Flag` unexpectedly reaches hub `Spring AI MCP Client`"
+    },
+    {
+      "source": "MCP Request Timeout 60000ms",
+      "target": "Spring AI MCP Client",
+      "source_files": [
+        "examples/deepresearch/src/main/resources/application.yml",
+        "examples/deepresearch/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "peripheral node `MCP Request Timeout 60000ms` unexpectedly reaches hub `Spring AI MCP Client`"
+    },
+    {
+      "source": "MCP Tool Callback Enabled",
+      "target": "Spring AI MCP Client",
+      "source_files": [
+        "examples/deepresearch/src/main/resources/application.yml",
+        "examples/deepresearch/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "peripheral node `MCP Tool Callback Enabled` unexpectedly reaches hub `Spring AI MCP Client`"
+    },
+    {
+      "source": "DashScope API Key Config (${AI_DASHSCOPE_API_KEY})",
+      "target": "Alibaba Cloud Bailian",
+      "source_files": [
+        "examples/deepresearch/src/main/resources/application.yml",
+        "examples/deepresearch/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `DeepResearch Agent` connect `Community 0` to `Community 2`, `Community 5`?",
+      "why": "High betweenness centrality (0.187) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Interceptor Middleware` connect `Community 2` to `Community 0`?",
+      "why": "High betweenness centrality (0.048) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Spring Application Configuration (application.yml)` connect `Community 5` to `Community 0`?",
+      "why": "High betweenness centrality (0.034) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `Prompts`, `JDK 17+` to the rest of the system?",
+      "why": "5 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

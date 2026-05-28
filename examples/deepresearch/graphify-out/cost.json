@@ -1,0 +1,8 @@
+{
+  "module": "deepresearch-example",
+  "date": "2026-05-27",
+  "tokens_input": 0,
+  "tokens_output": 0,
+  "total_tokens": 0,
+  "method": "AST (3 Java) + Semantic (README + application.yml)"
+}

@@ -1,0 +1,8 @@
+{
+  "0": "README: Agent Architecture & Core Concepts",
+  "1": "DeepResearchAgent: Main Agent Configuration",
+  "2": "README: Context, Filesystem & Critique Sub-agent",
+  "3": "AgentStaticLoader: Agent Registry & Discovery",
+  "4": "DeepResearch Application Bootstrap & Listener",
+  "5": "README: MCP Integration, ChatUI & YML Config"
+}

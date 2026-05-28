@@ -1,0 +1,26 @@
+{
+  "module": "deepresearch-example",
+  "date": "2026-05-27",
+  "total_nodes": 79,
+  "total_edges": 134,
+  "total_communities": 6,
+  "extraction": "96% EXTRACTED, 4% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 80013,
+      "size_human": "78.1 KB"
+    },
+    "graph.json": {
+      "size": 70666,
+      "size_human": "69.0 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 5437,
+      "size_human": "5.3 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 18622,
+      "size_human": "18.2 KB"
+    }
+  }
+}
