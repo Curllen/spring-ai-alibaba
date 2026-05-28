@@ -1,0 +1,7 @@
+{
+  "0": "ChatbotAgent: ReAct Agent Configuration & Tools",
+  "1": "PythonTool: Code Execution & Engine Integration",
+  "2": "README Documentation & Setup Guide",
+  "3": "AgentStaticLoader: Agent Registry & Discovery",
+  "4": "ChatbotApplication: Spring Boot Bootstrap"
+}

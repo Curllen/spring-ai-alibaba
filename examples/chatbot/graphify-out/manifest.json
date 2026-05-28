@@ -1,0 +1,26 @@
+{
+  "module": "chatbot-example",
+  "date": "2026-05-27",
+  "total_nodes": 56,
+  "total_edges": 83,
+  "total_communities": 5,
+  "extraction": "96% EXTRACTED, 4% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 55691,
+      "size_human": "54.4 KB"
+    },
+    "graph.json": {
+      "size": 42613,
+      "size_human": "41.6 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 2806,
+      "size_human": "2.7 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 15015,
+      "size_human": "14.7 KB"
+    }
+  }
+}
