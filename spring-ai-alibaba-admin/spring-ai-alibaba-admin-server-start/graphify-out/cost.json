@@ -1,0 +1,8 @@
+{
+  "module": "spring-ai-alibaba-admin-server-start",
+  "date": "2026-05-27",
+  "tokens_input": 0,
+  "tokens_output": 0,
+  "total_tokens": 0,
+  "method": "AST extraction (348 Java files) + Semantic extraction (13 doc/config files)"
+}

@@ -1,0 +1,26 @@
+{
+  "module": "spring-ai-alibaba-admin-server-start",
+  "date": "2026-05-27",
+  "total_nodes": 6746,
+  "total_edges": 16225,
+  "total_communities": 296,
+  "extraction": "96% EXTRACTED, 4% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 7545399,
+      "size_human": "7368.6 KB"
+    },
+    "graph.json": {
+      "size": 8754329,
+      "size_human": "8549.1 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 85928,
+      "size_human": "83.9 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 25174,
+      "size_human": "24.6 KB"
+    }
+  }
+}
