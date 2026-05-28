@@ -1,0 +1,8 @@
+{
+  "module": "documentation-examples",
+  "date": "2026-05-28",
+  "total_nodes": 993,
+  "total_edges": 1933,
+  "total_communities": 45,
+  "method": "AST (46 Java) + Semantic (2 README + 1 YML)"
+}

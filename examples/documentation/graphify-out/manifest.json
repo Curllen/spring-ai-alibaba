@@ -1,0 +1,30 @@
+{
+  "module": "documentation-examples",
+  "date": "2026-05-28",
+  "total_nodes": 993,
+  "total_edges": 1933,
+  "total_communities": 45,
+  "extraction": "96% EXTRACTED, 4% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 1013234,
+      "size_human": "989.5 KB"
+    },
+    "graph.json": {
+      "size": 1068711,
+      "size_human": "1043.7 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 18390,
+      "size_human": "18.0 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 20702,
+      "size_human": "20.2 KB"
+    },
+    ".graphify_analysis.json": {
+      "size": 71534,
+      "size_human": "69.9 KB"
+    }
+  }
+}
