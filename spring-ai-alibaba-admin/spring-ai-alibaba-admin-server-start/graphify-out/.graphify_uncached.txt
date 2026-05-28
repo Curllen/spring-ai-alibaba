@@ -1,0 +1,13 @@
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/README-zh.md
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/CONFIGURATION.md
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/model-config-deepseek.yaml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/model-config-openai.yaml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/model-config-dashscope.yaml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/README.md
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/model-config.yml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/src/main/resources/application-dev.yml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/src/main/resources/initializr.yml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/src/main/resources/elasticsearch.yml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/src/main/resources/application-local.yml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/src/main/resources/application.yml
+/workspace/spring-ai-alibaba-admin/spring-ai-alibaba-admin-server-start/src/main/resources/templates/default-application.yml
