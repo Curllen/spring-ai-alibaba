@@ -1,0 +1,279 @@
+{
+  "communities": {
+    "0": [
+      "asynccommandaction",
+      "route_routeaftersupportaction_java",
+      "route_routeaftersupportaction_java_command",
+      "route_routeaftersupportaction_java_completablefuture",
+      "route_routeaftersupportaction_java_overallstate",
+      "route_routeaftersupportaction_java_override",
+      "route_routeaftersupportaction_java_runnableconfig",
+      "route_routeaftersupportaction_routeaftersupportaction",
+      "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "route_routeinitialaction_java",
+      "route_routeinitialaction_java_command",
+      "route_routeinitialaction_java_completablefuture",
+      "route_routeinitialaction_java_overallstate",
+      "route_routeinitialaction_java_override",
+      "route_routeinitialaction_java_runnableconfig",
+      "route_routeinitialaction_routeinitialaction",
+      "route_routeinitialaction_routeinitialaction_apply"
+    ],
+    "1": [
+      "active_agent",
+      "handoffs_runner",
+      "message_history",
+      "multiagent_handoffs_config",
+      "multiagent_handoffs_service",
+      "react_agent",
+      "return_direct",
+      "route_after_sales",
+      "route_after_support",
+      "route_initial",
+      "sales_agent",
+      "state_graph",
+      "studio_agent_discovery",
+      "support_agent",
+      "tool_context_helper",
+      "transfer_to_sales_tool",
+      "transfer_to_support_tool"
+    ],
+    "2": [
+      "chatmodel",
+      "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsgraph",
+      "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsservice",
+      "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsalesagent",
+      "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsupportagent",
+      "multiagenthandoffsconfig_java",
+      "multiagenthandoffsconfig_java_bean",
+      "multiagenthandoffsconfig_java_compiledgraph",
+      "multiagenthandoffsconfig_java_multiagenthandoffsservice",
+      "reactagent"
+    ],
+    "3": [
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment",
+      "handoffs_handoffsapplication_handoffsapplication",
+      "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "handoffs_handoffsapplication_handoffsapplication_main",
+      "handoffsapplication_java",
+      "handoffsapplication_java_bean",
+      "handoffsapplication_java_string"
+    ],
+    "4": [
+      "tools_transfertosalestool_java",
+      "tools_transfertosalestool_java_string",
+      "tools_transfertosalestool_java_tool",
+      "tools_transfertosalestool_java_toolcallback",
+      "tools_transfertosalestool_java_toolcontext",
+      "tools_transfertosalestool_transfertosalestool",
+      "tools_transfertosalestool_transfertosalestool_tool",
+      "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "tools_transfertosalestool_transfertosalestool_transfertosalestool"
+    ],
+    "5": [
+      "tools_transfertosupporttool_java",
+      "tools_transfertosupporttool_java_string",
+      "tools_transfertosupporttool_java_tool",
+      "tools_transfertosupporttool_java_toolcallback",
+      "tools_transfertosupporttool_java_toolcontext",
+      "tools_transfertosupporttool_transfertosupporttool",
+      "tools_transfertosupporttool_transfertosupporttool_tool",
+      "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "tools_transfertosupporttool_transfertosupporttool_transfertosupporttool"
+    ],
+    "6": [
+      "applicationarguments",
+      "applicationrunner",
+      "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_run",
+      "multiagenthandoffsrunner_java",
+      "multiagenthandoffsrunner_java_multiagenthandoffsservice",
+      "multiagenthandoffsrunner_java_override"
+    ],
+    "7": [
+      "route_routeaftersalesaction_java",
+      "route_routeaftersalesaction_java_command",
+      "route_routeaftersalesaction_java_completablefuture",
+      "route_routeaftersalesaction_java_overallstate",
+      "route_routeaftersalesaction_java_override",
+      "route_routeaftersalesaction_java_runnableconfig",
+      "route_routeaftersalesaction_routeaftersalesaction",
+      "route_routeaftersalesaction_routeaftersalesaction_apply"
+    ],
+    "8": [
+      "handoffs_multiagenthandoffsservice_multiagenthandoffsservice",
+      "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_multiagenthandoffsservice",
+      "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_run",
+      "multiagenthandoffsresult",
+      "multiagenthandoffsservice_java",
+      "multiagenthandoffsservice_java_compiledgraph",
+      "multiagenthandoffsservice_java_string"
+    ],
+    "9": [
+      "state_multiagentstateconstants_java",
+      "state_multiagentstateconstants_multiagentstateconstants",
+      "state_multiagentstateconstants_multiagentstateconstants_multiagentstateconstants"
+    ],
+    "10": [
+      "dashscope_api_key",
+      "handoffs_multiagent_module"
+    ],
+    "11": [
+      "chat_ui"
+    ]
+  },
+  "cohesion": {
+    "0": 0.19117647058823528,
+    "1": 0.23529411764705882,
+    "2": 0.38181818181818183,
+    "3": 0.3333333333333333,
+    "4": 0.3055555555555556,
+    "5": 0.3055555555555556,
+    "6": 0.32142857142857145,
+    "7": 0.39285714285714285,
+    "8": 0.3333333333333333,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0
+  },
+  "gods": [
+    {
+      "id": "active_agent",
+      "label": "Active Agent State Field",
+      "degree": 8
+    },
+    {
+      "id": "state_graph",
+      "label": "Parent StateGraph",
+      "degree": 7
+    },
+    {
+      "id": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "label": "MultiAgentHandoffsConfig",
+      "degree": 5
+    },
+    {
+      "id": "multiagenthandoffsconfig_java_bean",
+      "label": "Bean",
+      "degree": 5
+    },
+    {
+      "id": "sales_agent",
+      "label": "Sales Agent Node",
+      "degree": 5
+    },
+    {
+      "id": "support_agent",
+      "label": "Support Agent Node",
+      "degree": 5
+    },
+    {
+      "id": "transfer_to_sales_tool",
+      "label": "TransferToSalesTool",
+      "degree": 5
+    },
+    {
+      "id": "transfer_to_support_tool",
+      "label": "TransferToSupportTool",
+      "degree": 5
+    },
+    {
+      "id": "return_direct",
+      "label": "returnDirect=true Pattern",
+      "degree": 5
+    },
+    {
+      "id": "reactagent",
+      "label": "ReactAgent",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Full Message History Context",
+      "target": "Active Agent State Field",
+      "source_files": [
+        "examples/multiagent-patterns/handoffs-multiagent/README.md",
+        "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/state/MultiAgentStateConstants.java"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); peripheral node `Full Message History Context` unexpectedly reaches hub `Active Agent State Field`"
+    },
+    {
+      "source": "returnDirect=true Pattern",
+      "target": "RouteAfterSalesAction",
+      "source_files": [
+        "examples/multiagent-patterns/handoffs-multiagent/README.md",
+        "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/route/RouteAfterSalesAction.java"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "conceptually_related_to",
+      "why": "ambiguous connection - not explicitly stated in source; crosses file types (doc \u2194 code)"
+    },
+    {
+      "source": "returnDirect=true Pattern",
+      "target": "RouteAfterSupportAction",
+      "source_files": [
+        "examples/multiagent-patterns/handoffs-multiagent/README.md",
+        "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/route/RouteAfterSupportAction.java"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "conceptually_related_to",
+      "why": "ambiguous connection - not explicitly stated in source; crosses file types (doc \u2194 code)"
+    },
+    {
+      "source": "Sales Agent Node",
+      "target": "ReactAgent (CompiledGraph)",
+      "source_files": [
+        "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsConfig.java",
+        "examples/multiagent-patterns/handoffs-multiagent/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "crosses file types (code \u2194 doc); peripheral node `ReactAgent (CompiledGraph)` unexpectedly reaches hub `Sales Agent Node`"
+    },
+    {
+      "source": "Studio Agent Auto-Discovery",
+      "target": "Sales Agent Node",
+      "source_files": [
+        "examples/multiagent-patterns/handoffs-multiagent/README.md",
+        "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsConfig.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code \u2194 doc); peripheral node `Studio Agent Auto-Discovery` unexpectedly reaches hub `Sales Agent Node`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "ambiguous_edge",
+      "question": "What is the exact relationship between `returnDirect=true Pattern` and `RouteAfterSalesAction`?",
+      "why": "Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low."
+    },
+    {
+      "type": "ambiguous_edge",
+      "question": "What is the exact relationship between `returnDirect=true Pattern` and `RouteAfterSupportAction`?",
+      "why": "Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RouteAfterSalesAction` connect `Community 7` to `Community 0`?",
+      "why": "High betweenness centrality (0.007) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `Active Agent State Field` (e.g. with `Full Message History Context` and `RouteAfterSalesAction`) actually correct?",
+      "why": "`Active Agent State Field` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `MultiAgentHandoffsResult`, `MultiAgentHandoffsService` to the rest of the system?",
+      "why": "16 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

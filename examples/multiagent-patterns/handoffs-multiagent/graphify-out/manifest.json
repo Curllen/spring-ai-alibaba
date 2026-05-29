@@ -1,0 +1,30 @@
+{
+  "module": "handoffs-multiagent",
+  "date": "2026-05-29",
+  "total_nodes": 101,
+  "total_edges": 145,
+  "total_communities": 12,
+  "extraction": "94% EXTRACTED, 5% INFERRED, 1% AMBIGUOUS",
+  "files": {
+    "graph.html": {
+      "size": 97993,
+      "size_human": "95.7 KB"
+    },
+    "graph.json": {
+      "size": 87000,
+      "size_human": "85.0 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 7826,
+      "size_human": "7.6 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 20067,
+      "size_human": "19.6 KB"
+    },
+    ".graphify_analysis.json": {
+      "size": 10737,
+      "size_human": "10.5 KB"
+    }
+  }
+}

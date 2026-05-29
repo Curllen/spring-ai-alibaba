@@ -1,0 +1,8 @@
+{
+  "module": "handoffs-multiagent",
+  "date": "2026-05-29",
+  "total_nodes": 101,
+  "total_edges": 145,
+  "total_communities": 12,
+  "method": "AST (10 Java) + Semantic (1 README + 1 YML)"
+}

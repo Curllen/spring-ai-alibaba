@@ -1,0 +1,2615 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "handoff_pattern_support_to_sales",
+        "label": "Support\u2192Sales Handoff Flow",
+        "nodes": [
+          "transfer_to_sales_tool",
+          "active_agent",
+          "support_agent"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md"
+      },
+      {
+        "id": "handoff_pattern_sales_to_support",
+        "label": "Sales\u2192Support Handoff Flow",
+        "nodes": [
+          "transfer_to_support_tool",
+          "active_agent",
+          "sales_agent"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md"
+      },
+      {
+        "id": "state_graph_routing_mechanism",
+        "label": "StateGraph Conditional Routing",
+        "nodes": [
+          "state_graph",
+          "route_initial",
+          "route_after_sales"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "MultiAgentHandoffsService.java",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L1",
+      "id": "multiagenthandoffsservice_java",
+      "community": 8,
+      "norm_label": "multiagenthandoffsservice.java"
+    },
+    {
+      "label": "MultiAgentHandoffsService",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L31",
+      "id": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice",
+      "community": 8,
+      "norm_label": "multiagenthandoffsservice"
+    },
+    {
+      "label": ".MultiAgentHandoffsService()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L35",
+      "id": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_multiagenthandoffsservice",
+      "community": 8,
+      "norm_label": ".multiagenthandoffsservice()"
+    },
+    {
+      "label": "CompiledGraph",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L35",
+      "id": "multiagenthandoffsservice_java_compiledgraph",
+      "community": 8,
+      "norm_label": "compiledgraph"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L42",
+      "id": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_run",
+      "community": 8,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L42",
+      "id": "multiagenthandoffsservice_java_string",
+      "community": 8,
+      "norm_label": "string"
+    },
+    {
+      "label": "MultiAgentHandoffsResult",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L42",
+      "id": "multiagenthandoffsresult",
+      "community": 8,
+      "norm_label": "multiagenthandoffsresult"
+    },
+    {
+      "label": "MultiAgentHandoffsConfig.java",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L1",
+      "id": "multiagenthandoffsconfig_java",
+      "community": 2,
+      "norm_label": "multiagenthandoffsconfig.java"
+    },
+    {
+      "label": "MultiAgentHandoffsConfig",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L44",
+      "id": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "community": 2,
+      "norm_label": "multiagenthandoffsconfig"
+    },
+    {
+      "label": ".multiAgentSalesAgent()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "id": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsalesagent",
+      "community": 2,
+      "norm_label": ".multiagentsalesagent()"
+    },
+    {
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "id": "chatmodel",
+      "community": 2,
+      "norm_label": "chatmodel"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "id": "reactagent",
+      "community": 2,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "id": "multiagenthandoffsconfig_java_bean",
+      "community": 2,
+      "norm_label": "bean"
+    },
+    {
+      "label": ".multiAgentSupportAgent()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L73",
+      "id": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsupportagent",
+      "community": 2,
+      "norm_label": ".multiagentsupportagent()"
+    },
+    {
+      "label": ".multiAgentHandoffsGraph()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L87",
+      "id": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsgraph",
+      "community": 2,
+      "norm_label": ".multiagenthandoffsgraph()"
+    },
+    {
+      "label": "CompiledGraph",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L87",
+      "id": "multiagenthandoffsconfig_java_compiledgraph",
+      "community": 2,
+      "norm_label": "compiledgraph"
+    },
+    {
+      "label": ".multiAgentHandoffsService()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L123",
+      "id": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsservice",
+      "community": 2,
+      "norm_label": ".multiagenthandoffsservice()"
+    },
+    {
+      "label": "MultiAgentHandoffsService",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L123",
+      "id": "multiagenthandoffsconfig_java_multiagenthandoffsservice",
+      "community": 2,
+      "norm_label": "multiagenthandoffsservice"
+    },
+    {
+      "label": "HandoffsApplication.java",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L1",
+      "id": "handoffsapplication_java",
+      "community": 3,
+      "norm_label": "handoffsapplication.java"
+    },
+    {
+      "label": "HandoffsApplication",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L25",
+      "id": "handoffs_handoffsapplication_handoffsapplication",
+      "community": 3,
+      "norm_label": "handoffsapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "id": "handoffs_handoffsapplication_handoffsapplication_main",
+      "community": 3,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "id": "handoffsapplication_java_string",
+      "community": 3,
+      "norm_label": "string"
+    },
+    {
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "community": 3,
+      "norm_label": ".applicationreadyeventlistener()"
+    },
+    {
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "environment",
+      "community": 3,
+      "norm_label": "environment"
+    },
+    {
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "applicationlistener",
+      "community": 3,
+      "norm_label": "applicationlistener"
+    },
+    {
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "applicationreadyevent",
+      "community": 3,
+      "norm_label": "applicationreadyevent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "handoffsapplication_java_bean",
+      "community": 3,
+      "norm_label": "bean"
+    },
+    {
+      "label": "MultiAgentHandoffsRunner.java",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L1",
+      "id": "multiagenthandoffsrunner_java",
+      "community": 6,
+      "norm_label": "multiagenthandoffsrunner.java"
+    },
+    {
+      "label": "MultiAgentHandoffsRunner",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L28",
+      "id": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "community": 6,
+      "norm_label": "multiagenthandoffsrunner"
+    },
+    {
+      "label": "ApplicationRunner",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "applicationrunner",
+      "community": 6,
+      "norm_label": "applicationrunner"
+    },
+    {
+      "label": ".MultiAgentHandoffsRunner()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L36",
+      "id": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "community": 6,
+      "norm_label": ".multiagenthandoffsrunner()"
+    },
+    {
+      "label": "MultiAgentHandoffsService",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L36",
+      "id": "multiagenthandoffsrunner_java_multiagenthandoffsservice",
+      "community": 6,
+      "norm_label": "multiagenthandoffsservice"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L40",
+      "id": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_run",
+      "community": 6,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "ApplicationArguments",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L40",
+      "id": "applicationarguments",
+      "community": 6,
+      "norm_label": "applicationarguments"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L40",
+      "id": "multiagenthandoffsrunner_java_override",
+      "community": 6,
+      "norm_label": "override"
+    },
+    {
+      "label": "TransferToSalesTool.java",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L1",
+      "id": "tools_transfertosalestool_java",
+      "community": 4,
+      "norm_label": "transfertosalestool.java"
+    },
+    {
+      "label": "TransferToSalesTool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L30",
+      "id": "tools_transfertosalestool_transfertosalestool",
+      "community": 4,
+      "norm_label": "transfertosalestool"
+    },
+    {
+      "label": ".TransferToSalesTool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L34",
+      "id": "tools_transfertosalestool_transfertosalestool_transfertosalestool",
+      "community": 4,
+      "norm_label": ".transfertosalestool()"
+    },
+    {
+      "label": ".transferToSales()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "community": 4,
+      "norm_label": ".transfertosales()"
+    },
+    {
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosalestool_java_toolcontext",
+      "community": 4,
+      "norm_label": "toolcontext"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosalestool_java_string",
+      "community": 4,
+      "norm_label": "string"
+    },
+    {
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosalestool_java_tool",
+      "community": 4,
+      "norm_label": "tool"
+    },
+    {
+      "label": ".tool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L50",
+      "id": "tools_transfertosalestool_transfertosalestool_tool",
+      "community": 4,
+      "norm_label": ".tool()"
+    },
+    {
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L50",
+      "id": "tools_transfertosalestool_java_toolcallback",
+      "community": 4,
+      "norm_label": "toolcallback"
+    },
+    {
+      "label": "TransferToSupportTool.java",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L1",
+      "id": "tools_transfertosupporttool_java",
+      "community": 5,
+      "norm_label": "transfertosupporttool.java"
+    },
+    {
+      "label": "TransferToSupportTool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L30",
+      "id": "tools_transfertosupporttool_transfertosupporttool",
+      "community": 5,
+      "norm_label": "transfertosupporttool"
+    },
+    {
+      "label": ".TransferToSupportTool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L34",
+      "id": "tools_transfertosupporttool_transfertosupporttool_transfertosupporttool",
+      "community": 5,
+      "norm_label": ".transfertosupporttool()"
+    },
+    {
+      "label": ".transferToSupport()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "community": 5,
+      "norm_label": ".transfertosupport()"
+    },
+    {
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosupporttool_java_toolcontext",
+      "community": 5,
+      "norm_label": "toolcontext"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosupporttool_java_string",
+      "community": 5,
+      "norm_label": "string"
+    },
+    {
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "id": "tools_transfertosupporttool_java_tool",
+      "community": 5,
+      "norm_label": "tool"
+    },
+    {
+      "label": ".tool()",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50",
+      "id": "tools_transfertosupporttool_transfertosupporttool_tool",
+      "community": 5,
+      "norm_label": ".tool()"
+    },
+    {
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50",
+      "id": "tools_transfertosupporttool_java_toolcallback",
+      "community": 5,
+      "norm_label": "toolcallback"
+    },
+    {
+      "label": "RouteInitialAction.java",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L1",
+      "id": "route_routeinitialaction_java",
+      "community": 0,
+      "norm_label": "routeinitialaction.java"
+    },
+    {
+      "label": "RouteInitialAction",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L30",
+      "id": "route_routeinitialaction_routeinitialaction",
+      "community": 0,
+      "norm_label": "routeinitialaction"
+    },
+    {
+      "label": "AsyncCommandAction",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "asynccommandaction",
+      "community": 0,
+      "norm_label": "asynccommandaction"
+    },
+    {
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "id": "route_routeinitialaction_routeinitialaction_apply",
+      "community": 0,
+      "norm_label": ".apply()"
+    },
+    {
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "id": "route_routeinitialaction_java_overallstate",
+      "community": 0,
+      "norm_label": "overallstate"
+    },
+    {
+      "label": "RunnableConfig",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "id": "route_routeinitialaction_java_runnableconfig",
+      "community": 0,
+      "norm_label": "runnableconfig"
+    },
+    {
+      "label": "CompletableFuture",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "id": "route_routeinitialaction_java_completablefuture",
+      "community": 0,
+      "norm_label": "completablefuture"
+    },
+    {
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "id": "route_routeinitialaction_java_command",
+      "community": 0,
+      "norm_label": "command"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "id": "route_routeinitialaction_java_override",
+      "community": 0,
+      "norm_label": "override"
+    },
+    {
+      "label": "RouteAfterSalesAction.java",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L1",
+      "id": "route_routeaftersalesaction_java",
+      "community": 7,
+      "norm_label": "routeaftersalesaction.java"
+    },
+    {
+      "label": "RouteAfterSalesAction",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L30",
+      "id": "route_routeaftersalesaction_routeaftersalesaction",
+      "community": 7,
+      "norm_label": "routeaftersalesaction"
+    },
+    {
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "community": 7,
+      "norm_label": ".apply()"
+    },
+    {
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersalesaction_java_overallstate",
+      "community": 7,
+      "norm_label": "overallstate"
+    },
+    {
+      "label": "RunnableConfig",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersalesaction_java_runnableconfig",
+      "community": 7,
+      "norm_label": "runnableconfig"
+    },
+    {
+      "label": "CompletableFuture",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersalesaction_java_completablefuture",
+      "community": 7,
+      "norm_label": "completablefuture"
+    },
+    {
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersalesaction_java_command",
+      "community": 7,
+      "norm_label": "command"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersalesaction_java_override",
+      "community": 7,
+      "norm_label": "override"
+    },
+    {
+      "label": "RouteAfterSupportAction.java",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L1",
+      "id": "route_routeaftersupportaction_java",
+      "community": 0,
+      "norm_label": "routeaftersupportaction.java"
+    },
+    {
+      "label": "RouteAfterSupportAction",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L30",
+      "id": "route_routeaftersupportaction_routeaftersupportaction",
+      "community": 0,
+      "norm_label": "routeaftersupportaction"
+    },
+    {
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "community": 0,
+      "norm_label": ".apply()"
+    },
+    {
+      "label": "OverAllState",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersupportaction_java_overallstate",
+      "community": 0,
+      "norm_label": "overallstate"
+    },
+    {
+      "label": "RunnableConfig",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersupportaction_java_runnableconfig",
+      "community": 0,
+      "norm_label": "runnableconfig"
+    },
+    {
+      "label": "CompletableFuture",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersupportaction_java_completablefuture",
+      "community": 0,
+      "norm_label": "completablefuture"
+    },
+    {
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersupportaction_java_command",
+      "community": 0,
+      "norm_label": "command"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "id": "route_routeaftersupportaction_java_override",
+      "community": 0,
+      "norm_label": "override"
+    },
+    {
+      "label": "MultiAgentStateConstants.java",
+      "file_type": "code",
+      "source_file": "state/MultiAgentStateConstants.java",
+      "source_location": "L1",
+      "id": "state_multiagentstateconstants_java",
+      "community": 9,
+      "norm_label": "multiagentstateconstants.java"
+    },
+    {
+      "label": "MultiAgentStateConstants",
+      "file_type": "code",
+      "source_file": "state/MultiAgentStateConstants.java",
+      "source_location": "L21",
+      "id": "state_multiagentstateconstants_multiagentstateconstants",
+      "community": 9,
+      "norm_label": "multiagentstateconstants"
+    },
+    {
+      "label": ".MultiAgentStateConstants()",
+      "file_type": "code",
+      "source_file": "state/MultiAgentStateConstants.java",
+      "source_location": "L23",
+      "id": "state_multiagentstateconstants_multiagentstateconstants_multiagentstateconstants",
+      "community": 9,
+      "norm_label": ".multiagentstateconstants()"
+    },
+    {
+      "label": "Handoffs Multi-Agent Module",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L1-L4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Implements the multiple agent subgraphs handoffs pattern \u2014 distinct sales and support agents exist as separate nodes in a StateGraph, with handoff tools navigating via active_agent state.",
+      "id": "handoffs_multiagent_module",
+      "community": 10,
+      "norm_label": "handoffs multi-agent module"
+    },
+    {
+      "label": "Parent StateGraph",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsConfig.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "state_graph",
+      "community": 1,
+      "norm_label": "parent stategraph"
+    },
+    {
+      "label": "Active Agent State Field",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/state/MultiAgentStateConstants.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "active_agent",
+      "community": 1,
+      "norm_label": "active agent state field"
+    },
+    {
+      "label": "Sales Agent Node",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsConfig.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sales_agent",
+      "community": 1,
+      "norm_label": "sales agent node"
+    },
+    {
+      "label": "Support Agent Node",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsConfig.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "support_agent",
+      "community": 1,
+      "norm_label": "support agent node"
+    },
+    {
+      "label": "ReactAgent (CompiledGraph)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "react_agent",
+      "community": 1,
+      "norm_label": "reactagent (compiledgraph)"
+    },
+    {
+      "label": "TransferToSalesTool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/tools/TransferToSalesTool.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "transfer_to_sales_tool",
+      "community": 1,
+      "norm_label": "transfertosalestool"
+    },
+    {
+      "label": "TransferToSupportTool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/tools/TransferToSupportTool.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "transfer_to_support_tool",
+      "community": 1,
+      "norm_label": "transfertosupporttool"
+    },
+    {
+      "label": "returnDirect=true Pattern",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L11-L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Handoff tools use returnDirect=true so the agent exits immediately after the tool call \u2014 no model response is generated \u2014 and the parent graph's conditional edge then routes to the target agent.",
+      "id": "return_direct",
+      "community": 1,
+      "norm_label": "returndirect=true pattern"
+    },
+    {
+      "label": "ToolContextHelper.getStateForUpdate",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Tools use ToolContextHelper.getStateForUpdate(toolContext) to set active_agent; the update is merged into the graph state when the agent node completes, enabling seamless handoff routing.",
+      "id": "tool_context_helper",
+      "community": 1,
+      "norm_label": "toolcontexthelper.getstateforupdate"
+    },
+    {
+      "label": "RouteInitialAction",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/route/RouteInitialAction.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "route_initial",
+      "community": 1,
+      "norm_label": "routeinitialaction"
+    },
+    {
+      "label": "RouteAfterSalesAction",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/route/RouteAfterSalesAction.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "route_after_sales",
+      "community": 1,
+      "norm_label": "routeaftersalesaction"
+    },
+    {
+      "label": "RouteAfterSupportAction",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/route/RouteAfterSupportAction.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "route_after_support",
+      "community": 1,
+      "norm_label": "routeaftersupportaction"
+    },
+    {
+      "label": "Full Message History Context",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The full message history flows to the next agent for context preservation; for production, consider summarizing or filtering context for token efficiency.",
+      "id": "message_history",
+      "community": 1,
+      "norm_label": "full message history context"
+    },
+    {
+      "label": "DashScope API Key",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/resources/application.yml",
+      "source_location": "L5-L6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "dashscope_api_key",
+      "community": 10,
+      "norm_label": "dashscope api key"
+    },
+    {
+      "label": "Demo Runner (handoffs.runner.enabled)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/resources/application.yml",
+      "source_location": "L9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "handoffs_runner",
+      "community": 1,
+      "norm_label": "demo runner (handoffs.runner.enabled)"
+    },
+    {
+      "label": "MultiAgentHandoffsConfig",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsConfig.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "multiagent_handoffs_config",
+      "community": 1,
+      "norm_label": "multiagenthandoffsconfig"
+    },
+    {
+      "label": "MultiAgentHandoffsService",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/src/main/java/.../handoffs/MultiAgentHandoffsService.java",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "multiagent_handoffs_service",
+      "community": 1,
+      "norm_label": "multiagenthandoffsservice"
+    },
+    {
+      "label": "Studio Agent Auto-Discovery",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The two agents (sales_agent, support_agent) are Spring beans; Studio discovers them automatically via context scanning, eliminating the need for a custom AgentLoader.",
+      "id": "studio_agent_discovery",
+      "community": 1,
+      "norm_label": "studio agent auto-discovery"
+    },
+    {
+      "label": "Built-in Chat UI",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L96-L100",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chat_ui",
+      "community": 11,
+      "norm_label": "built-in chat ui"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "multiagenthandoffsservice_java",
+      "target": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "multiagenthandoffsservice_java",
+      "target": "multiagenthandoffsservice_java_compiledgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice",
+      "target": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_multiagenthandoffsservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice",
+      "target": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_multiagenthandoffsservice",
+      "target": "multiagenthandoffsservice_java_compiledgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_run",
+      "target": "multiagenthandoffsresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsservice_multiagenthandoffsservice_run",
+      "target": "multiagenthandoffsservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "multiagenthandoffsconfig_java",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "multiagenthandoffsconfig_java",
+      "target": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "multiagenthandoffsconfig_java",
+      "target": "multiagenthandoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "multiagenthandoffsconfig_java",
+      "target": "multiagenthandoffsconfig_java_compiledgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "multiagenthandoffsconfig_java",
+      "target": "reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "target": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "target": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "target": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsalesagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig",
+      "target": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsupportagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsalesagent",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsalesagent",
+      "target": "multiagenthandoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsalesagent",
+      "target": "reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsupportagent",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsgraph",
+      "target": "reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsupportagent",
+      "target": "reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsgraph",
+      "target": "multiagenthandoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L123",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsservice",
+      "target": "multiagenthandoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagentsupportagent",
+      "target": "multiagenthandoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsgraph",
+      "target": "multiagenthandoffsconfig_java_compiledgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L123",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsservice",
+      "target": "multiagenthandoffsconfig_java_compiledgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsConfig.java",
+      "source_location": "L123",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "handoffs_multiagenthandoffsconfig_multiagenthandoffsconfig_multiagenthandoffsservice",
+      "target": "multiagenthandoffsconfig_java_multiagenthandoffsservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "handoffs_handoffsapplication_handoffsapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "handoffsapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "handoffs_handoffsapplication_handoffsapplication",
+      "target": "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "handoffs_handoffsapplication_handoffsapplication",
+      "target": "handoffs_handoffsapplication_handoffsapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_handoffsapplication_handoffsapplication_main",
+      "target": "handoffsapplication_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "handoffs_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "handoffsapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "multiagenthandoffsrunner_java",
+      "target": "applicationarguments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "multiagenthandoffsrunner_java",
+      "target": "applicationrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "multiagenthandoffsrunner_java",
+      "target": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "target": "applicationrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "target": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "target": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_multiagenthandoffsrunner",
+      "target": "multiagenthandoffsrunner_java_multiagenthandoffsservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_run",
+      "target": "applicationarguments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiAgentHandoffsRunner.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "handoffs_multiagenthandoffsrunner_multiagenthandoffsrunner_run",
+      "target": "multiagenthandoffsrunner_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_java",
+      "target": "tools_transfertosalestool_transfertosalestool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_transfertosalestool",
+      "target": "tools_transfertosalestool_transfertosalestool_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_transfertosalestool",
+      "target": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tools_transfertosalestool_transfertosalestool",
+      "target": "tools_transfertosalestool_transfertosalestool_transfertosalestool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_transfertosalestool_transfertosalestool_transfertosales",
+      "target": "tools_transfertosalestool_java_toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSalesTool.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_transfertosalestool_transfertosalestool_tool",
+      "target": "tools_transfertosalestool_java_toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_java",
+      "target": "tools_transfertosupporttool_transfertosupporttool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_transfertosupporttool",
+      "target": "tools_transfertosupporttool_transfertosupporttool_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_transfertosupporttool",
+      "target": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tools_transfertosupporttool_transfertosupporttool",
+      "target": "tools_transfertosupporttool_transfertosupporttool_transfertosupporttool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "target": "tools_transfertosupporttool_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "target": "tools_transfertosupporttool_java_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_transfertosupporttool_transfertosupporttool_transfertosupport",
+      "target": "tools_transfertosupporttool_java_toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/TransferToSupportTool.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_transfertosupporttool_transfertosupporttool_tool",
+      "target": "tools_transfertosupporttool_java_toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_java",
+      "target": "asynccommandaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_overallstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_java",
+      "target": "route_routeinitialaction_routeinitialaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_routeinitialaction",
+      "target": "asynccommandaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "route_routeinitialaction_routeinitialaction",
+      "target": "route_routeinitialaction_routeinitialaction_apply",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_java",
+      "target": "asynccommandaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_routeaftersalesaction",
+      "target": "asynccommandaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_java",
+      "target": "asynccommandaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_routeaftersupportaction",
+      "target": "asynccommandaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_completablefuture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_overallstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteInitialAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "route_routeinitialaction_routeinitialaction_apply",
+      "target": "route_routeinitialaction_java_runnableconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_java",
+      "target": "route_routeaftersalesaction_routeaftersalesaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "route_routeaftersalesaction_routeaftersalesaction",
+      "target": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_completablefuture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_overallstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSalesAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "route_routeaftersalesaction_routeaftersalesaction_apply",
+      "target": "route_routeaftersalesaction_java_runnableconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_java",
+      "target": "route_routeaftersupportaction_routeaftersupportaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "route_routeaftersupportaction_routeaftersupportaction",
+      "target": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_completablefuture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_overallstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "route/RouteAfterSupportAction.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "route_routeaftersupportaction_routeaftersupportaction_apply",
+      "target": "route_routeaftersupportaction_java_runnableconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "state/MultiAgentStateConstants.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "state_multiagentstateconstants_java",
+      "target": "state_multiagentstateconstants_multiagentstateconstants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "state/MultiAgentStateConstants.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "state_multiagentstateconstants_multiagentstateconstants",
+      "target": "state_multiagentstateconstants_multiagentstateconstants_multiagentstateconstants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L114-L115",
+      "weight": 1.0,
+      "source": "handoffs_multiagent_module",
+      "target": "dashscope_api_key"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "multiagent_handoffs_config",
+      "target": "state_graph"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "multiagent_handoffs_service",
+      "target": "state_graph"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L21-L22",
+      "weight": 1.0,
+      "source": "return_direct",
+      "target": "state_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L3-L4",
+      "weight": 1.0,
+      "source": "state_graph",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "state_graph",
+      "target": "route_after_sales"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "state_graph",
+      "target": "route_after_support"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L15-L16",
+      "weight": 1.0,
+      "source": "state_graph",
+      "target": "route_initial"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L28",
+      "weight": 0.85,
+      "source": "message_history",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L16",
+      "weight": 0.9,
+      "source": "route_after_sales",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L17",
+      "weight": 0.9,
+      "source": "route_after_support",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L15-L16",
+      "weight": 0.9,
+      "source": "route_initial",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tool_context_helper",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "transfer_to_sales_tool",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "transfer_to_support_tool",
+      "target": "active_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "multiagent_handoffs_config",
+      "target": "sales_agent"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "sales_agent",
+      "target": "react_agent"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L7-L8",
+      "weight": 0.9,
+      "source": "sales_agent",
+      "target": "support_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "sales_agent",
+      "target": "transfer_to_support_tool"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "studio_agent_discovery",
+      "target": "sales_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "multiagent_handoffs_config",
+      "target": "support_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "studio_agent_discovery",
+      "target": "support_agent"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "support_agent",
+      "target": "react_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "support_agent",
+      "target": "transfer_to_sales_tool"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "transfer_to_sales_tool",
+      "target": "return_direct"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "transfer_to_sales_tool",
+      "target": "tool_context_helper"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L10-L12",
+      "weight": 0.95,
+      "source": "transfer_to_sales_tool",
+      "target": "transfer_to_support_tool"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "transfer_to_support_tool",
+      "target": "return_direct"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "transfer_to_support_tool",
+      "target": "tool_context_helper"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": null,
+      "weight": 0.7,
+      "source": "return_direct",
+      "target": "route_after_sales"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": null,
+      "weight": 0.7,
+      "source": "return_direct",
+      "target": "route_after_support"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L16-L17",
+      "weight": 0.95,
+      "source": "route_after_sales",
+      "target": "route_after_support"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "handoffs_runner",
+      "target": "multiagent_handoffs_service"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "handoff_pattern_support_to_sales",
+      "label": "Support\u2192Sales Handoff Flow",
+      "nodes": [
+        "transfer_to_sales_tool",
+        "active_agent",
+        "support_agent"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md"
+    },
+    {
+      "id": "handoff_pattern_sales_to_support",
+      "label": "Sales\u2192Support Handoff Flow",
+      "nodes": [
+        "transfer_to_support_tool",
+        "active_agent",
+        "sales_agent"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md"
+    },
+    {
+      "id": "state_graph_routing_mechanism",
+      "label": "StateGraph Conditional Routing",
+      "nodes": [
+        "state_graph",
+        "route_initial",
+        "route_after_sales"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-multiagent/README.md"
+    }
+  ],
+  "built_at_commit": "30061f49d2f23d89acf5e78dca89a7055a1a720e"
+}
