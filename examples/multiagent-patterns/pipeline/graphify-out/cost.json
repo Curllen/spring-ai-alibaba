@@ -1,0 +1,8 @@
+{
+  "module": "pipeline",
+  "date": "2026-05-29",
+  "total_nodes": 52,
+  "total_edges": 72,
+  "total_communities": 8,
+  "method": "AST (5 Java) + Semantic (1 README + 1 YML)"
+}

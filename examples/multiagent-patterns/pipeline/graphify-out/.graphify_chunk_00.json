@@ -1,0 +1,388 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "SequentialAgent: SQL Generator -> SQL Rater Pipeline",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N2",
+      "label": "ParallelAgent: Three-Angle Parallel Research",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N3",
+      "label": "LoopAgent: Iterative SQL Refinement",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N4",
+      "label": "Spring AI Alibaba Agent Framework",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N5",
+      "label": "SQL Generator Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N6",
+      "label": "SQL Rater Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N7",
+      "label": "Natural Language to SQL Scenario",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N8",
+      "label": "Tech Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N9",
+      "label": "Finance Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N10",
+      "label": "Market Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N11",
+      "label": "DashScope API (AI Provider)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+      "source_location": "L4-L6"
+    },
+    {
+      "id": "N12",
+      "label": "Quality Score Threshold 0.5",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N13",
+      "label": "Spring AI Alibaba Studio ChatUI",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N14",
+      "label": "Pipeline Agent Pattern (Sequential/Parallel/Loop)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N15",
+      "label": "MySQL SQL Target Dialect",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N16",
+      "label": "Merged Research Report",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null
+    },
+    {
+      "id": "N17",
+      "label": "Multi-Agent Pipeline Application",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+      "source_location": "L2-L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N2",
+      "target": "N14",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N3",
+      "target": "N14",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N3",
+      "target": "N5",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N3",
+      "target": "N12",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N5",
+      "target": "N15",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N2",
+      "target": "N10",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N2",
+      "target": "N16",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N3",
+      "target": "N4",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+      "weight": 1.0
+    },
+    {
+      "source": "N17",
+      "target": "N14",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N13",
+      "target": "N4",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "N8",
+      "target": "N9",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "N8",
+      "target": "N10",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "N5",
+      "target": "N6",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "pipeline_agent_pattern_triad",
+      "label": "Pipeline Agent Pattern Triad (Sequential, Parallel, Loop)",
+      "nodes": [
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md"
+    },
+    {
+      "id": "sql_generation_optimization_loop",
+      "label": "SQL Generation-Rating-Optimization Closed Loop",
+      "nodes": [
+        "N5",
+        "N6",
+        "N12"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md"
+    },
+    {
+      "id": "parallel_research_angles",
+      "label": "Three-Angle Parallel Research (Tech/Finance/Market)",
+      "nodes": [
+        "N8",
+        "N9",
+        "N10"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

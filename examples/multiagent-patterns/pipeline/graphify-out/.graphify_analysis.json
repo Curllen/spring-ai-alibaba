@@ -1,0 +1,175 @@
+{
+  "communities": {
+    "0": [
+      "N1",
+      "N11",
+      "N12",
+      "N13",
+      "N14",
+      "N15",
+      "N17",
+      "N3",
+      "N4",
+      "N5",
+      "N6"
+    ],
+    "1": [
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment",
+      "pipeline_pipelineapplication_pipelineapplication",
+      "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "pipeline_pipelineapplication_pipelineapplication_main",
+      "pipelineapplication_java",
+      "pipelineapplication_java_bean",
+      "string"
+    ],
+    "2": [
+      "agentloader",
+      "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig",
+      "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "pipelineagentloaderconfig_java",
+      "pipelineagentloaderconfig_java_bean",
+      "pipelineagentloaderconfig_java_loopagent",
+      "pipelineagentloaderconfig_java_parallelagent",
+      "pipelineagentloaderconfig_java_sequentialagent"
+    ],
+    "3": [
+      "loop_looppipelineconfig_java",
+      "loop_looppipelineconfig_java_bean",
+      "loop_looppipelineconfig_java_chatmodel",
+      "loop_looppipelineconfig_java_loopagent",
+      "loop_looppipelineconfig_looppipelineconfig",
+      "loop_looppipelineconfig_looppipelineconfig_loopsqlrefinementagent"
+    ],
+    "4": [
+      "parallel_parallelpipelineconfig_java",
+      "parallel_parallelpipelineconfig_java_bean",
+      "parallel_parallelpipelineconfig_java_chatmodel",
+      "parallel_parallelpipelineconfig_java_parallelagent",
+      "parallel_parallelpipelineconfig_parallelpipelineconfig",
+      "parallel_parallelpipelineconfig_parallelpipelineconfig_parallelresearchagent"
+    ],
+    "5": [
+      "sequential_sequentialpipelineconfig_java",
+      "sequential_sequentialpipelineconfig_java_bean",
+      "sequential_sequentialpipelineconfig_java_chatmodel",
+      "sequential_sequentialpipelineconfig_java_sequentialagent",
+      "sequential_sequentialpipelineconfig_sequentialpipelineconfig",
+      "sequential_sequentialpipelineconfig_sequentialpipelineconfig_sequentialsqlagent"
+    ],
+    "6": [
+      "N10",
+      "N16",
+      "N2",
+      "N8",
+      "N9"
+    ],
+    "7": [
+      "N7"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2727272727272727,
+    "1": 0.3333333333333333,
+    "2": 0.42857142857142855,
+    "3": 0.5333333333333333,
+    "4": 0.5333333333333333,
+    "5": 0.5333333333333333,
+    "6": 0.7,
+    "7": 1.0
+  },
+  "gods": [
+    {
+      "id": "N2",
+      "label": "ParallelAgent: Three-Angle Parallel Research",
+      "degree": 6
+    },
+    {
+      "id": "N3",
+      "label": "LoopAgent: Iterative SQL Refinement",
+      "degree": 6
+    },
+    {
+      "id": "N1",
+      "label": "SequentialAgent: SQL Generator -> SQL Rater Pipeline",
+      "degree": 5
+    },
+    {
+      "id": "N4",
+      "label": "Spring AI Alibaba Agent Framework",
+      "degree": 5
+    },
+    {
+      "id": "N5",
+      "label": "SQL Generator Sub-Agent",
+      "degree": 4
+    },
+    {
+      "id": "N14",
+      "label": "Pipeline Agent Pattern (Sequential/Parallel/Loop)",
+      "degree": 4
+    },
+    {
+      "id": "pipeline_pipelineapplication_pipelineapplication",
+      "label": "PipelineApplication",
+      "degree": 3
+    },
+    {
+      "id": "N6",
+      "label": "SQL Rater Sub-Agent",
+      "degree": 3
+    },
+    {
+      "id": "N8",
+      "label": "Tech Researcher Sub-Agent",
+      "degree": 3
+    },
+    {
+      "id": "N9",
+      "label": "Finance Researcher Sub-Agent",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Spring AI Alibaba Agent Framework",
+      "target": "DashScope API (AI Provider)",
+      "source_files": [
+        "examples/multiagent-patterns/pipeline/README.md",
+        "examples/multiagent-patterns/pipeline/src/main/resources/application.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `DashScope API (AI Provider)` unexpectedly reaches hub `Spring AI Alibaba Agent Framework`"
+    },
+    {
+      "source": "Multi-Agent Pipeline Application",
+      "target": "Pipeline Agent Pattern (Sequential/Parallel/Loop)",
+      "source_files": [
+        "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+        "examples/multiagent-patterns/pipeline/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ParallelAgent: Three-Angle Parallel Research` connect `Community 6` to `Community 0`?",
+      "why": "High betweenness centrality (0.038) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Spring AI Alibaba Agent Framework` connect `Community 0` to `Community 6`?",
+      "why": "High betweenness centrality (0.033) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `Natural Language to SQL Scenario`, `DashScope API (AI Provider)` to the rest of the system?",
+      "why": "8 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

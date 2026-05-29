@@ -1,0 +1,10 @@
+{
+  "0": "Pipeline Agents: Sequential/Loop SQL Patterns & Framework",
+  "1": "PipelineApplication: Spring Boot Entry Point & Lifecycle",
+  "2": "AgentLoader Config: Sequential/Parallel/Loop Agent Beans",
+  "3": "Loop Pipeline Config: LoopAgent & SQL Refinement Assembly",
+  "4": "Parallel Pipeline Config: ParallelAgent & Research Assembly",
+  "5": "Sequential Pipeline Config: SequentialAgent & SQL Assembly",
+  "6": "Parallel Research Sub-Agents: Tech/Finance/Market Researchers",
+  "7": "Natural Language to SQL Scenario"
+}

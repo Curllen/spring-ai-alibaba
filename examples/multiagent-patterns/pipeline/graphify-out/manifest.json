@@ -1,0 +1,30 @@
+{
+  "module": "pipeline",
+  "date": "2026-05-29",
+  "total_nodes": 52,
+  "total_edges": 72,
+  "total_communities": 8,
+  "extraction": "95% EXTRACTED, 5% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 55408,
+      "size_human": "54.1 KB"
+    },
+    "graph.json": {
+      "size": 41349,
+      "size_human": "40.4 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 5626,
+      "size_human": "5.5 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 13652,
+      "size_human": "13.3 KB"
+    },
+    ".graphify_analysis.json": {
+      "size": 5233,
+      "size_human": "5.1 KB"
+    }
+  }
+}

@@ -1,0 +1,1298 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "pipeline_agent_pattern_triad",
+        "label": "Pipeline Agent Pattern Triad (Sequential, Parallel, Loop)",
+        "nodes": [
+          "N1",
+          "N2",
+          "N3"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/pipeline/README.md"
+      },
+      {
+        "id": "sql_generation_optimization_loop",
+        "label": "SQL Generation-Rating-Optimization Closed Loop",
+        "nodes": [
+          "N5",
+          "N6",
+          "N12"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/pipeline/README.md"
+      },
+      {
+        "id": "parallel_research_angles",
+        "label": "Three-Angle Parallel Research (Tech/Finance/Market)",
+        "nodes": [
+          "N8",
+          "N9",
+          "N10"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/pipeline/README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "PipelineAgentLoaderConfig.java",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L1",
+      "id": "pipelineagentloaderconfig_java",
+      "community": 2,
+      "norm_label": "pipelineagentloaderconfig.java"
+    },
+    {
+      "label": "PipelineAgentLoaderConfig",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L35",
+      "id": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig",
+      "community": 2,
+      "norm_label": "pipelineagentloaderconfig"
+    },
+    {
+      "label": ".pipelineAgentLoader()",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "id": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "community": 2,
+      "norm_label": ".pipelineagentloader()"
+    },
+    {
+      "label": "SequentialAgent",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "id": "pipelineagentloaderconfig_java_sequentialagent",
+      "community": 2,
+      "norm_label": "sequentialagent"
+    },
+    {
+      "label": "ParallelAgent",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "id": "pipelineagentloaderconfig_java_parallelagent",
+      "community": 2,
+      "norm_label": "parallelagent"
+    },
+    {
+      "label": "LoopAgent",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "id": "pipelineagentloaderconfig_java_loopagent",
+      "community": 2,
+      "norm_label": "loopagent"
+    },
+    {
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "id": "agentloader",
+      "community": 2,
+      "norm_label": "agentloader"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "id": "pipelineagentloaderconfig_java_bean",
+      "community": 2,
+      "norm_label": "bean"
+    },
+    {
+      "label": "PipelineApplication.java",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L1",
+      "id": "pipelineapplication_java",
+      "community": 1,
+      "norm_label": "pipelineapplication.java"
+    },
+    {
+      "label": "PipelineApplication",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L35",
+      "id": "pipeline_pipelineapplication_pipelineapplication",
+      "community": 1,
+      "norm_label": "pipelineapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L38",
+      "id": "pipeline_pipelineapplication_pipelineapplication_main",
+      "community": 1,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L38",
+      "id": "string",
+      "community": 1,
+      "norm_label": "string"
+    },
+    {
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "id": "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "community": 1,
+      "norm_label": ".applicationreadyeventlistener()"
+    },
+    {
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "id": "environment",
+      "community": 1,
+      "norm_label": "environment"
+    },
+    {
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "id": "applicationlistener",
+      "community": 1,
+      "norm_label": "applicationlistener"
+    },
+    {
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "id": "applicationreadyevent",
+      "community": 1,
+      "norm_label": "applicationreadyevent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "id": "pipelineapplication_java_bean",
+      "community": 1,
+      "norm_label": "bean"
+    },
+    {
+      "label": "ParallelPipelineConfig.java",
+      "file_type": "code",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L1",
+      "id": "parallel_parallelpipelineconfig_java",
+      "community": 4,
+      "norm_label": "parallelpipelineconfig.java"
+    },
+    {
+      "label": "ParallelPipelineConfig",
+      "file_type": "code",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L39",
+      "id": "parallel_parallelpipelineconfig_parallelpipelineconfig",
+      "community": 4,
+      "norm_label": "parallelpipelineconfig"
+    },
+    {
+      "label": ".parallelResearchAgent()",
+      "file_type": "code",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "id": "parallel_parallelpipelineconfig_parallelpipelineconfig_parallelresearchagent",
+      "community": 4,
+      "norm_label": ".parallelresearchagent()"
+    },
+    {
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "id": "parallel_parallelpipelineconfig_java_chatmodel",
+      "community": 4,
+      "norm_label": "chatmodel"
+    },
+    {
+      "label": "ParallelAgent",
+      "file_type": "code",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "id": "parallel_parallelpipelineconfig_java_parallelagent",
+      "community": 4,
+      "norm_label": "parallelagent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "id": "parallel_parallelpipelineconfig_java_bean",
+      "community": 4,
+      "norm_label": "bean"
+    },
+    {
+      "label": "SequentialPipelineConfig.java",
+      "file_type": "code",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L1",
+      "id": "sequential_sequentialpipelineconfig_java",
+      "community": 5,
+      "norm_label": "sequentialpipelineconfig.java"
+    },
+    {
+      "label": "SequentialPipelineConfig",
+      "file_type": "code",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L37",
+      "id": "sequential_sequentialpipelineconfig_sequentialpipelineconfig",
+      "community": 5,
+      "norm_label": "sequentialpipelineconfig"
+    },
+    {
+      "label": ".sequentialSqlAgent()",
+      "file_type": "code",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "id": "sequential_sequentialpipelineconfig_sequentialpipelineconfig_sequentialsqlagent",
+      "community": 5,
+      "norm_label": ".sequentialsqlagent()"
+    },
+    {
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "id": "sequential_sequentialpipelineconfig_java_chatmodel",
+      "community": 5,
+      "norm_label": "chatmodel"
+    },
+    {
+      "label": "SequentialAgent",
+      "file_type": "code",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "id": "sequential_sequentialpipelineconfig_java_sequentialagent",
+      "community": 5,
+      "norm_label": "sequentialagent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "id": "sequential_sequentialpipelineconfig_java_bean",
+      "community": 5,
+      "norm_label": "bean"
+    },
+    {
+      "label": "LoopPipelineConfig.java",
+      "file_type": "code",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L1",
+      "id": "loop_looppipelineconfig_java",
+      "community": 3,
+      "norm_label": "looppipelineconfig.java"
+    },
+    {
+      "label": "LoopPipelineConfig",
+      "file_type": "code",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L44",
+      "id": "loop_looppipelineconfig_looppipelineconfig",
+      "community": 3,
+      "norm_label": "looppipelineconfig"
+    },
+    {
+      "label": ".loopSqlRefinementAgent()",
+      "file_type": "code",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "id": "loop_looppipelineconfig_looppipelineconfig_loopsqlrefinementagent",
+      "community": 3,
+      "norm_label": ".loopsqlrefinementagent()"
+    },
+    {
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "id": "loop_looppipelineconfig_java_chatmodel",
+      "community": 3,
+      "norm_label": "chatmodel"
+    },
+    {
+      "label": "LoopAgent",
+      "file_type": "code",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "id": "loop_looppipelineconfig_java_loopagent",
+      "community": 3,
+      "norm_label": "loopagent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "id": "loop_looppipelineconfig_java_bean",
+      "community": 3,
+      "norm_label": "bean"
+    },
+    {
+      "label": "SequentialAgent: SQL Generator -> SQL Rater Pipeline",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N1",
+      "community": 0,
+      "norm_label": "sequentialagent: sql generator -> sql rater pipeline"
+    },
+    {
+      "label": "ParallelAgent: Three-Angle Parallel Research",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N2",
+      "community": 6,
+      "norm_label": "parallelagent: three-angle parallel research"
+    },
+    {
+      "label": "LoopAgent: Iterative SQL Refinement",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N3",
+      "community": 0,
+      "norm_label": "loopagent: iterative sql refinement"
+    },
+    {
+      "label": "Spring AI Alibaba Agent Framework",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N4",
+      "community": 0,
+      "norm_label": "spring ai alibaba agent framework"
+    },
+    {
+      "label": "SQL Generator Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N5",
+      "community": 0,
+      "norm_label": "sql generator sub-agent"
+    },
+    {
+      "label": "SQL Rater Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N6",
+      "community": 0,
+      "norm_label": "sql rater sub-agent"
+    },
+    {
+      "label": "Natural Language to SQL Scenario",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N7",
+      "community": 7,
+      "norm_label": "natural language to sql scenario"
+    },
+    {
+      "label": "Tech Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N8",
+      "community": 6,
+      "norm_label": "tech researcher sub-agent"
+    },
+    {
+      "label": "Finance Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N9",
+      "community": 6,
+      "norm_label": "finance researcher sub-agent"
+    },
+    {
+      "label": "Market Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N10",
+      "community": 6,
+      "norm_label": "market researcher sub-agent"
+    },
+    {
+      "label": "DashScope API (AI Provider)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+      "source_location": "L4-L6",
+      "id": "N11",
+      "community": 0,
+      "norm_label": "dashscope api (ai provider)"
+    },
+    {
+      "label": "Quality Score Threshold 0.5",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N12",
+      "community": 0,
+      "norm_label": "quality score threshold 0.5"
+    },
+    {
+      "label": "Spring AI Alibaba Studio ChatUI",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N13",
+      "community": 0,
+      "norm_label": "spring ai alibaba studio chatui"
+    },
+    {
+      "label": "Pipeline Agent Pattern (Sequential/Parallel/Loop)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N14",
+      "community": 0,
+      "norm_label": "pipeline agent pattern (sequential/parallel/loop)"
+    },
+    {
+      "label": "MySQL SQL Target Dialect",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N15",
+      "community": 0,
+      "norm_label": "mysql sql target dialect"
+    },
+    {
+      "label": "Merged Research Report",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "id": "N16",
+      "community": 6,
+      "norm_label": "merged research report"
+    },
+    {
+      "label": "Multi-Agent Pipeline Application",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+      "source_location": "L2-L3",
+      "id": "N17",
+      "community": 0,
+      "norm_label": "multi-agent pipeline application"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "pipelineagentloaderconfig_java",
+      "target": "agentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "pipelineagentloaderconfig_java",
+      "target": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "pipelineagentloaderconfig_java",
+      "target": "pipelineagentloaderconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pipelineagentloaderconfig_java",
+      "target": "pipelineagentloaderconfig_java_loopagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "pipelineagentloaderconfig_java",
+      "target": "pipelineagentloaderconfig_java_parallelagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "pipelineagentloaderconfig_java",
+      "target": "pipelineagentloaderconfig_java_sequentialagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig",
+      "target": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "target": "agentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "target": "pipelineagentloaderconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "target": "pipelineagentloaderconfig_java_loopagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "target": "pipelineagentloaderconfig_java_parallelagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineAgentLoaderConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "pipeline_pipelineagentloaderconfig_pipelineagentloaderconfig_pipelineagentloader",
+      "target": "pipelineagentloaderconfig_java_sequentialagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "pipelineapplication_java",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pipelineapplication_java",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "pipelineapplication_java",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "pipelineapplication_java",
+      "target": "pipeline_pipelineapplication_pipelineapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "pipelineapplication_java",
+      "target": "pipelineapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "pipeline_pipelineapplication_pipelineapplication",
+      "target": "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "pipeline_pipelineapplication_pipelineapplication",
+      "target": "pipeline_pipelineapplication_pipelineapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "pipeline_pipelineapplication_pipelineapplication_main",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PipelineApplication.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "pipeline_pipelineapplication_pipelineapplication_applicationreadyeventlistener",
+      "target": "pipelineapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "parallel_parallelpipelineconfig_java",
+      "target": "parallel_parallelpipelineconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "parallel_parallelpipelineconfig_java",
+      "target": "parallel_parallelpipelineconfig_java_chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "parallel_parallelpipelineconfig_java",
+      "target": "parallel_parallelpipelineconfig_java_parallelagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "parallel_parallelpipelineconfig_java",
+      "target": "parallel_parallelpipelineconfig_parallelpipelineconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "parallel_parallelpipelineconfig_parallelpipelineconfig",
+      "target": "parallel_parallelpipelineconfig_parallelpipelineconfig_parallelresearchagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "parallel_parallelpipelineconfig_parallelpipelineconfig_parallelresearchagent",
+      "target": "parallel_parallelpipelineconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "parallel_parallelpipelineconfig_parallelpipelineconfig_parallelresearchagent",
+      "target": "parallel_parallelpipelineconfig_java_chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "parallel/ParallelPipelineConfig.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "parallel_parallelpipelineconfig_parallelpipelineconfig_parallelresearchagent",
+      "target": "parallel_parallelpipelineconfig_java_parallelagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "sequential_sequentialpipelineconfig_java",
+      "target": "sequential_sequentialpipelineconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "sequential_sequentialpipelineconfig_java",
+      "target": "sequential_sequentialpipelineconfig_java_chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "sequential_sequentialpipelineconfig_java",
+      "target": "sequential_sequentialpipelineconfig_java_sequentialagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "sequential_sequentialpipelineconfig_java",
+      "target": "sequential_sequentialpipelineconfig_sequentialpipelineconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "sequential_sequentialpipelineconfig_sequentialpipelineconfig",
+      "target": "sequential_sequentialpipelineconfig_sequentialpipelineconfig_sequentialsqlagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "sequential_sequentialpipelineconfig_sequentialpipelineconfig_sequentialsqlagent",
+      "target": "sequential_sequentialpipelineconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "sequential_sequentialpipelineconfig_sequentialpipelineconfig_sequentialsqlagent",
+      "target": "sequential_sequentialpipelineconfig_java_chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "sequential/SequentialPipelineConfig.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "sequential_sequentialpipelineconfig_sequentialpipelineconfig_sequentialsqlagent",
+      "target": "sequential_sequentialpipelineconfig_java_sequentialagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "loop_looppipelineconfig_java",
+      "target": "loop_looppipelineconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "loop_looppipelineconfig_java",
+      "target": "loop_looppipelineconfig_java_chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "loop_looppipelineconfig_java",
+      "target": "loop_looppipelineconfig_java_loopagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "loop_looppipelineconfig_java",
+      "target": "loop_looppipelineconfig_looppipelineconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "loop_looppipelineconfig_looppipelineconfig",
+      "target": "loop_looppipelineconfig_looppipelineconfig_loopsqlrefinementagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "loop_looppipelineconfig_looppipelineconfig_loopsqlrefinementagent",
+      "target": "loop_looppipelineconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "loop_looppipelineconfig_looppipelineconfig_loopsqlrefinementagent",
+      "target": "loop_looppipelineconfig_java_chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "loop/LoopPipelineConfig.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "loop_looppipelineconfig_looppipelineconfig_loopsqlrefinementagent",
+      "target": "loop_looppipelineconfig_java_loopagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N1",
+      "target": "N14"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "N1",
+      "target": "N3"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N1",
+      "target": "N4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N1",
+      "target": "N5"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N1",
+      "target": "N6"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N2",
+      "target": "N10"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N2",
+      "target": "N14"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N2",
+      "target": "N16"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N2",
+      "target": "N4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N2",
+      "target": "N8"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N2",
+      "target": "N9"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N3",
+      "target": "N12"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N3",
+      "target": "N14"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N3",
+      "target": "N4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N3",
+      "target": "N5"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N3",
+      "target": "N6"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N13",
+      "target": "N4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/src/main/resources/application.yml",
+      "weight": 1.0,
+      "source": "N4",
+      "target": "N11"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N5",
+      "target": "N15"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N5",
+      "target": "N6"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "N8",
+      "target": "N10"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "N8",
+      "target": "N9"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "N9",
+      "target": "N10"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md",
+      "weight": 1.0,
+      "source": "N17",
+      "target": "N14"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "pipeline_agent_pattern_triad",
+      "label": "Pipeline Agent Pattern Triad (Sequential, Parallel, Loop)",
+      "nodes": [
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md"
+    },
+    {
+      "id": "sql_generation_optimization_loop",
+      "label": "SQL Generation-Rating-Optimization Closed Loop",
+      "nodes": [
+        "N5",
+        "N6",
+        "N12"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md"
+    },
+    {
+      "id": "parallel_research_angles",
+      "label": "Three-Angle Parallel Research (Tech/Finance/Market)",
+      "nodes": [
+        "N8",
+        "N9",
+        "N10"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/pipeline/README.md"
+    }
+  ],
+  "built_at_commit": "64308dcd7c144d74157f66096723d05828a48d42"
+}
