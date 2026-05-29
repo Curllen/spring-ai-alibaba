@@ -1,0 +1,52 @@
+{
+  "module": "examples/multiagent-patterns/subagent",
+  "total_input_tokens": 8500,
+  "total_output_tokens": 6200,
+  "total_tokens": 14700,
+  "breakdown": [
+    {
+      "step": "file_detection",
+      "description": "Scan 10 files (~2,583 words) across subagent module",
+      "input_tokens": 500,
+      "output_tokens": 200,
+      "total_tokens": 700
+    },
+    {
+      "step": "ast_extraction",
+      "description": "AST extraction on 5 Java files → 42 nodes, 122 edges",
+      "input_tokens": 1300,
+      "output_tokens": 900,
+      "total_tokens": 2200
+    },
+    {
+      "step": "semantic_analysis",
+      "description": "AI Agent analysis of 5 doc files (README + 3 agent specs + application.yml)",
+      "input_tokens": 3200,
+      "output_tokens": 2500,
+      "total_tokens": 5700
+    },
+    {
+      "step": "graph_merge_build",
+      "description": "Merge AST + semantic → 69 nodes, 119 deduplicated edges",
+      "input_tokens": 800,
+      "output_tokens": 400,
+      "total_tokens": 1200
+    },
+    {
+      "step": "community_detection_labeling",
+      "description": "Louvain clustering → 6 communities + meaningful labels",
+      "input_tokens": 1100,
+      "output_tokens": 600,
+      "total_tokens": 1700
+    },
+    {
+      "step": "html_report_generation",
+      "description": "Interactive D3 HTML + ANALYSIS_REPORT.md + GRAPH_REPORT.md",
+      "input_tokens": 1600,
+      "output_tokens": 1600,
+      "total_tokens": 3200
+    }
+  ],
+  "model": "trae-claude-sonnet-4-20250514",
+  "timestamp": "2026-05-29T15:00:00+08:00"
+}

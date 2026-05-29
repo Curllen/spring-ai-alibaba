@@ -1,0 +1,873 @@
+{
+  "nodes": [
+    {
+      "id": "readme_subagent_tasktool_pattern",
+      "label": "Subagent (TaskTool) Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Delegates complex work to specialized sub-agents for separation of concerns; the main orchestrator agent focuses on coordination and planning while sub-agents provide deep domain expertise in specific areas (codebase exploration, web research, dependency analysis)."
+    },
+    {
+      "id": "readme_tech_due_diligence_assistant",
+      "label": "Tech Due Diligence Assistant (Orchestrator)",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A multi-agent system that helps evaluate software projects by combining codebase analysis (structure, dependencies, patterns, technical debt) with web research (documentation, alternatives, benchmarks, ecosystem). Uses write_todos for planning and Task/TaskOutput tools for delegation."
+    },
+    {
+      "id": "readme_task_tools",
+      "label": "Task / TaskOutput Delegation Tools",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Task tool initiates delegation of a unit of work to a specialized sub-agent; TaskOutput tool receives the result. Together they form a request-response delegation protocol that decouples the orchestrator from sub-agent implementation details."
+    },
+    {
+      "id": "readme_write_todos",
+      "label": "write_todos Planning Tool",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Enables structured task planning by breaking complex due diligence tasks into smaller, trackable steps before delegation. Injected by TodoListInterceptor into the orchestrator agent."
+    },
+    {
+      "id": "readme_codebase_explorer_ref",
+      "label": "Codebase Explorer Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_web_researcher_ref",
+      "label": "Web Researcher Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_general_purpose_ref",
+      "label": "General Purpose Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dependency_analyzer_ref",
+      "label": "Dependency Analyzer Sub-Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_tasktoolsbuilder",
+      "label": "TaskToolsBuilder",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_todolistinterceptor",
+      "label": "TodoListInterceptor",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_markdown_agent_definition",
+      "label": "Markdown-based Agent Definition",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Declarative, file-based definition for simplicity and ease of authoring. Agent specs stored as Markdown files with YAML front matter containing name, description, and comma-separated tools list. Registered via TaskToolsBuilder.addAgentResource() or addAgentDirectory(). Trade-off: simple and readable but limited to declarative configuration."
+    },
+    {
+      "id": "readme_api_agent_definition",
+      "label": "API-based (Programmatic) Agent Definition",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Programmatic definition via ReactAgent.builder() for maximum flexibility: custom system prompts, dynamic tool selection, and Java-level configuration. Registered via TaskToolsBuilder.subAgent(). Trade-off: more complex to define but offers fine-grained control over agent behavior."
+    },
+    {
+      "id": "readme_glob_search",
+      "label": "glob_search Tool",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_grep_search",
+      "label": "grep_search Tool",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_web_fetch",
+      "label": "web_fetch Tool",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_chatmodel",
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_toolcallback",
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_subagents_md_doc",
+      "label": "subagents.md Architecture Documentation",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_subagent_demo_example",
+      "label": "subagent-demo (Spring AI Community)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "appyml_subagent_app",
+      "label": "subagent-tech-due-diligence Application",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "appyml_dashscope_config",
+      "label": "DashScope AI API Configuration",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "appyml_workspace_path_config",
+      "label": "subagent.workspace-path Config",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "appyml_run_interactive_config",
+      "label": "subagent.run-interactive Config",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "codexplorer_spec",
+      "label": "codebase-explorer Agent Specification",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/codebase-explorer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "webresearcher_spec",
+      "label": "web-researcher Agent Specification",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/web-researcher.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "genpurpose_spec",
+      "label": "general-purpose Agent Specification",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/general-purpose.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_write_todos",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_task_tools",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_glob_search",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_grep_search",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_web_fetch",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tasktoolsbuilder",
+      "target": "readme_task_tools",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_todolistinterceptor",
+      "target": "readme_write_todos",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tasktoolsbuilder",
+      "target": "readme_markdown_agent_definition",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tasktoolsbuilder",
+      "target": "readme_api_agent_definition",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_reactagent",
+      "target": "readme_api_agent_definition",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_codebase_explorer_ref",
+      "target": "readme_glob_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_codebase_explorer_ref",
+      "target": "readme_grep_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_web_researcher_ref",
+      "target": "readme_web_fetch",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_general_purpose_ref",
+      "target": "readme_glob_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_general_purpose_ref",
+      "target": "readme_grep_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_general_purpose_ref",
+      "target": "readme_web_fetch",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_dependency_analyzer_ref",
+      "target": "readme_glob_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_dependency_analyzer_ref",
+      "target": "readme_grep_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_dependency_analyzer_ref",
+      "target": "readme_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_reactagent",
+      "target": "readme_chatmodel",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_reactagent",
+      "target": "readme_toolcallback",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_subagent_tasktool_pattern",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_task_tools",
+      "target": "readme_subagent_tasktool_pattern",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_subagent_tasktool_pattern",
+      "target": "readme_subagents_md_doc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_subagent_tasktool_pattern",
+      "target": "readme_subagent_demo_example",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_subagent_app",
+      "target": "appyml_dashscope_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_subagent_app",
+      "target": "appyml_workspace_path_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_subagent_app",
+      "target": "appyml_run_interactive_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "codexplorer_spec",
+      "target": "readme_glob_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/codebase-explorer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "codexplorer_spec",
+      "target": "readme_grep_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/codebase-explorer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "webresearcher_spec",
+      "target": "readme_web_fetch",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/web-researcher.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "genpurpose_spec",
+      "target": "readme_glob_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/general-purpose.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "genpurpose_spec",
+      "target": "readme_grep_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/general-purpose.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "genpurpose_spec",
+      "target": "readme_web_fetch",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/agents/general-purpose.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_workspace_path_config",
+      "target": "readme_glob_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_workspace_path_config",
+      "target": "readme_grep_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_subagent_app",
+      "target": "readme_tech_due_diligence_assistant",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_dashscope_config",
+      "target": "readme_chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_codebase_explorer_ref",
+      "target": "codexplorer_spec",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_web_researcher_ref",
+      "target": "webresearcher_spec",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_general_purpose_ref",
+      "target": "genpurpose_spec",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_codebase_explorer_ref",
+      "target": "readme_general_purpose_ref",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_web_researcher_ref",
+      "target": "readme_general_purpose_ref",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_markdown_agent_definition",
+      "target": "readme_api_agent_definition",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_codebase_explorer_ref",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_web_researcher_ref",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_general_purpose_ref",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_dependency_analyzer_ref",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_markdown_agent_definition",
+      "target": "codexplorer_spec",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_markdown_agent_definition",
+      "target": "webresearcher_spec",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_markdown_agent_definition",
+      "target": "genpurpose_spec",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tech_due_diligence_assistant",
+      "target": "readme_chatmodel",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/subagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "appyml_subagent_app",
+      "target": "readme_subagent_tasktool_pattern",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/subagent/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "subagent_delegation_flow",
+      "label": "Orchestrator Planning \u2192 Delegation \u2192 Specialized Sub-Agents",
+      "nodes": [
+        "readme_tech_due_diligence_assistant",
+        "readme_write_todos",
+        "readme_task_tools",
+        "readme_codebase_explorer_ref",
+        "readme_web_researcher_ref",
+        "readme_general_purpose_ref",
+        "readme_dependency_analyzer_ref"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/subagent/README.md"
+    },
+    {
+      "id": "dual_agent_definition_bridge",
+      "label": "TaskToolsBuilder Bridges Markdown and API Agent Definitions",
+      "nodes": [
+        "readme_tasktoolsbuilder",
+        "readme_markdown_agent_definition",
+        "readme_api_agent_definition"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/subagent/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

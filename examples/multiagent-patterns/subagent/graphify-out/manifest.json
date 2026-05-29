@@ -1,0 +1,64 @@
+{
+  "module": "examples/multiagent-patterns/subagent",
+  "description": "Spring AI Alibaba Subagent (TaskTool) Pattern — Tech Due Diligence Assistant: orchestrator delegates to 4 sub-agents via Task/TaskOutput",
+  "timestamp": "2026-05-29T15:00:00+08:00",
+  "analysis_method": "AST extraction + AI Agent semantic analysis (dual-pass)",
+  "stats": {
+    "total_files": 10,
+    "code_files": 5,
+    "document_files": 5,
+    "total_words": 2583,
+    "total_nodes": 69,
+    "total_edges": 119,
+    "total_hyperedges": 2,
+    "total_communities": 6
+  },
+  "ast": {
+    "nodes": 42,
+    "edges": 122,
+    "source": ".graphify_ast.json"
+  },
+  "semantic": {
+    "nodes": 27,
+    "edges": 53,
+    "hyperedges": 2,
+    "source": ".graphify_semantic.json"
+  },
+  "communities": {
+    "0": "Sub-Agent Definitions & Tool Specifications",
+    "1": "Agent Configuration, TaskToolsBuilder & Task Delegation",
+    "2": "AgentStaticLoader & SubagentTools Data Holder",
+    "3": "SubagentConfig: Bean Wiring & Orchestrator Assembly",
+    "4": "SubagentApplication: Spring Boot Entry & Lifecycle",
+    "5": "SubagentRunner: Interactive Chat & Agent Invocation"
+  },
+  "cohesion_scores": {
+    "0": 0.330,
+    "1": 0.179,
+    "2": 0.244,
+    "3": 0.348,
+    "4": 0.333,
+    "5": 0.357
+  },
+  "god_nodes": [
+    {"id": "readme_tech_due_diligence_assistant", "label": "Tech Due Diligence Assistant (Orchestrator)", "degree": 12},
+    {"id": "readme_general_purpose_ref", "label": "General Purpose Sub-Agent", "degree": 7},
+    {"id": "readme_glob_search", "label": "glob_search Tool", "degree": 7},
+    {"id": "readme_grep_search", "label": "grep_search Tool", "degree": 7},
+    {"id": "subagent_subagentconfig_subagentconfig", "label": "SubagentConfig", "degree": 5},
+    {"id": "agentstaticloader", "label": "AgentStaticLoader", "degree": 5},
+    {"id": "readme_subagent_tasktool_pattern", "label": "Subagent (TaskTool) Pattern", "degree": 5},
+    {"id": "readme_codebase_explorer_ref", "label": "Codebase Explorer Sub-Agent", "degree": 5},
+    {"id": "readme_markdown_agent_definition", "label": "Markdown-based Agent Definition", "degree": 5},
+    {"id": "readme_web_fetch", "label": "web_fetch Tool", "degree": 5}
+  ],
+  "surprising_connections": 5,
+  "outputs": [
+    "graph.json",
+    "graph.html",
+    "ANALYSIS_REPORT.md",
+    "GRAPH_REPORT.md",
+    "manifest.json",
+    "cost.json"
+  ]
+}

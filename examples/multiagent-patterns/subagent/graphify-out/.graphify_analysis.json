@@ -1,0 +1,229 @@
+{
+  "communities": {
+    "0": [
+      "appyml_workspace_path_config",
+      "codexplorer_spec",
+      "genpurpose_spec",
+      "readme_codebase_explorer_ref",
+      "readme_dependency_analyzer_ref",
+      "readme_general_purpose_ref",
+      "readme_glob_search",
+      "readme_grep_search",
+      "readme_tech_due_diligence_assistant",
+      "readme_todolistinterceptor",
+      "readme_web_fetch",
+      "readme_web_researcher_ref",
+      "readme_write_todos",
+      "webresearcher_spec"
+    ],
+    "1": [
+      "appyml_dashscope_config",
+      "appyml_run_interactive_config",
+      "appyml_subagent_app",
+      "readme_api_agent_definition",
+      "readme_chatmodel",
+      "readme_markdown_agent_definition",
+      "readme_reactagent",
+      "readme_subagent_demo_example",
+      "readme_subagent_tasktool_pattern",
+      "readme_subagents_md_doc",
+      "readme_task_tools",
+      "readme_tasktoolsbuilder",
+      "readme_toolcallback"
+    ],
+    "2": [
+      "agent",
+      "agentloader",
+      "agentstaticloader_java",
+      "agentstaticloader_java_override",
+      "agentstaticloader_java_reactagent",
+      "agentstaticloader_java_string",
+      "list",
+      "nonnull",
+      "subagent_agentstaticloader_agentstaticloader",
+      "subagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "subagent_agentstaticloader_agentstaticloader_listagents",
+      "subagent_agentstaticloader_agentstaticloader_loadagent",
+      "subagenttools_java"
+    ],
+    "3": [
+      "chatmodel",
+      "subagent_subagentconfig_subagentconfig",
+      "subagent_subagentconfig_subagentconfig_dependencyanalyzeragent",
+      "subagent_subagentconfig_subagentconfig_orchestratoragent",
+      "subagent_subagentconfig_subagentconfig_subagenttools",
+      "subagent_subagentconfig_subagentconfig_todolistinterceptor",
+      "subagentconfig_java",
+      "subagentconfig_java_bean",
+      "subagentconfig_java_reactagent",
+      "subagentconfig_java_string",
+      "subagenttools",
+      "todolistinterceptor"
+    ],
+    "4": [
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment",
+      "subagent_subagentapplication_subagentapplication",
+      "subagent_subagentapplication_subagentapplication_applicationreadyeventlistener",
+      "subagent_subagentapplication_subagentapplication_main",
+      "subagentapplication_java",
+      "subagentapplication_java_bean",
+      "subagentapplication_java_string"
+    ],
+    "5": [
+      "applicationarguments",
+      "applicationrunner",
+      "subagent_subagentrunner_subagentrunner",
+      "subagent_subagentrunner_subagentrunner_run",
+      "subagent_subagentrunner_subagentrunner_subagentrunner",
+      "subagentrunner_java",
+      "subagentrunner_java_override",
+      "subagentrunner_java_reactagent"
+    ]
+  },
+  "cohesion": {
+    "0": 0.32967032967032966,
+    "1": 0.1794871794871795,
+    "2": 0.24358974358974358,
+    "3": 0.3484848484848485,
+    "4": 0.3333333333333333,
+    "5": 0.35714285714285715
+  },
+  "gods": [
+    {
+      "id": "readme_tech_due_diligence_assistant",
+      "label": "Tech Due Diligence Assistant (Orchestrator)",
+      "degree": 12
+    },
+    {
+      "id": "readme_general_purpose_ref",
+      "label": "General Purpose Sub-Agent",
+      "degree": 7
+    },
+    {
+      "id": "readme_glob_search",
+      "label": "glob_search Tool",
+      "degree": 7
+    },
+    {
+      "id": "readme_grep_search",
+      "label": "grep_search Tool",
+      "degree": 7
+    },
+    {
+      "id": "subagent_subagentconfig_subagentconfig",
+      "label": "SubagentConfig",
+      "degree": 5
+    },
+    {
+      "id": "subagentconfig_java_bean",
+      "label": "Bean",
+      "degree": 5
+    },
+    {
+      "id": "subagent_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "degree": 5
+    },
+    {
+      "id": "readme_subagent_tasktool_pattern",
+      "label": "Subagent (TaskTool) Pattern",
+      "degree": 5
+    },
+    {
+      "id": "readme_codebase_explorer_ref",
+      "label": "Codebase Explorer Sub-Agent",
+      "degree": 5
+    },
+    {
+      "id": "readme_markdown_agent_definition",
+      "label": "Markdown-based Agent Definition",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Codebase Explorer Sub-Agent",
+      "target": "codebase-explorer Agent Specification",
+      "source_files": [
+        "examples/multiagent-patterns/subagent/README.md",
+        "examples/multiagent-patterns/subagent/src/main/resources/agents/codebase-explorer.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Web Researcher Sub-Agent",
+      "target": "web-researcher Agent Specification",
+      "source_files": [
+        "examples/multiagent-patterns/subagent/README.md",
+        "examples/multiagent-patterns/subagent/src/main/resources/agents/web-researcher.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "General Purpose Sub-Agent",
+      "target": "general-purpose Agent Specification",
+      "source_files": [
+        "examples/multiagent-patterns/subagent/README.md",
+        "examples/multiagent-patterns/subagent/src/main/resources/agents/general-purpose.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Markdown-based Agent Definition",
+      "target": "codebase-explorer Agent Specification",
+      "source_files": [
+        "examples/multiagent-patterns/subagent/README.md",
+        "examples/multiagent-patterns/subagent/src/main/resources/agents/codebase-explorer.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "Markdown-based Agent Definition",
+      "target": "general-purpose Agent Specification",
+      "source_files": [
+        "examples/multiagent-patterns/subagent/README.md",
+        "examples/multiagent-patterns/subagent/src/main/resources/agents/general-purpose.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Tech Due Diligence Assistant (Orchestrator)` connect `Community 0` to `Community 1`?",
+      "why": "High betweenness centrality (0.072) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `List` connect `Community 2` to `Community 3`?",
+      "why": "High betweenness centrality (0.069) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 5 inferred relationships involving `Tech Due Diligence Assistant (Orchestrator)` (e.g. with `ChatModel` and `Codebase Explorer Sub-Agent`) actually correct?",
+      "why": "`Tech Due Diligence Assistant (Orchestrator)` has 5 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `General Purpose Sub-Agent` (e.g. with `Codebase Explorer Sub-Agent` and `general-purpose Agent Specification`) actually correct?",
+      "why": "`General Purpose Sub-Agent` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `Override`, `String` to the rest of the system?",
+      "why": "8 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
