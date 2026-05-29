@@ -1,0 +1,231 @@
+{
+  "communities": {
+    "0": [
+      "readme_agent_isolation_design",
+      "readme_agent_tool",
+      "readme_assistant_message",
+      "readme_calendar_agent",
+      "readme_calendar_stub_tools",
+      "readme_demo_scenarios",
+      "readme_email_agent",
+      "readme_email_stub_tools",
+      "readme_instruction_input_design",
+      "readme_manage_email_tool",
+      "readme_react_agent",
+      "readme_schedule_event_tool",
+      "readme_spring_ai_alibaba",
+      "readme_stateless_agents_design",
+      "readme_string_input_type_design",
+      "readme_stub_apis_design",
+      "readme_supervisor_agent",
+      "readme_supervisor_config",
+      "readme_supervisor_pattern",
+      "readme_tool_per_agent_design",
+      "readme_user_message"
+    ],
+    "1": [
+      "calendarstubtools",
+      "chatmodel",
+      "emailstubtools",
+      "memorysaver",
+      "supervisor_supervisorconfig_supervisorconfig",
+      "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "supervisor_supervisorconfig_supervisorconfig_calendarstubtools",
+      "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "supervisor_supervisorconfig_supervisorconfig_emailstubtools",
+      "supervisor_supervisorconfig_supervisorconfig_memorysaver",
+      "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "supervisorconfig_java",
+      "supervisorconfig_java_bean",
+      "supervisorconfig_java_reactagent"
+    ],
+    "2": [
+      "agent",
+      "agentloader",
+      "agentstaticloader_java",
+      "agentstaticloader_java_list",
+      "agentstaticloader_java_override",
+      "agentstaticloader_java_reactagent",
+      "agentstaticloader_java_string",
+      "nonnull",
+      "supervisor_agentstaticloader_agentstaticloader",
+      "supervisor_agentstaticloader_agentstaticloader_agentstaticloader",
+      "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "supervisor_agentstaticloader_agentstaticloader_loadagent"
+    ],
+    "3": [
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment",
+      "supervisor_supervisorapplication_supervisorapplication",
+      "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "supervisor_supervisorapplication_supervisorapplication_main",
+      "supervisorapplication_java",
+      "supervisorapplication_java_bean",
+      "supervisorapplication_java_string"
+    ],
+    "4": [
+      "applicationarguments",
+      "applicationrunner",
+      "supervisor_supervisorrunner_supervisorrunner",
+      "supervisor_supervisorrunner_supervisorrunner_run",
+      "supervisor_supervisorrunner_supervisorrunner_supervisorrunner",
+      "supervisorrunner_java",
+      "supervisorrunner_java_override",
+      "supervisorrunner_java_reactagent"
+    ],
+    "5": [
+      "tools_calendarstubtools_calendarstubtools",
+      "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "tools_calendarstubtools_java",
+      "tools_calendarstubtools_java_list",
+      "tools_calendarstubtools_java_string",
+      "tools_calendarstubtools_java_tool"
+    ],
+    "6": [
+      "tools_emailstubtools_emailstubtools",
+      "tools_emailstubtools_emailstubtools_sendemail",
+      "tools_emailstubtools_java",
+      "tools_emailstubtools_java_list",
+      "tools_emailstubtools_java_string",
+      "tools_emailstubtools_java_tool"
+    ],
+    "7": [
+      "application_dashscope_api_config",
+      "application_supervisor_personal_assistant",
+      "readme_dashscope_api_key",
+      "readme_supervisor_application"
+    ],
+    "8": [
+      "application_run_examples_config",
+      "readme_config_run_examples",
+      "readme_supervisor_runner"
+    ]
+  },
+  "cohesion": {
+    "0": 0.19523809523809524,
+    "1": 0.34065934065934067,
+    "2": 0.2727272727272727,
+    "3": 0.3333333333333333,
+    "4": 0.35714285714285715,
+    "5": 0.5238095238095238,
+    "6": 0.4666666666666667,
+    "7": 0.5,
+    "8": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "readme_supervisor_agent",
+      "label": "Supervisor Agent",
+      "degree": 9
+    },
+    {
+      "id": "readme_calendar_agent",
+      "label": "Calendar Agent",
+      "degree": 9
+    },
+    {
+      "id": "readme_email_agent",
+      "label": "Email Agent",
+      "degree": 9
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig",
+      "label": "SupervisorConfig",
+      "degree": 7
+    },
+    {
+      "id": "supervisorconfig_java_bean",
+      "label": "Bean",
+      "degree": 7
+    },
+    {
+      "id": "supervisor_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "degree": 5
+    },
+    {
+      "id": "readme_schedule_event_tool",
+      "label": "schedule_event Tool",
+      "degree": 5
+    },
+    {
+      "id": "readme_manage_email_tool",
+      "label": "manage_email Tool",
+      "degree": 5
+    },
+    {
+      "id": "readme_agent_isolation_design",
+      "label": "Agent Isolation",
+      "degree": 5
+    },
+    {
+      "id": "supervisor_supervisorrunner_supervisorrunner",
+      "label": "SupervisorRunner",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "SupervisorApplication",
+      "target": "supervisor-personal-assistant Application",
+      "source_files": [
+        "examples/multiagent-patterns/supervisor/README.md",
+        "examples/multiagent-patterns/supervisor/src/main/resources/application.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "entry_point_for",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "spring.ai.dashscope.api-key Config",
+      "target": "DashScope API Key",
+      "source_files": [
+        "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+        "examples/multiagent-patterns/supervisor/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "configures",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "supervisor.run-examples Config",
+      "target": "supervisor.run-examples",
+      "source_files": [
+        "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+        "examples/multiagent-patterns/supervisor/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Supervisor Agent` connect `Community 0` to `Community 8`?",
+      "why": "High betweenness centrality (0.046) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Spring AI Alibaba` connect `Community 0` to `Community 7`?",
+      "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 5 inferred relationships involving `Calendar Agent` (e.g. with `Agent Isolation` and `Email Agent`) actually correct?",
+      "why": "`Calendar Agent` has 5 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 5 inferred relationships involving `Email Agent` (e.g. with `Agent Isolation` and `Calendar Agent`) actually correct?",
+      "why": "`Email Agent` has 5 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `Override`, `String` to the rest of the system?",
+      "why": "8 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

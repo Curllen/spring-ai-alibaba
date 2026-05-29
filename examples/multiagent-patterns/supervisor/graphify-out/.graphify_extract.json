@@ -1,0 +1,2846 @@
+{
+  "nodes": [
+    {
+      "id": "supervisorapplication_java",
+      "label": "SupervisorApplication.java",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "supervisor_supervisorapplication_supervisorapplication",
+      "label": "SupervisorApplication",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L25"
+    },
+    {
+      "id": "supervisor_supervisorapplication_supervisorapplication_main",
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "supervisorapplication_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "applicationlistener",
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "applicationreadyevent",
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "supervisorapplication_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "agentstaticloader_java",
+      "label": "AgentStaticLoader.java",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "supervisor_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "agentloader",
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "supervisor_agentstaticloader_agentstaticloader_agentstaticloader",
+      "label": ".AgentStaticLoader()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "agentstaticloader_java_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "label": ".listAgents()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "agentstaticloader_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "agentstaticloader_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "agentstaticloader_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "nonnull",
+      "label": "Nonnull",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49"
+    },
+    {
+      "id": "supervisor_agentstaticloader_agentstaticloader_loadagent",
+      "label": ".loadAgent()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55"
+    },
+    {
+      "id": "agent",
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55"
+    },
+    {
+      "id": "supervisorrunner_java",
+      "label": "SupervisorRunner.java",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "supervisor_supervisorrunner_supervisorrunner",
+      "label": "SupervisorRunner",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L35"
+    },
+    {
+      "id": "applicationrunner",
+      "label": "ApplicationRunner",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "supervisor_supervisorrunner_supervisorrunner_supervisorrunner",
+      "label": ".SupervisorRunner()",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "supervisorrunner_java_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L44"
+    },
+    {
+      "id": "supervisor_supervisorrunner_supervisorrunner_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L48"
+    },
+    {
+      "id": "applicationarguments",
+      "label": "ApplicationArguments",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L48"
+    },
+    {
+      "id": "supervisorrunner_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L48"
+    },
+    {
+      "id": "supervisorconfig_java",
+      "label": "SupervisorConfig.java",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig",
+      "label": "SupervisorConfig",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L33"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig_memorysaver",
+      "label": ".memorySaver()",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "memorysaver",
+      "label": "MemorySaver",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "supervisorconfig_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig_calendarstubtools",
+      "label": ".calendarStubTools()",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L79"
+    },
+    {
+      "id": "calendarstubtools",
+      "label": "CalendarStubTools",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L79"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig_emailstubtools",
+      "label": ".emailStubTools()",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L84"
+    },
+    {
+      "id": "emailstubtools",
+      "label": "EmailStubTools",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L84"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "label": ".calendarAgent()",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89"
+    },
+    {
+      "id": "chatmodel",
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89"
+    },
+    {
+      "id": "supervisorconfig_java_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "label": ".emailAgent()",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L101"
+    },
+    {
+      "id": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "label": ".supervisorAgent()",
+      "file_type": "code",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113"
+    },
+    {
+      "id": "tools_calendarstubtools_java",
+      "label": "CalendarStubTools.java",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_calendarstubtools_calendarstubtools",
+      "label": "CalendarStubTools",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L27"
+    },
+    {
+      "id": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "label": ".createCalendarEvent()",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_calendarstubtools_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_calendarstubtools_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_calendarstubtools_java_tool",
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "label": ".getAvailableTimeSlots()",
+      "file_type": "code",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_emailstubtools_java",
+      "label": "EmailStubTools.java",
+      "file_type": "code",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_emailstubtools_emailstubtools",
+      "label": "EmailStubTools",
+      "file_type": "code",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L27"
+    },
+    {
+      "id": "tools_emailstubtools_emailstubtools_sendemail",
+      "label": ".sendEmail()",
+      "file_type": "code",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_emailstubtools_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_emailstubtools_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_emailstubtools_java_tool",
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29"
+    },
+    {
+      "id": "readme_supervisor_pattern",
+      "label": "Supervisor Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3-L4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Central supervisor coordinates specialized agents by calling them as tools. This decouples routing logic from domain execution, enabling single-domain and multi-domain delegation with a unified user-facing interface."
+    },
+    {
+      "id": "readme_supervisor_agent",
+      "label": "Supervisor Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L7-L8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_calendar_agent",
+      "label": "Calendar Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L10-L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_email_agent",
+      "label": "Email Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L13-L14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_agent_tool",
+      "label": "AgentTool",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_spring_ai_alibaba",
+      "label": "Spring AI Alibaba",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_schedule_event_tool",
+      "label": "schedule_event Tool",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_manage_email_tool",
+      "label": "manage_email Tool",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_calendar_stub_tools",
+      "label": "CalendarStubTools",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_email_stub_tools",
+      "label": "EmailStubTools",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_supervisor_application",
+      "label": "SupervisorApplication",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_supervisor_config",
+      "label": "SupervisorConfig",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_supervisor_runner",
+      "label": "SupervisorRunner",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dashscope_api_key",
+      "label": "DashScope API Key",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L57-L58",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_react_agent",
+      "label": "ReactAgent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L112",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_stateless_agents_design",
+      "label": "Stateless Specialized Agents",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Specialized agents are stateless from the user's perspective. The supervisor keeps the conversation context and delegates one-off tasks. Each agent runs in a focused context with its own instruction plus the request string, avoiding shared-state complexity."
+    },
+    {
+      "id": "readme_string_input_type_design",
+      "label": "String InputType Design",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L24-L27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Each specialized agent uses inputType(String.class): the supervisor passes a single natural-language request string, and the framework wraps it as the tool's input parameter. This simplifies the tool interface to a single-string contract."
+    },
+    {
+      "id": "readme_tool_per_agent_design",
+      "label": "Tool-per-Agent Design",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L28-L29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "One tool per specialized agent (schedule_event, manage_email) provides clear routing and self-documenting tool descriptions. The supervisor only sees high-level tools without needing to understand internal agent toolchains."
+    },
+    {
+      "id": "readme_stub_apis_design",
+      "label": "Stub APIs Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L31-L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Calendar and email API calls are stubbed (CalendarStubTools, EmailStubTools) for demonstration. In production these would be replaced with real integrations. This allows testing the agent coordination pattern without external service dependencies."
+    },
+    {
+      "id": "readme_agent_isolation_design",
+      "label": "Agent Isolation",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16-L17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Each specialized agent runs in a focused context with its own instruction and tools. Only the final assistant message is shown to the user. This isolation prevents cross-contamination of agent state and simplifies debugging."
+    },
+    {
+      "id": "readme_instruction_input_design",
+      "label": "Instruction and Input Type Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L22-L27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Each specialized agent is configured with a system instruction defining its behavior (e.g. 'You are a calendar scheduling assistant\u2026') and inputType(String.class). This pattern separates agent identity from the supervisor's routing logic."
+    },
+    {
+      "id": "readme_demo_scenarios",
+      "label": "Demo Scenarios",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L92-L94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_config_run_examples",
+      "label": "supervisor.run-examples",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L96-L101",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_user_message",
+      "label": "UserMessage",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_assistant_message",
+      "label": "AssistantMessage",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115-L116",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_supervisor_personal_assistant",
+      "label": "supervisor-personal-assistant Application",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L2-L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_dashscope_api_config",
+      "label": "spring.ai.dashscope.api-key Config",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L4-L6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_run_examples_config",
+      "label": "supervisor.run-examples Config",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L10-L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "supervisorapplication_java",
+      "target": "springapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorapplication_java",
+      "target": "springbootapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorapplication_java",
+      "target": "supervisorapplication_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorapplication_java",
+      "target": "supervisor_supervisorapplication_supervisorapplication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication",
+      "target": "supervisor_supervisorapplication_supervisorapplication_main",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication_main",
+      "target": "supervisorapplication_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication",
+      "target": "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication_applicationreadyeventlistener",
+      "target": "supervisorapplication_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentloader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "qualifier",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nosuchelementexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "concurrenthashmap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "supervisor_agentstaticloader_agentstaticloader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader",
+      "target": "agentloader",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader",
+      "target": "supervisor_agentstaticloader_agentstaticloader_agentstaticloader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader",
+      "target": "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_listagents",
+      "target": "nonnull",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader",
+      "target": "supervisor_agentstaticloader_agentstaticloader_loadagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "supervisorrunner_java_reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "logger",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "loggerfactory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "assistantmessage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "usermessage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "qualifier",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "applicationarguments",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "applicationrunner",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "conditionalonproperty",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "order",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorrunner_java",
+      "target": "supervisor_supervisorrunner_supervisorrunner",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorrunner_supervisorrunner",
+      "target": "applicationrunner",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorrunner_supervisorrunner",
+      "target": "supervisor_supervisorrunner_supervisorrunner_supervisorrunner",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorrunner_supervisorrunner_supervisorrunner",
+      "target": "supervisorrunner_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorrunner_supervisorrunner",
+      "target": "supervisor_supervisorrunner_supervisorrunner_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorrunner_supervisorrunner_run",
+      "target": "applicationarguments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorrunner_supervisorrunner_run",
+      "target": "supervisorrunner_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "calendarstubtools",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "emailstubtools",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "agenttool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "supervisorconfig_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "configuration",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisorconfig_java",
+      "target": "supervisor_supervisorconfig_supervisorconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig",
+      "target": "supervisor_supervisorconfig_supervisorconfig_memorysaver",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_memorysaver",
+      "target": "memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_memorysaver",
+      "target": "supervisorconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig",
+      "target": "supervisor_supervisorconfig_supervisorconfig_calendarstubtools",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_calendarstubtools",
+      "target": "calendarstubtools",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_calendarstubtools",
+      "target": "supervisorconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig",
+      "target": "supervisor_supervisorconfig_supervisorconfig_emailstubtools",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_emailstubtools",
+      "target": "emailstubtools",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_emailstubtools",
+      "target": "supervisorconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig",
+      "target": "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "target": "chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "target": "calendarstubtools",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_calendaragent",
+      "target": "supervisorconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig",
+      "target": "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "target": "chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "target": "emailstubtools",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_emailagent",
+      "target": "supervisorconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig",
+      "target": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "target": "chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "target": "memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "supervisor_supervisorconfig_supervisorconfig_supervisoragent",
+      "target": "supervisorconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_calendarstubtools_java",
+      "target": "tools_calendarstubtools_java_tool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_calendarstubtools_java",
+      "target": "toolparam",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_calendarstubtools_java",
+      "target": "tools_calendarstubtools_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_calendarstubtools_java",
+      "target": "tools_calendarstubtools_calendarstubtools",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools",
+      "target": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_createcalendarevent",
+      "target": "tools_calendarstubtools_java_tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools",
+      "target": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "target": "tools_calendarstubtools_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "target": "tools_calendarstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_calendarstubtools_calendarstubtools_getavailabletimeslots",
+      "target": "tools_calendarstubtools_java_tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_emailstubtools_java",
+      "target": "tools_emailstubtools_java_tool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_emailstubtools_java",
+      "target": "toolparam",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_emailstubtools_java",
+      "target": "tools_emailstubtools_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_emailstubtools_java",
+      "target": "tools_emailstubtools_emailstubtools",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools",
+      "target": "tools_emailstubtools_emailstubtools_sendemail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_emailstubtools_emailstubtools_sendemail",
+      "target": "tools_emailstubtools_java_tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorapplication_java",
+      "target": "supervisorapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorapplication_java",
+      "target": "supervisorconfig_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "supervisorrunner_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "tools_calendarstubtools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_agentstaticloader_java",
+      "target": "tools_emailstubtools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorrunner_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorrunner_java",
+      "target": "supervisorrunner_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorrunner_java",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorrunner_java",
+      "target": "applicationarguments",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorRunner.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "calendarstubtools",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "tools_calendarstubtools_calendarstubtools",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "emailstubtools",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "tools_emailstubtools_emailstubtools",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "supervisorrunner_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "supervisorconfig_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "supervisorapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_supervisorconfig_java",
+      "target": "supervisorconfig_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SupervisorConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_calendarstubtools_java",
+      "target": "tools_calendarstubtools_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_calendarstubtools_java",
+      "target": "tools_emailstubtools_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_calendarstubtools_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_calendarstubtools_java",
+      "target": "tools_calendarstubtools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_calendarstubtools_java",
+      "target": "tools_emailstubtools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/CalendarStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_emailstubtools_java",
+      "target": "tools_calendarstubtools_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_emailstubtools_java",
+      "target": "tools_emailstubtools_java_tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_emailstubtools_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_emailstubtools_java",
+      "target": "tools_calendarstubtools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_supervisor_src_main_java_com_alibaba_cloud_ai_examples_multiagents_supervisor_tools_emailstubtools_java",
+      "target": "tools_emailstubtools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/EmailStubTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "supervisor_supervisorapplication_supervisorapplication_main",
+      "target": "supervisor_supervisorrunner_supervisorrunner_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "SupervisorApplication.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_schedule_event_tool",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L8-L11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_manage_email_tool",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L8-L14",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_schedule_event_tool",
+      "relation": "exposed_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_email_agent",
+      "target": "readme_manage_email_tool",
+      "relation": "exposed_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_schedule_event_tool",
+      "target": "readme_calendar_agent",
+      "relation": "delegates_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L10-L11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_manage_email_tool",
+      "target": "readme_email_agent",
+      "relation": "delegates_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L13-L14",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_tool",
+      "target": "readme_calendar_agent",
+      "relation": "wraps",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L20-L21",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_tool",
+      "target": "readme_email_agent",
+      "relation": "wraps",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L20-L21",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_calendar_stub_tools",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_email_agent",
+      "target": "readme_email_stub_tools",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_config",
+      "target": "readme_supervisor_agent",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_config",
+      "target": "readme_calendar_agent",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_config",
+      "target": "readme_email_agent",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_application",
+      "target": "application_supervisor_personal_assistant",
+      "relation": "entry_point_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_runner",
+      "target": "readme_supervisor_agent",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_react_agent",
+      "relation": "is_a",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_react_agent",
+      "relation": "is_a",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_email_agent",
+      "target": "readme_react_agent",
+      "relation": "is_a",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_alibaba",
+      "target": "readme_agent_tool",
+      "relation": "provides",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_alibaba",
+      "target": "readme_react_agent",
+      "relation": "provides",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_dashscope_api_key",
+      "target": "readme_spring_ai_alibaba",
+      "relation": "authenticates",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "application_dashscope_api_config",
+      "target": "readme_dashscope_api_key",
+      "relation": "configures",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L4-L6",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stateless_agents_design",
+      "target": "readme_calendar_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stateless_agents_design",
+      "target": "readme_email_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_string_input_type_design",
+      "target": "readme_schedule_event_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L24-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_string_input_type_design",
+      "target": "readme_manage_email_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L24-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tool_per_agent_design",
+      "target": "readme_schedule_event_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L28-L29",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tool_per_agent_design",
+      "target": "readme_manage_email_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L28-L29",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stub_apis_design",
+      "target": "readme_calendar_stub_tools",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L31-L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stub_apis_design",
+      "target": "readme_email_stub_tools",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L31-L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_isolation_design",
+      "target": "readme_calendar_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16-L17",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_isolation_design",
+      "target": "readme_email_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16-L17",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_instruction_input_design",
+      "target": "readme_calendar_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L22-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_instruction_input_design",
+      "target": "readme_email_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L22-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_supervisor_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3-L4",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_demo_scenarios",
+      "target": "readme_supervisor_agent",
+      "relation": "demonstrates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L92-L94",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_config_run_examples",
+      "target": "readme_supervisor_runner",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L96-L101",
+      "weight": 1.0
+    },
+    {
+      "source": "application_run_examples_config",
+      "target": "readme_config_run_examples",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L10-L11",
+      "weight": 1.0
+    },
+    {
+      "source": "application_dashscope_api_config",
+      "target": "application_supervisor_personal_assistant",
+      "relation": "configures",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_user_message",
+      "target": "readme_supervisor_agent",
+      "relation": "input_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_assistant_message",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115-L116",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_schedule_event_tool",
+      "target": "readme_manage_email_tool",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_email_agent",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_calendar_stub_tools",
+      "target": "readme_email_stub_tools",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_tool_per_agent_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_agent_isolation_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_stateless_agents_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_tool_per_agent_design",
+      "target": "readme_agent_isolation_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.6
+    },
+    {
+      "source": "readme_stateless_agents_design",
+      "target": "readme_agent_isolation_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.6
+    },
+    {
+      "source": "readme_instruction_input_design",
+      "target": "readme_string_input_type_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "supervisor_orchestration_flow",
+      "label": "Supervisor Multi-Agent Orchestration",
+      "nodes": [
+        "readme_supervisor_agent",
+        "readme_calendar_agent",
+        "readme_email_agent",
+        "readme_agent_tool"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md"
+    },
+    {
+      "id": "tool_wrapping_per_agent",
+      "label": "Tool Wrapping per Agent Pattern",
+      "nodes": [
+        "readme_schedule_event_tool",
+        "readme_calendar_agent",
+        "readme_agent_tool",
+        "readme_string_input_type_design"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md"
+    },
+    {
+      "id": "demo_multi_domain_flow",
+      "label": "Demo Multi-Domain Agent Flow",
+      "nodes": [
+        "readme_demo_scenarios",
+        "readme_supervisor_agent",
+        "readme_schedule_event_tool",
+        "readme_manage_email_tool"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

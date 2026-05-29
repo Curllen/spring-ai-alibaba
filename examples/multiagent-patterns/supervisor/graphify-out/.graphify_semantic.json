@@ -1,0 +1,867 @@
+{
+  "nodes": [
+    {
+      "id": "readme_supervisor_pattern",
+      "label": "Supervisor Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3-L4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Central supervisor coordinates specialized agents by calling them as tools. This decouples routing logic from domain execution, enabling single-domain and multi-domain delegation with a unified user-facing interface."
+    },
+    {
+      "id": "readme_supervisor_agent",
+      "label": "Supervisor Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L7-L8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_calendar_agent",
+      "label": "Calendar Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L10-L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_email_agent",
+      "label": "Email Agent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L13-L14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_agent_tool",
+      "label": "AgentTool",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_spring_ai_alibaba",
+      "label": "Spring AI Alibaba",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_schedule_event_tool",
+      "label": "schedule_event Tool",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_manage_email_tool",
+      "label": "manage_email Tool",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_calendar_stub_tools",
+      "label": "CalendarStubTools",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_email_stub_tools",
+      "label": "EmailStubTools",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_supervisor_application",
+      "label": "SupervisorApplication",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_supervisor_config",
+      "label": "SupervisorConfig",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_supervisor_runner",
+      "label": "SupervisorRunner",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dashscope_api_key",
+      "label": "DashScope API Key",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L57-L58",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_react_agent",
+      "label": "ReactAgent",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L112",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_stateless_agents_design",
+      "label": "Stateless Specialized Agents",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Specialized agents are stateless from the user's perspective. The supervisor keeps the conversation context and delegates one-off tasks. Each agent runs in a focused context with its own instruction plus the request string, avoiding shared-state complexity."
+    },
+    {
+      "id": "readme_string_input_type_design",
+      "label": "String InputType Design",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L24-L27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Each specialized agent uses inputType(String.class): the supervisor passes a single natural-language request string, and the framework wraps it as the tool's input parameter. This simplifies the tool interface to a single-string contract."
+    },
+    {
+      "id": "readme_tool_per_agent_design",
+      "label": "Tool-per-Agent Design",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L28-L29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "One tool per specialized agent (schedule_event, manage_email) provides clear routing and self-documenting tool descriptions. The supervisor only sees high-level tools without needing to understand internal agent toolchains."
+    },
+    {
+      "id": "readme_stub_apis_design",
+      "label": "Stub APIs Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L31-L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Calendar and email API calls are stubbed (CalendarStubTools, EmailStubTools) for demonstration. In production these would be replaced with real integrations. This allows testing the agent coordination pattern without external service dependencies."
+    },
+    {
+      "id": "readme_agent_isolation_design",
+      "label": "Agent Isolation",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16-L17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Each specialized agent runs in a focused context with its own instruction and tools. Only the final assistant message is shown to the user. This isolation prevents cross-contamination of agent state and simplifies debugging."
+    },
+    {
+      "id": "readme_instruction_input_design",
+      "label": "Instruction and Input Type Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L22-L27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Each specialized agent is configured with a system instruction defining its behavior (e.g. 'You are a calendar scheduling assistant\u2026') and inputType(String.class). This pattern separates agent identity from the supervisor's routing logic."
+    },
+    {
+      "id": "readme_demo_scenarios",
+      "label": "Demo Scenarios",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L92-L94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_config_run_examples",
+      "label": "supervisor.run-examples",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L96-L101",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_user_message",
+      "label": "UserMessage",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_assistant_message",
+      "label": "AssistantMessage",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115-L116",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_supervisor_personal_assistant",
+      "label": "supervisor-personal-assistant Application",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L2-L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_dashscope_api_config",
+      "label": "spring.ai.dashscope.api-key Config",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L4-L6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_run_examples_config",
+      "label": "supervisor.run-examples Config",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L10-L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_schedule_event_tool",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L8-L11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_manage_email_tool",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L8-L14",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_schedule_event_tool",
+      "relation": "exposed_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_email_agent",
+      "target": "readme_manage_email_tool",
+      "relation": "exposed_as",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_schedule_event_tool",
+      "target": "readme_calendar_agent",
+      "relation": "delegates_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L10-L11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_manage_email_tool",
+      "target": "readme_email_agent",
+      "relation": "delegates_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L13-L14",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_tool",
+      "target": "readme_calendar_agent",
+      "relation": "wraps",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L20-L21",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_tool",
+      "target": "readme_email_agent",
+      "relation": "wraps",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L20-L21",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_calendar_stub_tools",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_email_agent",
+      "target": "readme_email_stub_tools",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_config",
+      "target": "readme_supervisor_agent",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_config",
+      "target": "readme_calendar_agent",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_config",
+      "target": "readme_email_agent",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_application",
+      "target": "application_supervisor_personal_assistant",
+      "relation": "entry_point_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_runner",
+      "target": "readme_supervisor_agent",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_react_agent",
+      "relation": "is_a",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_react_agent",
+      "relation": "is_a",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_email_agent",
+      "target": "readme_react_agent",
+      "relation": "is_a",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_alibaba",
+      "target": "readme_agent_tool",
+      "relation": "provides",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_spring_ai_alibaba",
+      "target": "readme_react_agent",
+      "relation": "provides",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_dashscope_api_key",
+      "target": "readme_spring_ai_alibaba",
+      "relation": "authenticates",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "application_dashscope_api_config",
+      "target": "readme_dashscope_api_key",
+      "relation": "configures",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L4-L6",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stateless_agents_design",
+      "target": "readme_calendar_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stateless_agents_design",
+      "target": "readme_email_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_string_input_type_design",
+      "target": "readme_schedule_event_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L24-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_string_input_type_design",
+      "target": "readme_manage_email_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L24-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tool_per_agent_design",
+      "target": "readme_schedule_event_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L28-L29",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_tool_per_agent_design",
+      "target": "readme_manage_email_tool",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L28-L29",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stub_apis_design",
+      "target": "readme_calendar_stub_tools",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L31-L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stub_apis_design",
+      "target": "readme_email_stub_tools",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L31-L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_isolation_design",
+      "target": "readme_calendar_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16-L17",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_agent_isolation_design",
+      "target": "readme_email_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L16-L17",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_instruction_input_design",
+      "target": "readme_calendar_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L22-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_instruction_input_design",
+      "target": "readme_email_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L22-L27",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_supervisor_agent",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L3-L4",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_demo_scenarios",
+      "target": "readme_supervisor_agent",
+      "relation": "demonstrates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L92-L94",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_config_run_examples",
+      "target": "readme_supervisor_runner",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L96-L101",
+      "weight": 1.0
+    },
+    {
+      "source": "application_run_examples_config",
+      "target": "readme_config_run_examples",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": "L10-L11",
+      "weight": 1.0
+    },
+    {
+      "source": "application_dashscope_api_config",
+      "target": "application_supervisor_personal_assistant",
+      "relation": "configures",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_user_message",
+      "target": "readme_supervisor_agent",
+      "relation": "input_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_supervisor_agent",
+      "target": "readme_assistant_message",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": "L115-L116",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_schedule_event_tool",
+      "target": "readme_manage_email_tool",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_calendar_agent",
+      "target": "readme_email_agent",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_calendar_stub_tools",
+      "target": "readme_email_stub_tools",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_tool_per_agent_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_agent_isolation_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_supervisor_pattern",
+      "target": "readme_stateless_agents_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "readme_tool_per_agent_design",
+      "target": "readme_agent_isolation_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.6
+    },
+    {
+      "source": "readme_stateless_agents_design",
+      "target": "readme_agent_isolation_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.6
+    },
+    {
+      "source": "readme_instruction_input_design",
+      "target": "readme_string_input_type_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "supervisor_orchestration_flow",
+      "label": "Supervisor Multi-Agent Orchestration",
+      "nodes": [
+        "readme_supervisor_agent",
+        "readme_calendar_agent",
+        "readme_email_agent",
+        "readme_agent_tool"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md"
+    },
+    {
+      "id": "tool_wrapping_per_agent",
+      "label": "Tool Wrapping per Agent Pattern",
+      "nodes": [
+        "readme_schedule_event_tool",
+        "readme_calendar_agent",
+        "readme_agent_tool",
+        "readme_string_input_type_design"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md"
+    },
+    {
+      "id": "demo_multi_domain_flow",
+      "label": "Demo Multi-Domain Agent Flow",
+      "nodes": [
+        "readme_demo_scenarios",
+        "readme_supervisor_agent",
+        "readme_schedule_event_tool",
+        "readme_manage_email_tool"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/supervisor/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

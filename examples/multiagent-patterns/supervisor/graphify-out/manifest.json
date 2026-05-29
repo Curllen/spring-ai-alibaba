@@ -1,0 +1,70 @@
+{
+  "module": "examples/multiagent-patterns/supervisor",
+  "description": "Spring AI Alibaba Supervisor Pattern — Personal Assistant: central supervisor delegates to Calendar & Email agents via AgentTool",
+  "timestamp": "2026-05-29T15:30:00+08:00",
+  "analysis_method": "AST extraction + AI Agent semantic analysis (dual-pass)",
+  "stats": {
+    "total_files": 8,
+    "code_files": 6,
+    "document_files": 2,
+    "total_words": 2435,
+    "total_nodes": 84,
+    "total_edges": 138,
+    "total_hyperedges": 3,
+    "total_communities": 9
+  },
+  "ast": {
+    "nodes": 56,
+    "edges": 161,
+    "source": ".graphify_ast.json"
+  },
+  "semantic": {
+    "nodes": 28,
+    "edges": 50,
+    "hyperedges": 3,
+    "source": ".graphify_semantic.json"
+  },
+  "communities": {
+    "0": "Supervisor Pattern: Agent Design & Tool Orchestration",
+    "1": "SupervisorConfig: Bean Wiring & AgentTool Assembly",
+    "2": "AgentStaticLoader: Studio Agent Registry",
+    "3": "SupervisorApplication: Spring Boot Entry & Lifecycle",
+    "4": "SupervisorRunner: Demo Scenarios Execution",
+    "5": "CalendarStubTools: Stub Calendar API Methods",
+    "6": "EmailStubTools: Stub Email API Method",
+    "7": "DashScope API & Application Configuration",
+    "8": "Demo Runner Toggle & SupervisorRunner Config"
+  },
+  "cohesion_scores": {
+    "0": 0.195,
+    "1": 0.341,
+    "2": 0.273,
+    "3": 0.333,
+    "4": 0.357,
+    "5": 0.524,
+    "6": 0.467,
+    "7": 0.500,
+    "8": 0.667
+  },
+  "god_nodes": [
+    {"id": "readme_supervisor_agent", "label": "Supervisor Agent", "degree": 9},
+    {"id": "readme_calendar_agent", "label": "Calendar Agent", "degree": 9},
+    {"id": "readme_email_agent", "label": "Email Agent", "degree": 9},
+    {"id": "supervisor_supervisorconfig_supervisorconfig", "label": "SupervisorConfig", "degree": 7},
+    {"id": "supervisorconfig_java_bean", "label": "Bean", "degree": 7},
+    {"id": "agentstaticloader", "label": "AgentStaticLoader", "degree": 5},
+    {"id": "readme_schedule_event_tool", "label": "schedule_event Tool", "degree": 5},
+    {"id": "readme_manage_email_tool", "label": "manage_email Tool", "degree": 5},
+    {"id": "readme_agent_isolation_design", "label": "Agent Isolation", "degree": 5},
+    {"id": "supervisorrunner", "label": "SupervisorRunner", "degree": 4}
+  ],
+  "surprising_connections": 3,
+  "outputs": [
+    "graph.json",
+    "graph.html",
+    "ANALYSIS_REPORT.md",
+    "GRAPH_REPORT.md",
+    "manifest.json",
+    "cost.json"
+  ]
+}
