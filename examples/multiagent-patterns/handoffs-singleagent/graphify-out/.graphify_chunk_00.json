@@ -1,0 +1,510 @@
+{
+  "nodes": [
+    {
+      "id": "README_handoffs_singleagent_module",
+      "label": "Handoffs Single-Agent Module",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": null
+    },
+    {
+      "id": "README_reactagent",
+      "label": "ReactAgent (supportAgent)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "README_step_warranty_collector",
+      "label": "Step: warranty_collector",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "README_step_issue_classifier",
+      "label": "Step: issue_classifier",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "README_step_resolution_specialist",
+      "label": "Step: resolution_specialist",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "README_stepconfiginterceptor",
+      "label": "StepConfigInterceptor (ModelInterceptor)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L26-L28"
+    },
+    {
+      "id": "README_statekey_current_step",
+      "label": "State Key: current_step",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L3,L24"
+    },
+    {
+      "id": "README_statekey_warranty_status",
+      "label": "State Key: warranty_status",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L3,L24"
+    },
+    {
+      "id": "README_statekey_issue_type",
+      "label": "State Key: issue_type",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L3,L24"
+    },
+    {
+      "id": "README_tool_record_warranty_status",
+      "label": "Tool: record_warranty_status",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L11,L16"
+    },
+    {
+      "id": "README_tool_record_issue_type",
+      "label": "Tool: record_issue_type",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L12,L16"
+    },
+    {
+      "id": "README_tool_provide_solution",
+      "label": "Tool: provide_solution",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "README_tool_escalate_to_human",
+      "label": "Tool: escalate_to_human",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "README_memorysaver",
+      "label": "MemorySaver (Checkpointer)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L18-L19"
+    },
+    {
+      "id": "README_handoffssupporthook",
+      "label": "HandoffsSupportHook",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24,L46"
+    },
+    {
+      "id": "README_replacestrategy",
+      "label": "ReplaceStrategy (Key Merge Strategy)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "README_toolcontexthelper",
+      "label": "ToolContextHelper.getStateForUpdate",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "README_runnableconfig",
+      "label": "RunnableConfig (thread_id)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L19,L105"
+    },
+    {
+      "id": "application_dashscope",
+      "label": "DashScope AI Provider",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/src/main/resources/application.yml",
+      "source_location": "L4-L6"
+    },
+    {
+      "id": "README_handoffsconfig",
+      "label": "HandoffsConfig",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "README_handoffsrunner",
+      "label": "HandoffsRunner (Demo Runner)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L42,L84-L88"
+    },
+    {
+      "id": "README_supporttools",
+      "label": "SupportTools",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "README_supportstateconstants",
+      "label": "SupportStateConstants",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "application_run_examples",
+      "label": "handoffs.run-examples (Demo Toggle)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/src/main/resources/application.yml",
+      "source_location": "L8-L9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "README_reactagent",
+      "target": "README_stepconfiginterceptor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "README_stepconfiginterceptor",
+      "target": "README_statekey_current_step",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "README_step_warranty_collector",
+      "target": "README_tool_record_warranty_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "README_step_issue_classifier",
+      "target": "README_tool_record_issue_type",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "README_step_resolution_specialist",
+      "target": "README_tool_provide_solution",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "README_step_resolution_specialist",
+      "target": "README_tool_escalate_to_human",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "README_reactagent",
+      "target": "README_memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L18-L19",
+      "weight": 1.0
+    },
+    {
+      "source": "README_reactagent",
+      "target": "README_handoffssupporthook",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffssupporthook",
+      "target": "README_replacestrategy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffssupporthook",
+      "target": "README_statekey_current_step",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffssupporthook",
+      "target": "README_statekey_warranty_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffssupporthook",
+      "target": "README_statekey_issue_type",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "README_tool_record_warranty_status",
+      "target": "README_toolcontexthelper",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "README_tool_record_issue_type",
+      "target": "README_toolcontexthelper",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "README_tool_record_warranty_status",
+      "target": "README_statekey_current_step",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "README_tool_record_issue_type",
+      "target": "README_statekey_current_step",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "README_memorysaver",
+      "target": "README_runnableconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffsconfig",
+      "target": "README_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "README_supporttools",
+      "target": "README_tool_record_warranty_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "README_supporttools",
+      "target": "README_tool_record_issue_type",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "README_supporttools",
+      "target": "README_tool_provide_solution",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "README_supporttools",
+      "target": "README_tool_escalate_to_human",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "application_run_examples",
+      "target": "README_handoffsrunner",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L82,L90",
+      "weight": 1.0
+    },
+    {
+      "source": "README_stepconfiginterceptor",
+      "target": "README_step_warranty_collector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L11",
+      "weight": 1.0
+    },
+    {
+      "source": "README_stepconfiginterceptor",
+      "target": "README_step_issue_classifier",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L12",
+      "weight": 1.0
+    },
+    {
+      "source": "README_stepconfiginterceptor",
+      "target": "README_step_resolution_specialist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L13",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffsrunner",
+      "target": "README_reactagent",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L84-L88",
+      "weight": 1.0
+    },
+    {
+      "source": "README_handoffsrunner",
+      "target": "README_runnableconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L84",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "handoffs_workflow_steps",
+      "label": "Handoffs Workflow Pipeline (warranty_collector -> issue_classifier -> resolution_specialist)",
+      "nodes": [
+        "README_step_warranty_collector",
+        "README_step_issue_classifier",
+        "README_step_resolution_specialist"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    },
+    {
+      "id": "graph_state_keys",
+      "label": "Graph State Variables (current_step, warranty_status, issue_type)",
+      "nodes": [
+        "README_statekey_current_step",
+        "README_statekey_warranty_status",
+        "README_statekey_issue_type"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    },
+    {
+      "id": "agent_architecture_triad",
+      "label": "Agent Architecture: ReactAgent + StepConfigInterceptor + Hook",
+      "nodes": [
+        "README_reactagent",
+        "README_stepconfiginterceptor",
+        "README_handoffssupporthook"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    },
+    {
+      "id": "state_updating_tools",
+      "label": "State-Updating Tools (record_warranty_status, record_issue_type)",
+      "nodes": [
+        "README_tool_record_warranty_status",
+        "README_tool_record_issue_type",
+        "README_toolcontexthelper"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,3000 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "handoffs_workflow_steps",
+        "label": "Handoffs Workflow Pipeline (warranty_collector -> issue_classifier -> resolution_specialist)",
+        "nodes": [
+          "README_step_warranty_collector",
+          "README_step_issue_classifier",
+          "README_step_resolution_specialist"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+      },
+      {
+        "id": "graph_state_keys",
+        "label": "Graph State Variables (current_step, warranty_status, issue_type)",
+        "nodes": [
+          "README_statekey_current_step",
+          "README_statekey_warranty_status",
+          "README_statekey_issue_type"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+      },
+      {
+        "id": "agent_architecture_triad",
+        "label": "Agent Architecture: ReactAgent + StepConfigInterceptor + Hook",
+        "nodes": [
+          "README_reactagent",
+          "README_stepconfiginterceptor",
+          "README_handoffssupporthook"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+      },
+      {
+        "id": "state_updating_tools",
+        "label": "State-Updating Tools (record_warranty_status, record_issue_type)",
+        "nodes": [
+          "README_tool_record_warranty_status",
+          "README_tool_record_issue_type",
+          "README_toolcontexthelper"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "AgentStaticLoader.java",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L1",
+      "id": "agentstaticloader_java",
+      "community": 2,
+      "norm_label": "agentstaticloader.java"
+    },
+    {
+      "label": "AgentStaticLoader",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "id": "singleagent_agentstaticloader_agentstaticloader",
+      "community": 2,
+      "norm_label": "agentstaticloader"
+    },
+    {
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "agentloader",
+      "community": 2,
+      "norm_label": "agentloader"
+    },
+    {
+      "label": ".AgentStaticLoader()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "id": "singleagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "community": 2,
+      "norm_label": ".agentstaticloader()"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "id": "agentstaticloader_java_reactagent",
+      "community": 2,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": ".listAgents()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "community": 2,
+      "norm_label": ".listagents()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "agentstaticloader_java_list",
+      "community": 2,
+      "norm_label": "list"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "agentstaticloader_java_string",
+      "community": 2,
+      "norm_label": "string"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "agentstaticloader_java_override",
+      "community": 2,
+      "norm_label": "override"
+    },
+    {
+      "label": "Nonnull",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "nonnull",
+      "community": 2,
+      "norm_label": "nonnull"
+    },
+    {
+      "label": ".loadAgent()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "id": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "community": 2,
+      "norm_label": ".loadagent()"
+    },
+    {
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "id": "agent",
+      "community": 2,
+      "norm_label": "agent"
+    },
+    {
+      "label": "HandoffsRunner.java",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L1",
+      "id": "handoffsrunner_java",
+      "community": 7,
+      "norm_label": "handoffsrunner.java"
+    },
+    {
+      "label": "HandoffsRunner",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L36",
+      "id": "singleagent_handoffsrunner_handoffsrunner",
+      "community": 7,
+      "norm_label": "handoffsrunner"
+    },
+    {
+      "label": "ApplicationRunner",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "applicationrunner",
+      "community": 7,
+      "norm_label": "applicationrunner"
+    },
+    {
+      "label": ".HandoffsRunner()",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47",
+      "id": "singleagent_handoffsrunner_handoffsrunner_handoffsrunner",
+      "community": 7,
+      "norm_label": ".handoffsrunner()"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47",
+      "id": "handoffsrunner_java_reactagent",
+      "community": 7,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "id": "singleagent_handoffsrunner_handoffsrunner_run",
+      "community": 7,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "ApplicationArguments",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "id": "applicationarguments",
+      "community": 7,
+      "norm_label": "applicationarguments"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "id": "handoffsrunner_java_override",
+      "community": 7,
+      "norm_label": "override"
+    },
+    {
+      "label": "HandoffsConfig.java",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L1",
+      "id": "handoffsconfig_java",
+      "community": 8,
+      "norm_label": "handoffsconfig.java"
+    },
+    {
+      "label": "HandoffsConfig",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L35",
+      "id": "singleagent_handoffsconfig_handoffsconfig",
+      "community": 8,
+      "norm_label": "handoffsconfig"
+    },
+    {
+      "label": ".memorySaver()",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "id": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "community": 8,
+      "norm_label": ".memorysaver()"
+    },
+    {
+      "label": "MemorySaver",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "id": "memorysaver",
+      "community": 8,
+      "norm_label": "memorysaver"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "id": "handoffsconfig_java_bean",
+      "community": 8,
+      "norm_label": "bean"
+    },
+    {
+      "label": ".supportAgent()",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "id": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "community": 8,
+      "norm_label": ".supportagent()"
+    },
+    {
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "id": "chatmodel",
+      "community": 8,
+      "norm_label": "chatmodel"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "id": "handoffsconfig_java_reactagent",
+      "community": 8,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": "HandoffsApplication.java",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L1",
+      "id": "handoffsapplication_java",
+      "community": 6,
+      "norm_label": "handoffsapplication.java"
+    },
+    {
+      "label": "HandoffsApplication",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L25",
+      "id": "singleagent_handoffsapplication_handoffsapplication",
+      "community": 6,
+      "norm_label": "handoffsapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "id": "singleagent_handoffsapplication_handoffsapplication_main",
+      "community": 6,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "id": "handoffsapplication_java_string",
+      "community": 6,
+      "norm_label": "string"
+    },
+    {
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "community": 6,
+      "norm_label": ".applicationreadyeventlistener()"
+    },
+    {
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "environment",
+      "community": 6,
+      "norm_label": "environment"
+    },
+    {
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "applicationlistener",
+      "community": 6,
+      "norm_label": "applicationlistener"
+    },
+    {
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "applicationreadyevent",
+      "community": 6,
+      "norm_label": "applicationreadyevent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "id": "handoffsapplication_java_bean",
+      "community": 6,
+      "norm_label": "bean"
+    },
+    {
+      "label": "SupportTools.java",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L1",
+      "id": "tools_supporttools_java",
+      "community": 0,
+      "norm_label": "supporttools.java"
+    },
+    {
+      "label": "SupportTools",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L34",
+      "id": "tools_supporttools_supporttools",
+      "community": 0,
+      "norm_label": "supporttools"
+    },
+    {
+      "label": ".SupportTools()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L40",
+      "id": "tools_supporttools_supporttools_supporttools",
+      "community": 0,
+      "norm_label": ".supporttools()"
+    },
+    {
+      "label": ".recordWarrantyStatus()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "id": "tools_supporttools_supporttools_recordwarrantystatus",
+      "community": 0,
+      "norm_label": ".recordwarrantystatus()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "id": "tools_supporttools_java_string",
+      "community": 0,
+      "norm_label": "string"
+    },
+    {
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "id": "toolcontext",
+      "community": 0,
+      "norm_label": "toolcontext"
+    },
+    {
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "id": "tool",
+      "community": 0,
+      "norm_label": "tool"
+    },
+    {
+      "label": ".recordIssueType()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "id": "tools_supporttools_supporttools_recordissuetype",
+      "community": 0,
+      "norm_label": ".recordissuetype()"
+    },
+    {
+      "label": ".provideSolution()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "id": "tools_supporttools_supporttools_providesolution",
+      "community": 0,
+      "norm_label": ".providesolution()"
+    },
+    {
+      "label": ".escalateToHuman()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "id": "tools_supporttools_supporttools_escalatetohuman",
+      "community": 0,
+      "norm_label": ".escalatetohuman()"
+    },
+    {
+      "label": ".findByName()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "id": "tools_supporttools_supporttools_findbyname",
+      "community": 0,
+      "norm_label": ".findbyname()"
+    },
+    {
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "id": "toolcallback",
+      "community": 0,
+      "norm_label": "toolcallback"
+    },
+    {
+      "label": ".allTools()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "id": "tools_supporttools_supporttools_alltools",
+      "community": 0,
+      "norm_label": ".alltools()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "id": "tools_supporttools_java_list",
+      "community": 0,
+      "norm_label": "list"
+    },
+    {
+      "label": ".recordWarrantyStatusTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L91",
+      "id": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "community": 0,
+      "norm_label": ".recordwarrantystatustool()"
+    },
+    {
+      "label": ".recordIssueTypeTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L95",
+      "id": "tools_supporttools_supporttools_recordissuetypetool",
+      "community": 0,
+      "norm_label": ".recordissuetypetool()"
+    },
+    {
+      "label": ".provideSolutionTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L99",
+      "id": "tools_supporttools_supporttools_providesolutiontool",
+      "community": 0,
+      "norm_label": ".providesolutiontool()"
+    },
+    {
+      "label": ".escalateToHumanTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L103",
+      "id": "tools_supporttools_supporttools_escalatetohumantool",
+      "community": 0,
+      "norm_label": ".escalatetohumantool()"
+    },
+    {
+      "label": "StepConfigInterceptor.java",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L1",
+      "id": "support_stepconfiginterceptor_java",
+      "community": 1,
+      "norm_label": "stepconfiginterceptor.java"
+    },
+    {
+      "label": "StepConfigInterceptor",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L35",
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "community": 1,
+      "norm_label": "stepconfiginterceptor"
+    },
+    {
+      "label": ".StepConfigInterceptor()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "community": 1,
+      "norm_label": ".stepconfiginterceptor()"
+    },
+    {
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "id": "support_stepconfiginterceptor_java_map",
+      "community": 1,
+      "norm_label": "map"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "id": "support_stepconfiginterceptor_java_string",
+      "community": 1,
+      "norm_label": "string"
+    },
+    {
+      "label": "StepConfig",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "id": "stepconfig",
+      "community": 1,
+      "norm_label": "stepconfig"
+    },
+    {
+      "label": ".interceptModel()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "community": 1,
+      "norm_label": ".interceptmodel()"
+    },
+    {
+      "label": "ModelRequest",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "id": "modelrequest",
+      "community": 1,
+      "norm_label": "modelrequest"
+    },
+    {
+      "label": "ModelCallHandler",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "id": "modelcallhandler",
+      "community": 1,
+      "norm_label": "modelcallhandler"
+    },
+    {
+      "label": "ModelResponse",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "id": "modelresponse",
+      "community": 1,
+      "norm_label": "modelresponse"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "id": "support_stepconfiginterceptor_java_override",
+      "community": 1,
+      "norm_label": "override"
+    },
+    {
+      "label": ".formatPrompt()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "community": 1,
+      "norm_label": ".formatprompt()"
+    },
+    {
+      "label": "Object",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "id": "object",
+      "community": 1,
+      "norm_label": "object"
+    },
+    {
+      "label": ".getName()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "community": 1,
+      "norm_label": ".getname()"
+    },
+    {
+      "label": "SupportStateConstants.java",
+      "file_type": "code",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L1",
+      "id": "support_supportstateconstants_java",
+      "community": 9,
+      "norm_label": "supportstateconstants.java"
+    },
+    {
+      "label": "SupportStateConstants",
+      "file_type": "code",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L21",
+      "id": "support_supportstateconstants_supportstateconstants",
+      "community": 9,
+      "norm_label": "supportstateconstants"
+    },
+    {
+      "label": ".SupportStateConstants()",
+      "file_type": "code",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L23",
+      "id": "support_supportstateconstants_supportstateconstants_supportstateconstants",
+      "community": 9,
+      "norm_label": ".supportstateconstants()"
+    },
+    {
+      "label": "HandoffsSupportHook.java",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L1",
+      "id": "support_handoffssupporthook_java",
+      "community": 4,
+      "norm_label": "handoffssupporthook.java"
+    },
+    {
+      "label": "HandoffsSupportHook",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L33",
+      "id": "support_handoffssupporthook_handoffssupporthook",
+      "community": 4,
+      "norm_label": "handoffssupporthook"
+    },
+    {
+      "label": "ModelHook",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "modelhook",
+      "community": 4,
+      "norm_label": "modelhook"
+    },
+    {
+      "label": ".HandoffsSupportHook()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L76",
+      "id": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "community": 0,
+      "norm_label": ".handoffssupporthook()"
+    },
+    {
+      "label": ".getName()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "id": "support_handoffssupporthook_handoffssupporthook_getname",
+      "community": 4,
+      "norm_label": ".getname()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "id": "support_handoffssupporthook_java_string",
+      "community": 4,
+      "norm_label": "string"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "id": "support_handoffssupporthook_java_override",
+      "community": 4,
+      "norm_label": "override"
+    },
+    {
+      "label": ".getModelInterceptors()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "id": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "community": 4,
+      "norm_label": ".getmodelinterceptors()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "id": "support_handoffssupporthook_java_list",
+      "community": 4,
+      "norm_label": "list"
+    },
+    {
+      "label": "ModelInterceptor",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "id": "support_handoffssupporthook_java_modelinterceptor",
+      "community": 1,
+      "norm_label": "modelinterceptor"
+    },
+    {
+      "label": ".getKeyStrategys()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "id": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "community": 4,
+      "norm_label": ".getkeystrategys()"
+    },
+    {
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "id": "support_handoffssupporthook_java_map",
+      "community": 4,
+      "norm_label": "map"
+    },
+    {
+      "label": "KeyStrategy",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "id": "keystrategy",
+      "community": 4,
+      "norm_label": "keystrategy"
+    },
+    {
+      "label": "Handoffs Single-Agent Module",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": null,
+      "id": "README_handoffs_singleagent_module",
+      "community": 10,
+      "norm_label": "handoffs single-agent module"
+    },
+    {
+      "label": "ReactAgent (supportAgent)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8",
+      "id": "README_reactagent",
+      "community": 5,
+      "norm_label": "reactagent (supportagent)"
+    },
+    {
+      "label": "Step: warranty_collector",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L11",
+      "id": "README_step_warranty_collector",
+      "community": 3,
+      "norm_label": "step: warranty_collector"
+    },
+    {
+      "label": "Step: issue_classifier",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L12",
+      "id": "README_step_issue_classifier",
+      "community": 3,
+      "norm_label": "step: issue_classifier"
+    },
+    {
+      "label": "Step: resolution_specialist",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "id": "README_step_resolution_specialist",
+      "community": 3,
+      "norm_label": "step: resolution_specialist"
+    },
+    {
+      "label": "StepConfigInterceptor (ModelInterceptor)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L26-L28",
+      "id": "README_stepconfiginterceptor",
+      "community": 3,
+      "norm_label": "stepconfiginterceptor (modelinterceptor)"
+    },
+    {
+      "label": "State Key: current_step",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L3,L24",
+      "id": "README_statekey_current_step",
+      "community": 3,
+      "norm_label": "state key: current_step"
+    },
+    {
+      "label": "State Key: warranty_status",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L3,L24",
+      "id": "README_statekey_warranty_status",
+      "community": 5,
+      "norm_label": "state key: warranty_status"
+    },
+    {
+      "label": "State Key: issue_type",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L3,L24",
+      "id": "README_statekey_issue_type",
+      "community": 5,
+      "norm_label": "state key: issue_type"
+    },
+    {
+      "label": "Tool: record_warranty_status",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L11,L16",
+      "id": "README_tool_record_warranty_status",
+      "community": 3,
+      "norm_label": "tool: record_warranty_status"
+    },
+    {
+      "label": "Tool: record_issue_type",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L12,L16",
+      "id": "README_tool_record_issue_type",
+      "community": 3,
+      "norm_label": "tool: record_issue_type"
+    },
+    {
+      "label": "Tool: provide_solution",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "id": "README_tool_provide_solution",
+      "community": 3,
+      "norm_label": "tool: provide_solution"
+    },
+    {
+      "label": "Tool: escalate_to_human",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "id": "README_tool_escalate_to_human",
+      "community": 3,
+      "norm_label": "tool: escalate_to_human"
+    },
+    {
+      "label": "MemorySaver (Checkpointer)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L18-L19",
+      "id": "README_memorysaver",
+      "community": 5,
+      "norm_label": "memorysaver (checkpointer)"
+    },
+    {
+      "label": "HandoffsSupportHook",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24,L46",
+      "id": "README_handoffssupporthook",
+      "community": 5,
+      "norm_label": "handoffssupporthook"
+    },
+    {
+      "label": "ReplaceStrategy (Key Merge Strategy)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "id": "README_replacestrategy",
+      "community": 5,
+      "norm_label": "replacestrategy (key merge strategy)"
+    },
+    {
+      "label": "ToolContextHelper.getStateForUpdate",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "id": "README_toolcontexthelper",
+      "community": 3,
+      "norm_label": "toolcontexthelper.getstateforupdate"
+    },
+    {
+      "label": "RunnableConfig (thread_id)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L19,L105",
+      "id": "README_runnableconfig",
+      "community": 5,
+      "norm_label": "runnableconfig (thread_id)"
+    },
+    {
+      "label": "DashScope AI Provider",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/src/main/resources/application.yml",
+      "source_location": "L4-L6",
+      "id": "application_dashscope",
+      "community": 11,
+      "norm_label": "dashscope ai provider"
+    },
+    {
+      "label": "HandoffsConfig",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L41",
+      "id": "README_handoffsconfig",
+      "community": 5,
+      "norm_label": "handoffsconfig"
+    },
+    {
+      "label": "HandoffsRunner (Demo Runner)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L42,L84-L88",
+      "id": "README_handoffsrunner",
+      "community": 5,
+      "norm_label": "handoffsrunner (demo runner)"
+    },
+    {
+      "label": "SupportTools",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "id": "README_supporttools",
+      "community": 3,
+      "norm_label": "supporttools"
+    },
+    {
+      "label": "SupportStateConstants",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L44",
+      "id": "README_supportstateconstants",
+      "community": 12,
+      "norm_label": "supportstateconstants"
+    },
+    {
+      "label": "handoffs.run-examples (Demo Toggle)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/src/main/resources/application.yml",
+      "source_location": "L8-L9",
+      "id": "application_run_examples",
+      "community": 5,
+      "norm_label": "handoffs.run-examples (demo toggle)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "nonnull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "singleagent_agentstaticloader_agentstaticloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "agentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "singleagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "agentstaticloader_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "nonnull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "handoffsrunner_java",
+      "target": "applicationarguments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "handoffsrunner_java",
+      "target": "applicationrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "handoffsrunner_java",
+      "target": "handoffsrunner_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "handoffsrunner_java",
+      "target": "singleagent_handoffsrunner_handoffsrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "singleagent_handoffsrunner_handoffsrunner",
+      "target": "applicationrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "singleagent_handoffsrunner_handoffsrunner",
+      "target": "singleagent_handoffsrunner_handoffsrunner_handoffsrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "singleagent_handoffsrunner_handoffsrunner",
+      "target": "singleagent_handoffsrunner_handoffsrunner_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_handoffsrunner_handoffsrunner_handoffsrunner",
+      "target": "handoffsrunner_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "singleagent_handoffsapplication_handoffsapplication_main",
+      "target": "singleagent_handoffsrunner_handoffsrunner_run"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_handoffsrunner_handoffsrunner_run",
+      "target": "applicationarguments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_handoffsrunner_handoffsrunner_run",
+      "target": "handoffsrunner_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "handoffsconfig_java",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "handoffsconfig_java",
+      "target": "handoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "handoffsconfig_java",
+      "target": "handoffsconfig_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "handoffsconfig_java",
+      "target": "memorysaver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "handoffsconfig_java",
+      "target": "singleagent_handoffsconfig_handoffsconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "handoffsconfig_java",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "singleagent_handoffsconfig_handoffsconfig",
+      "target": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "singleagent_handoffsconfig_handoffsconfig",
+      "target": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "target": "handoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "target": "memorysaver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "memorysaver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "handoffsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "handoffsconfig_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_escalatetohumantool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_providesolutiontool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_recordissuetypetool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_recordwarrantystatustool"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "handoffsapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "handoffsapplication_java",
+      "target": "singleagent_handoffsapplication_handoffsapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "singleagent_handoffsapplication_handoffsapplication",
+      "target": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "singleagent_handoffsapplication_handoffsapplication",
+      "target": "singleagent_handoffsapplication_handoffsapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_handoffsapplication_handoffsapplication_main",
+      "target": "handoffsapplication_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "handoffsapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tools_supporttools_java",
+      "target": "tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tools_supporttools_java",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tools_supporttools_java",
+      "target": "toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tools_supporttools_java",
+      "target": "tools_supporttools_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tools_supporttools_java",
+      "target": "tools_supporttools_supporttools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_alltools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_escalatetohuman",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_escalatetohumantool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_providesolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_providesolutiontool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordissuetype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordissuetypetool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordwarrantystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_supporttools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "tools_supporttools_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "tools_supporttools_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_supporttools_supporttools_findbyname",
+      "target": "tools_supporttools_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "tools_supporttools_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "tools_supporttools_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "toolcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools_escalatetohumantool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_findbyname",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools_providesolutiontool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools_recordissuetypetool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "tools_supporttools_supporttools_alltools",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_escalatetohumantool",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_providesolutiontool",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_recordissuetypetool",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L91",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "target": "toolcallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "tools_supporttools_supporttools_alltools",
+      "target": "tools_supporttools_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_recordwarrantystatustool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_recordissuetypetool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_providesolutiontool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_escalatetohumantool"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "modelcallhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "modelrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "modelresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "support_stepconfiginterceptor_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_java",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "stepconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "support_stepconfiginterceptor_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "support_stepconfiginterceptor_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "target": "support_stepconfiginterceptor_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "modelcallhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "modelrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "modelresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "support_stepconfiginterceptor_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "target": "support_stepconfiginterceptor_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "support_supportstateconstants_java",
+      "target": "support_supportstateconstants_supportstateconstants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "support_supportstateconstants_supportstateconstants",
+      "target": "support_supportstateconstants_supportstateconstants_supportstateconstants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "keystrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "modelhook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_handoffssupporthook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "modelhook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_getname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "support_handoffssupporthook_handoffssupporthook_getname",
+      "target": "support_handoffssupporthook_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "support_handoffssupporthook_handoffssupporthook_getname",
+      "target": "support_handoffssupporthook_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "support_handoffssupporthook_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "support_handoffssupporthook_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "target": "support_handoffssupporthook_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "target": "support_handoffssupporthook_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "keystrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "support_handoffssupporthook_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "README_handoffsconfig",
+      "target": "README_reactagent"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L84-L88",
+      "weight": 1.0,
+      "source": "README_handoffsrunner",
+      "target": "README_reactagent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "README_reactagent",
+      "target": "README_handoffssupporthook"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L18-L19",
+      "weight": 1.0,
+      "source": "README_reactagent",
+      "target": "README_memorysaver"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "README_reactagent",
+      "target": "README_stepconfiginterceptor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "README_step_warranty_collector",
+      "target": "README_tool_record_warranty_status"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L11",
+      "weight": 1.0,
+      "source": "README_stepconfiginterceptor",
+      "target": "README_step_warranty_collector"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "README_step_issue_classifier",
+      "target": "README_tool_record_issue_type"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L12",
+      "weight": 1.0,
+      "source": "README_stepconfiginterceptor",
+      "target": "README_step_issue_classifier"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "README_step_resolution_specialist",
+      "target": "README_tool_escalate_to_human"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "README_step_resolution_specialist",
+      "target": "README_tool_provide_solution"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L8,L13",
+      "weight": 1.0,
+      "source": "README_stepconfiginterceptor",
+      "target": "README_step_resolution_specialist"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "README_stepconfiginterceptor",
+      "target": "README_statekey_current_step"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "README_handoffssupporthook",
+      "target": "README_statekey_current_step"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "README_tool_record_issue_type",
+      "target": "README_statekey_current_step"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "README_tool_record_warranty_status",
+      "target": "README_statekey_current_step"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "README_handoffssupporthook",
+      "target": "README_statekey_warranty_status"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "README_handoffssupporthook",
+      "target": "README_statekey_issue_type"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "README_supporttools",
+      "target": "README_tool_record_warranty_status"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "README_tool_record_warranty_status",
+      "target": "README_toolcontexthelper"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "README_supporttools",
+      "target": "README_tool_record_issue_type"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "README_tool_record_issue_type",
+      "target": "README_toolcontexthelper"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "README_supporttools",
+      "target": "README_tool_provide_solution"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "README_supporttools",
+      "target": "README_tool_escalate_to_human"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "README_memorysaver",
+      "target": "README_runnableconfig"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "README_handoffssupporthook",
+      "target": "README_replacestrategy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "README_handoffsrunner",
+      "target": "README_runnableconfig"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md",
+      "source_location": "L82,L90",
+      "weight": 1.0,
+      "source": "application_run_examples",
+      "target": "README_handoffsrunner"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "handoffs_workflow_steps",
+      "label": "Handoffs Workflow Pipeline (warranty_collector -> issue_classifier -> resolution_specialist)",
+      "nodes": [
+        "README_step_warranty_collector",
+        "README_step_issue_classifier",
+        "README_step_resolution_specialist"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    },
+    {
+      "id": "graph_state_keys",
+      "label": "Graph State Variables (current_step, warranty_status, issue_type)",
+      "nodes": [
+        "README_statekey_current_step",
+        "README_statekey_warranty_status",
+        "README_statekey_issue_type"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    },
+    {
+      "id": "agent_architecture_triad",
+      "label": "Agent Architecture: ReactAgent + StepConfigInterceptor + Hook",
+      "nodes": [
+        "README_reactagent",
+        "README_stepconfiginterceptor",
+        "README_handoffssupporthook"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    },
+    {
+      "id": "state_updating_tools",
+      "label": "State-Updating Tools (record_warranty_status, record_issue_type)",
+      "nodes": [
+        "README_tool_record_warranty_status",
+        "README_tool_record_issue_type",
+        "README_toolcontexthelper"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/handoffs-singleagent/README.md"
+    }
+  ],
+  "built_at_commit": "244e012fa3dd19d49aa8ee83a60f1d9232058033"
+}

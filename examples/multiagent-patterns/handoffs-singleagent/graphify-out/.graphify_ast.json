@@ -1,0 +1,3021 @@
+{
+  "nodes": [
+    {
+      "id": "agentstaticloader_java",
+      "label": "AgentStaticLoader.java",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "singleagent_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34"
+    },
+    {
+      "id": "agentloader",
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "singleagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "label": ".AgentStaticLoader()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41"
+    },
+    {
+      "id": "agentstaticloader_java_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41"
+    },
+    {
+      "id": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "label": ".listAgents()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "agentstaticloader_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "agentstaticloader_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "agentstaticloader_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "nonnull",
+      "label": "Nonnull",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45"
+    },
+    {
+      "id": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "label": ".loadAgent()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51"
+    },
+    {
+      "id": "agent",
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51"
+    },
+    {
+      "id": "handoffsrunner_java",
+      "label": "HandoffsRunner.java",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "singleagent_handoffsrunner_handoffsrunner",
+      "label": "HandoffsRunner",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L36"
+    },
+    {
+      "id": "applicationrunner",
+      "label": "ApplicationRunner",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "singleagent_handoffsrunner_handoffsrunner_handoffsrunner",
+      "label": ".HandoffsRunner()",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47"
+    },
+    {
+      "id": "handoffsrunner_java_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47"
+    },
+    {
+      "id": "singleagent_handoffsrunner_handoffsrunner_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51"
+    },
+    {
+      "id": "applicationarguments",
+      "label": "ApplicationArguments",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51"
+    },
+    {
+      "id": "handoffsrunner_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51"
+    },
+    {
+      "id": "handoffsconfig_java",
+      "label": "HandoffsConfig.java",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "singleagent_handoffsconfig_handoffsconfig",
+      "label": "HandoffsConfig",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L35"
+    },
+    {
+      "id": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "label": ".memorySaver()",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "memorysaver",
+      "label": "MemorySaver",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "handoffsconfig_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38"
+    },
+    {
+      "id": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "label": ".supportAgent()",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "chatmodel",
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "handoffsconfig_java_reactagent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "handoffsapplication_java",
+      "label": "HandoffsApplication.java",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "singleagent_handoffsapplication_handoffsapplication",
+      "label": "HandoffsApplication",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L25"
+    },
+    {
+      "id": "singleagent_handoffsapplication_handoffsapplication_main",
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "handoffsapplication_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28"
+    },
+    {
+      "id": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "applicationlistener",
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "applicationreadyevent",
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "handoffsapplication_java_bean",
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32"
+    },
+    {
+      "id": "tools_supporttools_java",
+      "label": "SupportTools.java",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_supporttools_supporttools",
+      "label": "SupportTools",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L34"
+    },
+    {
+      "id": "tools_supporttools_supporttools_supporttools",
+      "label": ".SupportTools()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_supporttools_supporttools_recordwarrantystatus",
+      "label": ".recordWarrantyStatus()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "tools_supporttools_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "toolcontext",
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "tool",
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "tools_supporttools_supporttools_recordissuetype",
+      "label": ".recordIssueType()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54"
+    },
+    {
+      "id": "tools_supporttools_supporttools_providesolution",
+      "label": ".provideSolution()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65"
+    },
+    {
+      "id": "tools_supporttools_supporttools_escalatetohuman",
+      "label": ".escalateToHuman()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72"
+    },
+    {
+      "id": "tools_supporttools_supporttools_findbyname",
+      "label": ".findByName()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79"
+    },
+    {
+      "id": "toolcallback",
+      "label": "ToolCallback",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79"
+    },
+    {
+      "id": "tools_supporttools_supporttools_alltools",
+      "label": ".allTools()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87"
+    },
+    {
+      "id": "tools_supporttools_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87"
+    },
+    {
+      "id": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "label": ".recordWarrantyStatusTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L91"
+    },
+    {
+      "id": "tools_supporttools_supporttools_recordissuetypetool",
+      "label": ".recordIssueTypeTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L95"
+    },
+    {
+      "id": "tools_supporttools_supporttools_providesolutiontool",
+      "label": ".provideSolutionTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L99"
+    },
+    {
+      "id": "tools_supporttools_supporttools_escalatetohumantool",
+      "label": ".escalateToHumanTool()",
+      "file_type": "code",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L103"
+    },
+    {
+      "id": "support_stepconfiginterceptor_java",
+      "label": "StepConfigInterceptor.java",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "label": "StepConfigInterceptor",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L35"
+    },
+    {
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "label": ".StepConfigInterceptor()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39"
+    },
+    {
+      "id": "support_stepconfiginterceptor_java_map",
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39"
+    },
+    {
+      "id": "support_stepconfiginterceptor_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39"
+    },
+    {
+      "id": "stepconfig",
+      "label": "StepConfig",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39"
+    },
+    {
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "label": ".interceptModel()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "modelrequest",
+      "label": "ModelRequest",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "modelcallhandler",
+      "label": "ModelCallHandler",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "modelresponse",
+      "label": "ModelResponse",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "support_stepconfiginterceptor_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43"
+    },
+    {
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "label": ".formatPrompt()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "object",
+      "label": "Object",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74"
+    },
+    {
+      "id": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "label": ".getName()",
+      "file_type": "code",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84"
+    },
+    {
+      "id": "support_supportstateconstants_java",
+      "label": "SupportStateConstants.java",
+      "file_type": "code",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "support_supportstateconstants_supportstateconstants",
+      "label": "SupportStateConstants",
+      "file_type": "code",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L21"
+    },
+    {
+      "id": "support_supportstateconstants_supportstateconstants_supportstateconstants",
+      "label": ".SupportStateConstants()",
+      "file_type": "code",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L23"
+    },
+    {
+      "id": "support_handoffssupporthook_java",
+      "label": "HandoffsSupportHook.java",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "support_handoffssupporthook_handoffssupporthook",
+      "label": "HandoffsSupportHook",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L33"
+    },
+    {
+      "id": "modelhook",
+      "label": "ModelHook",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "label": ".HandoffsSupportHook()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L76"
+    },
+    {
+      "id": "support_handoffssupporthook_handoffssupporthook_getname",
+      "label": ".getName()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93"
+    },
+    {
+      "id": "support_handoffssupporthook_java_string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93"
+    },
+    {
+      "id": "support_handoffssupporthook_java_override",
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93"
+    },
+    {
+      "id": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "label": ".getModelInterceptors()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98"
+    },
+    {
+      "id": "support_handoffssupporthook_java_list",
+      "label": "List",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98"
+    },
+    {
+      "id": "support_handoffssupporthook_java_modelinterceptor",
+      "label": "ModelInterceptor",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98"
+    },
+    {
+      "id": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "label": ".getKeyStrategys()",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103"
+    },
+    {
+      "id": "support_handoffssupporthook_java_map",
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103"
+    },
+    {
+      "id": "keystrategy",
+      "label": "KeyStrategy",
+      "file_type": "code",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103"
+    }
+  ],
+  "edges": [
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentloader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "nosuchelementexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "concurrenthashmap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agentstaticloader_java",
+      "target": "singleagent_agentstaticloader_agentstaticloader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "agentloader",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "singleagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_listagents",
+      "target": "nonnull",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader",
+      "target": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "singleagent_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "runnableconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "handoffsrunner_java_reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "logger",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "loggerfactory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "qualifier",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "applicationarguments",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "applicationrunner",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "conditionalonproperty",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "order",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "assistantmessage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "usermessage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsrunner_java",
+      "target": "singleagent_handoffsrunner_handoffsrunner",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsrunner_handoffsrunner",
+      "target": "applicationrunner",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsrunner_handoffsrunner",
+      "target": "singleagent_handoffsrunner_handoffsrunner_handoffsrunner",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsrunner_handoffsrunner_handoffsrunner",
+      "target": "handoffsrunner_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_handoffsrunner_handoffsrunner",
+      "target": "singleagent_handoffsrunner_handoffsrunner_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsrunner_handoffsrunner_run",
+      "target": "applicationarguments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_handoffsrunner_handoffsrunner_run",
+      "target": "handoffsrunner_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "handoffssupporthook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "supporttools",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "handoffsconfig_java_reactagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "handoffsconfig_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "configuration",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsconfig_java",
+      "target": "singleagent_handoffsconfig_handoffsconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig",
+      "target": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "target": "memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_memorysaver",
+      "target": "handoffsconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig",
+      "target": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "chatmodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "memorysaver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "handoffsconfig_java_reactagent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "handoffsconfig_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "springapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "springbootapplication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "handoffsapplication_java_bean",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "handoffsapplication_java",
+      "target": "singleagent_handoffsapplication_handoffsapplication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication",
+      "target": "singleagent_handoffsapplication_handoffsapplication_main",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication_main",
+      "target": "handoffsapplication_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication",
+      "target": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication_applicationreadyeventlistener",
+      "target": "handoffsapplication_java_bean",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "supportstateconstants",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "toolcontexthelper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "toolcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "toolcallbacks",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "tool",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "toolparam",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "arrays",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "tools_supporttools_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_java",
+      "target": "tools_supporttools_supporttools",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_supporttools",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordwarrantystatus",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordwarrantystatus",
+      "target": "tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordissuetype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordissuetype",
+      "target": "tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_providesolution",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_providesolution",
+      "target": "tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_escalatetohuman",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "toolcontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_escalatetohuman",
+      "target": "tool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_findbyname",
+      "target": "tools_supporttools_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_findbyname",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_alltools",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_alltools",
+      "target": "tools_supporttools_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_alltools",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L91",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_recordissuetypetool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordissuetypetool",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_providesolutiontool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_providesolutiontool",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools",
+      "target": "tools_supporttools_supporttools_escalatetohumantool",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_escalatetohumantool",
+      "target": "toolcallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_recordissuetypetool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_providesolutiontool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_supporttools_supporttools_escalatetohumantool",
+      "target": "tools_supporttools_supporttools_findbyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "modelcallhandler",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "modelrequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "modelresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "systemmessage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "arraylist",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "support_stepconfiginterceptor_java_map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "collectors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_java",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_java_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "stepconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "modelrequest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "modelcallhandler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "modelresponse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "support_stepconfiginterceptor_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "support_stepconfiginterceptor_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "support_stepconfiginterceptor_java_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "support_stepconfiginterceptor_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "object",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "target": "support_stepconfiginterceptor_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "target": "support_stepconfiginterceptor_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_getname",
+      "target": "support_stepconfiginterceptor_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "support_stepconfiginterceptor_stepconfiginterceptor_interceptmodel",
+      "target": "support_stepconfiginterceptor_stepconfiginterceptor_formatprompt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "support_supportstateconstants_java",
+      "target": "support_supportstateconstants_supportstateconstants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "support_supportstateconstants_supportstateconstants",
+      "target": "support_supportstateconstants_supportstateconstants_supportstateconstants",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/SupportStateConstants.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "supporttools",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "keystrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "modelhook",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "replacestrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_handoffssupporthook",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "modelhook",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_getname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getname",
+      "target": "support_handoffssupporthook_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getname",
+      "target": "support_handoffssupporthook_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getmodelinterceptors",
+      "target": "support_handoffssupporthook_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook",
+      "target": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "support_handoffssupporthook_java_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "return_type"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "support_handoffssupporthook_java_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "keystrategy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "generic_arg"
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_getkeystrategys",
+      "target": "support_handoffssupporthook_java_override",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "attribute"
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "agent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "handoffsrunner_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "handoffsconfig_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "tools_supporttools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "support_stepconfiginterceptor_java_map",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_agentstaticloader_java",
+      "target": "support_handoffssupporthook_java_map",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsrunner_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsrunner_java",
+      "target": "handoffsrunner_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsrunner_java",
+      "target": "handoffsconfig_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsrunner_java",
+      "target": "applicationarguments",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsRunner.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "support_handoffssupporthook_handoffssupporthook",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "tools_supporttools_supporttools",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "agentstaticloader_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "handoffsrunner_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "handoffsconfig_java_reactagent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "memorysaver",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "chatmodel",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "handoffsconfig_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "handoffsapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "tools_supporttools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsconfig_java",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsapplication_java",
+      "target": "applicationreadyevent",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsapplication_java",
+      "target": "applicationlistener",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsapplication_java",
+      "target": "handoffsconfig_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsapplication_java",
+      "target": "handoffsapplication_java_bean",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_handoffsapplication_java",
+      "target": "environment",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "support_supportstateconstants_supportstateconstants",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "toolcontext",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "tool",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "tools_supporttools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_tools_supporttools_java",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/SupportTools.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "modelcallhandler",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "modelrequest",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "modelresponse",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "tools_supporttools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "support_stepconfiginterceptor_java_map",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_stepconfiginterceptor_java",
+      "target": "support_handoffssupporthook_java_map",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/StepConfigInterceptor.java",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "tools_supporttools_supporttools",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "keystrategy",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_modelinterceptor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "toolcallback",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "agentstaticloader_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "tools_supporttools_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_list",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "support_stepconfiginterceptor_java_map",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "workspace_examples_multiagent_patterns_handoffs_singleagent_src_main_java_com_alibaba_cloud_ai_examples_multiagents_handoffs_singleagent_support_handoffssupporthook_java",
+      "target": "support_handoffssupporthook_java_map",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_recordissuetypetool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_providesolutiontool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsconfig_handoffsconfig_supportagent",
+      "target": "tools_supporttools_supporttools_escalatetohumantool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsConfig.java",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "singleagent_handoffsapplication_handoffsapplication_main",
+      "target": "singleagent_handoffsrunner_handoffsrunner_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "HandoffsApplication.java",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_recordwarrantystatustool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_recordissuetypetool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_providesolutiontool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "support_handoffssupporthook_handoffssupporthook_handoffssupporthook",
+      "target": "tools_supporttools_supporttools_escalatetohumantool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "support/HandoffsSupportHook.java",
+      "source_location": "L80",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

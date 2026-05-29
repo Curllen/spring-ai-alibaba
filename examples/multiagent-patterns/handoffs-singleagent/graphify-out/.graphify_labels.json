@@ -1,0 +1,15 @@
+{
+  "0": "SupportTools: All Tool Definitions (Warranty, Issue, Solution, Escalation)",
+  "1": "StepConfigInterceptor: Step-Based Model Interception & Prompt Routing",
+  "2": "AgentStaticLoader: Studio Agent Discovery & Loading",
+  "3": "Handoffs Workflow Steps & Tools: Semantic Architecture",
+  "4": "HandoffsSupportHook: State Key Strategies & Model Hook",
+  "5": "Agent Configuration & Runtime: Config, Hook, Saver, State Keys",
+  "6": "HandoffsApplication: Boot Entry Point & Lifecycle",
+  "7": "HandoffsRunner: Four-Turn Demo Execution",
+  "8": "HandoffsConfig: supportAgent Bean Assembly & MemorySaver",
+  "9": "SupportStateConstants: State Key Definitions",
+  "10": "Handoffs Single-Agent Module Overview",
+  "11": "DashScope API Configuration",
+  "12": "SupportStateConstants Documentation Reference"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "handoffs-singleagent",
+  "date": "2026-05-29",
+  "total_nodes": 109,
+  "total_edges": 179,
+  "total_communities": 13,
+  "method": "AST (8 Java) + Semantic (1 README + 1 YML)"
+}
