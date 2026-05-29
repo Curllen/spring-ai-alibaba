@@ -1,0 +1,75 @@
+{
+  "module": "examples/multiagent-patterns/workflow",
+  "description": "Spring AI Alibaba Workflow Pattern — Dual StateGraph agents: RAG (Rewrite→Retrieve→Prepare→Agent) and SQL (ListTables→GetSchema→ReactAgent)",
+  "timestamp": "2026-05-29T16:00:00+08:00",
+  "analysis_method": "AST extraction + AI Agent semantic analysis (dual-pass)",
+  "stats": {
+    "total_files": 20,
+    "code_files": 16,
+    "document_files": 4,
+    "total_words": 4791,
+    "total_nodes": 166,
+    "total_edges": 266,
+    "total_hyperedges": 2,
+    "total_communities": 13
+  },
+  "ast": {
+    "nodes": 146,
+    "edges": 522,
+    "source": ".graphify_ast.json"
+  },
+  "semantic": {
+    "nodes": 24,
+    "edges": 37,
+    "hyperedges": 2,
+    "source": ".graphify_semantic.json"
+  },
+  "communities": {
+    "0": "Workflow Patterns: RAG & SQL Agent Concepts",
+    "1": "RAG Pipeline Nodes: Prepare, Retrieve & VectorStore",
+    "2": "Application Entry & Agent Runners",
+    "3": "SqlTools: SQL Database Tool Methods",
+    "4": "RagAgentConfig: RAG Graph & Bean Wiring",
+    "5": "SqlAgentConfig: SQL Graph & Bean Wiring",
+    "6": "CallGetSchemaNode: Forced Schema Tool Invocation",
+    "7": "ListTablesNode: Deterministic Table Discovery",
+    "8": "RewriteNode: LLM Query Rewriting",
+    "9": "RagAgentService: RAG Graph Execution",
+    "10": "SqlAgentService: SQL Graph Execution",
+    "11": "WorkflowAgentLoaderConfig: Studio Agent Registry",
+    "12": "RagAgentTools: News Retrieval Tool"
+  },
+  "cohesion_scores": {
+    "0": 0.134,
+    "1": 0.129,
+    "2": 0.124,
+    "3": 0.235,
+    "4": 0.321,
+    "5": 0.333,
+    "6": 0.255,
+    "7": 0.267,
+    "8": 0.289,
+    "9": 0.333,
+    "10": 0.333,
+    "11": 0.533,
+    "12": 0.500
+  },
+  "god_nodes": [
+    {"id": "tools_sqltools_sqltools", "label": "SqlTools", "degree": 11},
+    {"id": "rag_agent_workflow", "label": "RAG Agent Workflow", "degree": 10},
+    {"id": "sql_agent_workflow", "label": "SQL Agent Workflow", "degree": 10},
+    {"id": "toolcallback", "label": "ToolCallback", "degree": 7},
+    {"id": "ragagent_ragagentconfig_ragagentconfig", "label": "RagAgentConfig", "degree": 6},
+    {"id": "sqlagent_sqlagentconfig_sqlagentconfig", "label": "SqlAgentConfig", "degree": 5},
+    {"id": "workflow_multiagent_pattern", "label": "Multi-Agent Workflow Pattern", "degree": 5}
+  ],
+  "surprising_connections": 5,
+  "outputs": [
+    "graph.json",
+    "graph.html",
+    "ANALYSIS_REPORT.md",
+    "GRAPH_REPORT.md",
+    "manifest.json",
+    "cost.json"
+  ]
+}

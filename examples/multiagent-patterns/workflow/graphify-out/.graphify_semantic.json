@@ -1,0 +1,679 @@
+{
+  "nodes": [
+    {
+      "id": "workflow_multiagent_pattern",
+      "label": "Multi-Agent Workflow Pattern",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "rag_agent_workflow",
+      "label": "RAG Agent Workflow",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_agent_workflow",
+      "label": "SQL Agent Workflow",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "application_config",
+      "label": "Spring Application Configuration (application.yml)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "state_graph",
+      "label": "StateGraph",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "react_agent",
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "ReactAgent is the core reasoning pattern used in both RAG and SQL workflows; it handles the LLM\u2194tools loop until a final answer is produced, enabling multi-step agentic reasoning within a deterministic pipeline."
+    },
+    {
+      "id": "query_rewrite",
+      "label": "Query Rewrite (LLM-based)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vector_retrieval",
+      "label": "Vector Similarity Search (Deterministic)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "context_prepare",
+      "label": "Context Preparation (Prompt Formatting)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "list_tables_node",
+      "label": "list_tables Deterministic Node",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Uses a deterministic (non-LLM) node to create synthetic tool calls and return available table names. This avoids unnecessary LLM invocations for schema discovery, reducing cost and latency."
+    },
+    {
+      "id": "call_get_schema_node",
+      "label": "call_get_schema LLM Node",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Uses LLM with forced tool choice to decide which table schema to retrieve, ensuring the model always calls sql_db_schema rather than producing free-form text."
+    },
+    {
+      "id": "get_schema_node",
+      "label": "get_schema ToolNode",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "generate_query_reactagent",
+      "label": "generate_query ReactAgent Node",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Hosts the main agentic reasoning loop; the ReactAgent iterates between LLM calls and sql_db_query tool invocations until a final answer is produced, with only SELECT queries allowed for safety."
+    },
+    {
+      "id": "dashscope_api",
+      "label": "DashScope API",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "embedding_model",
+      "label": "EmbeddingModel (spring-ai-alibaba-starter-dashscope)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "h2_chinook_db",
+      "label": "H2 In-Memory Chinook Database",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Uses H2 in-memory for zero-setup, reproducible demos. The Chinook schema mirrors a typical media store (artists, albums, tracks), providing realistic SQL query scenarios without external DB dependencies."
+    },
+    {
+      "id": "sql_db_list_tables",
+      "label": "sql_db_list_tables Tool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_db_schema",
+      "label": "sql_db_schema Tool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_db_query",
+      "label": "sql_db_query Tool (SELECT-only)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Restricted to SELECT queries only; no DML allowed. This safety constraint prevents the agent from accidentally modifying or deleting data."
+    },
+    {
+      "id": "get_latest_news",
+      "label": "get_latest_news Tool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_config_flags",
+      "label": "Workflow Configuration Flags (rag.enabled, sql.enabled, runner.enabled)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Feature flags allow running RAG and SQL agents independently via Maven command-line arguments, enabling modular demos without code changes. The runner.enabled flag triggers an on-startup demo execution."
+    },
+    {
+      "id": "multiagents_custom_md",
+      "label": "multiagents/custom.md (Reference Document)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "rag_agent_workflow_md",
+      "label": "multiagents/code/rag-agent-workflow.md (Reference Document)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_agent_workflow_md",
+      "label": "multiagents/code/sql-agent-workflow.md (Reference Document)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "workflow_multiagent_pattern",
+      "target": "multiagents_custom_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_multiagent_pattern",
+      "target": "rag_agent_workflow_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_multiagent_pattern",
+      "target": "sql_agent_workflow_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_multiagent_pattern",
+      "target": "rag_agent_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_multiagent_pattern",
+      "target": "sql_agent_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "dashscope_api",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "embedding_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_model",
+      "target": "dashscope_api",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "query_rewrite",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "vector_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "context_prepare",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "react_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "react_agent",
+      "target": "get_latest_news",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "rag_agent_workflow_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "state_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "list_tables_node",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "call_get_schema_node",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "get_schema_node",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "generate_query_reactagent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "generate_query_reactagent",
+      "target": "react_agent",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "call_get_schema_node",
+      "target": "sql_db_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "get_schema_node",
+      "target": "sql_db_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "generate_query_reactagent",
+      "target": "sql_db_query",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "list_tables_node",
+      "target": "sql_db_list_tables",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "h2_chinook_db",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sql_agent_workflow",
+      "target": "dashscope_api",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_config_flags",
+      "target": "rag_agent_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_config_flags",
+      "target": "sql_agent_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "application_config",
+      "target": "h2_chinook_db",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "application_config",
+      "target": "dashscope_api",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "application_config",
+      "target": "workflow_config_flags",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/resources/application.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rag_agent_workflow",
+      "target": "sql_agent_workflow",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "embedding_model",
+      "target": "vector_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/workflow/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vector_retrieval",
+      "target": "context_prepare",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "list_tables_node",
+      "target": "call_get_schema_node",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "call_get_schema_node",
+      "target": "get_schema_node",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "get_schema_node",
+      "target": "generate_query_reactagent",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "rag_workflow_pipeline",
+      "label": "RAG Pipeline: Rewrite \u2192 Retrieve \u2192 Prepare \u2192 Agent",
+      "nodes": [
+        "query_rewrite",
+        "vector_retrieval",
+        "context_prepare",
+        "react_agent"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md"
+    },
+    {
+      "id": "sql_agent_state_graph_pipeline",
+      "label": "SQL Agent StateGraph Pipeline: list_tables \u2192 call_get_schema \u2192 get_schema \u2192 generate_query",
+      "nodes": [
+        "list_tables_node",
+        "call_get_schema_node",
+        "get_schema_node",
+        "generate_query_reactagent"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

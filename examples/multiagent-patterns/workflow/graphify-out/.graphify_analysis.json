@@ -1,0 +1,357 @@
+{
+  "communities": {
+    "0": [
+      "application_config",
+      "call_get_schema_node",
+      "context_prepare",
+      "dashscope_api",
+      "embedding_model",
+      "generate_query_reactagent",
+      "get_latest_news",
+      "get_schema_node",
+      "h2_chinook_db",
+      "list_tables_node",
+      "multiagents_custom_md",
+      "query_rewrite",
+      "rag_agent_workflow",
+      "rag_agent_workflow_md",
+      "react_agent",
+      "sql_agent_workflow",
+      "sql_agent_workflow_md",
+      "sql_db_list_tables",
+      "sql_db_query",
+      "sql_db_schema",
+      "state_graph",
+      "vector_retrieval",
+      "workflow_config_flags",
+      "workflow_multiagent_pattern"
+    ],
+    "1": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_prepareagentnode_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_prepareagentnode_java_map",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_prepareagentnode_java_object",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_prepareagentnode_java_overallstate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_prepareagentnode_java_override",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_prepareagentnode_java_string",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java_map",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java_object",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java_overallstate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java_override",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java_string",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_retrievenode_java_vectorstore",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_string",
+      "node_prepareagentnode_prepareagentnode",
+      "node_prepareagentnode_prepareagentnode_apply",
+      "node_retrievenode_retrievenode",
+      "node_retrievenode_retrievenode_apply",
+      "node_retrievenode_retrievenode_retrievenode",
+      "nodeaction",
+      "ragagent_ragagentconfig_ragagentconfig_buildagentprompt"
+    ],
+    "2": [
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentrunner_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentrunner_java_eventlistener",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentrunner_java_ragagentservice",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentrunner_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentrunner_java_eventlistener",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentrunner_java_sqlagentservice",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_workflowapplication_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_workflowapplication_java_bean",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_workflowapplication_java_string",
+      "ragagent_ragagentrunner_ragagentrunner",
+      "ragagent_ragagentrunner_ragagentrunner_onready",
+      "ragagent_ragagentrunner_ragagentrunner_ragagentrunner",
+      "sqlagent_sqlagentrunner_sqlagentrunner",
+      "sqlagent_sqlagentrunner_sqlagentrunner_onready",
+      "sqlagent_sqlagentrunner_sqlagentrunner_sqlagentrunner",
+      "workflow_workflowapplication_workflowapplication",
+      "workflow_workflowapplication_workflowapplication_applicationreadyeventlistener",
+      "workflow_workflowapplication_workflowapplication_main"
+    ],
+    "3": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_tools_sqltools_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_tools_sqltools_java_jdbctemplate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_tools_sqltools_java_string",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_tools_sqltools_java_tool",
+      "list",
+      "toolcallback",
+      "toolcallbackresolver",
+      "tools_sqltools_sqltools",
+      "tools_sqltools_sqltools_alltools",
+      "tools_sqltools_sqltools_findbyname",
+      "tools_sqltools_sqltools_getschema",
+      "tools_sqltools_sqltools_getschematool",
+      "tools_sqltools_sqltools_listtables",
+      "tools_sqltools_sqltools_listtablestool",
+      "tools_sqltools_sqltools_resolver",
+      "tools_sqltools_sqltools_runquery",
+      "tools_sqltools_sqltools_runquerytool",
+      "tools_sqltools_sqltools_sqltools"
+    ],
+    "4": [
+      "embeddingmodel",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_bean",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_chatmodel",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_compiledgraph",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_ragagentservice",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_reactagent",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_vectorstore",
+      "ragagent_ragagentconfig_ragagentconfig",
+      "ragagent_ragagentconfig_ragagentconfig_ragagent",
+      "ragagent_ragagentconfig_ragagentconfig_ragagentservice",
+      "ragagent_ragagentconfig_ragagentconfig_raggraph",
+      "ragagent_ragagentconfig_ragagentconfig_ragvectorstore"
+    ],
+    "5": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_bean",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_chatmodel",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_compiledgraph",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_jdbctemplate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_reactagent",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_sqlagentservice",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_sqltools",
+      "sqlagent_sqlagentconfig_sqlagentconfig",
+      "sqlagent_sqlagentconfig_sqlagentconfig_generatequeryagent",
+      "sqlagent_sqlagentconfig_sqlagentconfig_sqlagentservice",
+      "sqlagent_sqlagentconfig_sqlagentconfig_sqlgraph",
+      "sqlagent_sqlagentconfig_sqlagentconfig_sqltools"
+    ],
+    "6": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_chatmodel",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_map",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_object",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_overallstate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_override",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_sqltools",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_callgetschemanode_java_string",
+      "node_callgetschemanode_callgetschemanode",
+      "node_callgetschemanode_callgetschemanode_apply",
+      "node_callgetschemanode_callgetschemanode_callgetschemanode"
+    ],
+    "7": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java_map",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java_object",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java_overallstate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java_override",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java_sqltools",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_node_listtablesnode_java_string",
+      "node_listtablesnode_listtablesnode",
+      "node_listtablesnode_listtablesnode_apply",
+      "node_listtablesnode_listtablesnode_listtablesnode"
+    ],
+    "8": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java_chatmodel",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java_map",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java_object",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java_overallstate",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java_override",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_node_rewritenode_java_string",
+      "node_rewritenode_rewritenode",
+      "node_rewritenode_rewritenode_apply",
+      "node_rewritenode_rewritenode_rewritenode"
+    ],
+    "9": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentservice_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentservice_java_compiledgraph",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentservice_java_string",
+      "ragagent_ragagentservice_ragagentservice",
+      "ragagent_ragagentservice_ragagentservice_ragagentservice",
+      "ragagent_ragagentservice_ragagentservice_run",
+      "ragagentresult"
+    ],
+    "10": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentservice_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentservice_java_compiledgraph",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentservice_java_string",
+      "sqlagent_sqlagentservice_sqlagentservice",
+      "sqlagent_sqlagentservice_sqlagentservice_run",
+      "sqlagent_sqlagentservice_sqlagentservice_sqlagentservice",
+      "sqlagentresult"
+    ],
+    "11": [
+      "agentloader",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_workflowagentloaderconfig_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_workflowagentloaderconfig_java_bean",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_workflowagentloaderconfig_java_reactagent",
+      "workflow_workflowagentloaderconfig_workflowagentloaderconfig",
+      "workflow_workflowagentloaderconfig_workflowagentloaderconfig_agentstaticloader"
+    ],
+    "12": [
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_tools_ragagenttools_java",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_tools_ragagenttools_java_string",
+      "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_tools_ragagenttools_java_tool",
+      "tools_ragagenttools_ragagenttools",
+      "tools_ragagenttools_ragagenttools_getlatestnews"
+    ]
+  },
+  "cohesion": {
+    "0": 0.13405797101449277,
+    "1": 0.12857142857142856,
+    "2": 0.12380952380952381,
+    "3": 0.23529411764705882,
+    "4": 0.32051282051282054,
+    "5": 0.3333333333333333,
+    "6": 0.2545454545454545,
+    "7": 0.26666666666666666,
+    "8": 0.28888888888888886,
+    "9": 0.3333333333333333,
+    "10": 0.3333333333333333,
+    "11": 0.5333333333333333,
+    "12": 0.5
+  },
+  "gods": [
+    {
+      "id": "tools_sqltools_sqltools",
+      "label": "SqlTools",
+      "degree": 11
+    },
+    {
+      "id": "list",
+      "label": "List",
+      "degree": 11
+    },
+    {
+      "id": "rag_agent_workflow",
+      "label": "RAG Agent Workflow",
+      "degree": 10
+    },
+    {
+      "id": "sql_agent_workflow",
+      "label": "SQL Agent Workflow",
+      "degree": 10
+    },
+    {
+      "id": "toolcallback",
+      "label": "ToolCallback",
+      "degree": 7
+    },
+    {
+      "id": "ragagent_ragagentconfig_ragagentconfig",
+      "label": "RagAgentConfig",
+      "degree": 6
+    },
+    {
+      "id": "sqlagent_sqlagentconfig_sqlagentconfig",
+      "label": "SqlAgentConfig",
+      "degree": 5
+    },
+    {
+      "id": "java_com_alibaba_cloud_ai_examples_multiagents_workflow_sqlagent_sqlagentconfig_java_bean",
+      "label": "Bean",
+      "degree": 5
+    },
+    {
+      "id": "java_com_alibaba_cloud_ai_examples_multiagents_workflow_ragagent_ragagentconfig_java_bean",
+      "label": "Bean",
+      "degree": 5
+    },
+    {
+      "id": "workflow_multiagent_pattern",
+      "label": "Multi-Agent Workflow Pattern",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "RAG Agent Workflow",
+      "target": "SQL Agent Workflow",
+      "source_files": [
+        "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+        "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "RAG Agent Workflow",
+      "target": "multiagents/code/rag-agent-workflow.md (Reference Document)",
+      "source_files": [
+        "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md",
+        "examples/multiagent-patterns/workflow/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `multiagents/code/rag-agent-workflow.md (Reference Document)` unexpectedly reaches hub `RAG Agent Workflow`"
+    },
+    {
+      "source": "SQL Agent Workflow",
+      "target": "DashScope API",
+      "source_files": [
+        "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+        "examples/multiagent-patterns/workflow/src/main/resources/application.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "SQL Agent Workflow",
+      "target": "H2 In-Memory Chinook Database",
+      "source_files": [
+        "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/sqlagent/README.md",
+        "examples/multiagent-patterns/workflow/src/main/resources/application.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "peripheral node `H2 In-Memory Chinook Database` unexpectedly reaches hub `SQL Agent Workflow`"
+    },
+    {
+      "source": "EmbeddingModel (spring-ai-alibaba-starter-dashscope)",
+      "target": "Vector Similarity Search (Deterministic)",
+      "source_files": [
+        "examples/multiagent-patterns/workflow/README.md",
+        "examples/multiagent-patterns/workflow/src/main/java/com/alibaba/cloud/ai/examples/multiagents/workflow/ragagent/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `List` connect `Community 3` to `Community 1`, `Community 4`, `Community 5`, `Community 6`, `Community 7`, `Community 9`, `Community 10`, `Community 11`?",
+      "why": "High betweenness centrality (0.311) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RewriteNode` connect `Community 8` to `Community 1`?",
+      "why": "High betweenness centrality (0.040) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `SQL Agent Workflow` (e.g. with `RAG Agent Workflow` and `DashScope API`) actually correct?",
+      "why": "`SQL Agent Workflow` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `SqlAgentService`, `SqlAgentService` to the rest of the system?",
+      "why": "32 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13405797101449277 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12857142857142856 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12380952380952381 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
