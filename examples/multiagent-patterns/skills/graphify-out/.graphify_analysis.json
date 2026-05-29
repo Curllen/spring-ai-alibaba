@@ -1,0 +1,225 @@
+{
+  "communities": {
+    "0": [
+      "agent",
+      "agentloader",
+      "agentstaticloader_java",
+      "agentstaticloader_java_override",
+      "agentstaticloader_java_reactagent",
+      "agentstaticloader_java_string",
+      "list",
+      "nonnull",
+      "skills_agentstaticloader_agentstaticloader",
+      "skills_agentstaticloader_agentstaticloader_agentstaticloader",
+      "skills_agentstaticloader_agentstaticloader_listagents",
+      "skills_agentstaticloader_agentstaticloader_loadagent"
+    ],
+    "1": [
+      "n1",
+      "n2",
+      "n27",
+      "n28",
+      "n3",
+      "n4",
+      "n5",
+      "n6",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "2": [
+      "chatmodel",
+      "skillregistry",
+      "skills_skillsconfig_skillsconfig",
+      "skills_skillsconfig_skillsconfig_skillregistry",
+      "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "skillsagenthook",
+      "skillsconfig_java",
+      "skillsconfig_java_bean",
+      "skillsconfig_java_reactagent"
+    ],
+    "3": [
+      "n11",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n26"
+    ],
+    "4": [
+      "applicationlistener",
+      "applicationreadyevent",
+      "environment",
+      "skills_skillsapplication_skillsapplication",
+      "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "skills_skillsapplication_skillsapplication_main",
+      "skillsapplication_java",
+      "skillsapplication_java_bean",
+      "skillsapplication_java_string"
+    ],
+    "5": [
+      "n10",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n25"
+    ],
+    "6": [
+      "applicationarguments",
+      "applicationrunner",
+      "skills_skillsrunner_skillsrunner",
+      "skills_skillsrunner_skillsrunner_run",
+      "skills_skillsrunner_skillsrunner_skillsrunner",
+      "skillsrunner_java",
+      "skillsrunner_java_override",
+      "skillsrunner_java_reactagent"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2727272727272727,
+    "1": 0.2,
+    "2": 0.4222222222222222,
+    "3": 0.3611111111111111,
+    "4": 0.3333333333333333,
+    "5": 0.35714285714285715,
+    "6": 0.35714285714285715
+  },
+  "gods": [
+    {
+      "id": "n11",
+      "label": "inventory_management Skill (products/warehouses/inventory/stock_movements)",
+      "degree": 11
+    },
+    {
+      "id": "n10",
+      "label": "sales_analytics Skill (customers/orders/order_items)",
+      "degree": 10
+    },
+    {
+      "id": "skills_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "degree": 5
+    },
+    {
+      "id": "n18",
+      "label": "products Table (product_id, sku, category, unit_cost, reorder_point)",
+      "degree": 5
+    },
+    {
+      "id": "skills_skillsconfig_skillsconfig",
+      "label": "SkillsConfig",
+      "degree": 4
+    },
+    {
+      "id": "skillsconfig_java_bean",
+      "label": "Bean",
+      "degree": 4
+    },
+    {
+      "id": "skills_skillsrunner_skillsrunner",
+      "label": "SkillsRunner",
+      "degree": 4
+    },
+    {
+      "id": "n2",
+      "label": "ClasspathSkillRegistry",
+      "degree": 4
+    },
+    {
+      "id": "n3",
+      "label": "SkillsAgentHook (read_skill + SkillsInterceptor)",
+      "degree": 4
+    },
+    {
+      "id": "n7",
+      "label": "SKILL.md Format (YAML Frontmatter + Markdown)",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "sales_analytics Skill (customers/orders/order_items)",
+      "target": "inventory_management Skill (products/warehouses/inventory/stock_movements)",
+      "source_files": [
+        "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+        "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "customers Table (customer_id, name, email, status, tier)",
+      "target": "products Table (product_id, sku, category, unit_cost, reorder_point)",
+      "source_files": [
+        "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+        "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Revenue Calculation Rule (only completed orders)",
+      "target": "Available Stock Rule (quantity_on_hand > 0)",
+      "source_files": [
+        "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+        "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "High-Value Order Rule (total_amount > 1000)",
+      "target": "Reorder Rule (SUM(qty) across warehouses <= reorder_point)",
+      "source_files": [
+        "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+        "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Top-10 Customer Revenue Query (SQL example)",
+      "target": "Below Reorder Point Query (SQL example)",
+      "source_files": [
+        "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+        "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `inventory_management Skill (products/warehouses/inventory/stock_movements)` connect `Community 3` to `Community 1`, `Community 5`?",
+      "why": "High betweenness centrality (0.070) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `sales_analytics Skill (customers/orders/order_items)` connect `Community 5` to `Community 1`, `Community 3`?",
+      "why": "High betweenness centrality (0.062) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `List` connect `Community 0` to `Community 2`?",
+      "why": "High betweenness centrality (0.052) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Override`, `String`, `YAML Frontmatter (name/description)` to the rest of the system?",
+      "why": "6 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

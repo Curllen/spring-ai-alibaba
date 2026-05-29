@@ -1,0 +1,66 @@
+{
+  "module": "examples/multiagent-patterns/skills",
+  "description": "Spring AI Alibaba Progressive Disclosure / Skills Pattern — Agent dynamically loads SKILL.md on-demand via ClasspathSkillRegistry + SkillsAgentHook",
+  "timestamp": "2026-05-29T14:30:00+08:00",
+  "analysis_method": "AST extraction + AI Agent semantic analysis (dual-pass)",
+  "stats": {
+    "total_files": 8,
+    "code_files": 4,
+    "document_files": 4,
+    "total_words": 1911,
+    "total_nodes": 67,
+    "total_edges": 106,
+    "total_hyperedges": 3,
+    "total_communities": 7
+  },
+  "ast": {
+    "nodes": 39,
+    "edges": 98,
+    "source": ".graphify_ast.json"
+  },
+  "semantic": {
+    "nodes": 28,
+    "edges": 45,
+    "hyperedges": 3,
+    "source": ".graphify_semantic.json"
+  },
+  "communities": {
+    "0": "AgentStaticLoader: Agent Discovery & Loading",
+    "1": "Progressive Disclosure Framework: Registry, Hook, Skill Loading",
+    "2": "SkillsConfig: Skill Registry, Hook & sqlAssistantAgent Assembly",
+    "3": "Inventory Management Skill: Tables, Rules & Reorder Query",
+    "4": "SkillsApplication: Spring Boot Entry & Lifecycle",
+    "5": "Sales Analytics Skill: Tables, Rules & Top-10 Query",
+    "6": "SkillsRunner: Demo Execution & RunnableConfig"
+  },
+  "cohesion_scores": {
+    "0": 0.273,
+    "1": 0.200,
+    "2": 0.422,
+    "3": 0.361,
+    "4": 0.333,
+    "5": 0.357,
+    "6": 0.357
+  },
+  "god_nodes": [
+    {"id": "n11", "label": "inventory_management Skill", "degree": 11},
+    {"id": "n10", "label": "sales_analytics Skill", "degree": 10},
+    {"id": "skills_agentstaticloader_agentstaticloader", "label": "AgentStaticLoader", "degree": 5},
+    {"id": "n18", "label": "products Table", "degree": 5},
+    {"id": "skills_skillsconfig_skillsconfig", "label": "SkillsConfig", "degree": 4},
+    {"id": "skillsconfig_java_bean", "label": "Bean", "degree": 4},
+    {"id": "skills_skillsrunner_skillsrunner", "label": "SkillsRunner", "degree": 4},
+    {"id": "n2", "label": "ClasspathSkillRegistry", "degree": 4},
+    {"id": "n3", "label": "SkillsAgentHook", "degree": 4},
+    {"id": "n7", "label": "SKILL.md Format", "degree": 4}
+  ],
+  "surprising_connections": 5,
+  "outputs": [
+    "graph.json",
+    "graph.html",
+    "ANALYSIS_REPORT.md",
+    "GRAPH_REPORT.md",
+    "manifest.json",
+    "cost.json"
+  ]
+}

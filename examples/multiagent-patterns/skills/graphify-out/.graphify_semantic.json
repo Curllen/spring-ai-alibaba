@@ -1,0 +1,650 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "Skills (Progressive Disclosure) Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n2",
+      "label": "ClasspathSkillRegistry",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n3",
+      "label": "SkillsAgentHook (read_skill + SkillsInterceptor)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n4",
+      "label": "read_skill Tool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n5",
+      "label": "SkillsInterceptor (Prompt Injection)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n6",
+      "label": "ReactAgent (sqlAssistantAgent)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n7",
+      "label": "SKILL.md Format (YAML Frontmatter + Markdown)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n8",
+      "label": "YAML Frontmatter (name/description)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n9",
+      "label": "System Prompt Enhancement (Available Skills)",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n10",
+      "label": "sales_analytics Skill (customers/orders/order_items)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n11",
+      "label": "inventory_management Skill (products/warehouses/inventory/stock_movements)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n12",
+      "label": "customers Table (customer_id, name, email, status, tier)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n13",
+      "label": "orders Table (order_id, customer_id FK, status, total_amount, region)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n14",
+      "label": "order_items Table (item_id, order_id FK, product_id, quantity, unit_price, discount)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n15",
+      "label": "Active Customer Rule (status=active + signup>90d)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n16",
+      "label": "Revenue Calculation Rule (only completed orders)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n17",
+      "label": "High-Value Order Rule (total_amount > 1000)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n18",
+      "label": "products Table (product_id, sku, category, unit_cost, reorder_point)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n19",
+      "label": "warehouses Table (warehouse_id, name, location, capacity)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n20",
+      "label": "inventory Table (product_id FK, warehouse_id FK, quantity_on_hand)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n21",
+      "label": "stock_movements Table (movement_type, quantity, reference_number)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n22",
+      "label": "Available Stock Rule (quantity_on_hand > 0)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n23",
+      "label": "Reorder Rule (SUM(qty) across warehouses <= reorder_point)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n24",
+      "label": "Active Products Rule (discontinued=false only)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n25",
+      "label": "Top-10 Customer Revenue Query (SQL example)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n26",
+      "label": "Below Reorder Point Query (SQL example)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null
+    },
+    {
+      "id": "n27",
+      "label": "Spring Boot App Config (skills-sql-assistant)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/application.yml",
+      "source_location": "L2-L3"
+    },
+    {
+      "id": "n28",
+      "label": "DashScope API Key (AI Provider)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/application.yml",
+      "source_location": "L5-L6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n1",
+      "target": "n2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n1",
+      "target": "n3",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n1",
+      "target": "n9",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n10",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n11",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n3",
+      "target": "n4",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n3",
+      "target": "n5",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n4",
+      "target": "n10",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n4",
+      "target": "n11",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n5",
+      "target": "n9",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n6",
+      "target": "n3",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n6",
+      "target": "n27",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.85
+    },
+    {
+      "source": "n7",
+      "target": "n8",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n12",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n13",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n14",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n15",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n16",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n17",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n18",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n19",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n20",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n21",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n22",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n23",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n24",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n13",
+      "target": "n12",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n14",
+      "target": "n13",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n20",
+      "target": "n18",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n20",
+      "target": "n19",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n21",
+      "target": "n18",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n21",
+      "target": "n19",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n25",
+      "target": "n12",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n25",
+      "target": "n13",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n26",
+      "target": "n18",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n26",
+      "target": "n20",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n27",
+      "target": "n28",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/application.yml",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n11",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.85
+    },
+    {
+      "source": "n12",
+      "target": "n18",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.7
+    },
+    {
+      "source": "n16",
+      "target": "n22",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.6
+    },
+    {
+      "source": "n17",
+      "target": "n23",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.65
+    },
+    {
+      "source": "n25",
+      "target": "n26",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "skill_loading_chain",
+      "label": "Framework Skill Loading Chain: Registry->Hook->Agent",
+      "nodes": [
+        "n2",
+        "n3",
+        "n6"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/skills/README.md"
+    },
+    {
+      "id": "sales_analytics_er",
+      "label": "Sales Analytics ER Chain: customers->orders->order_items",
+      "nodes": [
+        "n12",
+        "n13",
+        "n14"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md"
+    },
+    {
+      "id": "inventory_er",
+      "label": "Inventory Management ER Chain: products<-inventory<-stock_movements",
+      "nodes": [
+        "n18",
+        "n20",
+        "n21"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

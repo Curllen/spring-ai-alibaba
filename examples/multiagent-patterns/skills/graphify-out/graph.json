@@ -1,0 +1,1756 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "skill_loading_chain",
+        "label": "Framework Skill Loading Chain: Registry->Hook->Agent",
+        "nodes": [
+          "n2",
+          "n3",
+          "n6"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/skills/README.md"
+      },
+      {
+        "id": "sales_analytics_er",
+        "label": "Sales Analytics ER Chain: customers->orders->order_items",
+        "nodes": [
+          "n12",
+          "n13",
+          "n14"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md"
+      },
+      {
+        "id": "inventory_er",
+        "label": "Inventory Management ER Chain: products<-inventory<-stock_movements",
+        "nodes": [
+          "n18",
+          "n20",
+          "n21"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "SkillsConfig.java",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L1",
+      "id": "skillsconfig_java",
+      "community": 2,
+      "norm_label": "skillsconfig.java"
+    },
+    {
+      "label": "SkillsConfig",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L34",
+      "id": "skills_skillsconfig_skillsconfig",
+      "community": 2,
+      "norm_label": "skillsconfig"
+    },
+    {
+      "label": ".skillRegistry()",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L42",
+      "id": "skills_skillsconfig_skillsconfig_skillregistry",
+      "community": 2,
+      "norm_label": ".skillregistry()"
+    },
+    {
+      "label": "SkillRegistry",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L42",
+      "id": "skillregistry",
+      "community": 2,
+      "norm_label": "skillregistry"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L42",
+      "id": "skillsconfig_java_bean",
+      "community": 2,
+      "norm_label": "bean"
+    },
+    {
+      "label": ".skillsAgentHook()",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L49",
+      "id": "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "community": 2,
+      "norm_label": ".skillsagenthook()"
+    },
+    {
+      "label": "SkillsAgentHook",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L49",
+      "id": "skillsagenthook",
+      "community": 2,
+      "norm_label": "skillsagenthook"
+    },
+    {
+      "label": ".sqlAssistantAgent()",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "id": "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "community": 2,
+      "norm_label": ".sqlassistantagent()"
+    },
+    {
+      "label": "ChatModel",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "id": "chatmodel",
+      "community": 2,
+      "norm_label": "chatmodel"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "id": "skillsconfig_java_reactagent",
+      "community": 2,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": "SkillsRunner.java",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L1",
+      "id": "skillsrunner_java",
+      "community": 6,
+      "norm_label": "skillsrunner.java"
+    },
+    {
+      "label": "SkillsRunner",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L31",
+      "id": "skills_skillsrunner_skillsrunner",
+      "community": 6,
+      "norm_label": "skillsrunner"
+    },
+    {
+      "label": "ApplicationRunner",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "applicationrunner",
+      "community": 6,
+      "norm_label": "applicationrunner"
+    },
+    {
+      "label": ".SkillsRunner()",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L39",
+      "id": "skills_skillsrunner_skillsrunner_skillsrunner",
+      "community": 6,
+      "norm_label": ".skillsrunner()"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L39",
+      "id": "skillsrunner_java_reactagent",
+      "community": 6,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L43",
+      "id": "skills_skillsrunner_skillsrunner_run",
+      "community": 6,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "ApplicationArguments",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L43",
+      "id": "applicationarguments",
+      "community": 6,
+      "norm_label": "applicationarguments"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L43",
+      "id": "skillsrunner_java_override",
+      "community": 6,
+      "norm_label": "override"
+    },
+    {
+      "label": "AgentStaticLoader.java",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L1",
+      "id": "agentstaticloader_java",
+      "community": 0,
+      "norm_label": "agentstaticloader.java"
+    },
+    {
+      "label": "AgentStaticLoader",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "id": "skills_agentstaticloader_agentstaticloader",
+      "community": 0,
+      "norm_label": "agentstaticloader"
+    },
+    {
+      "label": "AgentLoader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "agentloader",
+      "community": 0,
+      "norm_label": "agentloader"
+    },
+    {
+      "label": ".AgentStaticLoader()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "id": "skills_agentstaticloader_agentstaticloader_agentstaticloader",
+      "community": 0,
+      "norm_label": ".agentstaticloader()"
+    },
+    {
+      "label": "ReactAgent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "id": "agentstaticloader_java_reactagent",
+      "community": 0,
+      "norm_label": "reactagent"
+    },
+    {
+      "label": ".listAgents()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "skills_agentstaticloader_agentstaticloader_listagents",
+      "community": 0,
+      "norm_label": ".listagents()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "list",
+      "community": 0,
+      "norm_label": "list"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "agentstaticloader_java_string",
+      "community": 0,
+      "norm_label": "string"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "agentstaticloader_java_override",
+      "community": 0,
+      "norm_label": "override"
+    },
+    {
+      "label": "Nonnull",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "id": "nonnull",
+      "community": 0,
+      "norm_label": "nonnull"
+    },
+    {
+      "label": ".loadAgent()",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "id": "skills_agentstaticloader_agentstaticloader_loadagent",
+      "community": 0,
+      "norm_label": ".loadagent()"
+    },
+    {
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "id": "agent",
+      "community": 0,
+      "norm_label": "agent"
+    },
+    {
+      "label": "SkillsApplication.java",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L1",
+      "id": "skillsapplication_java",
+      "community": 4,
+      "norm_label": "skillsapplication.java"
+    },
+    {
+      "label": "SkillsApplication",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L25",
+      "id": "skills_skillsapplication_skillsapplication",
+      "community": 4,
+      "norm_label": "skillsapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L28",
+      "id": "skills_skillsapplication_skillsapplication_main",
+      "community": 4,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L28",
+      "id": "skillsapplication_java_string",
+      "community": 4,
+      "norm_label": "string"
+    },
+    {
+      "label": ".applicationReadyEventListener()",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "id": "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "community": 4,
+      "norm_label": ".applicationreadyeventlistener()"
+    },
+    {
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "id": "environment",
+      "community": 4,
+      "norm_label": "environment"
+    },
+    {
+      "label": "ApplicationListener",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "id": "applicationlistener",
+      "community": 4,
+      "norm_label": "applicationlistener"
+    },
+    {
+      "label": "ApplicationReadyEvent",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "id": "applicationreadyevent",
+      "community": 4,
+      "norm_label": "applicationreadyevent"
+    },
+    {
+      "label": "Bean",
+      "file_type": "code",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "id": "skillsapplication_java_bean",
+      "community": 4,
+      "norm_label": "bean"
+    },
+    {
+      "label": "Skills (Progressive Disclosure) Pattern",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n1",
+      "community": 1,
+      "norm_label": "skills (progressive disclosure) pattern"
+    },
+    {
+      "label": "ClasspathSkillRegistry",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n2",
+      "community": 1,
+      "norm_label": "classpathskillregistry"
+    },
+    {
+      "label": "SkillsAgentHook (read_skill + SkillsInterceptor)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n3",
+      "community": 1,
+      "norm_label": "skillsagenthook (read_skill + skillsinterceptor)"
+    },
+    {
+      "label": "read_skill Tool",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n4",
+      "community": 1,
+      "norm_label": "read_skill tool"
+    },
+    {
+      "label": "SkillsInterceptor (Prompt Injection)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n5",
+      "community": 1,
+      "norm_label": "skillsinterceptor (prompt injection)"
+    },
+    {
+      "label": "ReactAgent (sqlAssistantAgent)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n6",
+      "community": 1,
+      "norm_label": "reactagent (sqlassistantagent)"
+    },
+    {
+      "label": "SKILL.md Format (YAML Frontmatter + Markdown)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n7",
+      "community": 1,
+      "norm_label": "skill.md format (yaml frontmatter + markdown)"
+    },
+    {
+      "label": "YAML Frontmatter (name/description)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n8",
+      "community": 1,
+      "norm_label": "yaml frontmatter (name/description)"
+    },
+    {
+      "label": "System Prompt Enhancement (Available Skills)",
+      "file_type": "rationale",
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "source_location": null,
+      "id": "n9",
+      "community": 1,
+      "norm_label": "system prompt enhancement (available skills)"
+    },
+    {
+      "label": "sales_analytics Skill (customers/orders/order_items)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n10",
+      "community": 5,
+      "norm_label": "sales_analytics skill (customers/orders/order_items)"
+    },
+    {
+      "label": "inventory_management Skill (products/warehouses/inventory/stock_movements)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n11",
+      "community": 3,
+      "norm_label": "inventory_management skill (products/warehouses/inventory/stock_movements)"
+    },
+    {
+      "label": "customers Table (customer_id, name, email, status, tier)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n12",
+      "community": 5,
+      "norm_label": "customers table (customer_id, name, email, status, tier)"
+    },
+    {
+      "label": "orders Table (order_id, customer_id FK, status, total_amount, region)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n13",
+      "community": 5,
+      "norm_label": "orders table (order_id, customer_id fk, status, total_amount, region)"
+    },
+    {
+      "label": "order_items Table (item_id, order_id FK, product_id, quantity, unit_price, discount)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n14",
+      "community": 5,
+      "norm_label": "order_items table (item_id, order_id fk, product_id, quantity, unit_price, discount)"
+    },
+    {
+      "label": "Active Customer Rule (status=active + signup>90d)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n15",
+      "community": 5,
+      "norm_label": "active customer rule (status=active + signup>90d)"
+    },
+    {
+      "label": "Revenue Calculation Rule (only completed orders)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n16",
+      "community": 5,
+      "norm_label": "revenue calculation rule (only completed orders)"
+    },
+    {
+      "label": "High-Value Order Rule (total_amount > 1000)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n17",
+      "community": 5,
+      "norm_label": "high-value order rule (total_amount > 1000)"
+    },
+    {
+      "label": "products Table (product_id, sku, category, unit_cost, reorder_point)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n18",
+      "community": 3,
+      "norm_label": "products table (product_id, sku, category, unit_cost, reorder_point)"
+    },
+    {
+      "label": "warehouses Table (warehouse_id, name, location, capacity)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n19",
+      "community": 3,
+      "norm_label": "warehouses table (warehouse_id, name, location, capacity)"
+    },
+    {
+      "label": "inventory Table (product_id FK, warehouse_id FK, quantity_on_hand)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n20",
+      "community": 3,
+      "norm_label": "inventory table (product_id fk, warehouse_id fk, quantity_on_hand)"
+    },
+    {
+      "label": "stock_movements Table (movement_type, quantity, reference_number)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n21",
+      "community": 3,
+      "norm_label": "stock_movements table (movement_type, quantity, reference_number)"
+    },
+    {
+      "label": "Available Stock Rule (quantity_on_hand > 0)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n22",
+      "community": 3,
+      "norm_label": "available stock rule (quantity_on_hand > 0)"
+    },
+    {
+      "label": "Reorder Rule (SUM(qty) across warehouses <= reorder_point)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n23",
+      "community": 3,
+      "norm_label": "reorder rule (sum(qty) across warehouses <= reorder_point)"
+    },
+    {
+      "label": "Active Products Rule (discontinued=false only)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n24",
+      "community": 3,
+      "norm_label": "active products rule (discontinued=false only)"
+    },
+    {
+      "label": "Top-10 Customer Revenue Query (SQL example)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "source_location": null,
+      "id": "n25",
+      "community": 5,
+      "norm_label": "top-10 customer revenue query (sql example)"
+    },
+    {
+      "label": "Below Reorder Point Query (SQL example)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "source_location": null,
+      "id": "n26",
+      "community": 3,
+      "norm_label": "below reorder point query (sql example)"
+    },
+    {
+      "label": "Spring Boot App Config (skills-sql-assistant)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/application.yml",
+      "source_location": "L2-L3",
+      "id": "n27",
+      "community": 1,
+      "norm_label": "spring boot app config (skills-sql-assistant)"
+    },
+    {
+      "label": "DashScope API Key (AI Provider)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/application.yml",
+      "source_location": "L5-L6",
+      "id": "n28",
+      "community": 1,
+      "norm_label": "dashscope api key (ai provider)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "skillregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "skills_skillsconfig_skillsconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "skillsagenthook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "skillsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "skillsconfig_java",
+      "target": "skillsconfig_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "skills_skillsconfig_skillsconfig",
+      "target": "skills_skillsconfig_skillsconfig_skillregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "skills_skillsconfig_skillsconfig",
+      "target": "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "skills_skillsconfig_skillsconfig",
+      "target": "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "skills_skillsconfig_skillsconfig_skillregistry",
+      "target": "skillregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_skillsconfig_skillsconfig_skillregistry",
+      "target": "skillsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "target": "skills_skillsconfig_skillsconfig_skillregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "target": "skillregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "target": "skillsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "target": "skillsconfig_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "skills_skillsconfig_skillsconfig_skillsagenthook",
+      "target": "skillsagenthook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "target": "skillsagenthook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "target": "chatmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsConfig.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "skills_skillsconfig_skillsconfig_sqlassistantagent",
+      "target": "skillsconfig_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "skillsrunner_java",
+      "target": "applicationarguments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "skillsrunner_java",
+      "target": "applicationrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "skillsrunner_java",
+      "target": "skills_skillsrunner_skillsrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "skillsrunner_java",
+      "target": "skillsrunner_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "skills_skillsrunner_skillsrunner",
+      "target": "applicationrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "skills_skillsrunner_skillsrunner",
+      "target": "skills_skillsrunner_skillsrunner_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "skills_skillsrunner_skillsrunner",
+      "target": "skills_skillsrunner_skillsrunner_skillsrunner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsrunner_skillsrunner_skillsrunner",
+      "target": "skillsrunner_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "SkillsApplication.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "skills_skillsapplication_skillsapplication_main",
+      "target": "skills_skillsrunner_skillsrunner_run"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsrunner_skillsrunner_run",
+      "target": "applicationarguments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsRunner.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_skillsrunner_skillsrunner_run",
+      "target": "skillsrunner_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "agentstaticloader_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "nonnull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "agentstaticloader_java",
+      "target": "skills_agentstaticloader_agentstaticloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "skills_agentstaticloader_agentstaticloader",
+      "target": "agentloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "skills_agentstaticloader_agentstaticloader",
+      "target": "skills_agentstaticloader_agentstaticloader_agentstaticloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "skills_agentstaticloader_agentstaticloader",
+      "target": "skills_agentstaticloader_agentstaticloader_listagents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "skills_agentstaticloader_agentstaticloader",
+      "target": "skills_agentstaticloader_agentstaticloader_loadagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_agentstaticloader_agentstaticloader_agentstaticloader",
+      "target": "agentstaticloader_java_reactagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "skills_agentstaticloader_agentstaticloader_listagents",
+      "target": "agentstaticloader_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "skills_agentstaticloader_agentstaticloader_listagents",
+      "target": "list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_agentstaticloader_agentstaticloader_listagents",
+      "target": "nonnull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agentstaticloader_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentStaticLoader.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "skills_agentstaticloader_agentstaticloader_loadagent",
+      "target": "agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "skillsapplication_java",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "skillsapplication_java",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "skillsapplication_java",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "skillsapplication_java",
+      "target": "skills_skillsapplication_skillsapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "skillsapplication_java",
+      "target": "skillsapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "skills_skillsapplication_skillsapplication",
+      "target": "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "skills_skillsapplication_skillsapplication",
+      "target": "skills_skillsapplication_skillsapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsapplication_skillsapplication_main",
+      "target": "skillsapplication_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "target": "applicationlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "target": "applicationreadyevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "target": "environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "SkillsApplication.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "skills_skillsapplication_skillsapplication_applicationreadyeventlistener",
+      "target": "skillsapplication_java_bean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n1",
+      "target": "n3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n1",
+      "target": "n9"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n2",
+      "target": "n10"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n2",
+      "target": "n11"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n2",
+      "target": "n7"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n3",
+      "target": "n4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n3",
+      "target": "n5"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n6",
+      "target": "n3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n4",
+      "target": "n10"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n4",
+      "target": "n11"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n5",
+      "target": "n9"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.85,
+      "source": "n6",
+      "target": "n27"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n7"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n7"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 1.0,
+      "source": "n7",
+      "target": "n8"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.85,
+      "source": "n10",
+      "target": "n11"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n12"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n13"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n14"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n15"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n16"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n10",
+      "target": "n17"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n18"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n19"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n20"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n21"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n22"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n23"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n11",
+      "target": "n24"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.7,
+      "source": "n12",
+      "target": "n18"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n13",
+      "target": "n12"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n25",
+      "target": "n12"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n14",
+      "target": "n13"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md",
+      "weight": 1.0,
+      "source": "n25",
+      "target": "n13"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.6,
+      "source": "n16",
+      "target": "n22"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.65,
+      "source": "n17",
+      "target": "n23"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n20",
+      "target": "n18"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n21",
+      "target": "n18"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n26",
+      "target": "n18"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n20",
+      "target": "n19"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n21",
+      "target": "n19"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md",
+      "weight": 1.0,
+      "source": "n26",
+      "target": "n20"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "examples/multiagent-patterns/skills/README.md",
+      "weight": 0.7,
+      "source": "n25",
+      "target": "n26"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/application.yml",
+      "weight": 1.0,
+      "source": "n27",
+      "target": "n28"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "skill_loading_chain",
+      "label": "Framework Skill Loading Chain: Registry->Hook->Agent",
+      "nodes": [
+        "n2",
+        "n3",
+        "n6"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/skills/README.md"
+    },
+    {
+      "id": "sales_analytics_er",
+      "label": "Sales Analytics ER Chain: customers->orders->order_items",
+      "nodes": [
+        "n12",
+        "n13",
+        "n14"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/sales_analytics/SKILL.md"
+    },
+    {
+      "id": "inventory_er",
+      "label": "Inventory Management ER Chain: products<-inventory<-stock_movements",
+      "nodes": [
+        "n18",
+        "n20",
+        "n21"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/skills/src/main/resources/skills/inventory_management/SKILL.md"
+    }
+  ],
+  "built_at_commit": "25a1fee61181319510b65f3bdda0a244b97ac438"
+}

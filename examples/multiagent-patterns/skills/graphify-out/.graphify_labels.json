@@ -1,0 +1,9 @@
+{
+  "0": "AgentStaticLoader: Agent Discovery & Loading",
+  "1": "Progressive Disclosure Framework: Registry, Hook, Skill Loading",
+  "2": "SkillsConfig: Skill Registry, Hook & sqlAssistantAgent Assembly",
+  "3": "Inventory Management Skill: Tables, Rules & Reorder Query",
+  "4": "SkillsApplication: Spring Boot Entry & Lifecycle",
+  "5": "Sales Analytics Skill: Tables, Rules & Top-10 Query",
+  "6": "SkillsRunner: Demo Execution & RunnableConfig"
+}
