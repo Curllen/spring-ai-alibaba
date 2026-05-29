@@ -1,0 +1,8 @@
+{
+  "module": "routing",
+  "date": "2026-05-29",
+  "total_nodes": 191,
+  "total_edges": 299,
+  "total_communities": 19,
+  "method": "AST (20 Java) + Semantic (2 README + 1 YML)"
+}

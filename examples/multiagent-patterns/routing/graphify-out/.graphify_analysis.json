@@ -1,0 +1,375 @@
+{
+  "communities": {
+    "0": [
+      "n1",
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n2",
+      "n20",
+      "n21",
+      "n3",
+      "n4",
+      "n5",
+      "n6",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "1": [
+      "agentoutput",
+      "classification",
+      "routerresult",
+      "simple_routerservice_java",
+      "simple_routerservice_java_chatmodel",
+      "simple_routerservice_java_list",
+      "simple_routerservice_java_llmroutingagent",
+      "simple_routerservice_java_object",
+      "simple_routerservice_java_overallstate",
+      "simple_routerservice_java_string",
+      "simple_routerservice_routerservice",
+      "simple_routerservice_routerservice_capitalize",
+      "simple_routerservice_routerservice_collectagentoutputs",
+      "simple_routerservice_routerservice_collectclassifications",
+      "simple_routerservice_routerservice_extracttext",
+      "simple_routerservice_routerservice_routerservice",
+      "simple_routerservice_routerservice_run",
+      "simple_routerservice_routerservice_synthesize"
+    ],
+    "2": [
+      "graph_node_postprocessnode_java",
+      "graph_node_postprocessnode_java_map",
+      "graph_node_postprocessnode_java_object",
+      "graph_node_postprocessnode_java_overallstate",
+      "graph_node_postprocessnode_java_override",
+      "graph_node_postprocessnode_java_string",
+      "graph_node_preprocessnode_java",
+      "graph_node_preprocessnode_java_map",
+      "graph_node_preprocessnode_java_object",
+      "graph_node_preprocessnode_java_overallstate",
+      "graph_node_preprocessnode_java_override",
+      "graph_node_preprocessnode_java_string",
+      "node_postprocessnode_postprocessnode",
+      "node_postprocessnode_postprocessnode_apply",
+      "node_preprocessnode_preprocessnode",
+      "node_preprocessnode_preprocessnode_apply",
+      "nodeaction"
+    ],
+    "3": [
+      "graph_routinggraphconfig_java",
+      "graph_routinggraphconfig_java_bean",
+      "graph_routinggraphconfig_java_chatmodel",
+      "graph_routinggraphconfig_java_compiledgraph",
+      "graph_routinggraphconfig_java_githubstubtools",
+      "graph_routinggraphconfig_java_llmroutingagent",
+      "graph_routinggraphconfig_java_notionstubtools",
+      "graph_routinggraphconfig_java_reactagent",
+      "graph_routinggraphconfig_java_routinggraphservice",
+      "graph_routinggraphconfig_java_slackstubtools",
+      "graph_routinggraphconfig_routinggraphconfig",
+      "graph_routinggraphconfig_routinggraphconfig_githubagent",
+      "graph_routinggraphconfig_routinggraphconfig_notionagent",
+      "graph_routinggraphconfig_routinggraphconfig_routeragent",
+      "graph_routinggraphconfig_routinggraphconfig_routinggraph",
+      "graph_routinggraphconfig_routinggraphconfig_routinggraphservice",
+      "graph_routinggraphconfig_routinggraphconfig_slackagent"
+    ],
+    "4": [
+      "applicationrunner",
+      "graph_routinggraphrunner_java",
+      "graph_routinggraphrunner_java_applicationarguments",
+      "graph_routinggraphrunner_java_override",
+      "graph_routinggraphrunner_java_routinggraphservice",
+      "graph_routinggraphrunner_routinggraphrunner",
+      "graph_routinggraphrunner_routinggraphrunner_routinggraphrunner",
+      "graph_routinggraphrunner_routinggraphrunner_run",
+      "simple_routingrunner_java",
+      "simple_routingrunner_java_applicationarguments",
+      "simple_routingrunner_java_override",
+      "simple_routingrunner_java_routerservice",
+      "simple_routingrunner_routingrunner",
+      "simple_routingrunner_routingrunner_routingrunner",
+      "simple_routingrunner_routingrunner_run"
+    ],
+    "5": [
+      "simple_routingconfig_java",
+      "simple_routingconfig_java_bean",
+      "simple_routingconfig_java_chatmodel",
+      "simple_routingconfig_java_githubstubtools",
+      "simple_routingconfig_java_llmroutingagent",
+      "simple_routingconfig_java_notionstubtools",
+      "simple_routingconfig_java_reactagent",
+      "simple_routingconfig_java_routerservice",
+      "simple_routingconfig_java_slackstubtools",
+      "simple_routingconfig_routingconfig",
+      "simple_routingconfig_routingconfig_githubagent",
+      "simple_routingconfig_routingconfig_notionagent",
+      "simple_routingconfig_routingconfig_routeragent",
+      "simple_routingconfig_routingconfig_routerservice",
+      "simple_routingconfig_routingconfig_slackagent"
+    ],
+    "6": [
+      "agentloader",
+      "graph_agentstaticloader_agentstaticloader",
+      "graph_agentstaticloader_agentstaticloader_agentstaticloader",
+      "graph_agentstaticloader_agentstaticloader_listagents",
+      "graph_agentstaticloader_agentstaticloader_loadagent",
+      "graph_agentstaticloader_java",
+      "graph_agentstaticloader_java_agent",
+      "graph_agentstaticloader_java_list",
+      "graph_agentstaticloader_java_llmroutingagent",
+      "graph_agentstaticloader_java_nonnull",
+      "graph_agentstaticloader_java_override",
+      "graph_agentstaticloader_java_string"
+    ],
+    "7": [
+      "simple_agentstaticloader_agentstaticloader",
+      "simple_agentstaticloader_agentstaticloader_agentstaticloader",
+      "simple_agentstaticloader_agentstaticloader_listagents",
+      "simple_agentstaticloader_agentstaticloader_loadagent",
+      "simple_agentstaticloader_java",
+      "simple_agentstaticloader_java_agent",
+      "simple_agentstaticloader_java_list",
+      "simple_agentstaticloader_java_llmroutingagent",
+      "simple_agentstaticloader_java_nonnull",
+      "simple_agentstaticloader_java_override",
+      "simple_agentstaticloader_java_string"
+    ],
+    "8": [
+      "graph_routinggraphapplication_java",
+      "graph_routinggraphapplication_java_applicationlistener",
+      "graph_routinggraphapplication_java_applicationreadyevent",
+      "graph_routinggraphapplication_java_bean",
+      "graph_routinggraphapplication_java_environment",
+      "graph_routinggraphapplication_java_string",
+      "graph_routinggraphapplication_routinggraphapplication",
+      "graph_routinggraphapplication_routinggraphapplication_applicationreadyeventlistener",
+      "graph_routinggraphapplication_routinggraphapplication_main"
+    ],
+    "9": [
+      "simple_routingapplication_java",
+      "simple_routingapplication_java_applicationlistener",
+      "simple_routingapplication_java_applicationreadyevent",
+      "simple_routingapplication_java_bean",
+      "simple_routingapplication_java_environment",
+      "simple_routingapplication_java_string",
+      "simple_routingapplication_routingapplication",
+      "simple_routingapplication_routingapplication_applicationreadyeventlistener",
+      "simple_routingapplication_routingapplication_main"
+    ],
+    "10": [
+      "graph_routinggraphservice_java",
+      "graph_routinggraphservice_java_compiledgraph",
+      "graph_routinggraphservice_java_string",
+      "graph_routinggraphservice_routinggraphservice",
+      "graph_routinggraphservice_routinggraphservice_routinggraphservice",
+      "graph_routinggraphservice_routinggraphservice_run",
+      "routinggraphresult"
+    ],
+    "11": [
+      "graph_tools_githubstubtools_java",
+      "graph_tools_githubstubtools_java_string",
+      "graph_tools_githubstubtools_java_tool",
+      "graph_tools_githubstubtools_java_tools_githubstubtools_githubstubtools",
+      "graph_tools_githubstubtools_java_tools_githubstubtools_githubstubtools_searchcode",
+      "graph_tools_githubstubtools_java_tools_githubstubtools_githubstubtools_searchissues",
+      "graph_tools_githubstubtools_java_tools_githubstubtools_githubstubtools_searchprs"
+    ],
+    "12": [
+      "simple_tools_githubstubtools_java",
+      "simple_tools_githubstubtools_java_string",
+      "simple_tools_githubstubtools_java_tool",
+      "simple_tools_githubstubtools_java_tools_githubstubtools_githubstubtools",
+      "simple_tools_githubstubtools_java_tools_githubstubtools_githubstubtools_searchcode",
+      "simple_tools_githubstubtools_java_tools_githubstubtools_githubstubtools_searchissues",
+      "simple_tools_githubstubtools_java_tools_githubstubtools_githubstubtools_searchprs"
+    ],
+    "13": [
+      "graph_tools_notionstubtools_java",
+      "graph_tools_notionstubtools_java_string",
+      "graph_tools_notionstubtools_java_tool",
+      "graph_tools_notionstubtools_java_tools_notionstubtools_notionstubtools",
+      "graph_tools_notionstubtools_java_tools_notionstubtools_notionstubtools_getpage",
+      "graph_tools_notionstubtools_java_tools_notionstubtools_notionstubtools_searchnotion"
+    ],
+    "14": [
+      "graph_tools_slackstubtools_java",
+      "graph_tools_slackstubtools_java_string",
+      "graph_tools_slackstubtools_java_tool",
+      "graph_tools_slackstubtools_java_tools_slackstubtools_slackstubtools",
+      "graph_tools_slackstubtools_java_tools_slackstubtools_slackstubtools_getthread",
+      "graph_tools_slackstubtools_java_tools_slackstubtools_slackstubtools_searchslack"
+    ],
+    "15": [
+      "simple_tools_notionstubtools_java",
+      "simple_tools_notionstubtools_java_string",
+      "simple_tools_notionstubtools_java_tool",
+      "simple_tools_notionstubtools_java_tools_notionstubtools_notionstubtools",
+      "simple_tools_notionstubtools_java_tools_notionstubtools_notionstubtools_getpage",
+      "simple_tools_notionstubtools_java_tools_notionstubtools_notionstubtools_searchnotion"
+    ],
+    "16": [
+      "simple_tools_slackstubtools_java",
+      "simple_tools_slackstubtools_java_string",
+      "simple_tools_slackstubtools_java_tool",
+      "simple_tools_slackstubtools_java_tools_slackstubtools_slackstubtools",
+      "simple_tools_slackstubtools_java_tools_slackstubtools_slackstubtools_getthread",
+      "simple_tools_slackstubtools_java_tools_slackstubtools_slackstubtools_searchslack"
+    ],
+    "17": [
+      "simple_state_agentoutput_java"
+    ],
+    "18": [
+      "simple_state_classification_java"
+    ]
+  },
+  "cohesion": {
+    "0": 0.1523809523809524,
+    "1": 0.23529411764705882,
+    "2": 0.16176470588235295,
+    "3": 0.27205882352941174,
+    "4": 0.17142857142857143,
+    "5": 0.3142857142857143,
+    "6": 0.2727272727272727,
+    "7": 0.2909090909090909,
+    "8": 0.3333333333333333,
+    "9": 0.3333333333333333,
+    "10": 0.3333333333333333,
+    "11": 0.5238095238095238,
+    "12": 0.5238095238095238,
+    "13": 0.5333333333333333,
+    "14": 0.5333333333333333,
+    "15": 0.5333333333333333,
+    "16": 0.5333333333333333,
+    "17": 1.0,
+    "18": 1.0
+  },
+  "gods": [
+    {
+      "id": "n1",
+      "label": "LlmRoutingAgent: LLM-Based Query Router",
+      "degree": 9
+    },
+    {
+      "id": "simple_routerservice_routerservice",
+      "label": "RouterService",
+      "degree": 8
+    },
+    {
+      "id": "graph_routinggraphconfig_routinggraphconfig",
+      "label": "RoutingGraphConfig",
+      "degree": 7
+    },
+    {
+      "id": "graph_routinggraphconfig_java_bean",
+      "label": "Bean",
+      "degree": 7
+    },
+    {
+      "id": "simple_routingconfig_routingconfig",
+      "label": "RoutingConfig",
+      "degree": 6
+    },
+    {
+      "id": "simple_routingconfig_java_chatmodel",
+      "label": "ChatModel",
+      "degree": 6
+    },
+    {
+      "id": "simple_routingconfig_java_bean",
+      "label": "Bean",
+      "degree": 6
+    },
+    {
+      "id": "n2",
+      "label": "Simple Routing Pattern: Classify->Parallel->Synthesize",
+      "degree": 6
+    },
+    {
+      "id": "n4",
+      "label": "StateGraph (Graph Routing Backbone)",
+      "degree": 6
+    },
+    {
+      "id": "graph_agentstaticloader_agentstaticloader",
+      "label": "AgentStaticLoader",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Simple Routing Pattern: Classify->Parallel->Synthesize",
+      "target": "Graph Routing Pattern: StateGraph with LlmRoutingAgent Subgraph",
+      "source_files": [
+        "examples/multiagent-patterns/routing/simple/README.md",
+        "examples/multiagent-patterns/routing/graph/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "RouterService: LlmRoutingAgent Wrapper + Synthesis",
+      "target": "RoutingMergeNode: LLM-Based Sub-Agent Output Synthesis",
+      "source_files": [
+        "examples/multiagent-patterns/routing/simple/README.md",
+        "examples/multiagent-patterns/routing/graph/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Simple Routing Pattern: Classify->Parallel->Synthesize",
+      "target": "DashScope API (AI Provider)",
+      "source_files": [
+        "examples/multiagent-patterns/routing/simple/README.md",
+        "examples/multiagent-patterns/routing/src/main/resources/application.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `DashScope API (AI Provider)` unexpectedly reaches hub `Simple Routing Pattern: Classify->Parallel->Synthesize`"
+    },
+    {
+      "source": "LlmRoutingAgent: LLM-Based Query Router",
+      "target": "RoutingMergeNode: LLM-Based Sub-Agent Output Synthesis",
+      "source_files": [
+        "examples/multiagent-patterns/routing/simple/README.md",
+        "examples/multiagent-patterns/routing/graph/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Graph Routing Pattern: StateGraph with LlmRoutingAgent Subgraph",
+      "target": "LlmRoutingAgent: LLM-Based Query Router",
+      "source_files": [
+        "examples/multiagent-patterns/routing/graph/README.md",
+        "examples/multiagent-patterns/routing/simple/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `AgentStaticLoader` connect `Community 7` to `Community 6`?",
+      "why": "High betweenness centrality (0.004) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `RoutingGraphService`, `String` to the rest of the system?",
+      "why": "24 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

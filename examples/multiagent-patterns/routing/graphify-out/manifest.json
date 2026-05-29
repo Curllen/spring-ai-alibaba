@@ -1,0 +1,30 @@
+{
+  "module": "routing",
+  "date": "2026-05-29",
+  "total_nodes": 191,
+  "total_edges": 299,
+  "total_communities": 19,
+  "extraction": "95% EXTRACTED, 5% INFERRED",
+  "files": {
+    "graph.html": {
+      "size": 176924,
+      "size_human": "172.8 KB"
+    },
+    "graph.json": {
+      "size": 161834,
+      "size_human": "158.0 KB"
+    },
+    "GRAPH_REPORT.md": {
+      "size": 8749,
+      "size_human": "8.5 KB"
+    },
+    "ANALYSIS_REPORT.md": {
+      "size": 10969,
+      "size_human": "10.7 KB"
+    },
+    ".graphify_analysis.json": {
+      "size": 14518,
+      "size_human": "14.2 KB"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "0": "Routing Architecture: LlmRoutingAgent & Two Patterns (Simple/Graph)",
+  "1": "RouterService: LlmRoutingAgent Invocation & State Management",
+  "2": "Graph Nodes: PreprocessNode & PostprocessNode Pipeline",
+  "3": "RoutingGraphConfig: StateGraph Bean Assembly & Subgraph Nodes",
+  "4": "Routing Runners: Simple & Graph Demo Execution",
+  "5": "RoutingConfig: Simple Agent Beans & RouterService Assembly",
+  "6": "Graph AgentStaticLoader: LlmRoutingAgent Discovery & Loading",
+  "7": "Simple AgentStaticLoader: LlmRoutingAgent Discovery & Loading",
+  "8": "RoutingGraphApplication: Graph Boot Entry & Lifecycle",
+  "9": "RoutingApplication: Simple Boot Entry & Lifecycle",
+  "10": "RoutingGraphService: CompiledGraph Invocation & Results",
+  "11": "Graph GitHubStubTools: search_code/issue/pr Tools",
+  "12": "Simple GitHubStubTools: search_code/issue/pr Tools",
+  "13": "Graph NotionStubTools: search_notion/get_page Tools",
+  "14": "Graph SlackStubTools: search_slack/get_thread Tools",
+  "15": "Simple NotionStubTools: search_notion/get_page Tools",
+  "16": "Simple SlackStubTools: search_slack/get_thread Tools",
+  "17": "AgentOutput: Individual Agent Result State",
+  "18": "Classification: Source/Query Routing State"
+}

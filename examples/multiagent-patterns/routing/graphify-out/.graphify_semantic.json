@@ -1,0 +1,484 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "LlmRoutingAgent: LLM-Based Query Router",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n2",
+      "label": "Simple Routing Pattern: Classify->Parallel->Synthesize",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n3",
+      "label": "Graph Routing Pattern: StateGraph with LlmRoutingAgent Subgraph",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n4",
+      "label": "StateGraph (Graph Routing Backbone)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n5",
+      "label": "PreprocessNode: Query Enrichment & Validation",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n6",
+      "label": "PostprocessNode: Answer Formatting & Metadata",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n7",
+      "label": "RoutingMergeNode: LLM-Based Sub-Agent Output Synthesis",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n8",
+      "label": "RouterService: LlmRoutingAgent Wrapper + Synthesis",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n9",
+      "label": "GitHubAgent: search_code/search_issues/search_prs",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n10",
+      "label": "NotionAgent: search_notion/get_page",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n11",
+      "label": "SlackAgent: search_slack/get_thread",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n12",
+      "label": "Classification State Type (source, query)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n13",
+      "label": "AgentOutput State Type (source, result)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n14",
+      "label": "RouterResult: query+classifications+results+finalAnswer",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n15",
+      "label": "StubTools (@Tool/@ToolParam Annotations)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n16",
+      "label": "DashScope API (AI Provider)",
+      "file_type": "code",
+      "source_file": "examples/multiagent-patterns/routing/src/main/resources/application.yml",
+      "source_location": "L4-L6"
+    },
+    {
+      "id": "n17",
+      "label": "Parallel Agent Execution (Framework Conditional Edges)",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n18",
+      "label": "RoutingConfig: Agent Beans & RouterService",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n19",
+      "label": "RoutingGraphConfig: StateGraph & routingGraph Bean",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n20",
+      "label": "RoutingGraphService: Graph Pipeline Invocation",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    },
+    {
+      "id": "n21",
+      "label": "RoutingGraphBuildingStrategy: Merge Node Introduction",
+      "file_type": "document",
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "source_location": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "n2",
+      "target": "n1",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n3",
+      "target": "n1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n8",
+      "target": "n1",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n1",
+      "target": "n9",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n1",
+      "target": "n10",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n1",
+      "target": "n11",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n9",
+      "target": "n15",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n10",
+      "target": "n15",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n11",
+      "target": "n15",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n17",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n14",
+      "target": "n12",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n14",
+      "target": "n13",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n3",
+      "target": "n4",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n4",
+      "target": "n5",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n4",
+      "target": "n6",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n4",
+      "target": "n1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n1",
+      "target": "n7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n16",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n3",
+      "target": "n16",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n18",
+      "target": "n1",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 0.85
+    },
+    {
+      "source": "n19",
+      "target": "n4",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 0.85
+    },
+    {
+      "source": "n20",
+      "target": "n4",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n8",
+      "target": "n14",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n21",
+      "target": "n7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n12",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n2",
+      "target": "n13",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "n18",
+      "target": "n9",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 0.8
+    },
+    {
+      "source": "n18",
+      "target": "n10",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 0.8
+    },
+    {
+      "source": "n18",
+      "target": "n11",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 0.8
+    },
+    {
+      "source": "n2",
+      "target": "n3",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "examples/multiagent-patterns/routing/README.md",
+      "weight": 0.85
+    },
+    {
+      "source": "n8",
+      "target": "n7",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "examples/multiagent-patterns/routing/README.md",
+      "weight": 0.8
+    },
+    {
+      "source": "n12",
+      "target": "n13",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md",
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "graph_pipeline_stages",
+      "label": "Graph Routing Pipeline: Preprocess->Routing->Postprocess",
+      "nodes": [
+        "n5",
+        "n1",
+        "n6"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/graph/README.md"
+    },
+    {
+      "id": "specialist_agent_trio",
+      "label": "Three Specialist Agents: GitHub/Notion/Slack",
+      "nodes": [
+        "n9",
+        "n10",
+        "n11"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md"
+    },
+    {
+      "id": "simple_routing_state_types",
+      "label": "Simple Routing State Types: Classification+AgentOutput->RouterResult",
+      "nodes": [
+        "n12",
+        "n13",
+        "n14"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "examples/multiagent-patterns/routing/simple/README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
