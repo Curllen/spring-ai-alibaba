@@ -1,0 +1,72 @@
+{
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/RealtimeVoiceConfig.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "d9a0c9623d55368b229c62f4fc27d4a6",
+    "semantic_hash": "d9a0c9623d55368b229c62f4fc27d4a6"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/SandwichTools.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "75b4f86ddd22135c6dd2645422713da6",
+    "semantic_hash": "75b4f86ddd22135c6dd2645422713da6"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/VoiceAgentApplication.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "05a5bc88f7e2b9a7da71194f42eeffa9",
+    "semantic_hash": "05a5bc88f7e2b9a7da71194f42eeffa9"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/VoiceAgentConfig.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "2907c388b4a95b97f36fdb3ddfe72933",
+    "semantic_hash": "2907c388b4a95b97f36fdb3ddfe72933"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/stream/RealtimeVoiceAgentStreamService.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "0bde658eaed24a0e6dd8cd6dd4d4eb08",
+    "semantic_hash": "0bde658eaed24a0e6dd8cd6dd4d4eb08"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/stream/VoiceAgentAudioWebSocketHandler.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "d5d83a86d2ce22e690a3fb2a9f20332a",
+    "semantic_hash": "d5d83a86d2ce22e690a3fb2a9f20332a"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/stream/VoiceAgentEvent.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "4724a9ab70933f151296146306413e75",
+    "semantic_hash": "4724a9ab70933f151296146306413e75"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/stream/VoiceAgentStreamService.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "29bb788b8a5fda50b9abbc5dd7df3825",
+    "semantic_hash": "29bb788b8a5fda50b9abbc5dd7df3825"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/stream/VoiceAgentWebSocketHandler.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "760e08e0a552ccbe3c0183506857dcf9",
+    "semantic_hash": "760e08e0a552ccbe3c0183506857dcf9"
+  },
+  "/workspace/examples/voice-agent/src/main/java/com/alibaba/cloud/ai/examples/voiceagent/stream/WebSocketConfig.java": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "2c63801e98ef050f1eaa7eb3c07ffdb8",
+    "semantic_hash": "2c63801e98ef050f1eaa7eb3c07ffdb8"
+  },
+  "/workspace/examples/voice-agent/src/main/resources/static/js/voice.js": {
+    "mtime": 1780276163.935913,
+    "ast_hash": "2993c1c703df85767cddef21c5d9d9b6",
+    "semantic_hash": "2993c1c703df85767cddef21c5d9d9b6"
+  },
+  "/workspace/examples/voice-agent/README.md": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "53db26d70e835116ae7503309f6177b9",
+    "semantic_hash": "53db26d70e835116ae7503309f6177b9"
+  },
+  "/workspace/examples/voice-agent/src/main/resources/application.yml": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "ba7812fdfc2c72acdbacf2f5de0e22dc",
+    "semantic_hash": "ba7812fdfc2c72acdbacf2f5de0e22dc"
+  },
+  "/workspace/examples/voice-agent/src/main/resources/static/index.html": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "1519949de732b9377282bdc4cedaca69",
+    "semantic_hash": "1519949de732b9377282bdc4cedaca69"
+  }
+}
