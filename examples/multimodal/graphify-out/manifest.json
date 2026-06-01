@@ -1,0 +1,72 @@
+{
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/MultimodalApplication.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "f29b445624d64f7a3b36f20ea29f7c0b",
+    "semantic_hash": "f29b445624d64f7a3b36f20ea29f7c0b"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/MultimodalController.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "67505a9fd1cd0ab132c7853795290b19",
+    "semantic_hash": "67505a9fd1cd0ab132c7853795290b19"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/MultimodalExceptionHandler.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "fe664d98531aa7803a11a2d39ec47d58",
+    "semantic_hash": "fe664d98531aa7803a11a2d39ec47d58"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/audio/AudioConfig.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "c5e75fb0a32f6e66690bdeb61eb34f43",
+    "semantic_hash": "c5e75fb0a32f6e66690bdeb61eb34f43"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/audio/AudioService.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "8559a1d0a812b238dab772173e128f45",
+    "semantic_hash": "8559a1d0a812b238dab772173e128f45"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/creative/CreativeConfig.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "cb8f044f891524094cfe5a42a389c325",
+    "semantic_hash": "cb8f044f891524094cfe5a42a389c325"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/creative/CreativeService.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "24632d8d5acd58a82dd052318c5d8dba",
+    "semantic_hash": "24632d8d5acd58a82dd052318c5d8dba"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/image/GenerateImageTool.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "2a8e03eba7be3e261ed6feb3f738feb6",
+    "semantic_hash": "2a8e03eba7be3e261ed6feb3f738feb6"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/image/ImageConfig.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "cca148cae365cfb02ca17b69716df11b",
+    "semantic_hash": "cca148cae365cfb02ca17b69716df11b"
+  },
+  "/workspace/examples/multimodal/src/main/java/com/alibaba/cloud/ai/examples/multimodal/image/ImageService.java": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "d402e026cdd8caf8278bbc51badf818c",
+    "semantic_hash": "d402e026cdd8caf8278bbc51badf818c"
+  },
+  "/workspace/examples/multimodal/README.md": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "d066db1338934edcb377df00c0269e18",
+    "semantic_hash": "d066db1338934edcb377df00c0269e18"
+  },
+  "/workspace/examples/multimodal/src/main/resources/application.yml": {
+    "mtime": 1780276163.9339132,
+    "ast_hash": "f462f465b5d76c5bcc08cd3a6ef9ed7e",
+    "semantic_hash": "f462f465b5d76c5bcc08cd3a6ef9ed7e"
+  },
+  "/workspace/examples/multimodal/src/main/resources/static/index.html": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "92e00ad136dc65027c09efb1d967e50b",
+    "semantic_hash": "92e00ad136dc65027c09efb1d967e50b"
+  },
+  "/workspace/examples/multimodal/src/main/resources/images/sample.png": {
+    "mtime": 1780276163.9349132,
+    "ast_hash": "a793abc4e9ec4e4125f2ad0e0243e61b",
+    "semantic_hash": "a793abc4e9ec4e4125f2ad0e0243e61b"
+  }
+}
